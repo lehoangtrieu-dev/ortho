@@ -39,7 +39,7 @@ export default function Input() {
     <div className="relative inline text-gray-800">
       {/* THE SMOOTH CARET */}
       <motion.div
-        className="absolute top-1 bottom-1 w-[3px] bg-blue-900 rounded-full"
+        className="absolute top-1 bottom-1 w-[2px] bg-blue-900 rounded-full"
         animate={{
           x: `${caretIndex}ch`,
           opacity: isFocused ? [1, 0, 1] : 0,
@@ -68,9 +68,8 @@ export default function Input() {
         onClick={handleSelection}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        maxLength={20}
-        className="relative z-10 bg-transparent align-baseline text-blue-900 outline-none caret-transparent field-sizing-content min-w-[3ch] h-lh"
-        placeholder=""
+        maxLength={18}
+        className="relative z-10 bg-transparent align-baseline text-blue-900 outline-none caret-transparent field-sizing-content min-w-[5ch] h-lh"
       />
     </div>
   );

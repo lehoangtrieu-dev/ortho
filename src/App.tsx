@@ -62,7 +62,7 @@ export const App = () => {
     matchIndex !== -1 ? exampleSentence.slice(matchIndex + word.length) : "";
 
   return (
-    <div className="flex items-center justify-center h-screen mx-4 text-4xl">
+    <div className="flex items-center justify-center h-screen mx-4 text-3xl">
       <div className="leading-normal">
         <span>{beforeText}</span>
 
