@@ -67,7 +67,7 @@ export const App = () => {
         <span className="warp-break-words hyphens-auto">{beforeText}</span>
 
         <span className="inline-block border-b-2 border-blue-900 leading-tight mx-2">
-          <Input />
+          <Input placeholder={word.w[0]} />
         </span>
 
         <span className="warp-break-words hyphens-auto">{afterText}</span>
