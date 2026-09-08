@@ -39,7 +39,7 @@ export const App = () => {
   } = useQuery({
     queryKey: ["vocab"],
     queryFn: async () => {
-      const response = await fetch("./../public/vocab/c1.json");
+      const response = await fetch("/vocab/c1.json");
       if (!response.ok) throw new Error("Unable to fetch vocab");
 
       const data = await response.json();
@@ -52,27 +52,25 @@ export const App = () => {
 
   if (!vocab || isLoading) return null;
 
-  const word = vocab[0].w;
-  const exampleSentence = vocab[0].s[0].ex[0];
+  const word = vocab?.[0];
+  const sense = word?.s?.[0];
+  const exampleSentence = sense?.ex?.[0];
 
-  const matchIndex = exampleSentence.toLowerCase().indexOf(word.toLowerCase());
-  const beforeText =
-    matchIndex !== -1 ? exampleSentence.slice(0, matchIndex) : exampleSentence;
-  const afterText =
-    matchIndex !== -1 ? exampleSentence.slice(matchIndex + word.length) : "";
+  const answer = exampleSentence.match(/\[\[(.*?)\]\]/)?.[1] ?? "";
+  const cleanSentence = exampleSentence.replace(/\{\{.*?\}\}/g, "…");
+  const [beforeText, afterText] = cleanSentence.split(/\[\[.*?\]\]/);
 
   return (
-    <div className="flex items-center justify-center h-screen mx-4 text-3xl">
-      <div className="leading-normal">
-        <span>{beforeText}</span>
+    <div className="flex flex-col items-center justify-center bg-slate-50 text-xl sm:text-3xl w-full min-h-screen px-4 md:px-20 py-20 box-border">
+      {/* Input Section */}
+      <div className="w-full text-center leading-normal mb-8">
+        <span className="warp-break-words hyphens-auto">{beforeText}</span>
 
-        {matchIndex !== -1 && (
-          <span className="inline-block border-solid border-b-2 border-blue-900 leading-tight">
-            <Input />
-          </span>
-        )}
+        <span className="inline-block border-b-2 border-blue-900 leading-tight mx-2">
+          <Input />
+        </span>
 
-        <span>{afterText}</span>
+        <span className="warp-break-words hyphens-auto">{afterText}</span>
       </div>
     </div>
   );
