@@ -36,10 +36,10 @@ export default function Input({ placeholder }: { placeholder: string }) {
   };
 
   return (
-    <div className="relative inline text-gray-800">
+    <div className="relative inline">
       {/* Smooth Caret */}
       <motion.div
-        className="absolute top-1 bottom-1 w-0.5 bg-blue-900 rounded-full"
+        className="absolute top-1 bottom-1 w-0.5 bg-blue-950 rounded-full"
         animate={{
           x: `${caretIndex}ch`,
           opacity: isFocused ? [1, 0, 1] : 0,
@@ -69,7 +69,7 @@ export default function Input({ placeholder }: { placeholder: string }) {
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         maxLength={18}
-        className="relative z-10 bg-transparent align-baseline text-blue-900 outline-none caret-transparent field-sizing-content min-w-[5ch] h-lh"
+        className="relative z-10 bg-transparent align-baseline text-blue-950 outline-none caret-transparent field-sizing-content min-w-[5ch] h-lh"
         placeholder={placeholder}
       />
     </div>

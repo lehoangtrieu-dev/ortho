@@ -61,12 +61,12 @@ export const App = () => {
   const [beforeText, afterText] = cleanSentence.split(/\[\[.*?\]\]/);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-slate-50 text-xl sm:text-3xl w-full min-h-screen px-4 md:px-20 py-20 box-border">
+    <div className="flex flex-col items-center justify-center bg-blue-950/3 text-xl sm:text-3xl w-full min-h-screen px-4 md:px-20 py-20 box-border">
       {/* Input Section */}
       <div className="w-full text-center leading-normal mb-8">
         <span className="warp-break-words hyphens-auto">{beforeText}</span>
 
-        <span className="inline-block border-b-2 border-blue-900 leading-tight mx-2">
+        <span className="inline-block border-b-2 focus-within:border-blue-950 border-blue-950/30 transition-colors leading-tight mx-2">
           <Input placeholder={word.w[0]} />
         </span>
 
