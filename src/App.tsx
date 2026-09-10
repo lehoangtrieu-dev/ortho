@@ -1,10 +1,11 @@
-import { useCallback } from "react";
+import { useState, useCallback } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 import { FillInTheBlank } from "./components/FillInTheBlank";
 import { WordHeader } from "./components/WordHeader";
 import { ExampleList } from "./components/ExampleList";
 import { TagGroup } from "./components/TagGroup";
+import { SubmitButton } from "./components/SubmitButton";
 
 export interface DictionaryEntry {
   id: number;
@@ -54,6 +55,10 @@ export const App = () => {
     structuralSharing: false,
   });
 
+  const [status, setStatus] = useState<"unanswered" | "correct" | "incorrect">(
+    "unanswered",
+  );
+
   if (!vocab || isLoading) return null;
 
   const word = vocab?.[0];
@@ -64,26 +69,32 @@ export const App = () => {
     <div className="flex flex-col items-center justify-center bg-blue-950/3 text-xl sm:text-3xl w-full min-h-screen px-4 md:px-20 py-20 box-border">
       <div className="w-full text-center px-2">
         {/* Input Section */}
-        <FillInTheBlank hint={word.w[0]} sentence={sentence} />
+        <FillInTheBlank hint={word.w[0]} sentence={sentence} status={status} />
         {/* Word Definition Section */}
-        <WordHeader word={word.w} pos={sense.pos} definition={sense.defn} />
+        {status != "unanswered" && (
+          <WordHeader word={word.w} pos={sense.pos} definition={sense.defn} />
+        )}
       </div>
 
-      <div className="flex justify-center w-full">
-        <div className="columns-1 sm:columns-2 gap-10 sm:gap-20 px-4 sm:px-10 w-full max-w-5xl text-left">
-          {/* Examples */}
-          <ExampleList examples={sense.ex} />
+      {status != "unanswered" && (
+        <div className="flex justify-center w-full">
+          <div className="columns-1 sm:columns-2 gap-10 sm:gap-20 px-4 sm:px-10 w-full max-w-5xl text-left">
+            {/* Examples */}
+            <ExampleList examples={sense.ex} />
 
-          {/* Collocations */}
-          <TagGroup title="Collocations" items={word.col} />
+            {/* Collocations */}
+            <TagGroup title="Collocations" items={word.col} />
 
-          {/* Synonyms */}
-          <TagGroup title="Synonyms" items={sense.syn} />
+            {/* Synonyms */}
+            <TagGroup title="Synonyms" items={sense.syn} />
 
-          {/* Antonyms */}
-          <TagGroup title="Antonyms" items={sense.ant} />
+            {/* Antonyms */}
+            <TagGroup title="Antonyms" items={sense.ant} />
+          </div>
         </div>
-      </div>
+      )}
+
+      <SubmitButton status={status} />
     </div>
   );
 };

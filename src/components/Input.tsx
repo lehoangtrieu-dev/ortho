@@ -8,7 +8,12 @@ import {
 } from "react";
 import { motion } from "framer-motion";
 
-export default function Input({ placeholder }: { placeholder: string }) {
+interface Props {
+  placeholder: string;
+  status: "unanswered" | "correct" | "incorrect";
+}
+
+export default function Input({ placeholder, status }: Props) {
   const [text, setText] = useState<string>("");
   const [caretIndex, setCaretIndex] = useState<number>(0);
 
@@ -38,25 +43,27 @@ export default function Input({ placeholder }: { placeholder: string }) {
   return (
     <div className="relative inline">
       {/* Smooth Caret */}
-      <motion.div
-        className="absolute top-1 bottom-1 w-0.5 bg-blue-950 rounded-full"
-        animate={{
-          x: `${caretIndex}ch`,
-          opacity: isFocused ? [1, 0, 1] : 0,
-        }}
-        transition={{
-          x: {
-            type: "spring",
-            stiffness: 700,
-            damping: 35,
-          },
-          opacity: {
-            duration: 1,
-            repeat: isFocused ? Infinity : 0,
-            ease: "easeInOut",
-          },
-        }}
-      />
+      {status === "unanswered" && (
+        <motion.div
+          className="absolute top-1 bottom-1 w-0.5 bg-blue-950 rounded-full"
+          animate={{
+            x: `${caretIndex}ch`,
+            opacity: isFocused ? [1, 0, 1] : 0,
+          }}
+          transition={{
+            x: {
+              type: "spring",
+              stiffness: 700,
+              damping: 35,
+            },
+            opacity: {
+              duration: 1,
+              repeat: isFocused ? Infinity : 0,
+              ease: "easeInOut",
+            },
+          }}
+        />
+      )}
 
       {/* Input */}
       <input
@@ -69,7 +76,8 @@ export default function Input({ placeholder }: { placeholder: string }) {
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         maxLength={18}
-        className="relative z-10 bg-transparent align-baseline text-blue-950 outline-none caret-transparent field-sizing-content min-w-[5ch] h-lh"
+        disabled={status != "unanswered"}
+        className={`relative z-10 bg-transparent align-baseline outline-none caret-transparent field-sizing-content h-lh ${status === "incorrect" ? "line-through" : "min-w-[5ch]"}`}
         placeholder={placeholder}
       />
     </div>
