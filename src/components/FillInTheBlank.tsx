@@ -28,7 +28,7 @@ export const FillInTheBlank = ({
   const [beforeText, afterText] = cleanSentence.split(/\[\[.*?\]\]/);
 
   return (
-    <div className="w-full text-center leading-normal mb-8">
+    <div className="w-full text-center leading-normal">
       <span className="warp-break-words hyphens-auto">{beforeText}</span>
 
       <span

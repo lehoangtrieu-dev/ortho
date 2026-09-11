@@ -1,5 +1,5 @@
 interface Props {
-  title: string;
+  title?: string;
   items: string[];
 }
 
@@ -9,7 +9,7 @@ export const TagGroup = ({ title, items }: Props) => {
   return (
     <div className="break-inside-avoid mb-8">
       <h6 className="mb-3 font-bold text-blue-950/70">{title}</h6>
-      <div className="flex flex-wrap gap-2">
+      <div className={`flex flex-wrap gap-2 ${!title ? "justify-center" : ""}`}>
         {items.map((item, index) => (
           <span
             key={index}

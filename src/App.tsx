@@ -92,6 +92,12 @@ export const App = () => {
           setInput={setInput}
           onSubmit={handleAction}
         />
+        {status == "unanswered" && (
+          <div className="w-full flex justify-center items-center gap-4 mt-2">
+            <TagGroup items={sense.syn} />
+          </div>
+        )}
+
         {/* Word Definition Section */}
         {status != "unanswered" && (
           <WordHeader word={word.w} pos={sense.pos} definition={sense.defn} />
