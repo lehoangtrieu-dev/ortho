@@ -5,7 +5,7 @@ import { FillInTheBlank } from "./components/FillInTheBlank";
 import { WordHeader } from "./components/WordHeader";
 import { ExampleList } from "./components/ExampleList";
 import { TagGroup } from "./components/TagGroup";
-import { SubmitButton } from "./components/SubmitButton";
+import { Button } from "./components/Button";
 
 export interface DictionaryEntry {
   id: number;
@@ -37,11 +37,7 @@ export const App = () => {
     return randomSubset;
   }, []);
 
-  const {
-    data: vocab,
-    error,
-    isLoading,
-  } = useQuery({
+  const { data: vocab, isLoading } = useQuery({
     queryKey: ["vocab"],
     queryFn: async () => {
       const response = await fetch("/vocab/c1.json");
@@ -55,21 +51,47 @@ export const App = () => {
     structuralSharing: false,
   });
 
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [input, setInput] = useState<string>("");
   const [status, setStatus] = useState<"unanswered" | "correct" | "incorrect">(
     "unanswered",
   );
 
   if (!vocab || isLoading) return null;
 
-  const word = vocab?.[0];
+  const word = vocab?.[currentIndex];
   const sense = word?.s?.[0];
   const sentence = sense?.ex?.[0];
+
+  const answer = sentence.match(/\[\[(.*?)\]\]/)?.[1] ?? "";
+
+  const handleAction = () => {
+    if (status === "unanswered") {
+      if (input.trim().toLowerCase() === answer.trim().toLowerCase()) {
+        setStatus("correct");
+      } else {
+        setStatus("incorrect");
+      }
+    } else {
+      setInput("");
+      setStatus("unanswered");
+      setCurrentIndex((prev) => (prev + 1) % vocab.length);
+    }
+  };
 
   return (
     <div className="flex flex-col items-center justify-center bg-blue-950/3 text-xl sm:text-3xl w-full min-h-screen px-4 md:px-20 py-20 box-border">
       <div className="w-full text-center px-2">
         {/* Input Section */}
-        <FillInTheBlank hint={word.w[0]} sentence={sentence} status={status} />
+        <FillInTheBlank
+          key={currentIndex}
+          sentence={sentence}
+          answer={answer}
+          status={status}
+          input={input}
+          setInput={setInput}
+          onSubmit={handleAction}
+        />
         {/* Word Definition Section */}
         {status != "unanswered" && (
           <WordHeader word={word.w} pos={sense.pos} definition={sense.defn} />
@@ -94,7 +116,7 @@ export const App = () => {
         </div>
       )}
 
-      <SubmitButton status={status} />
+      <Button status={status} onClick={handleAction} />
     </div>
   );
 };

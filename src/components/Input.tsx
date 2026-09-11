@@ -11,10 +11,18 @@ import { motion } from "framer-motion";
 interface Props {
   placeholder: string;
   status: "unanswered" | "correct" | "incorrect";
+  input: string;
+  setInput: React.Dispatch<React.SetStateAction<string>>;
+  onSubmit: () => void;
 }
 
-export default function Input({ placeholder, status }: Props) {
-  const [text, setText] = useState<string>("");
+export default function Input({
+  placeholder,
+  status,
+  input,
+  setInput,
+  onSubmit,
+}: Props) {
   const [caretIndex, setCaretIndex] = useState<number>(0);
 
   const [isFocused, setIsFocused] = useState<boolean>(true);
@@ -23,13 +31,13 @@ export default function Input({ placeholder, status }: Props) {
   useEffect(() => {
     const isDesktop = window.matchMedia("(pointer: fine)").matches;
 
-    if (isDesktop && inputRef.current) {
+    if (isDesktop && inputRef.current && status == "unanswered") {
       inputRef.current.focus();
     }
-  }, []);
+  }, [status]);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setText(e.target.value);
+    setInput(e.target.value);
     setCaretIndex(e.target.selectionStart || 0);
   };
 
@@ -69,9 +77,14 @@ export default function Input({ placeholder, status }: Props) {
       <input
         ref={inputRef}
         type="text"
-        value={text}
+        value={input}
         onChange={handleChange}
         onKeyUp={handleSelection}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            onSubmit();
+          }
+        }}
         onClick={handleSelection}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}

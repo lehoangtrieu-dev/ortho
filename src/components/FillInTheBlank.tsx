@@ -1,9 +1,12 @@
 import Input from "./Input";
 
 interface Props {
-  hint: string;
   sentence: string;
+  answer: string;
   status: "unanswered" | "correct" | "incorrect";
+  input: string;
+  setInput: React.Dispatch<React.SetStateAction<string>>;
+  onSubmit: () => void;
 }
 
 const inputStyle = {
@@ -13,8 +16,14 @@ const inputStyle = {
   incorrect: "text-rose-500/70",
 };
 
-export const FillInTheBlank = ({ hint, sentence, status }: Props) => {
-  const answer = sentence.match(/\[\[(.*?)\]\]/)?.[1] ?? "";
+export const FillInTheBlank = ({
+  sentence,
+  answer,
+  status,
+  input,
+  setInput,
+  onSubmit,
+}: Props) => {
   const cleanSentence = sentence.replace(/\{\{.*?\}\}/g, "…");
   const [beforeText, afterText] = cleanSentence.split(/\[\[.*?\]\]/);
 
@@ -25,7 +34,13 @@ export const FillInTheBlank = ({ hint, sentence, status }: Props) => {
       <span
         className={`inline-block transition-colors leading-tight mx-2 ${inputStyle[status]}`}
       >
-        <Input placeholder={hint} status={status} />
+        <Input
+          placeholder={answer[0]}
+          status={status}
+          input={input}
+          setInput={setInput}
+          onSubmit={onSubmit}
+        />
         {status === "incorrect" && (
           <>
             <span className="text-rose-500 mx-1"> → </span>

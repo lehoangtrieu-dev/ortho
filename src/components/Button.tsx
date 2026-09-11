@@ -1,5 +1,6 @@
 interface Props {
   status: "unanswered" | "correct" | "incorrect";
+  onClick: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 const buttonConfig = {
@@ -20,12 +21,13 @@ const buttonConfig = {
   },
 };
 
-export const SubmitButton = ({ status }: Props) => {
+export const Button = ({ status, onClick }: Props) => {
   const currentConfig = buttonConfig[status];
 
   return (
     <button
       className={`py-3 rounded-md text-sm tracking-widest uppercase transition-colors ${currentConfig.styles}`}
+      onClick={onClick}
     >
       {currentConfig.text}
     </button>
