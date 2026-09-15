@@ -59,9 +59,14 @@ export const App = () => {
 
   if (!vocab || isLoading) return null;
 
-  const word = vocab?.[currentIndex];
+  const wordIndex = currentIndex % vocab.length;
+  const round = Math.floor(currentIndex / vocab.length);
+
+  const word = vocab?.[wordIndex];
   const sense = word?.s?.[0];
-  const sentence = sense?.ex?.[0];
+
+  const examples = sense?.ex ?? [];
+  const sentence = examples.length > 0 ? examples[round % examples.length] : "";
 
   const answer = sentence.match(/\[\[(.*?)\]\]/)?.[1] ?? "";
 
@@ -75,7 +80,7 @@ export const App = () => {
     } else {
       setInput("");
       setStatus("unanswered");
-      setCurrentIndex((prev) => (prev + 1) % vocab.length);
+      setCurrentIndex((prev) => prev + 1);
     }
   };
 
