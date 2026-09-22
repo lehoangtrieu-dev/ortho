@@ -1,3 +1,4 @@
+import { StatusPill } from "./StatusPill";
 import type { CardProgress } from "../types";
 
 interface Props {
@@ -5,13 +6,6 @@ interface Props {
   totalVocab: number;
   cardProgress?: CardProgress;
 }
-
-const getStatusLabel = (cardProgress: CardProgress | undefined) => {
-  if (!cardProgress) return "NEW";
-  if (cardProgress.interval > 30) return "MASTERED";
-  if (cardProgress.reps === 0) return "LAPSED";
-  return `STREAK: ${cardProgress.reps}`;
-};
 
 export const Navbar = ({ completedIds, totalVocab, cardProgress }: Props) => {
   return (
@@ -52,7 +46,7 @@ export const Navbar = ({ completedIds, totalVocab, cardProgress }: Props) => {
           <div className="flex items-center space-x-3">
             <div className="w-16 sm:w-24 h-1 bg-blue-950/10 rounded-full overflow-hidden">
               <div
-                className="h-full bg-blue-950 rounded-full"
+                className="h-full bg-blue-950 rounded-full transition-[width]"
                 style={{
                   width: `${(completedIds.length / totalVocab) * 100}%`,
                 }}
@@ -65,9 +59,7 @@ export const Navbar = ({ completedIds, totalVocab, cardProgress }: Props) => {
 
           <span className="hidden sm:inline text-blue-950/20">•</span>
 
-          <span className="px-2 sm:px-2.5 py-0.5 rounded-full text-[9px] sm:text-[10px] whitespace-nowrap uppercase tracking-widest border border-blue-950/20 bg-blue-950/3 text-blue-950/60">
-            {getStatusLabel(cardProgress)}
-          </span>
+          <StatusPill cardProgress={cardProgress} />
         </div>
       </div>
     </nav>
