@@ -8,8 +8,11 @@ import {
   calculateNextReview,
   getFutureDate,
 } from "../lib/srs";
+import { loadSettings } from "../lib/settings";
 
 export function useQuizSession(level: CEFRLevel, senseId = 0) {
+  const settings = loadSettings();
+
   const [cardProgress, setCardProgress] =
     useState<CardProgress[]>(loadCardProgress);
 
@@ -18,8 +21,9 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
   }, [cardProgress]);
 
   const selectSubset = useCallback(
-    (data: DictionaryEntry[]) => buildDailySubset(data, level),
-    [level],
+    (data: DictionaryEntry[]) =>
+      buildDailySubset(data, level, settings.newWordsPerDay),
+    [level, settings.newWordsPerDay],
   );
 
   const { data: vocab, isLoading } = useQuery({

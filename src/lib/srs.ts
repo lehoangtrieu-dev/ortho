@@ -49,7 +49,7 @@ export function calculateNextReview(
 export function buildDailySubset(
   data: DictionaryEntry[],
   level: string,
-  newCardsLimit = 10,
+  newCardsLimit: number,
 ): DictionaryEntry[] {
   if (!data || data.length === 0) return [];
 
@@ -59,7 +59,7 @@ export function buildDailySubset(
   const studiedIds = new Set(saved.map((c) => c.wordId));
   const unstudiedWords = data.filter((w) => !studiedIds.has(w.id));
 
-  // 10 new unstudied words (shuffled)
+  // Pick random unstudied words
   const shuffled = [...unstudiedWords].sort(() => Math.random() - 0.5);
   const subset = shuffled.slice(0, newCardsLimit);
 

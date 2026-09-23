@@ -48,6 +48,22 @@ export default function Input({
     setCaretIndex(target.selectionStart || 0);
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event: PointerEvent) => {
+      if (
+        inputRef.current &&
+        !inputRef.current.contains(event.target as Node)
+      ) {
+        setIsFocused(false);
+      }
+    };
+
+    document.addEventListener("pointerdown", handleClickOutside);
+    return () => {
+      document.removeEventListener("pointerdown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="relative inline">
       {/* Smooth Caret */}
@@ -82,12 +98,12 @@ export default function Input({
         onKeyUp={handleSelection}
         onKeyDown={(e) => {
           if (e.key === "Enter") {
+            e.preventDefault();
             onSubmit();
           }
         }}
         onClick={handleSelection}
         onFocus={() => setIsFocused(true)}
-        onBlur={() => setIsFocused(false)}
         maxLength={18}
         disabled={status != "unanswered"}
         className={`relative z-10 bg-transparent align-baseline outline-none caret-transparent field-sizing-content h-lh ${status === "incorrect" ? "line-through" : "min-w-[5ch]"}`}
