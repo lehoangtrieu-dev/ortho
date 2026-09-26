@@ -19,7 +19,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
       (Object.keys(settings.selectedLevels) as CEFRLevel[]).filter(
         (lvl) => settings.selectedLevels[lvl],
       );
-    return active.length > 0 ? active : (["A1"] as CEFRLevel[]);
+    return active;
   }, [levelsParam, settings.selectedLevels]);
 
   const [cardProgress, setCardProgress] =

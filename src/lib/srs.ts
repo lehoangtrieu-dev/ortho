@@ -78,19 +78,25 @@ export function buildDailySubset(
   // Fill the remaining quota with random words from the pool
   const remainingQuota = newCardsLimit - pickedCustom.length;
   const shuffledPool = [...unstudiedPool].sort(() => Math.random() - 0.5);
-  const pickedPool = shuffledPool.slice(0, remainingQuota);
+  const pickedPool =
+    levels.length > 0 ? shuffledPool.slice(0, remainingQuota) : [];
 
   // Combine both to form today's new cards
   const subset: DictionaryEntry[] = [...pickedCustom, ...pickedPool];
 
   // Add due review words
   saved.forEach((card) => {
-    if (card.dueDate <= todayStr && levels.includes(card.level as CEFRLevel)) {
-      // Find the word matching both ID and Level
+    if (card.dueDate <= todayStr) {
+      const isLevelSelected = levels.includes(card.level as CEFRLevel);
       const dueWord = data.find(
         (w) => w.id === card.wordId && w.level === card.level,
       );
-      if (dueWord) subset.push(dueWord);
+      if (
+        dueWord &&
+        (isLevelSelected || customSet.has(dueWord.w.toLowerCase()))
+      ) {
+        subset.push(dueWord);
+      }
     }
   });
 

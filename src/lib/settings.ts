@@ -10,10 +10,10 @@ export const DEFAULT_SETTINGS: UserSettings = {
   newWordsPerDay: 10,
   selectedLevels: {
     A1: true,
-    A2: false,
-    B1: false,
-    B2: false,
-    C1: false,
+    A2: true,
+    B1: true,
+    B2: true,
+    C1: true,
   },
   customWords: [],
 };
