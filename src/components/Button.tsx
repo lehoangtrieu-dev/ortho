@@ -27,7 +27,7 @@ export const Button = ({ status, onClick }: Props) => {
   return (
     <button
       type="button"
-      className={`py-3 rounded-md text-sm tracking-widest uppercase transition-colors cursor-pointer ${currentConfig.styles}`}
+      className={`py-3 rounded-md text-sm whitespace-nowrap tracking-widest uppercase transition-colors cursor-pointer ${currentConfig.styles}`}
       onClick={onClick}
     >
       {currentConfig.text}

@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 interface Props {
   placeholder: string;
   status: "unanswered" | "correct" | "incorrect";
+  maxLength?: number;
   input: string;
   setInput: React.Dispatch<React.SetStateAction<string>>;
   onSubmit: () => void;
@@ -19,6 +20,7 @@ interface Props {
 export default function Input({
   placeholder,
   status,
+  maxLength,
   input,
   setInput,
   onSubmit,
@@ -104,7 +106,7 @@ export default function Input({
         }}
         onClick={handleSelection}
         onFocus={() => setIsFocused(true)}
-        maxLength={18}
+        maxLength={maxLength}
         disabled={status != "unanswered"}
         className={`relative z-10 bg-transparent align-baseline outline-none caret-transparent field-sizing-content h-lh ${status === "incorrect" ? "line-through" : "min-w-[5ch]"}`}
         placeholder={placeholder}

@@ -37,6 +37,7 @@ export const FillInTheBlank = ({
         <Input
           placeholder={answer[0]}
           status={status}
+          maxLength={18}
           input={input}
           setInput={setInput}
           onSubmit={onSubmit}

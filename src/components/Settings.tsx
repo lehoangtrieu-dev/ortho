@@ -35,14 +35,70 @@ export const Settings = () => {
     setSelectedLevels((prev) => ({ ...prev, [level]: !prev[level] }));
   };
 
+  const [wordIndex, setWordIndex] = useState<Record<string, CEFRLevel> | null>(
+    null,
+  );
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [duplicateMessage, setDuplicateMessage] = useState<string | null>(null);
+
+  const handleInputChange: React.Dispatch<React.SetStateAction<string>> = (
+    value,
+  ) => {
+    setNewWordInput(value);
+    if (errorMessage) setErrorMessage(null);
+    if (duplicateMessage) setDuplicateMessage(null);
+  };
+
+  useEffect(() => {
+    fetch("/vocab/words.json")
+      .then((res) => res.json())
+      .then((data: Record<string, CEFRLevel>) => setWordIndex(data))
+      .catch(() => setWordIndex({}));
+  }, []);
+
   const handleAddWord = () => {
-    if (
-      newWordInput.trim() &&
-      !customWords.includes(newWordInput.toLowerCase())
-    ) {
-      setCustomWords([newWordInput.toLowerCase(), ...customWords]);
-      setNewWordInput("");
+    if (!wordIndex) return;
+
+    const wordsToAdd = newWordInput
+      .split(",")
+      .map((w) => w.trim().toLowerCase())
+      .filter(Boolean);
+
+    if (wordsToAdd.length === 0) return;
+
+    const notFound: string[] = [];
+    const duplicates: string[] = [];
+    const validToAdd: string[] = [];
+    const existing = new Set(customWords);
+
+    wordsToAdd.forEach((word) => {
+      if (!wordIndex[word]) {
+        notFound.push(word);
+      } else if (existing.has(word)) {
+        duplicates.push(word);
+      } else {
+        existing.add(word);
+        validToAdd.push(word);
+      }
+    });
+
+    if (notFound.length > 0) {
+      setErrorMessage(`Not found in dictionary: ${notFound.join(", ")}`);
+    } else {
+      setErrorMessage(null);
     }
+
+    if (duplicates.length > 0) {
+      setDuplicateMessage(`Already in list: ${duplicates.join(", ")}`);
+    } else {
+      setDuplicateMessage(null);
+    }
+
+    if (validToAdd.length > 0) {
+      setCustomWords((prev) => [...validToAdd, ...prev]);
+    }
+
+    setNewWordInput("");
   };
 
   const handleRemoveWord = (wordToRemove: string) => {
@@ -150,17 +206,24 @@ export const Settings = () => {
           </label>
 
           <div className="flex justify-between items-center space-x-3 w-full">
-            <div className="text-xl text-blue-950 border-b-2 border-blue-950/30 focus-within:border-blue-950">
+            <div className="text-xl text-blue-950 border-b-2 border-blue-950/30 focus-within:border-blue-950 overflow-hidden">
               <Input
-                placeholder="Enter a new word..."
+                placeholder="apple, ball, cat..."
                 status="unanswered"
                 input={newWordInput}
-                setInput={setNewWordInput}
+                setInput={handleInputChange}
                 onSubmit={handleAddWord}
               />
             </div>
             <Button status="unanswered" onClick={handleAddWord}></Button>
           </div>
+
+          {errorMessage && (
+            <p className="text-rose-600 text-xs">{errorMessage}</p>
+          )}
+          {duplicateMessage && (
+            <p className="text-amber-600 text-xs">{duplicateMessage}</p>
+          )}
 
           <div className="flex flex-wrap gap-2 pt-2 max-h-40 overflow-y-auto">
             {customWords.map((word) => (
@@ -170,7 +233,12 @@ export const Settings = () => {
                 onClick={() => handleRemoveWord(word)}
                 className="px-3 py-1.5 rounded-md border border-blue-950/15 bg-blue-950/2 text-sm text-blue-950 transition-colors focus:outline-none hover:bg-rose-100 hover:border-rose-200 hover:text-rose-700 hover:line-through"
               >
-                {word}
+                <span>{word}</span>
+                {wordIndex?.[word] && (
+                  <span className="ml-1.5 text-[10px] font-semibold text-blue-950/40 uppercase">
+                    {wordIndex[word]}
+                  </span>
+                )}
               </button>
             ))}
 
