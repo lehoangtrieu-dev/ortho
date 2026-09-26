@@ -29,15 +29,6 @@ export const App = () => {
 
   const [isSettings, setIsSettings] = useState(false);
 
-  if (isLoading)
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <p className="text-9xl text-blue-950/6 animate-spin">&#x21BB;</p>
-      </div>
-    );
-  if (isComplete) return <CompletionScreen onRestart={restartSession} />;
-  if (!currentWord || !sense) return null;
-
   return (
     <div className="flex flex-col h-dvh overflow-hidden">
       <Navbar
@@ -45,12 +36,21 @@ export const App = () => {
         totalVocab={vocab?.length || 1}
         cardProgress={cardProgress}
         isSettings={isSettings}
+        isLearning={Boolean(
+          currentWord && sense && !isSettings && !isLoading && !isComplete,
+        )}
         setIsSettings={setIsSettings}
       />
       <div className="flex-1 overflow-y-auto flex flex-col px-4 md:px-20 py-8 box-border w-full">
         <div className="my-auto w-full flex flex-col items-center text-xl sm:text-3xl">
           {isSettings ? (
             <Settings />
+          ) : isLoading ? (
+            <div className="flex justify-center items-center my-auto">
+              <p className="text-9xl text-blue-950/6 animate-spin">&#x21BB;</p>
+            </div>
+          ) : !currentWord || !sense || isComplete ? (
+            <CompletionScreen onRestart={restartSession} />
           ) : (
             <>
               <div className="w-full text-center px-2">

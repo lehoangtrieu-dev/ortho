@@ -6,6 +6,7 @@ interface Props {
   totalVocab: number;
   cardProgress?: CardProgress;
   isSettings: boolean;
+  isLearning: boolean;
   setIsSettings: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
@@ -14,6 +15,7 @@ export const Navbar = ({
   totalVocab,
   cardProgress,
   isSettings,
+  isLearning,
   setIsSettings,
 }: Props) => {
   return (
@@ -64,7 +66,7 @@ export const Navbar = ({
           </button>
         </div>
 
-        {!isSettings && (
+        {isLearning && (
           <div className="col-span-2 flex items-center justify-between sm:justify-center sm:flex-1 order-3 sm:order-2 pt-3 sm:pt-0 border-t border-blue-950/5 sm:border-t-0 space-x-0 sm:space-x-6">
             <div className="flex items-center space-x-3">
               <div className="w-16 sm:w-24 h-1 bg-blue-950/10 rounded-full overflow-hidden">
@@ -80,9 +82,12 @@ export const Navbar = ({
               </span>
             </div>
 
-            <span className="hidden sm:inline text-blue-950/20">•</span>
-
-            <StatusPill cardProgress={cardProgress} />
+            {cardProgress && (
+              <>
+                <span className="hidden sm:inline text-blue-950/20">•</span>
+                <StatusPill cardProgress={cardProgress} />
+              </>
+            )}
           </div>
         )}
       </div>

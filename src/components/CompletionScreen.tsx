@@ -3,7 +3,7 @@ interface Props {
 }
 
 export const CompletionScreen = ({ onRestart }: Props) => (
-  <div className="flex flex-col items-center justify-center min-h-screen text-center px-4">
+  <div className="flex flex-col items-center justify-center my-auto text-center px-4">
     <span className="px-3 py-1 mb-6 rounded-full text-[10px] uppercase tracking-widest border border-emerald-500/30 bg-emerald-50/50 text-emerald-700">
       Session Complete
     </span>
