@@ -9,6 +9,7 @@ import {
   getFutureDate,
 } from "../lib/srs";
 import { loadSettings } from "../lib/settings";
+import { triggerCorrectConfetti } from "../lib/confetti";
 
 export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
   const [settings] = useState(loadSettings);
@@ -113,6 +114,9 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
         input.trim().toLowerCase() === answer.trim().toLowerCase();
       const quality = isCorrect ? 5 : 0;
       setStatus(isCorrect ? "correct" : "incorrect");
+      if (isCorrect) {
+        triggerCorrectConfetti();
+      }
 
       setCardProgress((prev) => {
         const existing = prev.find(
