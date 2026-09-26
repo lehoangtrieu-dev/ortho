@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import type { DictionaryEntry, CEFRLevel, CardProgress } from "../types";
 import {
@@ -10,8 +10,17 @@ import {
 } from "../lib/srs";
 import { loadSettings } from "../lib/settings";
 
-export function useQuizSession(level: CEFRLevel, senseId = 0) {
-  const settings = loadSettings();
+export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
+  const [settings] = useState(loadSettings);
+
+  const levels = useMemo(() => {
+    const active =
+      levelsParam ??
+      (Object.keys(settings.selectedLevels) as CEFRLevel[]).filter(
+        (lvl) => settings.selectedLevels[lvl],
+      );
+    return active.length > 0 ? active : (["A1"] as CEFRLevel[]);
+  }, [levelsParam, settings.selectedLevels]);
 
   const [cardProgress, setCardProgress] =
     useState<CardProgress[]>(loadCardProgress);
@@ -22,24 +31,64 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
 
   const selectSubset = useCallback(
     (data: DictionaryEntry[]) =>
-      buildDailySubset(data, level, settings.newWordsPerDay),
-    [level, settings.newWordsPerDay],
+      buildDailySubset(
+        data,
+        levels,
+        settings.newWordsPerDay,
+        settings.customWords,
+      ),
+    [levels, settings.newWordsPerDay, settings.customWords],
   );
 
   const { data: vocab, isLoading } = useQuery({
-    queryKey: ["vocab", level],
+    queryKey: ["vocab", [...levels].sort().join(",")],
     queryFn: async () => {
-      const res = await fetch(`/vocab/${level.toLowerCase()}.json`);
-      if (!res.ok) throw new Error("Unable to fetch vocab");
-      return res.json();
+      // Fetch words.json to find which level file custom words live in
+      let wordsIndex: Record<string, CEFRLevel> = {};
+      try {
+        const indexRes = await fetch("/vocab/words.json");
+        if (indexRes.ok) wordsIndex = await indexRes.json();
+      } catch {
+        // ignore if index fails
+      }
+
+      // Collect all levels needed: selected levels + levels for custom words
+      const customLevels = settings.customWords
+        .map((w) => wordsIndex[w.toLowerCase()])
+        .filter(Boolean) as CEFRLevel[];
+
+      const allLevelsToFetch = Array.from(
+        new Set([...levels, ...customLevels]),
+      );
+
+      // Fetch all needed files in parallel
+      const results = await Promise.all(
+        allLevelsToFetch.map(async (lvl) => {
+          try {
+            const res = await fetch(`/vocab/${lvl.toLowerCase()}.json`);
+            if (!res.ok) return [];
+            const data: DictionaryEntry[] = await res.json();
+            // Tag each word with its level so IDs never collide
+            return data.map((entry) => ({ ...entry, level: lvl }));
+          } catch {
+            return [];
+          }
+        }),
+      );
+
+      return results.flat();
     },
     select: selectSubset,
     staleTime: 1000 * 60 * 60,
     structuralSharing: false,
   });
 
-  const [completedIds, setCompletedIds] = useState<number[]>([]);
-  const activeVocab = vocab?.filter((w) => !completedIds.includes(w.id)) ?? [];
+  const [completedIds, setCompletedIds] = useState<string[]>([]);
+
+  const getWordKey = (w?: DictionaryEntry) => (w ? `${w.level}-${w.id}` : "");
+
+  const activeVocab =
+    vocab?.filter((w) => !completedIds.includes(getWordKey(w))) ?? [];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [input, setInput] = useState("");
@@ -67,7 +116,10 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
 
       setCardProgress((prev) => {
         const existing = prev.find(
-          (c) => c.wordId === currentWord.id && c.senseId === senseId,
+          (c) =>
+            c.wordId === currentWord.id &&
+            c.level === currentWord.level &&
+            c.senseId === senseId,
         );
         const [nextEaseFactor, nextInterval, nextReps] = calculateNextReview(
           existing?.easeFactor ?? 2.5,
@@ -77,7 +129,7 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
         );
 
         const updatedCard: CardProgress = {
-          level: level as CardProgress["level"],
+          level: currentWord.level ?? levels[0],
           wordId: currentWord.id,
           senseId,
           reps: nextReps,
@@ -88,7 +140,9 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
 
         return existing
           ? prev.map((c) =>
-              c.wordId === currentWord.id && c.senseId === senseId
+              c.wordId === currentWord.id &&
+              c.level === currentWord.level &&
+              c.senseId === senseId
                 ? updatedCard
                 : c,
             )
@@ -98,7 +152,7 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
       setInput("");
       setStatus("unanswered");
       if (status === "correct") {
-        setCompletedIds((prev) => [...prev, currentWord.id]);
+        setCompletedIds((prev) => [...prev, getWordKey(currentWord)]);
       } else {
         setCurrentIndex((prev) => prev + 1);
       }
@@ -123,7 +177,10 @@ export function useQuizSession(level: CEFRLevel, senseId = 0) {
     status,
     completedIds,
     cardProgress: cardProgress.find(
-      (item) => item.wordId === currentWord?.id && item.senseId === senseId,
+      (item) =>
+        item.wordId === currentWord?.id &&
+        item.level === currentWord?.level &&
+        item.senseId === senseId,
     ),
     input,
     setInput,

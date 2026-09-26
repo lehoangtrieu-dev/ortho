@@ -25,7 +25,7 @@ export const App = () => {
     setInput,
     handleAction,
     restartSession,
-  } = useQuizSession("B2");
+  } = useQuizSession();
 
   const [isSettings, setIsSettings] = useState(false);
 

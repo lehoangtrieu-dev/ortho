@@ -1,6 +1,7 @@
 export interface DictionaryEntry {
   id: number;
   w: string;
+  level?: CEFRLevel;
   ipa: string;
   pron: string;
   s: Sense[];
@@ -15,7 +16,7 @@ export interface Sense {
   ex: string[];
 }
 
-export type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+export type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1";
 
 export interface CardProgress {
   level: CEFRLevel;

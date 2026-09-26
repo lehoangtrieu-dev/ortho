@@ -9,12 +9,11 @@ export interface UserSettings {
 export const DEFAULT_SETTINGS: UserSettings = {
   newWordsPerDay: 10,
   selectedLevels: {
-    A1: false,
+    A1: true,
     A2: false,
     B1: false,
     B2: false,
-    C1: true,
-    C2: false,
+    C1: false,
   },
   customWords: [],
 };

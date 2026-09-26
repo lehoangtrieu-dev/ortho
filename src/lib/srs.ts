@@ -1,4 +1,4 @@
-import type { CardProgress, DictionaryEntry } from "../types";
+import type { CardProgress, DictionaryEntry, CEFRLevel } from "../types";
 
 export const STORAGE_KEY = "cardProgress";
 
@@ -48,25 +48,48 @@ export function calculateNextReview(
 
 export function buildDailySubset(
   data: DictionaryEntry[],
-  level: string,
+  levels: CEFRLevel[],
   newCardsLimit: number,
+  customWords: string[] = [],
 ): DictionaryEntry[] {
   if (!data || data.length === 0) return [];
 
   const saved = loadCardProgress();
   const todayStr = new Date().toISOString().split("T")[0];
 
-  const studiedIds = new Set(saved.map((c) => c.wordId));
-  const unstudiedWords = data.filter((w) => !studiedIds.has(w.id));
+  // Unique key like "B2-800" or "A1-800"
+  const studiedKeys = new Set(saved.map((c) => `${c.level}-${c.wordId}`));
+  const unstudiedWords = data.filter(
+    (w) => !studiedKeys.has(`${w.level}-${w.id}`),
+  );
 
-  // Pick random unstudied words
-  const shuffled = [...unstudiedWords].sort(() => Math.random() - 0.5);
-  const subset = shuffled.slice(0, newCardsLimit);
+  const customSet = new Set(customWords.map((w) => w.toLowerCase()));
+
+  const unstudiedCustom = unstudiedWords.filter((w) =>
+    customSet.has(w.w.toLowerCase()),
+  );
+  const unstudiedPool = unstudiedWords.filter(
+    (w) => !customSet.has(w.w.toLowerCase()),
+  );
+
+  // Take custom words first (up to the daily limit)
+  const pickedCustom = unstudiedCustom.slice(0, newCardsLimit);
+
+  // Fill the remaining quota with random words from the pool
+  const remainingQuota = newCardsLimit - pickedCustom.length;
+  const shuffledPool = [...unstudiedPool].sort(() => Math.random() - 0.5);
+  const pickedPool = shuffledPool.slice(0, remainingQuota);
+
+  // Combine both to form today's new cards
+  const subset: DictionaryEntry[] = [...pickedCustom, ...pickedPool];
 
   // Add due review words
   saved.forEach((card) => {
-    if (card.dueDate <= todayStr && card.level === level) {
-      const dueWord = data.find((w) => w.id === card.wordId);
+    if (card.dueDate <= todayStr && levels.includes(card.level as CEFRLevel)) {
+      // Find the word matching both ID and Level
+      const dueWord = data.find(
+        (w) => w.id === card.wordId && w.level === card.level,
+      );
       if (dueWord) subset.push(dueWord);
     }
   });

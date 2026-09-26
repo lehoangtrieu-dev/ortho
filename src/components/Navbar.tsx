@@ -2,7 +2,7 @@ import { StatusPill } from "./StatusPill";
 import type { CardProgress } from "../types";
 
 interface Props {
-  completedIds: number[];
+  completedIds: string[];
   totalVocab: number;
   cardProgress?: CardProgress;
   isSettings: boolean;
