@@ -1,5 +1,5 @@
 import { StatusPill } from "./StatusPill";
-import { Login } from "./Login";
+import { AccountMenu } from "./AccountMenu";
 import type { CardProgress } from "../types";
 
 interface Props {
@@ -34,7 +34,7 @@ export const Navbar = ({
         </div>
 
         <div className="flex items-center justify-end sm:flex-1 order-2 sm:order-3">
-          <Login isSettings={isSettings} setIsSettings={setIsSettings} />
+          <AccountMenu isSettings={isSettings} setIsSettings={setIsSettings} />
         </div>
 
         {isLearning && (

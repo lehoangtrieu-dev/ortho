@@ -9,7 +9,7 @@ interface Props {
   setIsSettings: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export const Login = ({ isSettings, setIsSettings }: Props) => {
+export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const { user, setUser } = useAuth();
 
