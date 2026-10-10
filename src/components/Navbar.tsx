@@ -1,6 +1,5 @@
 import { StatusPill } from "./StatusPill";
 import { Login } from "./Login";
-import { Settings } from "lucide-react";
 import type { CardProgress } from "../types";
 
 interface Props {
@@ -35,18 +34,7 @@ export const Navbar = ({
         </div>
 
         <div className="flex items-center justify-end sm:flex-1 order-2 sm:order-3">
-          {isSettings ? (
-            <Login />
-          ) : (
-            <button
-              className="text-blue-950/40 hover:text-blue-950 transition-colors p-1 -mr-1 cursor-pointer"
-              onClick={() => {
-                setIsSettings(true);
-              }}
-            >
-              <Settings size="18" />
-            </button>
-          )}
+          <Login isSettings={isSettings} setIsSettings={setIsSettings} />
         </div>
 
         {isLearning && (
