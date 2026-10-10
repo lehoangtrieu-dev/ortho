@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
-import { signInWithPopup, signOut } from "firebase/auth";
+import { signInWithPopup, signOut, deleteUser } from "firebase/auth";
 import { auth, googleProvider } from "../lib/firebase";
+import { deleteDoc, doc } from "firebase/firestore";
+import { db } from "../lib/firebase";
 import { useAuth } from "../lib/auth";
 import { Settings, LogIn, LogOut, Trash } from "lucide-react";
 
@@ -27,6 +29,25 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
     if (isConfirmed) {
       await signOut(auth);
       setUser(null);
+    }
+  };
+
+  const handleDeleteAccount = async () => {
+    if (!user) return;
+
+    const isConfirmed = window.confirm(
+      "WARNING: Are you sure you want to permanently delete your account? This cannot be undone.",
+    );
+    if (!isConfirmed) return;
+
+    try {
+      await deleteDoc(doc(db, "users", user.uid));
+      await deleteUser(user);
+      setUser(null);
+      alert("Account deleted successfully.");
+    } catch (error) {
+      alert("An error occurred while deleting your account.");
+      console.log(error);
     }
   };
 
@@ -102,10 +123,10 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
               </button>
 
               <button
-                // onClick={() => {
-                //   onDeleteAccount();
-                //   setIsOpen(false);
-                // }}
+                onClick={() => {
+                  handleDeleteAccount();
+                  setIsOpen(false);
+                }}
                 className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-rose-600/70 hover:bg-rose-50 hover:text-rose-600 transition-colors"
               >
                 <Trash />
