@@ -1,3 +1,5 @@
+import { doc, setDoc, getDoc } from "firebase/firestore";
+import { db } from "./firebase";
 import type {
   CardProgress,
   DictionaryEntry,
@@ -7,18 +9,42 @@ import type {
 
 export const STORAGE_KEY = "cardProgress";
 
-export function loadCardProgress(): CardProgress[] {
-  try {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    return saved ? JSON.parse(saved) : [];
-  } catch {
-    return [];
-  }
-}
+export const loadCardProgress = async (
+  userId?: string,
+): Promise<CardProgress[]> => {
+  if (userId) {
+    const saveFileRef = doc(db, "users", userId);
+    const snapshot = await getDoc(saveFileRef);
 
-export function saveCardProgress(progress: CardProgress[]): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-}
+    if (snapshot.exists()) {
+      return snapshot.data().cardProgress;
+    }
+
+    return [];
+  } else {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  }
+};
+
+export const saveCardProgress = async (
+  progress: CardProgress[],
+  userId?: string,
+) => {
+  if (userId) {
+    const saveFileRef = doc(db, "users", userId);
+
+    await setDoc(saveFileRef, {
+      cardProgress: progress,
+    });
+  } else {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  }
+};
 
 export function getFutureDate(days: number): string {
   const d = new Date();
@@ -51,15 +77,16 @@ export function calculateNextReview(
   return [easeFactor, interval, repetitions];
 }
 
-export function buildDailySubset(
+export async function buildDailySubset(
   data: DictionaryEntry[],
   levels: CEFRLevel[],
   newCardsLimit: number,
   customWords: string[] = [],
-): QuizCard[] {
+  userId?: string,
+): Promise<QuizCard[]> {
   if (!data || data.length === 0) return [];
 
-  const saved = loadCardProgress();
+  const saved = await loadCardProgress(userId);
   const todayStr = new Date().toISOString().split("T")[0];
 
   // Compound key: "level-wordId-senseId"

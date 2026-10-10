@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import type {
   DictionaryEntry,
@@ -13,6 +13,7 @@ import {
   calculateNextReview,
   getFutureDate,
 } from "../lib/srs";
+import { useAuth } from "../lib/auth";
 import { loadSettings } from "../lib/settings";
 import { triggerCorrectConfetti } from "../lib/confetti";
 
@@ -28,30 +29,26 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     return active;
   }, [levelsParam, settings.selectedLevels]);
 
-  const [cardProgress, setCardProgress] =
-    useState<CardProgress[]>(loadCardProgress);
+  const [cardProgress, setCardProgress] = useState<CardProgress[]>([]);
+  const { user, loading: authLoading } = useAuth();
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    saveCardProgress(cardProgress);
-  }, [cardProgress]);
+    async function initProgress() {
+      const data = await loadCardProgress(user?.uid);
+      setCardProgress(data);
+      setIsLoaded(true);
+    }
+    initProgress();
+  }, [user?.uid]);
 
-  const selectSubset = useCallback(
-    (data: DictionaryEntry[]): QuizCard[] =>
-      buildDailySubset(
-        data,
-        levels,
-        settings.newWordsPerDay,
-        settings.customWords,
-      ),
-    [levels, settings.newWordsPerDay, settings.customWords],
-  );
+  useEffect(() => {
+    if (!isLoaded) return;
+    saveCardProgress(cardProgress, user?.uid);
+  }, [cardProgress, isLoaded, user?.uid]);
 
-  const { data: vocab, isLoading } = useQuery<
-    DictionaryEntry[],
-    Error,
-    QuizCard[]
-  >({
-    queryKey: ["vocab", [...levels].sort().join(",")],
+  const { data: vocab, isLoading } = useQuery<QuizCard[], Error, QuizCard[]>({
+    queryKey: ["vocab", [...levels].sort().join(","), user?.uid],
     queryFn: async () => {
       // Fetch words.json to find which level file custom words live in
       let wordsIndex: Record<string, CEFRLevel> = {};
@@ -86,9 +83,17 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
         }),
       );
 
-      return results.flat();
+      const allData = results.flat();
+
+      return await buildDailySubset(
+        allData,
+        levels,
+        settings.newWordsPerDay,
+        settings.customWords,
+        user?.uid,
+      );
     },
-    select: selectSubset,
+    enabled: !authLoading,
     staleTime: 1000 * 60 * 60,
     structuralSharing: false,
   });
@@ -185,7 +190,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   };
 
   return {
-    isLoading,
+    isLoading: authLoading || isLoading || vocab === undefined,
     isComplete: !isLoading && vocab && activeVocab.length === 0,
     currentCard,
     currentWord,
