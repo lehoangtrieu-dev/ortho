@@ -1,4 +1,9 @@
-import type { CardProgress, DictionaryEntry, CEFRLevel } from "../types";
+import type {
+  CardProgress,
+  DictionaryEntry,
+  CEFRLevel,
+  QuizCard,
+} from "../types";
 
 export const STORAGE_KEY = "cardProgress";
 
@@ -51,40 +56,53 @@ export function buildDailySubset(
   levels: CEFRLevel[],
   newCardsLimit: number,
   customWords: string[] = [],
-): DictionaryEntry[] {
+): QuizCard[] {
   if (!data || data.length === 0) return [];
 
   const saved = loadCardProgress();
   const todayStr = new Date().toISOString().split("T")[0];
 
-  // Unique key like "B2-800" or "A1-800"
-  const studiedKeys = new Set(saved.map((c) => `${c.level}-${c.wordId}`));
-  const unstudiedWords = data.filter(
-    (w) => !studiedKeys.has(`${w.level}-${w.id}`),
+  // Compound key: "level-wordId-senseId"
+  const studiedKeys = new Set(
+    saved.map((c) => `${c.level}-${c.wordId}-${c.senseId}`),
   );
+
+  // For each word, find its earliest unstudied sense (0, 1, ...)
+  // Introduces sense 0 first, and higher senses as the user progresses.
+  const unstudiedCards: QuizCard[] = [];
+  data.forEach((w) => {
+    const nextSenseId = (w.s || []).findIndex(
+      (_, idx) => !studiedKeys.has(`${w.level}-${w.id}-${idx}`),
+    );
+    if (nextSenseId !== -1) {
+      unstudiedCards.push({ word: w, senseId: nextSenseId });
+    }
+  });
 
   const customSet = new Set(customWords.map((w) => w.toLowerCase()));
 
-  const unstudiedCustom = unstudiedWords.filter((w) =>
-    customSet.has(w.w.toLowerCase()),
+  const unstudiedCustom = unstudiedCards.filter((card) =>
+    customSet.has(card.word.w.toLowerCase()),
   );
-  const unstudiedPool = unstudiedWords.filter(
-    (w) => !customSet.has(w.w.toLowerCase()),
+  const unstudiedPool = unstudiedCards.filter(
+    (card) => !customSet.has(card.word.w.toLowerCase()),
   );
 
   // Take custom words first (up to the daily limit)
   const pickedCustom = unstudiedCustom.slice(0, newCardsLimit);
 
-  // Fill the remaining quota with random words from the pool
+  // Fill remaining quota with random words from pool (if any level selected)
   const remainingQuota = newCardsLimit - pickedCustom.length;
   const shuffledPool = [...unstudiedPool].sort(() => Math.random() - 0.5);
   const pickedPool =
     levels.length > 0 ? shuffledPool.slice(0, remainingQuota) : [];
 
-  // Combine both to form today's new cards
-  const subset: DictionaryEntry[] = [...pickedCustom, ...pickedPool];
+  const newCards: QuizCard[] = [...pickedCustom, ...pickedPool];
 
-  // Add due review words
+  // Add due reviews (exact sense due today)
+  const reviews: QuizCard[] = [];
+  const seenReviewKeys = new Set<string>();
+
   saved.forEach((card) => {
     if (card.dueDate <= todayStr) {
       const isLevelSelected = levels.includes(card.level as CEFRLevel);
@@ -95,10 +113,16 @@ export function buildDailySubset(
         dueWord &&
         (isLevelSelected || customSet.has(dueWord.w.toLowerCase()))
       ) {
-        subset.push(dueWord);
+        if (dueWord.s && dueWord.s[card.senseId]) {
+          const cardKey = `${card.level}-${card.wordId}-${card.senseId}`;
+          if (!seenReviewKeys.has(cardKey)) {
+            seenReviewKeys.add(cardKey);
+            reviews.push({ word: dueWord, senseId: card.senseId });
+          }
+        }
       }
     }
   });
 
-  return subset;
+  return [...newCards, ...reviews];
 }

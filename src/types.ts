@@ -27,3 +27,8 @@ export interface CardProgress {
   easeFactor: number;
   dueDate: string;
 }
+
+export interface QuizCard {
+  word: DictionaryEntry;
+  senseId: number;
+}

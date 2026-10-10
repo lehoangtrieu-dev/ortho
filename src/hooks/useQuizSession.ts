@@ -1,6 +1,11 @@
 import { useState, useCallback, useEffect, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
-import type { DictionaryEntry, CEFRLevel, CardProgress } from "../types";
+import type {
+  DictionaryEntry,
+  CEFRLevel,
+  CardProgress,
+  QuizCard,
+} from "../types";
 import {
   loadCardProgress,
   saveCardProgress,
@@ -11,7 +16,7 @@ import {
 import { loadSettings } from "../lib/settings";
 import { triggerCorrectConfetti } from "../lib/confetti";
 
-export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
+export function useQuizSession(levelsParam?: CEFRLevel[]) {
   const [settings] = useState(loadSettings);
 
   const levels = useMemo(() => {
@@ -31,7 +36,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
   }, [cardProgress]);
 
   const selectSubset = useCallback(
-    (data: DictionaryEntry[]) =>
+    (data: DictionaryEntry[]): QuizCard[] =>
       buildDailySubset(
         data,
         levels,
@@ -41,7 +46,11 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
     [levels, settings.newWordsPerDay, settings.customWords],
   );
 
-  const { data: vocab, isLoading } = useQuery({
+  const { data: vocab, isLoading } = useQuery<
+    DictionaryEntry[],
+    Error,
+    QuizCard[]
+  >({
     queryKey: ["vocab", [...levels].sort().join(",")],
     queryFn: async () => {
       // Fetch words.json to find which level file custom words live in
@@ -86,10 +95,11 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
 
   const [completedIds, setCompletedIds] = useState<string[]>([]);
 
-  const getWordKey = (w?: DictionaryEntry) => (w ? `${w.level}-${w.id}` : "");
+  const getCardKey = (c?: QuizCard) =>
+    c ? `${c.word.level}-${c.word.id}-${c.senseId}` : "";
 
   const activeVocab =
-    vocab?.filter((w) => !completedIds.includes(getWordKey(w))) ?? [];
+    vocab?.filter((c) => !completedIds.includes(getCardKey(c))) ?? [];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [input, setInput] = useState("");
@@ -97,18 +107,22 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
     "unanswered",
   );
 
-  const wordIndex =
+  const cardIndex =
     activeVocab.length > 0 ? currentIndex % activeVocab.length : 0;
   const round =
     activeVocab.length > 0 ? Math.floor(currentIndex / activeVocab.length) : 0;
 
-  const currentWord = activeVocab[wordIndex];
-  const sense = currentWord?.s?.[senseId];
+  const currentCard = activeVocab[cardIndex];
+  const currentWord = currentCard?.word;
+  const currentSenseId = currentCard?.senseId ?? 0;
+  const sense = currentWord?.s?.[currentSenseId];
   const examples = sense?.ex ?? [];
   const sentence = examples.length > 0 ? examples[round % examples.length] : "";
   const answer = sentence.match(/\[\[(.*?)\]\]/)?.[1] ?? "";
 
   const handleAction = () => {
+    if (!currentWord || !sense) return;
+
     if (status === "unanswered") {
       const isCorrect =
         input.trim().toLowerCase() === answer.trim().toLowerCase();
@@ -123,7 +137,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
           (c) =>
             c.wordId === currentWord.id &&
             c.level === currentWord.level &&
-            c.senseId === senseId,
+            c.senseId === currentSenseId,
         );
         const [nextEaseFactor, nextInterval, nextReps] = calculateNextReview(
           existing?.easeFactor ?? 2.5,
@@ -135,7 +149,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
         const updatedCard: CardProgress = {
           level: currentWord.level ?? levels[0],
           wordId: currentWord.id,
-          senseId,
+          senseId: currentSenseId,
           reps: nextReps,
           interval: nextInterval,
           easeFactor: nextEaseFactor,
@@ -146,7 +160,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
           ? prev.map((c) =>
               c.wordId === currentWord.id &&
               c.level === currentWord.level &&
-              c.senseId === senseId
+              c.senseId === currentSenseId
                 ? updatedCard
                 : c,
             )
@@ -156,7 +170,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
       setInput("");
       setStatus("unanswered");
       if (status === "correct") {
-        setCompletedIds((prev) => [...prev, getWordKey(currentWord)]);
+        setCompletedIds((prev) => [...prev, getCardKey(currentCard)]);
       } else {
         setCurrentIndex((prev) => prev + 1);
       }
@@ -173,6 +187,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
   return {
     isLoading,
     isComplete: !isLoading && vocab && activeVocab.length === 0,
+    currentCard,
     currentWord,
     vocab,
     sense,
@@ -184,7 +199,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[], senseId = 0) {
       (item) =>
         item.wordId === currentWord?.id &&
         item.level === currentWord?.level &&
-        item.senseId === senseId,
+        item.senseId === currentSenseId,
     ),
     input,
     setInput,
