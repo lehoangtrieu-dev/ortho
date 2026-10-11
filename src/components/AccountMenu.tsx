@@ -20,6 +20,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
     try {
       const result = await signInWithPopup(auth, googleProvider);
       setUser(result.user);
+      window.location.reload();
     } catch (error) {
       console.log(error);
     }
@@ -29,7 +30,9 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
     const isConfirmed = window.confirm("Are you sure you want to sign out?");
     if (isConfirmed) {
       await signOut(auth);
+      localStorage.clear();
       setUser(null);
+      window.location.reload();
     }
   };
 
@@ -44,8 +47,10 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
     try {
       await deleteDoc(doc(db, "users", user.uid));
       await deleteUser(user);
+      localStorage.clear();
       setUser(null);
       alert("Account deleted successfully.");
+      window.location.reload();
     } catch (error) {
       alert("An error occurred while deleting your account.");
       console.log(error);

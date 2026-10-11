@@ -20,19 +20,29 @@ import { triggerCorrectConfetti } from "../lib/confetti";
 export function useQuizSession(levelsParam?: CEFRLevel[]) {
   const { user, loading: authLoading } = useAuth();
   const [settings, setSettings] = useState(getLocalSettings);
+  const [settingsLoaded, setSettingsLoaded] = useState(false);
 
   useEffect(() => {
-    async function initProgress() {
+    if (authLoading) return;
+
+    let active = true;
+    async function initSettings() {
+      setSettingsLoaded(false);
       const data = await loadSettings(user?.uid);
-      setSettings(data);
+      if (active) {
+        setSettings(data);
+        setSettingsLoaded(true);
+      }
     }
-    initProgress();
-  }, [user?.uid]);
+    initSettings();
+    return () => {
+      active = false;
+    };
+  }, [user?.uid, authLoading]);
 
   const queryClient = useQueryClient();
 
   const refreshSession = () => {
-    setStatus("unanswered");
     setSettings(getLocalSettings());
     setCompletedIds([]);
     setCurrentIndex(0);
@@ -52,18 +62,27 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    if (authLoading) return;
+
+    let active = true;
     async function initProgress() {
+      setIsLoaded(false);
       const data = await loadCardProgress(user?.uid);
-      setCardProgress(data);
-      setIsLoaded(true);
+      if (active) {
+        setCardProgress(data);
+        setIsLoaded(true);
+      }
     }
     initProgress();
-  }, [user?.uid]);
+    return () => {
+      active = false;
+    };
+  }, [user?.uid, authLoading]);
 
   useEffect(() => {
-    if (!isLoaded) return;
+    if (authLoading || !isLoaded) return;
     saveCardProgress(cardProgress, user?.uid);
-  }, [cardProgress, isLoaded, user?.uid]);
+  }, [cardProgress, isLoaded, user?.uid, authLoading]);
 
   const {
     data: vocab,
@@ -121,7 +140,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
         user?.uid,
       );
     },
-    enabled: !authLoading,
+    enabled: !authLoading && settingsLoaded,
     staleTime: 1000 * 60 * 60,
     structuralSharing: false,
   });
@@ -218,7 +237,12 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   };
 
   return {
-    isLoading: authLoading || isLoading || isFetching || vocab === undefined,
+    isLoading:
+      authLoading ||
+      !settingsLoaded ||
+      isLoading ||
+      isFetching ||
+      vocab === undefined,
     isComplete: !isLoading && vocab && activeVocab.length === 0,
     currentCard,
     currentWord,
