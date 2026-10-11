@@ -4,6 +4,7 @@ import Input from "./Input";
 import { useAuth } from "../lib/auth";
 import { loadSettings, saveSettings, getLocalSettings } from "../lib/settings";
 import { type CEFRLevel } from "../types";
+import { Plus, Minus } from "lucide-react";
 
 const CEFR_LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2", "C1"];
 
@@ -160,7 +161,7 @@ export const Settings = ({ onClose }: Props) => {
               className="w-10 h-10 flex items-center justify-center rounded-md border border-blue-950/20 text-blue-950 hover:bg-blue-950/3 transition-colors"
               type="button"
             >
-              -
+              <Minus size={16} />
             </button>
 
             {/* The Number */}
@@ -176,7 +177,7 @@ export const Settings = ({ onClose }: Props) => {
               className="w-10 h-10 flex items-center justify-center rounded-md border border-blue-950/20 text-blue-950 hover:bg-blue-950/3 transition-colors"
               type="button"
             >
-              +
+              <Plus size={16} />
             </button>
           </div>
         </div>

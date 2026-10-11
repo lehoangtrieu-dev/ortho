@@ -8,6 +8,7 @@ import { ExampleList } from "./components/ExampleList";
 import { TagGroup } from "./components/TagGroup";
 import { Button } from "./components/Button";
 import { Settings } from "./components/Settings";
+import { Loader2 } from "lucide-react";
 
 export const App = () => {
   const {
@@ -52,9 +53,7 @@ export const App = () => {
               }}
             />
           ) : isLoading ? (
-            <div className="flex justify-center items-center my-auto">
-              <p className="text-9xl text-blue-950/6 animate-spin">&#x21BB;</p>
-            </div>
+            <Loader2 size={64} className="text-blue-950/20 animate-spin" />
           ) : !currentWord || !sense || isComplete ? (
             <CompletionScreen onRestart={restartSession} />
           ) : (

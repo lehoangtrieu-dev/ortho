@@ -76,7 +76,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
       }}
       className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors"
     >
-      <Settings />
+      <Settings size={14} />
       <span className="ml-3">Settings</span>
     </button>
   );
@@ -118,7 +118,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
                 }}
                 className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors"
               >
-                <LogOut />
+                <LogOut size={14} />
                 <span className="ml-3">Sign Out</span>
               </button>
 
@@ -129,7 +129,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
                 }}
                 className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-rose-600/70 hover:bg-rose-50 hover:text-rose-600 transition-colors"
               >
-                <Trash />
+                <Trash size={14} />
                 <span className="ml-3">Delete Account</span>
               </button>
             </div>
@@ -142,7 +142,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
                 }}
                 className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors"
               >
-                <LogIn />
+                <LogIn size={14} />
                 <span className="ml-3">Sign in with Google</span>
               </button>
 

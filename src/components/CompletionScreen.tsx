@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ArrowRight } from "lucide-react";
 import { triggerCompletionConfetti } from "../lib/confetti";
 
 interface Props {
@@ -27,12 +28,12 @@ export const CompletionScreen = ({ onRestart }: Props) => {
       <button
         type="button"
         onClick={onRestart}
-        className="px-8 py-3 rounded-md text-xs tracking-widest uppercase 
+        className="flex items-center justify-center gap-2 px-8 py-3 rounded-md text-xs tracking-widest uppercase 
                  bg-transparent border border-blue-950/20 text-blue-950/60 
                  hover:border-blue-950/40 hover:text-blue-950 hover:bg-blue-950/2 
                  transition-colors cursor-pointer"
       >
-        Review Again &rarr;
+        Review Again <ArrowRight size={16} />
       </button>
     </div>
   );
