@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { motion, cubicBezier } from "framer-motion";
 import { signInWithPopup, signOut, deleteUser } from "firebase/auth";
 import { auth, googleProvider } from "../lib/firebase";
 import { deleteDoc, doc } from "firebase/firestore";
@@ -95,7 +96,12 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
         />
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-56 backdrop-blur-md border border-blue-950/15 rounded-md shadow-xl shadow-blue-950/15 z-50 overflow-hidden">
+        <motion.div
+          className="absolute right-0 mt-2 w-56 backdrop-blur-md border border-blue-950/15 rounded-md shadow-xl shadow-blue-950/15 z-50 overflow-hidden"
+          initial={{ y: -25 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 1, ease: cubicBezier(0, 1, 0, 1) }}
+        >
           {user ? (
             <div className="flex flex-col">
               <div className="px-4 py-3 border-b border-blue-950/10 bg-blue-950/2">
@@ -149,7 +155,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
               {settingsButton}
             </div>
           )}
-        </div>
+        </motion.div>
       )}
     </div>
   );

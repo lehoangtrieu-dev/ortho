@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion, cubicBezier } from "framer-motion";
 import { useQuizSession } from "./hooks/useQuizSession";
 import { Navbar } from "./components/Navbar";
 import { CompletionScreen } from "./components/CompletionScreen";
@@ -43,7 +44,20 @@ export const App = () => {
         )}
         setIsSettings={setIsSettings}
       />
-      <div className="flex-1 overflow-y-auto flex flex-col px-4 md:px-20 py-8 box-border w-full">
+      <motion.div
+        className="flex-1 overflow-y-auto overflow-x-hidden flex flex-col px-4 md:px-20 py-8 box-border w-full"
+        key={`${isSettings}${isLoading}${status}`}
+        initial={{ opacity: 0, y: 100, x: 0 }}
+        animate={{
+          opacity: 1,
+          y: 0,
+          x: status === "incorrect" ? [0, -10, 10, -6, 6, -2, 2, 0] : 0,
+        }}
+        transition={{
+          default: { duration: 1, ease: cubicBezier(0, 1, 0, 1) },
+          x: { duration: 0.25 },
+        }}
+      >
         <div className="my-auto w-full flex flex-col items-center text-xl sm:text-3xl">
           {isSettings ? (
             <Settings
@@ -97,7 +111,7 @@ export const App = () => {
             </>
           )}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
