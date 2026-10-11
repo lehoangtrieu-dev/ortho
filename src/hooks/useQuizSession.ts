@@ -14,11 +14,20 @@ import {
   getFutureDate,
 } from "../lib/srs";
 import { useAuth } from "../lib/auth";
-import { loadSettings } from "../lib/settings";
+import { loadSettings, getLocalSettings } from "../lib/settings";
 import { triggerCorrectConfetti } from "../lib/confetti";
 
 export function useQuizSession(levelsParam?: CEFRLevel[]) {
-  const [settings] = useState(loadSettings);
+  const { user, loading: authLoading } = useAuth();
+  const [settings, setSettings] = useState(getLocalSettings);
+
+  useEffect(() => {
+    async function initProgress() {
+      const data = await loadSettings(user?.uid);
+      setSettings(data);
+    }
+    initProgress();
+  }, [user?.uid]);
 
   const levels = useMemo(() => {
     const active =
@@ -30,7 +39,6 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   }, [levelsParam, settings.selectedLevels]);
 
   const [cardProgress, setCardProgress] = useState<CardProgress[]>([]);
-  const { user, loading: authLoading } = useAuth();
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -48,7 +56,13 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   }, [cardProgress, isLoaded, user?.uid]);
 
   const { data: vocab, isLoading } = useQuery<QuizCard[], Error, QuizCard[]>({
-    queryKey: ["vocab", [...levels].sort().join(","), user?.uid],
+    queryKey: [
+      "vocab",
+      [...levels].sort().join(","),
+      settings.newWordsPerDay,
+      settings.customWords.join(","),
+      user?.uid,
+    ],
     queryFn: async () => {
       // Fetch words.json to find which level file custom words live in
       let wordsIndex: Record<string, CEFRLevel> = {};

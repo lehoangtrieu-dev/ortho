@@ -1,3 +1,5 @@
+import { doc, setDoc, getDoc } from "firebase/firestore";
+import { db } from "./firebase";
 import type { CEFRLevel } from "../types";
 
 export interface UserSettings {
@@ -18,9 +20,31 @@ export const DEFAULT_SETTINGS: UserSettings = {
   customWords: [],
 };
 
-const SETTINGS_KEY = "ortho_settings";
+const SETTINGS_KEY = "settings";
 
-export function loadSettings(): UserSettings {
+export const loadSettings = async (userId?: string): Promise<UserSettings> => {
+  if (userId) {
+    try {
+      const saveFileRef = doc(db, "users", userId);
+      const snapshot = await getDoc(saveFileRef);
+
+      if (snapshot.exists() && snapshot.data().settings) {
+        const cloudSettings = {
+          ...DEFAULT_SETTINGS,
+          ...snapshot.data().settings,
+        };
+        localStorage.setItem(SETTINGS_KEY, JSON.stringify(cloudSettings));
+        return cloudSettings;
+      }
+    } catch (error) {
+      console.error("Error loading cloud settings:", error);
+    }
+  }
+
+  return getLocalSettings();
+};
+
+export function getLocalSettings(): UserSettings {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
     return raw ? { ...DEFAULT_SETTINGS, ...JSON.parse(raw) } : DEFAULT_SETTINGS;
@@ -29,6 +53,11 @@ export function loadSettings(): UserSettings {
   }
 }
 
-export function saveSettings(settings: UserSettings): void {
+export const saveSettings = async (settings: UserSettings, userId?: string) => {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
-}
+
+  if (userId) {
+    const saveFileRef = doc(db, "users", userId);
+    await setDoc(saveFileRef, { settings }, { merge: true });
+  }
+};

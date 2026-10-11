@@ -35,14 +35,11 @@ export const saveCardProgress = async (
   progress: CardProgress[],
   userId?: string,
 ) => {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+
   if (userId) {
     const saveFileRef = doc(db, "users", userId);
-
-    await setDoc(saveFileRef, {
-      cardProgress: progress,
-    });
-  } else {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    await setDoc(saveFileRef, { cardProgress: progress }, { merge: true });
   }
 };
 

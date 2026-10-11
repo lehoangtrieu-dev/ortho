@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import { Button } from "./Button";
 import Input from "./Input";
-import { loadSettings, saveSettings } from "../lib/settings";
+import { useAuth } from "../lib/auth";
+import { loadSettings, saveSettings, getLocalSettings } from "../lib/settings";
 import { type CEFRLevel } from "../types";
+
+const CEFR_LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2", "C1"];
 
 export const Settings = () => {
   const [isSubmit, setIsSubmit] = useState(false);
@@ -19,7 +22,8 @@ export const Settings = () => {
     return () => window.removeEventListener("beforeunload", handleBeforeUnload);
   }, [isSubmit]);
 
-  const [initialSettings] = useState(loadSettings);
+  const [initialSettings] = useState(getLocalSettings);
+
   const [newWordsPerDay, setNewWordsPerDay] = useState(
     initialSettings.newWordsPerDay,
   );
@@ -29,6 +33,19 @@ export const Settings = () => {
   const [customWords, setCustomWords] = useState<string[]>(
     initialSettings.customWords,
   );
+
+  const { user } = useAuth();
+
+  useEffect(() => {
+    async function initProgress() {
+      const data = await loadSettings(user?.uid);
+      setNewWordsPerDay(data.newWordsPerDay);
+      setSelectedLevels(data.selectedLevels);
+      setCustomWords(data.customWords);
+    }
+    initProgress();
+  }, [user?.uid]);
+
   const [newWordInput, setNewWordInput] = useState("");
 
   const handleLevelToggle = (level: CEFRLevel) => {
@@ -105,17 +122,21 @@ export const Settings = () => {
     setCustomWords(customWords.filter((word) => word !== wordToRemove));
   };
 
+  const handleSave = async () => {
+    setIsSubmit(true);
+    await saveSettings(
+      {
+        newWordsPerDay,
+        selectedLevels,
+        customWords,
+      },
+      user?.uid,
+    );
+    window.location.reload();
+  };
+
   return (
-    <form
-      className="w-full max-w-md mx-auto flex flex-col pt-12 pb-8"
-      onSubmit={() => {
-        saveSettings({
-          newWordsPerDay,
-          selectedLevels,
-          customWords,
-        });
-      }}
-    >
+    <div className="w-full max-w-md mx-auto flex flex-col pt-12 pb-8">
       {/* Header */}
       <h2 className="text-2xl font-bold text-blue-950 mb-10 tracking-tight">
         Configuration
@@ -163,39 +184,42 @@ export const Settings = () => {
           </label>
 
           <div className="flex flex-wrap gap-6">
-            {Object.entries(selectedLevels).map(([level, isChecked]) => (
-              <label
-                key={level}
-                className="flex items-center space-x-3 cursor-pointer group w-fit"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleLevelToggle(level as CEFRLevel);
-                }}
-              >
-                {/* Custom Checkbox Box */}
-                <div
-                  className={`
+            {CEFR_LEVELS.map((level) => {
+              const isChecked = selectedLevels[level];
+              return (
+                <label
+                  key={level}
+                  className="flex items-center space-x-3 cursor-pointer group w-fit"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleLevelToggle(level);
+                  }}
+                >
+                  {/* Custom Checkbox Box */}
+                  <div
+                    className={`
                   flex items-center justify-center w-5 h-5 rounded-sm border transition-colors duration-200
                   ${isChecked ? "border-blue-950" : "border-blue-950/30 group-hover:border-blue-950/60"}
                 `}
-                >
-                  {/* Inner checkmark dot (only visible if checked) */}
-                  <div
-                    className={`
+                  >
+                    {/* Inner checkmark dot (only visible if checked) */}
+                    <div
+                      className={`
                     w-2.5 h-2.5 rounded-xs bg-blue-950 transition-opacity duration-200
                     ${isChecked ? "opacity-100" : "opacity-0"}
                   `}
-                  />
-                </div>
+                    />
+                  </div>
 
-                {/* Label Text */}
-                <span
-                  className={`text-sm transition-colors duration-200 ${isChecked ? "text-blue-950 font-bold" : "text-blue-950/60"}`}
-                >
-                  {level}
-                </span>
-              </label>
-            ))}
+                  {/* Label Text */}
+                  <span
+                    className={`text-sm transition-colors duration-200 ${isChecked ? "text-blue-950 font-bold" : "text-blue-950/60"}`}
+                  >
+                    {level}
+                  </span>
+                </label>
+              );
+            })}
           </div>
         </div>
 
@@ -252,14 +276,8 @@ export const Settings = () => {
       </div>
 
       <div className="mt-8">
-        <Button
-          status="correct"
-          onClick={(e) => {
-            setIsSubmit(true);
-            e.currentTarget.type = "submit";
-          }}
-        />
+        <Button status="correct" onClick={handleSave} />
       </div>
-    </form>
+    </div>
   );
 };
