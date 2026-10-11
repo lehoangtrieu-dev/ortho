@@ -76,6 +76,8 @@ export const App = () => {
                 {status !== "unanswered" && (
                   <WordHeader
                     word={currentWord.w}
+                    ipa={currentWord.ipa}
+                    pron={currentWord.pron}
                     pos={sense.pos}
                     definition={sense.defn}
                   />
