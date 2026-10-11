@@ -158,7 +158,7 @@ export const Settings = ({ onClose }: Props) => {
             {/* Decrement Button */}
             <button
               onClick={() => setNewWordsPerDay(Math.max(5, newWordsPerDay - 5))}
-              className="w-10 h-10 flex items-center justify-center rounded-md border border-blue-950/20 text-blue-950 hover:bg-blue-950/3 transition-colors"
+              className="w-10 h-10 flex items-center justify-center rounded-md border border-blue-950/20 text-blue-950 hover:bg-blue-950/3 transition-colors cursor-pointer"
               type="button"
             >
               <Minus size={16} />
@@ -174,7 +174,7 @@ export const Settings = ({ onClose }: Props) => {
               onClick={() =>
                 setNewWordsPerDay(Math.min(50, newWordsPerDay + 5))
               }
-              className="w-10 h-10 flex items-center justify-center rounded-md border border-blue-950/20 text-blue-950 hover:bg-blue-950/3 transition-colors"
+              className="w-10 h-10 flex items-center justify-center rounded-md border border-blue-950/20 text-blue-950 hover:bg-blue-950/3 transition-colors cursor-pointer"
               type="button"
             >
               <Plus size={16} />
@@ -260,7 +260,7 @@ export const Settings = ({ onClose }: Props) => {
                 key={word}
                 type="button"
                 onClick={() => handleRemoveWord(word)}
-                className="px-3 py-1.5 rounded-md border border-blue-950/15 bg-blue-950/2 text-sm text-blue-950 transition-colors focus:outline-none hover:bg-rose-100 hover:border-rose-200 hover:text-rose-700 hover:line-through"
+                className="px-3 py-1.5 rounded-md border border-blue-950/15 bg-blue-950/2 text-sm text-blue-950 transition-colors focus:outline-none hover:bg-rose-100 hover:border-rose-200 hover:text-rose-700 hover:line-through cursor-pointer"
               >
                 <span>{word}</span>
                 {wordIndex?.[word] && (

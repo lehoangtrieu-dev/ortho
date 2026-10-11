@@ -80,7 +80,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
         setIsSettings(true);
         setIsOpen(false);
       }}
-      className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors"
+      className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors cursor-pointer"
     >
       <Settings size={14} />
       <span className="ml-3">Settings</span>
@@ -127,7 +127,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
                   handleLogout();
                   setIsOpen(false);
                 }}
-                className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors"
+                className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors cursor-pointer"
               >
                 <LogOut size={14} />
                 <span className="ml-3">Sign Out</span>
@@ -138,7 +138,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
                   handleDeleteAccount();
                   setIsOpen(false);
                 }}
-                className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-rose-600/70 hover:bg-rose-50 hover:text-rose-600 transition-colors"
+                className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-rose-600/70 hover:bg-rose-50 hover:text-rose-600 transition-colors cursor-pointer"
               >
                 <Trash size={14} />
                 <span className="ml-3">Delete Account</span>
@@ -151,7 +151,7 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
                   handleLogin();
                   setIsOpen(false);
                 }}
-                className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors"
+                className="w-full flex items-center px-4 py-2.5 text-[10px] uppercase tracking-widest text-blue-950/70 hover:bg-blue-950/5 hover:text-blue-950 transition-colors cursor-pointer"
               >
                 <LogIn size={14} />
                 <span className="ml-3">Sign in with Google</span>
