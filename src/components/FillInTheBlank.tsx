@@ -29,11 +29,9 @@ export const FillInTheBlank = ({
 
   return (
     <div className="w-full text-center leading-normal">
-      <span className="warp-break-words hyphens-auto">{beforeText}</span>
+      <span className="wrap-break-word hyphens-auto">{beforeText}</span>
 
-      <span
-        className={`inline-block transition-colors leading-tight mx-2 ${inputStyle[status]}`}
-      >
+      <span className={`inline-block leading-tight mx-2 ${inputStyle[status]}`}>
         <Input
           placeholder={answer[0]}
           status={status}
@@ -52,7 +50,7 @@ export const FillInTheBlank = ({
         )}
       </span>
 
-      <span className="warp-break-words hyphens-auto">{afterText}</span>
+      <span className="wrap-break-word hyphens-auto">{afterText}</span>
     </div>
   );
 };

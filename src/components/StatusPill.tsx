@@ -30,7 +30,7 @@ export const StatusPill = ({ cardProgress }: Props) => {
 
   return (
     <span
-      className={`${pillColorMap[status]} px-2 sm:px-2.5 py-0.5 rounded-full text-[9px] sm:text-[10px] whitespace-nowrap uppercase tracking-widest border transition-colors duration-300`}
+      className={`${pillColorMap[status]} px-2 sm:px-2.5 py-0.5 rounded-full text-[9px] sm:text-[10px] whitespace-nowrap uppercase tracking-widest border`}
     >
       {statusLabel[status]}
     </span>

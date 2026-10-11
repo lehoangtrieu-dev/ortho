@@ -44,7 +44,7 @@ export const WordHeader = ({ word, ipa, pron, pos, definition }: Props) => {
       <div className="h-px w-full bg-linear-to-r from-transparent via-blue-950/20 to-transparent mb-6" />
 
       <div className="mb-4 flex flex-wrap items-baseline justify-center gap-x-3 gap-y-2">
-        <span className="text-3xl sm:text-5xl font-black wrap-break-words hyphens-auto text-blue-950">
+        <span className="text-3xl sm:text-5xl font-black wrap-break-word hyphens-auto text-blue-950">
           {word}
         </span>
 

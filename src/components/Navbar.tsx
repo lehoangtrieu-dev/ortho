@@ -53,12 +53,8 @@ export const Navbar = ({
               </span>
             </div>
 
-            {cardProgress && (
-              <>
-                <span className="hidden sm:inline text-blue-950/20">•</span>
-                <StatusPill cardProgress={cardProgress} />
-              </>
-            )}
+            <span className="hidden sm:inline text-blue-950/20">•</span>
+            <StatusPill cardProgress={cardProgress} />
           </div>
         )}
       </div>

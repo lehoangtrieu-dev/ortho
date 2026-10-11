@@ -27,16 +27,14 @@ export const Settings = ({ onClose }: Props) => {
     return () => window.removeEventListener("beforeunload", handleBeforeUnload);
   }, [isSubmit]);
 
-  const [initialSettings] = useState(getLocalSettings);
-
   const [newWordsPerDay, setNewWordsPerDay] = useState(
-    initialSettings.newWordsPerDay,
+    getLocalSettings().newWordsPerDay,
   );
   const [selectedLevels, setSelectedLevels] = useState(
-    initialSettings.selectedLevels,
+    getLocalSettings().selectedLevels,
   );
   const [customWords, setCustomWords] = useState<string[]>(
-    initialSettings.customWords,
+    getLocalSettings().customWords,
   );
 
   const { user } = useAuth();
