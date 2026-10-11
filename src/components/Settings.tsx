@@ -128,7 +128,6 @@ export const Settings = ({ onClose }: Props) => {
   };
 
   const handleSave = async () => {
-    setIsSubmit(true);
     await saveSettings(
       {
         newWordsPerDay,
@@ -137,6 +136,7 @@ export const Settings = ({ onClose }: Props) => {
       },
       user?.uid,
     );
+    setIsSubmit(true);
     onClose();
   };
 

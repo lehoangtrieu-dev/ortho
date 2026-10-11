@@ -32,10 +32,11 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   const queryClient = useQueryClient();
 
   const refreshSession = () => {
+    setStatus("unanswered");
     setSettings(getLocalSettings());
     setCompletedIds([]);
     setCurrentIndex(0);
-    queryClient.invalidateQueries({ queryKey: ["vocab"] });
+    queryClient.resetQueries({ queryKey: ["vocab"] });
   };
 
   const levels = useMemo(() => {
@@ -64,7 +65,11 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     saveCardProgress(cardProgress, user?.uid);
   }, [cardProgress, isLoaded, user?.uid]);
 
-  const { data: vocab, isLoading } = useQuery<QuizCard[], Error, QuizCard[]>({
+  const {
+    data: vocab,
+    isLoading,
+    isFetching,
+  } = useQuery<QuizCard[], Error, QuizCard[]>({
     queryKey: [
       "vocab",
       [...levels].sort().join(","),
@@ -213,7 +218,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   };
 
   return {
-    isLoading: authLoading || isLoading || vocab === undefined,
+    isLoading: authLoading || isLoading || isFetching || vocab === undefined,
     isComplete: !isLoading && vocab && activeVocab.length === 0,
     currentCard,
     currentWord,

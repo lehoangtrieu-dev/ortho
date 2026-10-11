@@ -32,6 +32,9 @@ export const App = () => {
 
   const [isSettings, setIsSettings] = useState(false);
 
+  const isLearning =
+    currentWord && sense && !isSettings && !isLoading && !isComplete;
+
   return (
     <div className="flex flex-col h-dvh overflow-hidden">
       <Navbar
@@ -39,9 +42,7 @@ export const App = () => {
         totalVocab={vocab?.length || 1}
         cardProgress={cardProgress}
         isSettings={isSettings}
-        isLearning={Boolean(
-          currentWord && sense && !isSettings && !isLoading && !isComplete,
-        )}
+        isLearning={isLearning}
         setIsSettings={setIsSettings}
       />
       <motion.div
@@ -51,7 +52,10 @@ export const App = () => {
         animate={{
           opacity: 1,
           y: 0,
-          x: status === "incorrect" ? [0, -10, 10, -6, 6, -2, 2, 0] : 0,
+          x:
+            status === "incorrect" && isLearning
+              ? [0, -10, 10, -6, 6, -2, 2, 0]
+              : 0,
         }}
         transition={{
           default: { duration: 1, ease: cubicBezier(0, 1, 0, 1) },
