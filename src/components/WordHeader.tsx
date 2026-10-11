@@ -55,8 +55,9 @@ export const WordHeader = ({ word, ipa, pron, pos, definition }: Props) => {
         <div className="flex items-center space-x-2 ml-auto sm:ml-4 text-blue-950/50">
           <span className="text-sm sm:text-base tracking-widest">{ipa}</span>
           <button
+            tabIndex={-1}
             onClick={playAudio}
-            className="p-1.5 rounded-md hover:bg-blue-950/10 hover:text-blue-950 transition-colors focus:outline-none cursor-pointer"
+            className="p-1.5 rounded-md hover:bg-blue-950/10 hover:text-blue-950 transition-colors cursor-pointer"
           >
             <Volume2 size={18} />
           </button>

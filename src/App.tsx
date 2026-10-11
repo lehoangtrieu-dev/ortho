@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, cubicBezier } from "framer-motion";
 import { useQuizSession } from "./hooks/useQuizSession";
 import { Navbar } from "./components/Navbar";
@@ -29,6 +29,14 @@ export const App = () => {
     restartSession,
     refreshSession,
   } = useQuizSession();
+
+  useEffect(() => {
+    if (!currentWord?.pron) return;
+    const audioUrl = `https://www.oxfordlearnersdictionaries.com/media/english/${currentWord.pron}`;
+    const preloadAudio = new Audio(audioUrl);
+    preloadAudio.preload = "auto";
+    preloadAudio.load();
+  }, [currentWord?.pron]);
 
   const [isSettings, setIsSettings] = useState(false);
 
