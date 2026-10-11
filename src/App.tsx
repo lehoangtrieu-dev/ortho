@@ -25,6 +25,7 @@ export const App = () => {
     setInput,
     handleAction,
     restartSession,
+    refreshSession,
   } = useQuizSession();
 
   const [isSettings, setIsSettings] = useState(false);
@@ -44,7 +45,12 @@ export const App = () => {
       <div className="flex-1 overflow-y-auto flex flex-col px-4 md:px-20 py-8 box-border w-full">
         <div className="my-auto w-full flex flex-col items-center text-xl sm:text-3xl">
           {isSettings ? (
-            <Settings />
+            <Settings
+              onClose={() => {
+                setIsSettings(false);
+                refreshSession();
+              }}
+            />
           ) : isLoading ? (
             <div className="flex justify-center items-center my-auto">
               <p className="text-9xl text-blue-950/6 animate-spin">&#x21BB;</p>

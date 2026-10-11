@@ -7,7 +7,11 @@ import { type CEFRLevel } from "../types";
 
 const CEFR_LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2", "C1"];
 
-export const Settings = () => {
+interface Props {
+  onClose: () => void;
+}
+
+export const Settings = ({ onClose }: Props) => {
   const [isSubmit, setIsSubmit] = useState(false);
 
   useEffect(() => {
@@ -132,7 +136,7 @@ export const Settings = () => {
       },
       user?.uid,
     );
-    window.location.reload();
+    onClose();
   };
 
   return (

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import type {
   DictionaryEntry,
   CEFRLevel,
@@ -28,6 +28,15 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     }
     initProgress();
   }, [user?.uid]);
+
+  const queryClient = useQueryClient();
+
+  const refreshSession = () => {
+    setSettings(getLocalSettings());
+    setCompletedIds([]);
+    setCurrentIndex(0);
+    queryClient.invalidateQueries({ queryKey: ["vocab"] });
+  };
 
   const levels = useMemo(() => {
     const active =
@@ -224,5 +233,6 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     setInput,
     handleAction,
     restartSession,
+    refreshSession,
   };
 }
