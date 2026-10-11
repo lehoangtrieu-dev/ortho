@@ -57,7 +57,11 @@ export const saveSettings = async (settings: UserSettings, userId?: string) => {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
 
   if (userId) {
-    const saveFileRef = doc(db, "users", userId);
-    await setDoc(saveFileRef, { settings }, { merge: true });
+    try {
+      const saveFileRef = doc(db, "users", userId);
+      await setDoc(saveFileRef, { settings }, { merge: true });
+    } catch (error) {
+      console.error("Error saving cloud settings:", error);
+    }
   }
 };

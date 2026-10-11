@@ -13,14 +13,28 @@ export const loadCardProgress = async (
   userId?: string,
 ): Promise<CardProgress[]> => {
   if (userId) {
-    const saveFileRef = doc(db, "users", userId);
-    const snapshot = await getDoc(saveFileRef);
+    try {
+      const saveFileRef = doc(db, "users", userId);
+      const snapshot = await getDoc(saveFileRef);
 
-    if (snapshot.exists()) {
-      return snapshot.data().cardProgress;
+      if (snapshot.exists()) {
+        const data = snapshot.data();
+        if (Array.isArray(data?.cardProgress)) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(data.cardProgress));
+          return data.cardProgress;
+        }
+      }
+
+      return [];
+    } catch (error) {
+      console.error("Error loading card progress:", error);
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        return saved ? JSON.parse(saved) : [];
+      } catch {
+        return [];
+      }
     }
-
-    return [];
   } else {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
@@ -38,8 +52,12 @@ export const saveCardProgress = async (
   localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
 
   if (userId) {
-    const saveFileRef = doc(db, "users", userId);
-    await setDoc(saveFileRef, { cardProgress: progress }, { merge: true });
+    try {
+      const saveFileRef = doc(db, "users", userId);
+      await setDoc(saveFileRef, { cardProgress: progress }, { merge: true });
+    } catch (error) {
+      console.error("Error saving card progress:", error);
+    }
   }
 };
 

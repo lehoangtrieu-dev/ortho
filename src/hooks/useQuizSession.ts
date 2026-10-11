@@ -140,7 +140,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
         user?.uid,
       );
     },
-    enabled: !authLoading && settingsLoaded,
+    enabled: !authLoading && settingsLoaded && isLoaded,
     staleTime: 1000 * 60 * 60,
     structuralSharing: false,
   });
@@ -240,6 +240,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     isLoading:
       authLoading ||
       !settingsLoaded ||
+      !isLoaded ||
       isLoading ||
       isFetching ||
       vocab === undefined,
