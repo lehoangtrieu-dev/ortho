@@ -100,7 +100,9 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
       // Fetch words.json to find which level file custom words live in
       let wordsIndex: Record<string, CEFRLevel> = {};
       try {
-        const indexRes = await fetch("/vocab/words.json");
+        const indexRes = await fetch(
+          `${import.meta.env.BASE_URL}vocab/words.json`,
+        );
         if (indexRes.ok) wordsIndex = await indexRes.json();
       } catch {
         // ignore if index fails
@@ -119,7 +121,9 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
       const results = await Promise.all(
         allLevelsToFetch.map(async (lvl) => {
           try {
-            const res = await fetch(`/vocab/${lvl.toLowerCase()}.json`);
+            const res = await fetch(
+              `${import.meta.env.BASE_URL}vocab/${lvl.toLowerCase()}.json`,
+            );
             if (!res.ok) return [];
             const data: DictionaryEntry[] = await res.json();
             // Tag each word with its level so IDs never collide

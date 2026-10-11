@@ -70,7 +70,7 @@ export const Settings = ({ onClose }: Props) => {
   };
 
   useEffect(() => {
-    fetch("/vocab/words.json")
+    fetch(`${import.meta.env.BASE_URL}vocab/words.json`)
       .then((res) => res.json())
       .then((data: Record<string, CEFRLevel>) => setWordIndex(data))
       .catch(() => setWordIndex({}));
