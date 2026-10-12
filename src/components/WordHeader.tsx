@@ -52,7 +52,7 @@ export const WordHeader = ({ word, ipa, pron, pos, definition }: Props) => {
           {pos}
         </span>
 
-        <div className="flex items-center space-x-2 ml-auto sm:ml-4 text-blue-950/50">
+        <div className="flex items-center space-x-2 ml-4 text-blue-950/50">
           <span className="text-sm sm:text-base tracking-widest">{ipa}</span>
           <button
             tabIndex={-1}
@@ -64,7 +64,7 @@ export const WordHeader = ({ word, ipa, pron, pos, definition }: Props) => {
         </div>
       </div>
 
-      <div className="text-lg sm:text-xl text-left sm:text-center text-blue-950/80 leading-relaxed font-medium">
+      <div className="text-lg sm:text-xl text-center text-blue-950/80 leading-relaxed font-medium">
         {definition}
       </div>
 

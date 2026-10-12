@@ -66,6 +66,13 @@ export default function Input({
     };
   }, []);
 
+  const charCount =
+    status === "incorrect"
+      ? Math.max(input.length, 1)
+      : input.length > 0
+        ? Math.max(input.length, 5)
+        : Math.max(placeholder.length, 5);
+
   return (
     <div className="relative inline">
       {/* Smooth Caret */}
@@ -107,8 +114,11 @@ export default function Input({
         onClick={handleSelection}
         onFocus={() => setIsFocused(true)}
         maxLength={maxLength}
-        disabled={status != "unanswered"}
-        className={`relative z-10 bg-transparent align-baseline outline-none caret-transparent field-sizing-content h-lh ${status === "incorrect" ? "line-through" : "min-w-[5ch]"}`}
+        disabled={status !== "unanswered"}
+        style={{ width: `${charCount}ch` }}
+        className={`relative z-10 bg-transparent align-baseline outline-none caret-transparent h-lh ${
+          status === "incorrect" ? "line-through" : ""
+        }`}
         placeholder={placeholder}
       />
     </div>
