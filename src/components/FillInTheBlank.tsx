@@ -24,8 +24,7 @@ export const FillInTheBlank = ({
   setInput,
   onSubmit,
 }: Props) => {
-  const cleanSentence = sentence.replace(/\{\{.*?\}\}/g, "…");
-  const [beforeText, afterText] = cleanSentence.split(/\[\[.*?\]\]/);
+  const [beforeText, afterText] = sentence.split(/\[.*?\]/);
 
   return (
     <div className="w-full text-center leading-normal">

@@ -30,13 +30,13 @@ export const App = () => {
     refreshSession,
   } = useQuizSession();
 
-  useEffect(() => {
-    if (!currentWord?.pron) return;
-    const audioUrl = `https://www.oxfordlearnersdictionaries.com/media/english/${currentWord.pron}`;
-    const preloadAudio = new Audio(audioUrl);
-    preloadAudio.preload = "auto";
-    preloadAudio.load();
-  }, [currentWord?.pron]);
+  // useEffect(() => {
+  //   if (!currentWord?.pron) return;
+  //   const audioUrl = `https://www.oxfordlearnersdictionaries.com/media/english/${currentWord.pron}`;
+  //   const preloadAudio = new Audio(audioUrl);
+  //   preloadAudio.preload = "auto";
+  //   preloadAudio.load();
+  // }, [currentWord?.pron]);
 
   const [isSettings, setIsSettings] = useState(false);
 
@@ -103,7 +103,7 @@ export const App = () => {
                   <WordHeader
                     word={currentWord.w}
                     ipa={currentWord.ipa}
-                    pron={currentWord.pron}
+                    pron={""}
                     pos={sense.pos}
                     definition={sense.defn}
                   />
@@ -112,10 +112,10 @@ export const App = () => {
               {status !== "unanswered" && (
                 <div className="flex justify-center w-full">
                   <div className="columns-1 sm:columns-2 gap-10 sm:gap-20 px-4 sm:px-10 w-full max-w-5xl text-left">
-                    <ExampleList examples={sense.ex} />
+                    <ExampleList title="Examples" examples={sense.ex} />
+                    <ExampleList title="Pattern" examples={[sense.pat]} />
                     <TagGroup title="Collocations" items={currentWord.col} />
                     <TagGroup title="Synonyms" items={sense.syn} />
-                    <TagGroup title="Antonyms" items={sense.ant} />
                   </div>
                 </div>
               )}

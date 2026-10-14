@@ -174,7 +174,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
   const sense = currentWord?.s?.[currentSenseId];
   const examples = sense?.ex ?? [];
   const sentence = examples.length > 0 ? examples[round % examples.length] : "";
-  const answer = sentence.match(/\[\[(.*?)\]\]/)?.[1] ?? "";
+  const answer = sentence.match(/\[(.*?)\]/)?.[1] ?? "";
 
   const handleAction = () => {
     if (!currentWord || !sense) return;
