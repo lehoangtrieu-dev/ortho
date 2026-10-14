@@ -1,40 +1,28 @@
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useCallback } from "react";
 import { Volume2 } from "lucide-react";
 
 interface Props {
   word: string;
   ipa: string;
-  pron: string;
   pos: string;
   definition: string;
 }
 
-export const WordHeader = ({ word, ipa, pron, pos, definition }: Props) => {
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-
+export const WordHeader = ({ word, ipa, pos, definition }: Props) => {
   const playAudio = useCallback(() => {
-    if (!pron) return;
-
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = "en-GB";
+      window.speechSynthesis.speak(utterance);
     }
-
-    const audio = new Audio(
-      `https://www.oxfordlearnersdictionaries.com/media/english/${pron}`,
-    );
-    audioRef.current = audio;
-    audio.play().catch(() => {});
-  }, [pron]);
+  }, [word]);
 
   useEffect(() => {
     playAudio();
 
     return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current.currentTime = 0;
-      }
+      window.speechSynthesis.cancel();
     };
   }, [playAudio]);
 
