@@ -17,7 +17,6 @@ export const App = () => {
     isComplete,
     currentWord,
     vocab,
-    sense,
     sentence,
     answer,
     status,
@@ -32,8 +31,7 @@ export const App = () => {
 
   const [isSettings, setIsSettings] = useState(false);
 
-  const isLearning =
-    currentWord && sense && !isSettings && !isLoading && !isComplete;
+  const isLearning = currentWord && !isSettings && !isLoading && !isComplete;
 
   return (
     <div className="flex flex-col h-dvh overflow-hidden">
@@ -72,7 +70,7 @@ export const App = () => {
             />
           ) : isLoading ? (
             <Loader2 size={64} className="text-blue-950/20 animate-spin" />
-          ) : !currentWord || !sense || isComplete ? (
+          ) : !currentWord || isComplete ? (
             <CompletionScreen onRestart={restartSession} />
           ) : (
             <>
@@ -88,25 +86,25 @@ export const App = () => {
                 />
                 {status === "unanswered" && (
                   <div className="w-full flex justify-center items-center gap-4 mt-2">
-                    <TagGroup items={sense.syn} />
+                    <TagGroup items={currentWord.syn} />
                   </div>
                 )}
                 {status !== "unanswered" && (
                   <WordHeader
                     word={currentWord.w}
                     ipa={currentWord.ipa}
-                    pos={sense.pos}
-                    definition={sense.defn}
+                    pos={currentWord.pos}
+                    definition={currentWord.defn}
                   />
                 )}
               </div>
               {status !== "unanswered" && (
                 <div className="flex justify-center w-full">
                   <div className="columns-1 sm:columns-2 gap-10 sm:gap-20 px-4 sm:px-10 w-full max-w-5xl text-left">
-                    <ExampleList title="Examples" examples={sense.ex} />
-                    <ExampleList title="Pattern" examples={[sense.pat]} />
+                    <ExampleList title="Examples" examples={currentWord.ex} />
+                    <ExampleList title="Pattern" examples={[currentWord.pat]} />
                     <TagGroup title="Collocations" items={currentWord.col} />
-                    <TagGroup title="Synonyms" items={sense.syn} />
+                    <TagGroup title="Synonyms" items={currentWord.syn} />
                   </div>
                 </div>
               )}

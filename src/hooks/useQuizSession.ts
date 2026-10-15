@@ -1,11 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import type {
-  DictionaryEntry,
-  CEFRLevel,
-  CardProgress,
-  QuizCard,
-} from "../types";
+import type { DictionaryEntry, CEFRLevel, CardProgress } from "../types";
 import {
   loadCardProgress,
   saveCardProgress,
@@ -88,7 +83,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     data: vocab,
     isLoading,
     isFetching,
-  } = useQuery<QuizCard[], Error, QuizCard[]>({
+  } = useQuery({
     queryKey: [
       "vocab",
       [...levels].sort().join(","),
@@ -151,11 +146,10 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
 
   const [completedIds, setCompletedIds] = useState<string[]>([]);
 
-  const getCardKey = (c?: QuizCard) =>
-    c ? `${c.word.level}-${c.word.id}-${c.senseId}` : "";
+  const getWordKey = (w?: DictionaryEntry) => (w ? `${w.level}-${w.id}` : "");
 
   const activeVocab =
-    vocab?.filter((c) => !completedIds.includes(getCardKey(c))) ?? [];
+    vocab?.filter((w) => !completedIds.includes(getWordKey(w))) ?? [];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [input, setInput] = useState("");
@@ -169,15 +163,12 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     activeVocab.length > 0 ? Math.floor(currentIndex / activeVocab.length) : 0;
 
   const currentCard = activeVocab[cardIndex];
-  const currentWord = currentCard?.word;
-  const currentSenseId = currentCard?.senseId ?? 0;
-  const sense = currentWord?.s?.[currentSenseId];
-  const examples = sense?.ex ?? [];
+  const examples = currentCard?.ex ?? [];
   const sentence = examples.length > 0 ? examples[round % examples.length] : "";
   const answer = sentence.match(/\[(.*?)\]/)?.[1] ?? "";
 
   const handleAction = () => {
-    if (!currentWord || !sense) return;
+    if (!currentCard) return;
 
     if (status === "unanswered") {
       const isCorrect =
@@ -190,10 +181,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
 
       setCardProgress((prev) => {
         const existing = prev.find(
-          (c) =>
-            c.wordId === currentWord.id &&
-            c.level === currentWord.level &&
-            c.senseId === currentSenseId,
+          (c) => c.wordId === currentCard.id && c.level === currentCard.level,
         );
         const [nextEaseFactor, nextInterval, nextReps] = calculateNextReview(
           existing?.easeFactor ?? 2.5,
@@ -203,9 +191,8 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
         );
 
         const updatedCard: CardProgress = {
-          level: currentWord.level ?? levels[0],
-          wordId: currentWord.id,
-          senseId: currentSenseId,
+          level: currentCard.level ?? levels[0],
+          wordId: currentCard.id,
           reps: nextReps,
           interval: nextInterval,
           easeFactor: nextEaseFactor,
@@ -214,9 +201,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
 
         return existing
           ? prev.map((c) =>
-              c.wordId === currentWord.id &&
-              c.level === currentWord.level &&
-              c.senseId === currentSenseId
+              c.wordId === currentCard.id && c.level === currentCard.level
                 ? updatedCard
                 : c,
             )
@@ -226,7 +211,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
       setInput("");
       setStatus("unanswered");
       if (status === "correct") {
-        setCompletedIds((prev) => [...prev, getCardKey(currentCard)]);
+        setCompletedIds((prev) => [...prev, getWordKey(currentCard)]);
       } else {
         setCurrentIndex((prev) => prev + 1);
       }
@@ -250,18 +235,15 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
       vocab === undefined,
     isComplete: !isLoading && vocab && activeVocab.length === 0,
     currentCard,
-    currentWord,
+    currentWord: currentCard,
     vocab,
-    sense,
     sentence,
     answer,
     status,
     completedIds,
     cardProgress: cardProgress.find(
       (item) =>
-        item.wordId === currentWord?.id &&
-        item.level === currentWord?.level &&
-        item.senseId === currentSenseId,
+        item.wordId === currentCard?.id && item.level === currentCard?.level,
     ),
     input,
     setInput,

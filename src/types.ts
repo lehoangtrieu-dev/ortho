@@ -5,10 +5,6 @@ export interface DictionaryEntry {
   ipa: string;
   top: TopicCode[];
   col: string[];
-  s: Sense[];
-}
-
-export interface Sense {
   pos: string;
   pat: string;
   defn: string;
@@ -33,14 +29,8 @@ export type TopicCode =
 export interface CardProgress {
   level: CEFRLevel;
   wordId: number;
-  senseId: number;
   reps: number;
   interval: number;
   easeFactor: number;
   dueDate: string;
-}
-
-export interface QuizCard {
-  word: DictionaryEntry;
-  senseId: number;
 }

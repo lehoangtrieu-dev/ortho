@@ -6,18 +6,14 @@
     "ipa": "/ˈstjuːdənt/",
     "top": ["EDU"],
     "col": ["university student", "hard-working student", "primary student"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "a student at [school/university]",
-        "defn": "A person who is studying at a school, college, or university.",
-        "syn": ["pupil", "learner"],
-        "ex": [
-          "Every [student] in the class has a notebook.",
-          "She is a new [student] at our school.",
-          "The teacher asked the [students] to open their books."
-        ]
-      }
+    "pos": "noun",
+    "pat": "a student at [school/university]",
+    "defn": "A person who is studying at a school, college, or university.",
+    "syn": ["pupil", "learner"],
+    "ex": [
+      "Every [student] in the class has a notebook.",
+      "She is a new [student] at our school.",
+      "The teacher asked the [students] to open their books."
     ]
   },
   {
@@ -27,18 +23,14 @@
     "ipa": "/ˈtiːtʃə(r)/",
     "top": ["EDU"],
     "col": ["experienced teacher", "head teacher", "language teacher"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "a teacher of [subject]",
-        "defn": "A person whose job is to instruct students in school.",
-        "syn": ["instructor", "educator"],
-        "ex": [
-          "Our English [teacher] is very kind and patient.",
-          "The [teacher] writes the lesson on the board.",
-          "Mr. Smith is my favorite math [teacher]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "a teacher of [subject]",
+    "defn": "A person whose job is to instruct students in school.",
+    "syn": ["instructor", "educator"],
+    "ex": [
+      "Our English [teacher] is very kind and patient.",
+      "The [teacher] writes the lesson on the board.",
+      "Mr. Smith is my favorite math [teacher]."
     ]
   },
   {
@@ -48,18 +40,14 @@
     "ipa": "/skuːl/",
     "top": ["EDU"],
     "col": ["go to school", "primary school", "finish school"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "attend [school]",
-        "defn": "A place where children go to be educated.",
-        "syn": ["academy", "institution"],
-        "ex": [
-          "Children walk to [school] every morning.",
-          "My [school] has a large library and a gym.",
-          "She arrives at [school] at eight o'clock."
-        ]
-      }
+    "pos": "noun",
+    "pat": "attend [school]",
+    "defn": "A place where children go to be educated.",
+    "syn": ["academy", "institution"],
+    "ex": [
+      "Children walk to [school] every morning.",
+      "My [school] has a large library and a gym.",
+      "She arrives at [school] at eight o'clock."
     ]
   },
   {
@@ -69,18 +57,14 @@
     "ipa": "/ˈlesn/",
     "top": ["EDU"],
     "col": ["have a lesson", "take piano lessons", "attend a lesson"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "have a lesson in [subject]",
-        "defn": "A period of time during which people are taught a subject or skill.",
-        "syn": ["class", "session"],
-        "ex": [
-          "Today's piano [lesson] starts at four o'clock.",
-          "We have a difficult history [lesson] today.",
-          "The first [lesson] of the day is English."
-        ]
-      }
+    "pos": "noun",
+    "pat": "have a lesson in [subject]",
+    "defn": "A period of time during which people are taught a subject or skill.",
+    "syn": ["class", "session"],
+    "ex": [
+      "Today's piano [lesson] starts at four o'clock.",
+      "We have a difficult history [lesson] today.",
+      "The first [lesson] of the day is English."
     ]
   },
   {
@@ -90,18 +74,14 @@
     "ipa": "/ˈhəʊmwɜːk/",
     "top": ["EDU"],
     "col": ["do homework", "give homework", "hand in homework"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "do one's homework for [class]",
-        "defn": "Work that a pupil is given to do at home.",
-        "syn": ["assignment", "schoolwork"],
-        "ex": [
-          "I must finish my math [homework] before dinner.",
-          "The teacher gave us too much [homework] today.",
-          "Did you do your English [homework] last night?"
-        ]
-      }
+    "pos": "noun",
+    "pat": "do one's homework for [class]",
+    "defn": "Work that a pupil is given to do at home.",
+    "syn": ["assignment", "schoolwork"],
+    "ex": [
+      "I must finish my math [homework] before dinner.",
+      "The teacher gave us too much [homework] today.",
+      "Did you do your English [homework] last night?"
     ]
   },
   {
@@ -111,18 +91,14 @@
     "ipa": "/ˈklɑːsruːm/",
     "top": ["EDU"],
     "col": ["enter the classroom", "modern classroom", "leave the classroom"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "in the classroom",
-        "defn": "A room in a school or college where lessons take place.",
-        "syn": ["lecture room", "schoolroom"],
-        "ex": [
-          "The children are sitting quietly in the [classroom].",
-          "Our [classroom] has twenty desks and a whiteboard.",
-          "Please do not eat food inside the [classroom]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "in the classroom",
+    "defn": "A room in a school or college where lessons take place.",
+    "syn": ["lecture room", "schoolroom"],
+    "ex": [
+      "The children are sitting quietly in the [classroom].",
+      "Our [classroom] has twenty desks and a whiteboard.",
+      "Please do not eat food inside the [classroom]."
     ]
   },
   {
@@ -132,18 +108,14 @@
     "ipa": "/ɪɡˈzæm/",
     "top": ["EDU"],
     "col": ["take an exam", "pass an exam", "fail an exam"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "sit an exam in [subject]",
-        "defn": "A formal test that shows your knowledge or ability in a subject.",
-        "syn": ["test", "examination"],
-        "ex": [
-          "I need to study hard for the final [exam].",
-          "She passed her driving [exam] on the first try.",
-          "The English [exam] was not very difficult."
-        ]
-      }
+    "pos": "noun",
+    "pat": "sit an exam in [subject]",
+    "defn": "A formal test that shows your knowledge or ability in a subject.",
+    "syn": ["test", "examination"],
+    "ex": [
+      "I need to study hard for the final [exam].",
+      "She passed her driving [exam] on the first try.",
+      "The English [exam] was not very difficult."
     ]
   },
   {
@@ -153,18 +125,14 @@
     "ipa": "/bʊk/",
     "top": ["EDU"],
     "col": ["open a book", "read a book", "course book"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "read a book by [author]",
-        "defn": "A set of printed pages bound together, used for reading or studying.",
-        "syn": ["volume", "textbook"],
-        "ex": [
-          "He is reading an interesting [book] about history.",
-          "Put your grammar [books] into your bag.",
-          "I borrowed this [book] from the city library."
-        ]
-      }
+    "pos": "noun",
+    "pat": "read a book by [author]",
+    "defn": "A set of printed pages bound together, used for reading or studying.",
+    "syn": ["volume", "textbook"],
+    "ex": [
+      "He is reading an interesting [book] about history.",
+      "Put your grammar [books] into your bag.",
+      "I borrowed this [book] from the city library."
     ]
   },
   {
@@ -174,18 +142,14 @@
     "ipa": "/lɜːn/",
     "top": ["EDU"],
     "col": ["learn a language", "learn by heart", "learn from mistakes"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "learn to [verb]",
-        "defn": "To gain knowledge or skill through study or experience.",
-        "syn": ["acquire", "master"],
-        "ex": [
-          "Young children [learn] new words very quickly.",
-          "I want to [learn] how to speak French.",
-          "She is [learning] to drive a car this summer."
-        ]
-      }
+    "pos": "verb",
+    "pat": "learn to [verb]",
+    "defn": "To gain knowledge or skill through study or experience.",
+    "syn": ["acquire", "master"],
+    "ex": [
+      "Young children [learn] new words very quickly.",
+      "I want to [learn] how to speak French.",
+      "She is [learning] to drive a car this summer."
     ]
   },
   {
@@ -195,18 +159,14 @@
     "ipa": "/ˈstʌdi/",
     "top": ["EDU"],
     "col": ["study hard", "study abroad", "study for an exam"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "study [subject] at [institution]",
-        "defn": "To spend time learning about a subject by reading or going to classes.",
-        "syn": ["revise", "examine"],
-        "ex": [
-          "We usually [study] together in the library.",
-          "He [studies] English for one hour every day.",
-          "You must [study] hard to pass the test."
-        ]
-      }
+    "pos": "verb",
+    "pat": "study [subject] at [institution]",
+    "defn": "To spend time learning about a subject by reading or going to classes.",
+    "syn": ["revise", "examine"],
+    "ex": [
+      "We usually [study] together in the library.",
+      "He [studies] English for one hour every day.",
+      "You must [study] hard to pass the test."
     ]
   },
   {
@@ -216,18 +176,14 @@
     "ipa": "/tiːtʃ/",
     "top": ["EDU"],
     "col": ["teach a class", "teach a course", "teach children"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "teach [someone] to [verb]",
-        "defn": "To give lessons or instruction to someone so they gain knowledge.",
-        "syn": ["instruct", "tutor"],
-        "ex": [
-          "She wants to [teach] music to young children.",
-          "My father [teaches] science at a high school.",
-          "Can you [teach] me how to cook this dish?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "teach [someone] to [verb]",
+    "defn": "To give lessons or instruction to someone so they gain knowledge.",
+    "syn": ["instruct", "tutor"],
+    "ex": [
+      "She wants to [teach] music to young children.",
+      "My father [teaches] science at a high school.",
+      "Can you [teach] me how to cook this dish?"
     ]
   },
   {
@@ -237,18 +193,14 @@
     "ipa": "/riːd/",
     "top": ["EDU"],
     "col": ["read aloud", "read widely", "read an article"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "read [something] about [topic]",
-        "defn": "To look at and understand the meaning of written words.",
-        "syn": ["peruse", "scan"],
-        "ex": [
-          "I like to [read] a short story before sleeping.",
-          "He is [reading] the morning newspaper right now.",
-          "She [reads] English books to improve her vocabulary."
-        ]
-      }
+    "pos": "verb",
+    "pat": "read [something] about [topic]",
+    "defn": "To look at and understand the meaning of written words.",
+    "syn": ["peruse", "scan"],
+    "ex": [
+      "I like to [read] a short story before sleeping.",
+      "He is [reading] the morning newspaper right now.",
+      "She [reads] English books to improve her vocabulary."
     ]
   },
   {
@@ -258,18 +210,14 @@
     "ipa": "/raɪt/",
     "top": ["EDU"],
     "col": ["write an essay", "write notes", "write by hand"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "write [something] about [topic]",
-        "defn": "To produce words, letters, or symbols on paper or a screen.",
-        "syn": ["compose", "draft"],
-        "ex": [
-          "Please [write] your name at the top of the page.",
-          "She [writes] an email to her friend every week.",
-          "He [wrote] a letter to his parents yesterday."
-        ]
-      }
+    "pos": "verb",
+    "pat": "write [something] about [topic]",
+    "defn": "To produce words, letters, or symbols on paper or a screen.",
+    "syn": ["compose", "draft"],
+    "ex": [
+      "Please [write] your name at the top of the page.",
+      "She [writes] an email to her friend every week.",
+      "He [wrote] a letter to his parents yesterday."
     ]
   },
   {
@@ -279,18 +227,14 @@
     "ipa": "/ɑːsk/",
     "top": ["EDU"],
     "col": ["ask a question", "ask for help", "ask for advice"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "ask [someone] about [topic]",
-        "defn": "To say something as a question in order to get an answer or assistance.",
-        "syn": ["inquire", "query"],
-        "ex": [
-          "Raise your hand if you want to [ask] a question.",
-          "He stopped to [ask] for directions to the station.",
-          "She [asked] the teacher for help after class."
-        ]
-      }
+    "pos": "verb",
+    "pat": "ask [someone] about [topic]",
+    "defn": "To say something as a question in order to get an answer or assistance.",
+    "syn": ["inquire", "query"],
+    "ex": [
+      "Raise your hand if you want to [ask] a question.",
+      "He stopped to [ask] for directions to the station.",
+      "She [asked] the teacher for help after class."
     ]
   },
   {
@@ -300,18 +244,14 @@
     "ipa": "/ˈdɪfɪkəlt/",
     "top": ["EDU"],
     "col": ["difficult exam", "difficult question", "difficult subject"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "[something] is difficult for [someone] to [verb]",
-        "defn": "Needing a lot of effort or skill to understand, do, or solve.",
-        "syn": ["hard", "challenging"],
-        "ex": [
-          "This math problem is too [difficult] for me to solve.",
-          "Learning a new language can be [difficult] at first.",
-          "The test was very [difficult], so many students failed."
-        ]
-      }
+    "pos": "adj",
+    "pat": "[something] is difficult for [someone] to [verb]",
+    "defn": "Needing a lot of effort or skill to understand, do, or solve.",
+    "syn": ["hard", "challenging"],
+    "ex": [
+      "This math problem is too [difficult] for me to solve.",
+      "Learning a new language can be [difficult] at first.",
+      "The test was very [difficult], so many students failed."
     ]
   },
   {
@@ -321,18 +261,14 @@
     "ipa": "/ˈiːzi/",
     "top": ["EDU"],
     "col": ["easy question", "easy test", "make it easy"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "[something] is easy to [verb]",
-        "defn": "Not requiring much effort or skill to understand or complete.",
-        "syn": ["simple", "straightforward"],
-        "ex": [
-          "This English test was very simple and [easy].",
-          "Cooking an egg is quite [easy] for beginners.",
-          "The question is [easy] enough for anyone to answer."
-        ]
-      }
+    "pos": "adj",
+    "pat": "[something] is easy to [verb]",
+    "defn": "Not requiring much effort or skill to understand or complete.",
+    "syn": ["simple", "straightforward"],
+    "ex": [
+      "This English test was very simple and [easy].",
+      "Cooking an egg is quite [easy] for beginners.",
+      "The question is [easy] enough for anyone to answer."
     ]
   },
   {
@@ -342,18 +278,14 @@
     "ipa": "/kəˈrekt/",
     "top": ["EDU"],
     "col": ["correct answer", "correct pronunciation", "correct spelling"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "the correct answer to [question]",
-        "defn": "Accurate, right, and free from any mistakes.",
-        "syn": ["right", "accurate"],
-        "ex": [
-          "Check your answers to make sure they are [correct].",
-          "Is this the [correct] spelling of your name?",
-          "The teacher gave a tick for each [correct] word."
-        ]
-      }
+    "pos": "adj",
+    "pat": "the correct answer to [question]",
+    "defn": "Accurate, right, and free from any mistakes.",
+    "syn": ["right", "accurate"],
+    "ex": [
+      "Check your answers to make sure they are [correct].",
+      "Is this the [correct] spelling of your name?",
+      "The teacher gave a tick for each [correct] word."
     ]
   },
   {
@@ -363,18 +295,14 @@
     "ipa": "/ˈbɪzi/",
     "top": ["EDU"],
     "col": ["busy schedule", "busy timetable", "busy period"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "be busy with [studies/tasks]",
-        "defn": "Having a lot of work or academic tasks to attend to.",
-        "syn": ["occupied", "hectic"],
-        "ex": [
-          "My father is very [busy] at work this week.",
-          "The doctor cannot talk now because she is [busy].",
-          "The city streets are always [busy] in the morning."
-        ]
-      }
+    "pos": "adj",
+    "pat": "be busy with [studies/tasks]",
+    "defn": "Having a lot of work or academic tasks to attend to.",
+    "syn": ["occupied", "hectic"],
+    "ex": [
+      "My father is very [busy] at work this week.",
+      "The doctor cannot talk now because she is [busy].",
+      "The city streets are always [busy] in the morning."
     ]
   },
   {
@@ -384,18 +312,14 @@
     "ipa": "/wel/",
     "top": ["EDU"],
     "col": ["do well", "perform well", "understand well"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "do well in [exam/subject]",
-        "defn": "In a satisfactory, successful, or effective way.",
-        "syn": ["successfully", "effectively"],
-        "ex": [
-          "She speaks English very [well] after years of practice.",
-          "Eat healthy food and sleep [well] every night.",
-          "I did not feel [well] yesterday, so I stayed home."
-        ]
-      }
+    "pos": "adv",
+    "pat": "do well in [exam/subject]",
+    "defn": "In a satisfactory, successful, or effective way.",
+    "syn": ["successfully", "effectively"],
+    "ex": [
+      "She speaks English very [well] after years of practice.",
+      "Eat healthy food and sleep [well] every night.",
+      "I did not feel [well] yesterday, so I stayed home."
     ]
   },
   {
@@ -405,18 +329,14 @@
     "ipa": "/təˈɡeðə(r)/",
     "top": ["EDU"],
     "col": ["study together", "work together", "learn together"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "work together on [project]",
-        "defn": "With each other or in a joint group rather than separately.",
-        "syn": ["jointly", "collectively"],
-        "ex": [
-          "The family eats dinner [together] every evening.",
-          "Let us work [together] to finish this project faster.",
-          "They walked to school [together] this morning."
-        ]
-      }
+    "pos": "adv",
+    "pat": "work together on [project]",
+    "defn": "With each other or in a joint group rather than separately.",
+    "syn": ["jointly", "collectively"],
+    "ex": [
+      "The family eats dinner [together] every evening.",
+      "Let us work [together] to finish this project faster.",
+      "They walked to school [together] this morning."
     ]
   },
   {
@@ -426,18 +346,14 @@
     "ipa": "/triː/",
     "top": ["ENV"],
     "col": ["plant a tree", "climb a tree", "cut down a tree"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "plant a [tree] in [place]",
-        "defn": "A tall plant with a wooden trunk, branches, and leaves.",
-        "syn": ["sapling", "timber"],
-        "ex": [
-          "Birds are singing in the tall green [tree].",
-          "We sat in the cool shade under an old [tree].",
-          "There are sweet red apples on that [tree]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "plant a [tree] in [place]",
+    "defn": "A tall plant with a wooden trunk, branches, and leaves.",
+    "syn": ["sapling", "timber"],
+    "ex": [
+      "Birds are singing in the tall green [tree].",
+      "We sat in the cool shade under an old [tree].",
+      "There are sweet red apples on that [tree]."
     ]
   },
   {
@@ -447,18 +363,14 @@
     "ipa": "/ˈrɪv.ə(r)/",
     "top": ["ENV"],
     "col": ["swim in a river", "cross a river", "along the river"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "a river flows through [place]",
-        "defn": "A wide, natural stream of fresh water that moves across land into a sea or lake.",
-        "syn": ["waterway", "stream"],
-        "ex": [
-          "We took a small boat ride down the [river].",
-          "The long [river] flows through the whole city.",
-          "People like to catch fish in this clean [river]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "a river flows through [place]",
+    "defn": "A wide, natural stream of fresh water that moves across land into a sea or lake.",
+    "syn": ["waterway", "stream"],
+    "ex": [
+      "We took a small boat ride down the [river].",
+      "The long [river] flows through the whole city.",
+      "People like to catch fish in this clean [river]."
     ]
   },
   {
@@ -468,18 +380,14 @@
     "ipa": "/siː/",
     "top": ["ENV"],
     "col": ["swim in the sea", "by the sea", "near the sea"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "by/near the sea",
-        "defn": "The large body of salty water that covers much of the Earth's surface.",
-        "syn": ["ocean"],
-        "ex": [
-          "We love swimming in the warm [sea] in summer.",
-          "Big ships sail across the deep blue [sea].",
-          "Our hotel room has a beautiful view of the [sea]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "by/near the sea",
+    "defn": "The large body of salty water that covers much of the Earth's surface.",
+    "syn": ["ocean"],
+    "ex": [
+      "We love swimming in the warm [sea] in summer.",
+      "Big ships sail across the deep blue [sea].",
+      "Our hotel room has a beautiful view of the [sea]."
     ]
   },
   {
@@ -489,18 +397,14 @@
     "ipa": "/ˈæn.ɪ.məl/",
     "top": ["ENV"],
     "col": ["wild animal", "feed animals", "look after animals"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "protect wild [animals] from [danger]",
-        "defn": "A living creature that can move around and feeds on plants or other animals.",
-        "syn": ["creature", "beast"],
-        "ex": [
-          "A dog is a very loyal and friendly [animal].",
-          "There are many wild [animals] living in the forest.",
-          "Lions and elephants are large zoo [animals]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "protect wild [animals] from [danger]",
+    "defn": "A living creature that can move around and feeds on plants or other animals.",
+    "syn": ["creature", "beast"],
+    "ex": [
+      "A dog is a very loyal and friendly [animal].",
+      "There are many wild [animals] living in the forest.",
+      "Lions and elephants are large zoo [animals]."
     ]
   },
   {
@@ -510,18 +414,14 @@
     "ipa": "/ˈweð.ə(r)/",
     "top": ["ENV"],
     "col": ["check the weather", "warm weather", "bad weather"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "the weather is [adj]",
-        "defn": "The state of the atmosphere regarding heat, cloudiness, sunshine, wind, and rain.",
-        "syn": ["climate", "conditions"],
-        "ex": [
-          "The [weather] is sunny and warm today.",
-          "What is the [weather] like in London right now?",
-          "Cold [weather] makes me want to stay indoors."
-        ]
-      }
+    "pos": "noun",
+    "pat": "the weather is [adj]",
+    "defn": "The state of the atmosphere regarding heat, cloudiness, sunshine, wind, and rain.",
+    "syn": ["climate", "conditions"],
+    "ex": [
+      "The [weather] is sunny and warm today.",
+      "What is the [weather] like in London right now?",
+      "Cold [weather] makes me want to stay indoors."
     ]
   },
   {
@@ -531,18 +431,14 @@
     "ipa": "/pɑːk/",
     "top": ["ENV"],
     "col": ["walk in the park", "public park", "go to the park"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "walk in a public [park]",
-        "defn": "A large public green area in a town or city used for recreation.",
-        "syn": ["public garden", "green space"],
-        "ex": [
-          "Children are playing football in the city [park].",
-          "Let us go for a walk in the [park] this afternoon.",
-          "I like to sit on a bench in the [park] and read."
-        ]
-      }
+    "pos": "noun",
+    "pat": "walk in a public [park]",
+    "defn": "A large public green area in a town or city used for recreation.",
+    "syn": ["public garden", "green space"],
+    "ex": [
+      "Children are playing football in the city [park].",
+      "Let us go for a walk in the [park] this afternoon.",
+      "I like to sit on a bench in the [park] and read."
     ]
   },
   {
@@ -552,18 +448,14 @@
     "ipa": "/eə(r)/",
     "top": ["ENV"],
     "col": ["fresh air", "polluted air", "breathe fresh air"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "breathe fresh [air] in [place]",
-        "defn": "The invisible mixture of gases that surrounds the Earth and that people breathe.",
-        "syn": ["atmosphere"],
-        "ex": [
-          "Open the window to let fresh [air] into the room.",
-          "The mountain [air] is very cool and clean.",
-          "Birds spread their wings and fly through the [air]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "breathe fresh [air] in [place]",
+    "defn": "The invisible mixture of gases that surrounds the Earth and that people breathe.",
+    "syn": ["atmosphere"],
+    "ex": [
+      "Open the window to let fresh [air] into the room.",
+      "The mountain [air] is very cool and clean.",
+      "Birds spread their wings and fly through the [air]."
     ]
   },
   {
@@ -573,18 +465,14 @@
     "ipa": "/ˈflaʊ.ə(r)/",
     "top": ["ENV"],
     "col": ["pick flowers", "plant flowers", "smell flowers"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "grow [flowers] in [place]",
-        "defn": "The attractive, coloured part of a plant that produces seeds.",
-        "syn": ["bloom", "blossom"],
-        "ex": [
-          "He bought a red [flower] for his mother's birthday.",
-          "Colorful spring [flowers] are blooming in the garden.",
-          "Bees fly from one [flower] to another."
-        ]
-      }
+    "pos": "noun",
+    "pat": "grow [flowers] in [place]",
+    "defn": "The attractive, coloured part of a plant that produces seeds.",
+    "syn": ["bloom", "blossom"],
+    "ex": [
+      "He bought a red [flower] for his mother's birthday.",
+      "Colorful spring [flowers] are blooming in the garden.",
+      "Bees fly from one [flower] to another."
     ]
   },
   {
@@ -594,18 +482,14 @@
     "ipa": "/ɡrəʊ/",
     "top": ["ENV"],
     "col": ["grow plants", "grow vegetables", "grow fast"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "grow [plants/crops] in [place]",
-        "defn": "To develop, increase in size, or cultivate plants in soil.",
-        "syn": ["cultivate", "develop"],
-        "ex": [
-          "Plants need water and sunlight to [grow].",
-          "Vegetables [grow] quickly in this rich soil.",
-          "Children [grow] taller every year."
-        ]
-      }
+    "pos": "verb",
+    "pat": "grow [plants/crops] in [place]",
+    "defn": "To develop, increase in size, or cultivate plants in soil.",
+    "syn": ["cultivate", "develop"],
+    "ex": [
+      "Plants need water and sunlight to [grow].",
+      "Vegetables [grow] quickly in this rich soil.",
+      "Children [grow] taller every year."
     ]
   },
   {
@@ -615,18 +499,14 @@
     "ipa": "/reɪn/",
     "top": ["ENV"],
     "col": ["rain heavily", "start to rain", "stop raining"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "it rains heavily in [place/season]",
-        "defn": "To fall as drops of water from clouds in the sky.",
-        "syn": ["pour"],
-        "ex": [
-          "Take an umbrella because it is starting to [rain].",
-          "Heavy [rain] stopped us from playing soccer outside.",
-          "It [rains] almost every day during July."
-        ]
-      }
+    "pos": "verb",
+    "pat": "it rains heavily in [place/season]",
+    "defn": "To fall as drops of water from clouds in the sky.",
+    "syn": ["pour"],
+    "ex": [
+      "Take an umbrella because it is starting to [rain].",
+      "Heavy [rain] stopped us from playing soccer outside.",
+      "It [rains] almost every day during July."
     ]
   },
   {
@@ -636,18 +516,14 @@
     "ipa": "/ʃaɪn/",
     "top": ["ENV"],
     "col": ["shine brightly", "sun shines", "shine all day"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "the sun shines on [something]",
-        "defn": "To give out or reflect bright light.",
-        "syn": ["beam", "glow"],
-        "ex": [
-          "The sun will [shine] brightly all day today.",
-          "Bright stars [shine] in the clear sky at night.",
-          "His shoes [shine] because he polished them."
-        ]
-      }
+    "pos": "verb",
+    "pat": "the sun shines on [something]",
+    "defn": "To give out or reflect bright light.",
+    "syn": ["beam", "glow"],
+    "ex": [
+      "The sun will [shine] brightly all day today.",
+      "Bright stars [shine] in the clear sky at night.",
+      "His shoes [shine] because he polished them."
     ]
   },
   {
@@ -657,18 +533,14 @@
     "ipa": "/seɪv/",
     "top": ["ENV"],
     "col": ["save water", "save energy", "save the planet"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "save [water/energy] by [V-ing]",
-        "defn": "To prevent natural resources from being wasted or lost.",
-        "syn": ["conserve", "preserve"],
-        "ex": [
-          "You should [save] some money in the bank each month.",
-          "The brave firefighter ran into the house to [save] the cat.",
-          "Turn off the lights to [save] electricity."
-        ]
-      }
+    "pos": "verb",
+    "pat": "save [water/energy] by [V-ing]",
+    "defn": "To prevent natural resources from being wasted or lost.",
+    "syn": ["conserve", "preserve"],
+    "ex": [
+      "You should [save] some money in the bank each month.",
+      "The brave firefighter ran into the house to [save] the cat.",
+      "Turn off the lights to [save] electricity."
     ]
   },
   {
@@ -678,18 +550,14 @@
     "ipa": "/swɪm/",
     "top": ["ENV"],
     "col": ["swim in the sea", "swim outdoors", "go swimming"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "swim in [a river/the sea]",
-        "defn": "To move through water by moving one's body or limbs.",
-        "syn": ["bathe", "dip"],
-        "ex": [
-          "We like to [swim] in the cold lake during summer.",
-          "Fish use their fins to [swim] through the water.",
-          "She is learning how to [swim] at the public pool."
-        ]
-      }
+    "pos": "verb",
+    "pat": "swim in [a river/the sea]",
+    "defn": "To move through water by moving one's body or limbs.",
+    "syn": ["bathe", "dip"],
+    "ex": [
+      "We like to [swim] in the cold lake during summer.",
+      "Fish use their fins to [swim] through the water.",
+      "She is learning how to [swim] at the public pool."
     ]
   },
   {
@@ -699,18 +567,14 @@
     "ipa": "/lɪv/",
     "top": ["ENV"],
     "col": ["live in the wild", "live outdoors", "live naturally"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[animals/plants] live in [habitat]",
-        "defn": "To remain alive and make a home in a specific habitat or region.",
-        "syn": ["inhabit", "dwell"],
-        "ex": [
-          "They [live] in a small apartment near the train station.",
-          "Whales [live] in the deep ocean waters.",
-          "Where do your grandparents [live] now?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "[animals/plants] live in [habitat]",
+    "defn": "To remain alive and make a home in a specific habitat or region.",
+    "syn": ["inhabit", "dwell"],
+    "ex": [
+      "They [live] in a small apartment near the train station.",
+      "Whales [live] in the deep ocean waters.",
+      "Where do your grandparents [live] now?"
     ]
   },
   {
@@ -720,18 +584,14 @@
     "ipa": "/kliːn/",
     "top": ["ENV"],
     "col": ["clean air", "clean water", "keep it clean"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "keep [the environment/place] clean",
-        "defn": "Free from dirt, pollutants, or waste material.",
-        "syn": ["pure", "unpolluted"],
-        "ex": [
-          "Please wash your hands so they are [clean].",
-          "I need to [clean] my bedroom this weekend.",
-          "The hotel bathroom was fresh and [clean]."
-        ]
-      }
+    "pos": "adj",
+    "pat": "keep [the environment/place] clean",
+    "defn": "Free from dirt, pollutants, or waste material.",
+    "syn": ["pure", "unpolluted"],
+    "ex": [
+      "Please wash your hands so they are [clean].",
+      "I need to [clean] my bedroom this weekend.",
+      "The hotel bathroom was fresh and [clean]."
     ]
   },
   {
@@ -741,18 +601,14 @@
     "ipa": "/hɒt/",
     "top": ["ENV"],
     "col": ["hot weather", "hot climate", "get hot"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "the weather is hot in [season]",
-        "defn": "Having a high and intense degree of heat or temperature.",
-        "syn": ["warm", "scorching"],
-        "ex": [
-          "Be careful, the soup is very [hot] right now.",
-          "It is too [hot] to play outside in the midday sun.",
-          "Summer in this city is always dry and [hot]."
-        ]
-      }
+    "pos": "adj",
+    "pat": "the weather is hot in [season]",
+    "defn": "Having a high and intense degree of heat or temperature.",
+    "syn": ["warm", "scorching"],
+    "ex": [
+      "Be careful, the soup is very [hot] right now.",
+      "It is too [hot] to play outside in the midday sun.",
+      "Summer in this city is always dry and [hot]."
     ]
   },
   {
@@ -762,18 +618,14 @@
     "ipa": "/kəʊld/",
     "top": ["ENV"],
     "col": ["cold weather", "cold winter", "feel cold"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "it is cold outside in [season]",
-        "defn": "Having a low temperature, especially relative to the human body.",
-        "syn": ["chilly", "freezing"],
-        "ex": [
-          "Drink some warm tea when the weather is [cold].",
-          "Put on your heavy jacket because it is [cold] outside.",
-          "I want a glass of [cold] water with ice."
-        ]
-      }
+    "pos": "adj",
+    "pat": "it is cold outside in [season]",
+    "defn": "Having a low temperature, especially relative to the human body.",
+    "syn": ["chilly", "freezing"],
+    "ex": [
+      "Drink some warm tea when the weather is [cold].",
+      "Put on your heavy jacket because it is [cold] outside.",
+      "I want a glass of [cold] water with ice."
     ]
   },
   {
@@ -783,18 +635,14 @@
     "ipa": "/ɡriːn/",
     "top": ["ENV"],
     "col": ["green space", "green area", "green trees"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a green area full of [plants/trees]",
-        "defn": "Full of healthy grass, plants, and trees; connected to the natural landscape.",
-        "syn": ["lush", "verdant"],
-        "ex": [
-          "The grass in the garden is fresh and [green].",
-          "You can cross the street when the light turns [green].",
-          "Eat your [green] vegetables to stay healthy."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a green area full of [plants/trees]",
+    "defn": "Full of healthy grass, plants, and trees; connected to the natural landscape.",
+    "syn": ["lush", "verdant"],
+    "ex": [
+      "The grass in the garden is fresh and [green].",
+      "You can cross the street when the light turns [green].",
+      "Eat your [green] vegetables to stay healthy."
     ]
   },
   {
@@ -804,18 +652,14 @@
     "ipa": "/ˌaʊtˈsaɪd/",
     "top": ["ENV"],
     "col": ["spend time outside", "play outside", "stay outside"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "spend time outside in [nature/weather]",
-        "defn": "Not within a building; outdoors in the open air.",
-        "syn": ["outdoors"],
-        "ex": [
-          "The kids are playing games [outside] in the yard.",
-          "It is raining, so do not go [outside] without a coat.",
-          "We sat [outside] the cafe to enjoy the sun."
-        ]
-      }
+    "pos": "adv",
+    "pat": "spend time outside in [nature/weather]",
+    "defn": "Not within a building; outdoors in the open air.",
+    "syn": ["outdoors"],
+    "ex": [
+      "The kids are playing games [outside] in the yard.",
+      "It is raining, so do not go [outside] without a coat.",
+      "We sat [outside] the cafe to enjoy the sun."
     ]
   },
   {
@@ -825,18 +669,14 @@
     "ipa": "/ˈɒf.n/",
     "top": ["ENV"],
     "col": ["rain often", "visit often", "go outside often"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "it rains often in [season/place]",
-        "defn": "Many times or on frequent occasions.",
-        "syn": ["frequently", "regularly"],
-        "ex": [
-          "How [often] do you visit the library each week?",
-          "We [often] eat dinner together at six in the evening.",
-          "He [often] walks to work instead of taking the bus."
-        ]
-      }
+    "pos": "adv",
+    "pat": "it rains often in [season/place]",
+    "defn": "Many times or on frequent occasions.",
+    "syn": ["frequently", "regularly"],
+    "ex": [
+      "How [often] do you visit the library each week?",
+      "We [often] eat dinner together at six in the evening.",
+      "He [often] walks to work instead of taking the bus."
     ]
   },
   {
@@ -846,18 +686,14 @@
     "ipa": "/ˈdɒktə(r)/",
     "top": ["HEA"],
     "col": ["see a doctor", "visit the doctor", "call a doctor"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "see a doctor about [illness/pain]",
-        "defn": "A person who is qualified to treat people who are ill or injured.",
-        "syn": ["physician", "general practitioner"],
-        "ex": [
-          "You should see a [doctor] if your fever gets worse.",
-          "The [doctor] examined the patient in the clinic.",
-          "My older sister wants to become a medical [doctor]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "see a doctor about [illness/pain]",
+    "defn": "A person who is qualified to treat people who are ill or injured.",
+    "syn": ["physician", "general practitioner"],
+    "ex": [
+      "You should see a [doctor] if your fever gets worse.",
+      "The [doctor] examined the patient in the clinic.",
+      "My older sister wants to become a medical [doctor]."
     ]
   },
   {
@@ -867,18 +703,14 @@
     "ipa": "/ˈhɒspɪtl/",
     "top": ["HEA"],
     "col": ["go to hospital", "stay in hospital", "local hospital"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "go to the hospital for [treatment]",
-        "defn": "A large building where sick or injured people receive medical care.",
-        "syn": ["clinic", "medical center"],
-        "ex": [
-          "The ambulance took the injured man to the [hospital].",
-          "She works as a nurse at the city [hospital].",
-          "He stayed in the [hospital] for three days after surgery."
-        ]
-      }
+    "pos": "noun",
+    "pat": "go to the hospital for [treatment]",
+    "defn": "A large building where sick or injured people receive medical care.",
+    "syn": ["clinic", "medical center"],
+    "ex": [
+      "The ambulance took the injured man to the [hospital].",
+      "She works as a nurse at the city [hospital].",
+      "He stayed in the [hospital] for three days after surgery."
     ]
   },
   {
@@ -888,18 +720,14 @@
     "ipa": "/ˈmedsn/",
     "top": ["HEA"],
     "col": ["take medicine", "prescribe medicine", "cough medicine"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "take medicine for [illness]",
-        "defn": "A substance, especially in pill or liquid form, used to treat an illness.",
-        "syn": ["medication", "remedy"],
-        "ex": [
-          "Take this cough [medicine] twice a day after meals.",
-          "The doctor gave me some [medicine] for my headache.",
-          "Keep all bottles of [medicine] away from small children."
-        ]
-      }
+    "pos": "noun",
+    "pat": "take medicine for [illness]",
+    "defn": "A substance, especially in pill or liquid form, used to treat an illness.",
+    "syn": ["medication", "remedy"],
+    "ex": [
+      "Take this cough [medicine] twice a day after meals.",
+      "The doctor gave me some [medicine] for my headache.",
+      "Keep all bottles of [medicine] away from small children."
     ]
   },
   {
@@ -909,18 +737,14 @@
     "ipa": "/ˈbɒdi/",
     "top": ["HEA"],
     "col": ["keep your body fit", "human body", "body weight"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "keep the body [adjective]",
-        "defn": "The whole physical structure of a person or animal.",
-        "syn": ["physique", "frame"],
-        "ex": [
-          "Regular exercise keeps your whole [body] strong.",
-          "Drink plenty of water because your [body] needs it.",
-          "His [body] felt sore after running ten kilometers."
-        ]
-      }
+    "pos": "noun",
+    "pat": "keep the body [adjective]",
+    "defn": "The whole physical structure of a person or animal.",
+    "syn": ["physique", "frame"],
+    "ex": [
+      "Regular exercise keeps your whole [body] strong.",
+      "Drink plenty of water because your [body] needs it.",
+      "His [body] felt sore after running ten kilometers."
     ]
   },
   {
@@ -930,18 +754,14 @@
     "ipa": "/spɔːt/",
     "top": ["HEA"],
     "col": ["play sport", "do sport", "outdoor sport"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "play sport to [verb]",
-        "defn": "A physical game or activity that people do for exercise or pleasure.",
-        "syn": ["athletics", "game"],
-        "ex": [
-          "Football is the most popular [sport] in our country.",
-          "Playing a team [sport] helps children make new friends.",
-          "Swimming is an excellent [sport] for your health."
-        ]
-      }
+    "pos": "noun",
+    "pat": "play sport to [verb]",
+    "defn": "A physical game or activity that people do for exercise or pleasure.",
+    "syn": ["athletics", "game"],
+    "ex": [
+      "Football is the most popular [sport] in our country.",
+      "Playing a team [sport] helps children make new friends.",
+      "Swimming is an excellent [sport] for your health."
     ]
   },
   {
@@ -951,18 +771,14 @@
     "ipa": "/fruːt/",
     "top": ["HEA"],
     "col": ["eat fresh fruit", "piece of fruit", "seasonal fruit"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "eat plenty of fruit for [benefit]",
-        "defn": "The sweet, fleshy edible product of a plant or tree containing seeds.",
-        "syn": ["produce", "fresh food"],
-        "ex": [
-          "An apple is a sweet and healthy [fruit].",
-          "Eating fresh [fruit] gives your body vitamins.",
-          "She bought some sweet [fruit] from the market."
-        ]
-      }
+    "pos": "noun",
+    "pat": "eat plenty of fruit for [benefit]",
+    "defn": "The sweet, fleshy edible product of a plant or tree containing seeds.",
+    "syn": ["produce", "fresh food"],
+    "ex": [
+      "An apple is a sweet and healthy [fruit].",
+      "Eating fresh [fruit] gives your body vitamins.",
+      "She bought some sweet [fruit] from the market."
     ]
   },
   {
@@ -972,18 +788,14 @@
     "ipa": "/ˈvedʒtəbl/",
     "top": ["HEA"],
     "col": ["eat green vegetables", "fresh vegetables", "grow vegetables"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "eat vegetables with [food]",
-        "defn": "A plant or part of a plant that is grown and consumed as food.",
-        "syn": ["greens", "produce"],
-        "ex": [
-          "Carrots and broccoli are healthy [vegetables] to eat.",
-          "My mother grows green [vegetables] in her garden.",
-          "You should always eat your [vegetables] at dinner."
-        ]
-      }
+    "pos": "noun",
+    "pat": "eat vegetables with [food]",
+    "defn": "A plant or part of a plant that is grown and consumed as food.",
+    "syn": ["greens", "produce"],
+    "ex": [
+      "Carrots and broccoli are healthy [vegetables] to eat.",
+      "My mother grows green [vegetables] in her garden.",
+      "You should always eat your [vegetables] at dinner."
     ]
   },
   {
@@ -993,18 +805,14 @@
     "ipa": "/wɔːk/",
     "top": ["HEA"],
     "col": ["go for a walk", "walk to work", "walk briskly"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "walk to [place] for exercise",
-        "defn": "To move forward by putting one foot in front of the other at an ordinary speed.",
-        "syn": ["stroll", "step"],
-        "ex": [
-          "I prefer to [walk] to work instead of driving a car.",
-          "They go for a peaceful [walk] in the park every morning.",
-          "We [walked] along the beach as the sun went down."
-        ]
-      }
+    "pos": "verb",
+    "pat": "walk to [place] for exercise",
+    "defn": "To move forward by putting one foot in front of the other at an ordinary speed.",
+    "syn": ["stroll", "step"],
+    "ex": [
+      "I prefer to [walk] to work instead of driving a car.",
+      "They go for a peaceful [walk] in the park every morning.",
+      "We [walked] along the beach as the sun went down."
     ]
   },
   {
@@ -1014,18 +822,14 @@
     "ipa": "/rʌn/",
     "top": ["HEA"],
     "col": ["go running", "run in the park", "run fast"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "run for [duration/distance]",
-        "defn": "To move your legs faster than walking, so that both feet leave the ground together momentarily.",
-        "syn": ["jog", "sprint"],
-        "ex": [
-          "Cheetahs can [run] faster than any other animal.",
-          "He had to [run] fast to catch the morning bus.",
-          "She likes to [run] around the track before breakfast."
-        ]
-      }
+    "pos": "verb",
+    "pat": "run for [duration/distance]",
+    "defn": "To move your legs faster than walking, so that both feet leave the ground together momentarily.",
+    "syn": ["jog", "sprint"],
+    "ex": [
+      "Cheetahs can [run] faster than any other animal.",
+      "He had to [run] fast to catch the morning bus.",
+      "She likes to [run] around the track before breakfast."
     ]
   },
   {
@@ -1035,18 +839,14 @@
     "ipa": "/rest/",
     "top": ["HEA"],
     "col": ["take a rest", "have a rest", "rest in bed"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "rest for a while after [activity]",
-        "defn": "To stop physical activity or work in order to regain energy and recover.",
-        "syn": ["relax", "unwind"],
-        "ex": [
-          "You look tired, so you should sit down and [rest].",
-          "After a long walk, we stopped under a tree to [rest].",
-          "The doctor told him to stay in bed and get some [rest]."
-        ]
-      }
+    "pos": "verb",
+    "pat": "rest for a while after [activity]",
+    "defn": "To stop physical activity or work in order to regain energy and recover.",
+    "syn": ["relax", "unwind"],
+    "ex": [
+      "You look tired, so you should sit down and [rest].",
+      "After a long walk, we stopped under a tree to [rest].",
+      "The doctor told him to stay in bed and get some [rest]."
     ]
   },
   {
@@ -1056,18 +856,14 @@
     "ipa": "/hɜːt/",
     "top": ["HEA"],
     "col": ["hurt badly", "feel hurt", "cause pain"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[body part] hurts",
-        "defn": "To cause a feeling of physical pain or discomfort.",
-        "syn": ["ache", "sting"],
-        "ex": [
-          "Be careful with that knife or you will [hurt] yourself.",
-          "My left knee [hurts] when I walk up stairs.",
-          "Did you get [hurt] during the football game?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "[body part] hurts",
+    "defn": "To cause a feeling of physical pain or discomfort.",
+    "syn": ["ache", "sting"],
+    "ex": [
+      "Be careful with that knife or you will [hurt] yourself.",
+      "My left knee [hurts] when I walk up stairs.",
+      "Did you get [hurt] during the football game?"
     ]
   },
   {
@@ -1077,18 +873,14 @@
     "ipa": "/sliːp/",
     "top": ["HEA"],
     "col": ["sleep well", "go to sleep", "sleep eight hours"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "sleep for [duration]",
-        "defn": "To rest with the eyes closed while the mind and body are in an inactive natural state.",
-        "syn": ["doze", "rest"],
-        "ex": [
-          "Babies usually [sleep] for ten hours every night.",
-          "I cannot [sleep] because the room is too noisy.",
-          "Turn off the bedroom lights so we can [sleep]."
-        ]
-      }
+    "pos": "verb",
+    "pat": "sleep for [duration]",
+    "defn": "To rest with the eyes closed while the mind and body are in an inactive natural state.",
+    "syn": ["doze", "rest"],
+    "ex": [
+      "Babies usually [sleep] for ten hours every night.",
+      "I cannot [sleep] because the room is too noisy.",
+      "Turn off the bedroom lights so we can [sleep]."
     ]
   },
   {
@@ -1098,18 +890,14 @@
     "ipa": "/drɪŋk/",
     "top": ["HEA"],
     "col": ["drink plenty of water", "drink warm water", "drink juice"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "drink [amount] of water daily",
-        "defn": "To take liquid into the body through the mouth.",
-        "syn": ["consume", "sip"],
-        "ex": [
-          "You should [drink] eight glasses of water each day.",
-          "Cats like to [drink] fresh milk from a small bowl.",
-          "He [drank] a cold bottle of juice after running."
-        ]
-      }
+    "pos": "verb",
+    "pat": "drink [amount] of water daily",
+    "defn": "To take liquid into the body through the mouth.",
+    "syn": ["consume", "sip"],
+    "ex": [
+      "You should [drink] eight glasses of water each day.",
+      "Cats like to [drink] fresh milk from a small bowl.",
+      "He [drank] a cold bottle of juice after running."
     ]
   },
   {
@@ -1119,18 +907,14 @@
     "ipa": "/ˈhelθi/",
     "top": ["HEA"],
     "col": ["healthy diet", "healthy lifestyle", "stay healthy"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "maintain a healthy [lifestyle/diet]",
-        "defn": "Having good physical condition and not suffering from any illness.",
-        "syn": ["fit", "well"],
-        "ex": [
-          "Eating fresh fruit keeps your body [healthy].",
-          "She exercises every morning to stay fit and [healthy].",
-          "A vegetable salad is a very [healthy] meal."
-        ]
-      }
+    "pos": "adj",
+    "pat": "maintain a healthy [lifestyle/diet]",
+    "defn": "Having good physical condition and not suffering from any illness.",
+    "syn": ["fit", "well"],
+    "ex": [
+      "Eating fresh fruit keeps your body [healthy].",
+      "She exercises every morning to stay fit and [healthy].",
+      "A vegetable salad is a very [healthy] meal."
     ]
   },
   {
@@ -1140,18 +924,14 @@
     "ipa": "/ˈtaɪəd/",
     "top": ["HEA"],
     "col": ["feel tired", "look tired", "get tired"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "feel tired after [activity]",
-        "defn": "Feeling a strong need to rest or sleep.",
-        "syn": ["exhausted", "sleepy"],
-        "ex": [
-          "I worked all day and now I feel very [tired].",
-          "Go to bed early tonight if you are [tired].",
-          "The long walk made the little boy very [tired]."
-        ]
-      }
+    "pos": "adj",
+    "pat": "feel tired after [activity]",
+    "defn": "Feeling a strong need to rest or sleep.",
+    "syn": ["exhausted", "sleepy"],
+    "ex": [
+      "I worked all day and now I feel very [tired].",
+      "Go to bed early tonight if you are [tired].",
+      "The long walk made the little boy very [tired]."
     ]
   },
   {
@@ -1161,18 +941,14 @@
     "ipa": "/sɪk/",
     "top": ["HEA"],
     "col": ["feel sick", "fall sick", "get sick"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "feel sick after [activity/eating]",
-        "defn": "Suffering from illness, disease, or a feeling that you may vomit.",
-        "syn": ["ill", "unwell"],
-        "ex": [
-          "He stayed home from school because he was [sick].",
-          "Eating bad food can make your stomach feel [sick].",
-          "She took medicine because she got [sick] with a cold."
-        ]
-      }
+    "pos": "adj",
+    "pat": "feel sick after [activity/eating]",
+    "defn": "Suffering from illness, disease, or a feeling that you may vomit.",
+    "syn": ["ill", "unwell"],
+    "ex": [
+      "He stayed home from school because he was [sick].",
+      "Eating bad food can make your stomach feel [sick].",
+      "She took medicine because she got [sick] with a cold."
     ]
   },
   {
@@ -1182,18 +958,14 @@
     "ipa": "/strɒŋ/",
     "top": ["HEA"],
     "col": ["stay strong", "strong muscles", "build a strong body"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "become strong by [V-ing]",
-        "defn": "Having great physical power, endurance, or muscular ability.",
-        "syn": ["powerful", "robust"],
-        "ex": [
-          "He is [strong] enough to lift that heavy box.",
-          "Drink milk every day to make your bones [strong].",
-          "Elephants have very large and [strong] legs."
-        ]
-      }
+    "pos": "adj",
+    "pat": "become strong by [V-ing]",
+    "defn": "Having great physical power, endurance, or muscular ability.",
+    "syn": ["powerful", "robust"],
+    "ex": [
+      "He is [strong] enough to lift that heavy box.",
+      "Drink milk every day to make your bones [strong].",
+      "Elephants have very large and [strong] legs."
     ]
   },
   {
@@ -1203,18 +975,14 @@
     "ipa": "/ˈɜːli/",
     "top": ["HEA"],
     "col": ["wake up early", "go to bed early", "arrive early"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "wake up early to [verb]",
-        "defn": "Before the usual time, or near the start of the morning.",
-        "syn": ["ahead of time", "promptly"],
-        "ex": [
-          "I wake up [early] at six o'clock every morning.",
-          "We arrived [early] and waited for the bus to come.",
-          "He finished his homework [early] this afternoon."
-        ]
-      }
+    "pos": "adv",
+    "pat": "wake up early to [verb]",
+    "defn": "Before the usual time, or near the start of the morning.",
+    "syn": ["ahead of time", "promptly"],
+    "ex": [
+      "I wake up [early] at six o'clock every morning.",
+      "We arrived [early] and waited for the bus to come.",
+      "He finished his homework [early] this afternoon."
     ]
   },
   {
@@ -1224,18 +992,14 @@
     "ipa": "/kəmˈpjuːtə(r)/",
     "top": ["TEC"],
     "col": ["use a computer", "turn on the computer", "personal computer"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "use a [computer] for [noun/V-ing]",
-        "defn": "An electronic machine that can store, organize, and find information, do calculations, and control other machines.",
-        "syn": ["PC", "desktop", "laptop"],
-        "ex": [
-          "He writes work emails on his [computer] every day.",
-          "Turn off your [computer] before you leave the desk.",
-          "She plays learning games on her personal [computer]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "use a [computer] for [noun/V-ing]",
+    "defn": "An electronic machine that can store, organize, and find information, do calculations, and control other machines.",
+    "syn": ["PC", "desktop", "laptop"],
+    "ex": [
+      "He writes work emails on his [computer] every day.",
+      "Turn off your [computer] before you leave the desk.",
+      "She plays learning games on her personal [computer]."
     ]
   },
   {
@@ -1245,18 +1009,14 @@
     "ipa": "/fəʊn/",
     "top": ["TEC"],
     "col": ["answer the phone", "mobile phone", "smart phone"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "talk on the [phone] with [someone]",
-        "defn": "A device that uses electronic signals to send speech and data over distances.",
-        "syn": ["telephone", "mobile", "cellphone"],
-        "ex": [
-          "My mobile [phone] is ringing inside my bag.",
-          "He looked at his [phone] screen to check the time.",
-          "Please answer the [phone] when someone calls."
-        ]
-      }
+    "pos": "noun",
+    "pat": "talk on the [phone] with [someone]",
+    "defn": "A device that uses electronic signals to send speech and data over distances.",
+    "syn": ["telephone", "mobile", "cellphone"],
+    "ex": [
+      "My mobile [phone] is ringing inside my bag.",
+      "He looked at his [phone] screen to check the time.",
+      "Please answer the [phone] when someone calls."
     ]
   },
   {
@@ -1266,18 +1026,14 @@
     "ipa": "/ˈiːmeɪl/",
     "top": ["TEC"],
     "col": ["send an email", "receive an email", "check email"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "send an [email] to [someone]",
-        "defn": "A system for sending digital messages from one computer or device to another.",
-        "syn": ["electronic mail", "message"],
-        "ex": [
-          "Check your inbox to see if you got my [email].",
-          "I will write an [email] to my teacher today.",
-          "Did you receive the [email] with the attached file?"
-        ]
-      }
+    "pos": "noun",
+    "pat": "send an [email] to [someone]",
+    "defn": "A system for sending digital messages from one computer or device to another.",
+    "syn": ["electronic mail", "message"],
+    "ex": [
+      "Check your inbox to see if you got my [email].",
+      "I will write an [email] to my teacher today.",
+      "Did you receive the [email] with the attached file?"
     ]
   },
   {
@@ -1291,18 +1047,14 @@
       "access the internet",
       "connect to the internet"
     ],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "browse the [internet] for [information]",
-        "defn": "The international computer network that connects computers worldwide and allows users to share information.",
-        "syn": ["web", "cyberspace", "online network"],
-        "ex": [
-          "We search for useful information on the [internet].",
-          "Our home [internet] connection is very slow today.",
-          "You need the [internet] to watch videos online."
-        ]
-      }
+    "pos": "noun",
+    "pat": "browse the [internet] for [information]",
+    "defn": "The international computer network that connects computers worldwide and allows users to share information.",
+    "syn": ["web", "cyberspace", "online network"],
+    "ex": [
+      "We search for useful information on the [internet].",
+      "Our home [internet] connection is very slow today.",
+      "You need the [internet] to watch videos online."
     ]
   },
   {
@@ -1312,18 +1064,14 @@
     "ipa": "/skriːn/",
     "top": ["TEC"],
     "col": ["look at the screen", "touch screen", "computer screen"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "stare at a [screen] for [duration]",
-        "defn": "The flat, visual display surface of a computer, television, or phone.",
-        "syn": ["display", "monitor"],
-        "ex": [
-          "Do not sit too close to the television [screen].",
-          "He accidentally cracked the glass [screen] of his phone.",
-          "Looking at a bright [screen] in the dark hurts your eyes."
-        ]
-      }
+    "pos": "noun",
+    "pat": "stare at a [screen] for [duration]",
+    "defn": "The flat, visual display surface of a computer, television, or phone.",
+    "syn": ["display", "monitor"],
+    "ex": [
+      "Do not sit too close to the television [screen].",
+      "He accidentally cracked the glass [screen] of his phone.",
+      "Looking at a bright [screen] in the dark hurts your eyes."
     ]
   },
   {
@@ -1333,18 +1081,14 @@
     "ipa": "/ˈmesɪdʒ/",
     "top": ["TEC"],
     "col": ["text message", "send a message", "leave a message"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "send a [message] to [someone]",
-        "defn": "A short piece of written or spoken information sent from one person to another electronically.",
-        "syn": ["text", "note", "communication"],
-        "ex": [
-          "Send me a quick text [message] when you arrive home.",
-          "She left a short voice [message] on my phone.",
-          "I received a friendly [message] from my brother."
-        ]
-      }
+    "pos": "noun",
+    "pat": "send a [message] to [someone]",
+    "defn": "A short piece of written or spoken information sent from one person to another electronically.",
+    "syn": ["text", "note", "communication"],
+    "ex": [
+      "Send me a quick text [message] when you arrive home.",
+      "She left a short voice [message] on my phone.",
+      "I received a friendly [message] from my brother."
     ]
   },
   {
@@ -1354,18 +1098,14 @@
     "ipa": "/ɡeɪm/",
     "top": ["TEC"],
     "col": ["video game", "play a game", "computer game"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "play a [game] on [device]",
-        "defn": "An interactive electronic activity played on a screen for entertainment.",
-        "syn": ["video game", "digital game"],
-        "ex": [
-          "The children love to play this board [game] together.",
-          "Our team won the final football [game] yesterday.",
-          "He bought a fun new video [game] for his console."
-        ]
-      }
+    "pos": "noun",
+    "pat": "play a [game] on [device]",
+    "defn": "An interactive electronic activity played on a screen for entertainment.",
+    "syn": ["video game", "digital game"],
+    "ex": [
+      "The children love to play this board [game] together.",
+      "Our team won the final football [game] yesterday.",
+      "He bought a fun new video [game] for his console."
     ]
   },
   {
@@ -1375,18 +1115,14 @@
     "ipa": "/məˈʃiːn/",
     "top": ["TEC"],
     "col": ["washing machine", "electronic machine", "operate a machine"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "operate a [machine] with [care]",
-        "defn": "A piece of equipment with moving parts or electronic systems designed to do specific work.",
-        "syn": ["device", "appliance", "apparatus"],
-        "ex": [
-          "Put your dirty clothes into the washing [machine].",
-          "This coffee [machine] makes hot drinks in one minute.",
-          "The factory uses a large [machine] to pack boxes."
-        ]
-      }
+    "pos": "noun",
+    "pat": "operate a [machine] with [care]",
+    "defn": "A piece of equipment with moving parts or electronic systems designed to do specific work.",
+    "syn": ["device", "appliance", "apparatus"],
+    "ex": [
+      "Put your dirty clothes into the washing [machine].",
+      "This coffee [machine] makes hot drinks in one minute.",
+      "The factory uses a large [machine] to pack boxes."
     ]
   },
   {
@@ -1396,18 +1132,14 @@
     "ipa": "/juːz/",
     "top": ["TEC"],
     "col": ["use the internet", "use a computer", "use an app"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[use] [technology/device] to [verb]",
-        "defn": "To do a task with a machine, tool, or method for a particular purpose.",
-        "syn": ["operate", "utilize", "apply"],
-        "ex": [
-          "You can [use] a pencil or a blue pen to write.",
-          "Do not [use] your mobile phone while driving a car.",
-          "Can I please [use] your umbrella for a few minutes?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "[use] [technology/device] to [verb]",
+    "defn": "To do a task with a machine, tool, or method for a particular purpose.",
+    "syn": ["operate", "utilize", "apply"],
+    "ex": [
+      "You can [use] a pencil or a blue pen to write.",
+      "Do not [use] your mobile phone while driving a car.",
+      "Can I please [use] your umbrella for a few minutes?"
     ]
   },
   {
@@ -1417,18 +1149,14 @@
     "ipa": "/send/",
     "top": ["TEC"],
     "col": ["send an email", "send a text", "send files"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[send] [something] to [someone]",
-        "defn": "To transmit digital data, messages, or files to another device or user.",
-        "syn": ["transmit", "forward", "dispatch"],
-        "ex": [
-          "I will [send] a postcard to my grandmother this week.",
-          "Please [send] me the photos from your holiday trip.",
-          "He [sent] a letter to his pen friend yesterday."
-        ]
-      }
+    "pos": "verb",
+    "pat": "[send] [something] to [someone]",
+    "defn": "To transmit digital data, messages, or files to another device or user.",
+    "syn": ["transmit", "forward", "dispatch"],
+    "ex": [
+      "I will [send] a postcard to my grandmother this week.",
+      "Please [send] me the photos from your holiday trip.",
+      "He [sent] a letter to his pen friend yesterday."
     ]
   },
   {
@@ -1438,18 +1166,14 @@
     "ipa": "/kɔːl/",
     "top": ["TEC"],
     "col": ["make a call", "video call", "call someone back"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[call] [someone] on [device/platform]",
-        "defn": "To reach and speak to someone by phone or digital communication software.",
-        "syn": ["phone", "ring", "contact"],
-        "ex": [
-          "Please [call] me on the phone when you get home.",
-          "She used her mobile to [call] a taxi to the station.",
-          "He [called] the doctor's office to make an appointment."
-        ]
-      }
+    "pos": "verb",
+    "pat": "[call] [someone] on [device/platform]",
+    "defn": "To reach and speak to someone by phone or digital communication software.",
+    "syn": ["phone", "ring", "contact"],
+    "ex": [
+      "Please [call] me on the phone when you get home.",
+      "She used her mobile to [call] a taxi to the station.",
+      "He [called] the doctor's office to make an appointment."
     ]
   },
   {
@@ -1459,18 +1183,14 @@
     "ipa": "/wɜːk/",
     "top": ["TEC"],
     "col": ["work properly", "stop working", "work well"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[device] does not [work]",
-        "defn": "To function or operate correctly as intended.",
-        "syn": ["function", "operate", "run"],
-        "ex": [
-          "My parents [work] in a bank in the city center.",
-          "He has a lot of [work] to finish before five o'clock.",
-          "She starts her new office [work] next Monday."
-        ]
-      }
+    "pos": "verb",
+    "pat": "[device] does not [work]",
+    "defn": "To function or operate correctly as intended.",
+    "syn": ["function", "operate", "run"],
+    "ex": [
+      "My parents [work] in a bank in the city center.",
+      "He has a lot of [work] to finish before five o'clock.",
+      "She starts her new office [work] next Monday."
     ]
   },
   {
@@ -1480,18 +1200,14 @@
     "ipa": "/pleɪ/",
     "top": ["TEC"],
     "col": ["play video games", "play online", "play games on a phone"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[play] [games] on [device]",
-        "defn": "To take part in a digital game or recreational activity on an electronic device.",
-        "syn": ["game", "participate"],
-        "ex": [
-          "The children love to [play] with a ball in the garden.",
-          "Can you [play] the acoustic guitar or the piano?",
-          "They like to [play] video games together after school."
-        ]
-      }
+    "pos": "verb",
+    "pat": "[play] [games] on [device]",
+    "defn": "To take part in a digital game or recreational activity on an electronic device.",
+    "syn": ["game", "participate"],
+    "ex": [
+      "The children love to [play] with a ball in the garden.",
+      "Can you [play] the acoustic guitar or the piano?",
+      "They like to [play] video games together after school."
     ]
   },
   {
@@ -1501,18 +1217,14 @@
     "ipa": "/ˈəʊpən/",
     "top": ["TEC"],
     "col": ["open a file", "open an app", "open a browser"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "[open] [file/app] on [device]",
-        "defn": "To make a computer program, application, website, or document ready for use.",
-        "syn": ["launch", "start", "access"],
-        "ex": [
-          "Please [open] the window so fresh air can come in.",
-          "The supermarket will [open] its doors at eight o'clock.",
-          "He used a small key to [open] the wooden box."
-        ]
-      }
+    "pos": "verb",
+    "pat": "[open] [file/app] on [device]",
+    "defn": "To make a computer program, application, website, or document ready for use.",
+    "syn": ["launch", "start", "access"],
+    "ex": [
+      "Please [open] the window so fresh air can come in.",
+      "The supermarket will [open] its doors at eight o'clock.",
+      "He used a small key to [open] the wooden box."
     ]
   },
   {
@@ -1522,18 +1234,14 @@
     "ipa": "/njuː/",
     "top": ["TEC"],
     "col": ["new technology", "brand new phone", "new model"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a [new] [device/technology] with [features]",
-        "defn": "Recently developed, made, or introduced; not existing before.",
-        "syn": ["modern", "recent", "latest"],
-        "ex": [
-          "She bought a [new] pair of white running shoes.",
-          "We moved into a clean and [new] apartment last week.",
-          "He drives a shiny [new] car to his office."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a [new] [device/technology] with [features]",
+    "defn": "Recently developed, made, or introduced; not existing before.",
+    "syn": ["modern", "recent", "latest"],
+    "ex": [
+      "She bought a [new] pair of white running shoes.",
+      "We moved into a clean and [new] apartment last week.",
+      "He drives a shiny [new] car to his office."
     ]
   },
   {
@@ -1543,18 +1251,14 @@
     "ipa": "/əʊld/",
     "top": ["TEC"],
     "col": ["old computer", "old model", "outdated technology"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "an [old] [device] that is [adjective]",
-        "defn": "Having existed or been used for a long time; not modern.",
-        "syn": ["outdated", "aged", "antique"],
-        "ex": [
-          "My grandfather tells stories about the [old] days.",
-          "Throw away that [old] broken chair in the garage.",
-          "How [old] will you be on your next birthday?"
-        ]
-      }
+    "pos": "adj",
+    "pat": "an [old] [device] that is [adjective]",
+    "defn": "Having existed or been used for a long time; not modern.",
+    "syn": ["outdated", "aged", "antique"],
+    "ex": [
+      "My grandfather tells stories about the [old] days.",
+      "Throw away that [old] broken chair in the garage.",
+      "How [old] will you be on your next birthday?"
     ]
   },
   {
@@ -1564,18 +1268,14 @@
     "ipa": "/fɑːst/",
     "top": ["TEC"],
     "col": ["fast internet", "fast connection", "fast computer"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a [fast] [connection/processor] for [purpose]",
-        "defn": "Operating, loading, or transferring data in very little time.",
-        "syn": ["quick", "speedy", "rapid"],
-        "ex": [
-          "He is a very [fast] runner and wins every race.",
-          "Rabbits can run much [faster] than small turtles.",
-          "Do not drive too [fast] on this narrow street."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a [fast] [connection/processor] for [purpose]",
+    "defn": "Operating, loading, or transferring data in very little time.",
+    "syn": ["quick", "speedy", "rapid"],
+    "ex": [
+      "He is a very [fast] runner and wins every race.",
+      "Rabbits can run much [faster] than small turtles.",
+      "Do not drive too [fast] on this narrow street."
     ]
   },
   {
@@ -1585,18 +1285,14 @@
     "ipa": "/tʃiːp/",
     "top": ["TEC"],
     "col": ["cheap device", "cheap phone", "cheap price"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a [cheap] [device] to buy",
-        "defn": "Costing very little money; affordable to purchase.",
-        "syn": ["inexpensive", "affordable", "low-cost"],
-        "ex": [
-          "The movie tickets were very [cheap], only two dollars each.",
-          "Buying fresh fruit at the market is quite [cheap].",
-          "This pen was very [cheap], but it writes smoothly."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a [cheap] [device] to buy",
+    "defn": "Costing very little money; affordable to purchase.",
+    "syn": ["inexpensive", "affordable", "low-cost"],
+    "ex": [
+      "The movie tickets were very [cheap], only two dollars each.",
+      "Buying fresh fruit at the market is quite [cheap].",
+      "This pen was very [cheap], but it writes smoothly."
     ]
   },
   {
@@ -1606,18 +1302,14 @@
     "ipa": "/ˌɒnˈlaɪn/",
     "top": ["TEC"],
     "col": ["chat online", "shop online", "go online"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "[verb] [online] on [device]",
-        "defn": "While connected to the internet or using computer networks.",
-        "syn": ["digitally", "electronically"],
-        "ex": [
-          "Many people prefer to shop [online] from their homes.",
-          "You can read today's news [online] for free.",
-          "We took an [online] English class over the weekend."
-        ]
-      }
+    "pos": "adv",
+    "pat": "[verb] [online] on [device]",
+    "defn": "While connected to the internet or using computer networks.",
+    "syn": ["digitally", "electronically"],
+    "ex": [
+      "Many people prefer to shop [online] from their homes.",
+      "You can read today's news [online] for free.",
+      "We took an [online] English class over the weekend."
     ]
   },
   {
@@ -1627,18 +1319,14 @@
     "ipa": "/dʒɒb/",
     "top": ["BUS"],
     "col": ["look for a job", "apply for a job", "full-time job"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "have a job as [profession]",
-        "defn": "Work that you do regularly to earn money.",
-        "syn": ["position", "occupation", "post"],
-        "ex": [
-          "She is looking for a part-time [job] as a waiter.",
-          "His father has a busy [job] at the city hospital.",
-          "Cleaning the whole house is a difficult [job]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "have a job as [profession]",
+    "defn": "Work that you do regularly to earn money.",
+    "syn": ["position", "occupation", "post"],
+    "ex": [
+      "She is looking for a part-time [job] as a waiter.",
+      "His father has a busy [job] at the city hospital.",
+      "Cleaning the whole house is a difficult [job]."
     ]
   },
   {
@@ -1648,18 +1336,14 @@
     "ipa": "/ˈɒfɪs/",
     "top": ["BUS"],
     "col": ["work in an office", "head office", "office hours"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "go to the office every [day/morning]",
-        "defn": "A room or building where people work at desks as part of a business.",
-        "syn": ["workplace", "workstation"],
-        "ex": [
-          "He sits at his wooden desk in the [office] all day.",
-          "Our company has a modern [office] in the city center.",
-          "The doctor walked into her private [office] to talk."
-        ]
-      }
+    "pos": "noun",
+    "pat": "go to the office every [day/morning]",
+    "defn": "A room or building where people work at desks as part of a business.",
+    "syn": ["workplace", "workstation"],
+    "ex": [
+      "He sits at his wooden desk in the [office] all day.",
+      "Our company has a modern [office] in the city center.",
+      "The doctor walked into her private [office] to talk."
     ]
   },
   {
@@ -1669,18 +1353,14 @@
     "ipa": "/ˈkʌmpəni/",
     "top": ["BUS"],
     "col": ["work for a company", "start a company", "international company"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "work for a company that [verb phrase]",
-        "defn": "A commercial business that produces goods or provides services to make a profit.",
-        "syn": ["firm", "corporation", "enterprise"],
-        "ex": [
-          "She works as an engineer for a technology [company].",
-          "He started his own small delivery [company] last year.",
-          "That large [company] makes warm winter clothes."
-        ]
-      }
+    "pos": "noun",
+    "pat": "work for a company that [verb phrase]",
+    "defn": "A commercial business that produces goods or provides services to make a profit.",
+    "syn": ["firm", "corporation", "enterprise"],
+    "ex": [
+      "She works as an engineer for a technology [company].",
+      "He started his own small delivery [company] last year.",
+      "That large [company] makes warm winter clothes."
     ]
   },
   {
@@ -1690,18 +1370,14 @@
     "ipa": "/bɒs/",
     "top": ["BUS"],
     "col": ["talk to the boss", "strict boss", "new boss"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "report to a [boss]",
-        "defn": "The person who is in charge of an organization or employees at work.",
-        "syn": ["manager", "supervisor", "employer"],
-        "ex": [
-          "My [boss] told me to finish the report before lunch.",
-          "She is a kind [boss] who listens to her workers.",
-          "He had an important meeting with his new [boss]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "report to a [boss]",
+    "defn": "The person who is in charge of an organization or employees at work.",
+    "syn": ["manager", "supervisor", "employer"],
+    "ex": [
+      "My [boss] told me to finish the report before lunch.",
+      "She is a kind [boss] who listens to her workers.",
+      "He had an important meeting with his new [boss]."
     ]
   },
   {
@@ -1711,18 +1387,14 @@
     "ipa": "/ˈmʌni/",
     "top": ["BUS"],
     "col": ["earn money", "spend money", "save money"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "earn money from [job/work]",
-        "defn": "Coins or banknotes used to pay for goods, services, and living costs.",
-        "syn": ["income", "funds", "cash"],
-        "ex": [
-          "Keep your paper [money] safely inside your wallet.",
-          "I do not have enough [money] to buy that expensive watch.",
-          "He saves some [money] from his salary every month."
-        ]
-      }
+    "pos": "noun",
+    "pat": "earn money from [job/work]",
+    "defn": "Coins or banknotes used to pay for goods, services, and living costs.",
+    "syn": ["income", "funds", "cash"],
+    "ex": [
+      "Keep your paper [money] safely inside your wallet.",
+      "I do not have enough [money] to buy that expensive watch.",
+      "He saves some [money] from his salary every month."
     ]
   },
   {
@@ -1732,18 +1404,14 @@
     "ipa": "/breɪk/",
     "top": ["BUS"],
     "col": ["take a break", "have a break", "lunch break"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "take a break from [work/tasks]",
-        "defn": "A short pause or period of rest from work or activity.",
-        "syn": ["pause", "rest", "intermission"],
-        "ex": [
-          "Be careful not to drop and [break] that glass cup.",
-          "Let us take a short ten-minute [break] from studying.",
-          "If you kick the ball at the window, it might [break]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "take a break from [work/tasks]",
+    "defn": "A short pause or period of rest from work or activity.",
+    "syn": ["pause", "rest", "intermission"],
+    "ex": [
+      "Be careful not to drop and [break] that glass cup.",
+      "Let us take a short ten-minute [break] from studying.",
+      "If you kick the ball at the window, it might [break]."
     ]
   },
   {
@@ -1753,18 +1421,14 @@
     "ipa": "/ˈmiːtɪŋ/",
     "top": ["BUS"],
     "col": ["attend a meeting", "have a meeting", "cancel a meeting"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "have a meeting with [someone]",
-        "defn": "An occasion when people come together to discuss work or make decisions.",
-        "syn": ["conference", "gathering", "discussion"],
-        "ex": [
-          "We have an important staff [meeting] at ten o'clock.",
-          "The business [meeting] lasted for more than two hours.",
-          "He was late to the morning [meeting] because of traffic."
-        ]
-      }
+    "pos": "noun",
+    "pat": "have a meeting with [someone]",
+    "defn": "An occasion when people come together to discuss work or make decisions.",
+    "syn": ["conference", "gathering", "discussion"],
+    "ex": [
+      "We have an important staff [meeting] at ten o'clock.",
+      "The business [meeting] lasted for more than two hours.",
+      "He was late to the morning [meeting] because of traffic."
     ]
   },
   {
@@ -1774,18 +1438,14 @@
     "ipa": "/ʃɒp/",
     "top": ["BUS"],
     "col": ["open a shop", "work in a shop", "local shop"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "run a [shop] in [place]",
-        "defn": "A building or room where goods or services are sold to customers.",
-        "syn": ["store", "outlet", "retailer"],
-        "ex": [
-          "She bought a loaf of fresh bread at the bakery [shop].",
-          "I need to [shop] for vegetables this afternoon.",
-          "That small flower [shop] closes early on Sundays."
-        ]
-      }
+    "pos": "noun",
+    "pat": "run a [shop] in [place]",
+    "defn": "A building or room where goods or services are sold to customers.",
+    "syn": ["store", "outlet", "retailer"],
+    "ex": [
+      "She bought a loaf of fresh bread at the bakery [shop].",
+      "I need to [shop] for vegetables this afternoon.",
+      "That small flower [shop] closes early on Sundays."
     ]
   },
   {
@@ -1795,18 +1455,14 @@
     "ipa": "/baɪ/",
     "top": ["BUS"],
     "col": ["buy products", "buy goods", "buy online"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "buy [something] from [store/person]",
-        "defn": "To get something by paying money for it.",
-        "syn": ["purchase", "acquire", "procure"],
-        "ex": [
-          "I want to [buy] some red apples from the fruit stall.",
-          "How much does it cost to [buy] a bus ticket?",
-          "She went to the mall to [buy] a gift for her sister."
-        ]
-      }
+    "pos": "verb",
+    "pat": "buy [something] from [store/person]",
+    "defn": "To get something by paying money for it.",
+    "syn": ["purchase", "acquire", "procure"],
+    "ex": [
+      "I want to [buy] some red apples from the fruit stall.",
+      "How much does it cost to [buy] a bus ticket?",
+      "She went to the mall to [buy] a gift for her sister."
     ]
   },
   {
@@ -1816,18 +1472,14 @@
     "ipa": "/sel/",
     "top": ["BUS"],
     "col": ["sell goods", "sell products", "sell online"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "sell [goods] to [customers]",
-        "defn": "To give something to someone in exchange for an agreed amount of money.",
-        "syn": ["trade", "retail", "market"],
-        "ex": [
-          "Local farmers [sell] fresh vegetables at the morning market.",
-          "He wants to [sell] his old bicycle and get a new one.",
-          "They [sell] hot coffee and fresh tea in that cafe."
-        ]
-      }
+    "pos": "verb",
+    "pat": "sell [goods] to [customers]",
+    "defn": "To give something to someone in exchange for an agreed amount of money.",
+    "syn": ["trade", "retail", "market"],
+    "ex": [
+      "Local farmers [sell] fresh vegetables at the morning market.",
+      "He wants to [sell] his old bicycle and get a new one.",
+      "They [sell] hot coffee and fresh tea in that cafe."
     ]
   },
   {
@@ -1837,18 +1489,14 @@
     "ipa": "/peɪ/",
     "top": ["BUS"],
     "col": ["pay in cash", "pay by card", "pay bills"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "pay [amount] for [goods/services]",
-        "defn": "To give money to someone for goods, services, or work completed.",
-        "syn": ["compensate", "remunerate", "settle"],
-        "ex": [
-          "You can [pay] for your dinner with cash or a credit card.",
-          "Do not forget to [pay] the monthly electricity bill.",
-          "How much money did you [pay] for that blue shirt?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "pay [amount] for [goods/services]",
+    "defn": "To give money to someone for goods, services, or work completed.",
+    "syn": ["compensate", "remunerate", "settle"],
+    "ex": [
+      "You can [pay] for your dinner with cash or a credit card.",
+      "Do not forget to [pay] the monthly electricity bill.",
+      "How much money did you [pay] for that blue shirt?"
     ]
   },
   {
@@ -1858,18 +1506,14 @@
     "ipa": "/help/",
     "top": ["BUS"],
     "col": ["help customers", "help colleagues", "ask for help"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "help [someone] with [task]",
-        "defn": "To give assistance or support to another person to complete a job.",
-        "syn": ["assist", "support", "aid"],
-        "ex": [
-          "Can you please [help] me carry these heavy bags?",
-          "She asked her classmate for [help] with the homework.",
-          "Doctors work hard to [help] sick patients get better."
-        ]
-      }
+    "pos": "verb",
+    "pat": "help [someone] with [task]",
+    "defn": "To give assistance or support to another person to complete a job.",
+    "syn": ["assist", "support", "aid"],
+    "ex": [
+      "Can you please [help] me carry these heavy bags?",
+      "She asked her classmate for [help] with the homework.",
+      "Doctors work hard to [help] sick patients get better."
     ]
   },
   {
@@ -1879,18 +1523,14 @@
     "ipa": "/miːt/",
     "top": ["BUS"],
     "col": ["meet clients", "meet customers", "meet with the manager"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "meet with [clients/partners] to [verb]",
-        "defn": "To come together with someone deliberately to discuss business matters.",
-        "syn": ["encounter", "convene with", "confer with"],
-        "ex": [
-          "Let us [meet] outside the cinema at seven o'clock.",
-          "I was very happy to [meet] your family yesterday.",
-          "We will [meet] our new teacher tomorrow morning."
-        ]
-      }
+    "pos": "verb",
+    "pat": "meet with [clients/partners] to [verb]",
+    "defn": "To come together with someone deliberately to discuss business matters.",
+    "syn": ["encounter", "convene with", "confer with"],
+    "ex": [
+      "Let us [meet] outside the cinema at seven o'clock.",
+      "I was very happy to [meet] your family yesterday.",
+      "We will [meet] our new teacher tomorrow morning."
     ]
   },
   {
@@ -1900,18 +1540,14 @@
     "ipa": "/smɔːl/",
     "top": ["BUS"],
     "col": ["small business", "small company", "small team"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "run a small [business/firm]",
-        "defn": "Not large in physical size, financial scale, or staff numbers.",
-        "syn": ["minor", "modest", "compact"],
-        "ex": [
-          "A tiny mouse is a very [small] animal.",
-          "They live in a [small] white house near the river.",
-          "This shirt is too [small] for my older brother."
-        ]
-      }
+    "pos": "adj",
+    "pat": "run a small [business/firm]",
+    "defn": "Not large in physical size, financial scale, or staff numbers.",
+    "syn": ["minor", "modest", "compact"],
+    "ex": [
+      "A tiny mouse is a very [small] animal.",
+      "They live in a [small] white house near the river.",
+      "This shirt is too [small] for my older brother."
     ]
   },
   {
@@ -1921,18 +1557,14 @@
     "ipa": "/friː/",
     "top": ["BUS"],
     "col": ["free delivery", "free time", "duty-free"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "offer free [service/delivery] to [customers]",
-        "defn": "Costing no money, or available without a charge.",
-        "syn": ["complimentary", "unoccupied", "available"],
-        "ex": [
-          "Entry to the city art museum is completely [free] today.",
-          "Are you [free] to talk on the phone for five minutes?",
-          "The hotel provides a [free] breakfast every morning."
-        ]
-      }
+    "pos": "adj",
+    "pat": "offer free [service/delivery] to [customers]",
+    "defn": "Costing no money, or available without a charge.",
+    "syn": ["complimentary", "unoccupied", "available"],
+    "ex": [
+      "Entry to the city art museum is completely [free] today.",
+      "Are you [free] to talk on the phone for five minutes?",
+      "The hotel provides a [free] breakfast every morning."
     ]
   },
   {
@@ -1942,18 +1574,14 @@
     "ipa": "/rɪtʃ/",
     "top": ["BUS"],
     "col": ["rich company", "rich businessman", "get rich"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "become rich by [V-ing]",
-        "defn": "Having a lot of money, assets, or valuable resources.",
-        "syn": ["wealthy", "affluent", "prosperous"],
-        "ex": [
-          "He is a very [rich] man who owns several large houses.",
-          "You do not need to be [rich] to live a happy life.",
-          "The king lived in a palace filled with [rich] treasures."
-        ]
-      }
+    "pos": "adj",
+    "pat": "become rich by [V-ing]",
+    "defn": "Having a lot of money, assets, or valuable resources.",
+    "syn": ["wealthy", "affluent", "prosperous"],
+    "ex": [
+      "He is a very [rich] man who owns several large houses.",
+      "You do not need to be [rich] to live a happy life.",
+      "The king lived in a palace filled with [rich] treasures."
     ]
   },
   {
@@ -1963,18 +1591,14 @@
     "ipa": "/ˈpiːpl/",
     "top": ["SOC"],
     "col": ["elderly people", "young people", "meet new people"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "people in [need/society]",
-        "defn": "Men, women, and children considered collectively or as members of a community.",
-        "syn": ["individuals", "citizens", "the public"],
-        "ex": [
-          "There are many [people] waiting at the bus stop.",
-          "Friendly [people] always smile and greet their neighbors.",
-          "How many [people] live in this small town?"
-        ]
-      }
+    "pos": "noun",
+    "pat": "people in [need/society]",
+    "defn": "Men, women, and children considered collectively or as members of a community.",
+    "syn": ["individuals", "citizens", "the public"],
+    "ex": [
+      "There are many [people] waiting at the bus stop.",
+      "Friendly [people] always smile and greet their neighbors.",
+      "How many [people] live in this small town?"
     ]
   },
   {
@@ -1984,18 +1608,14 @@
     "ipa": "/ˈfæməli/",
     "top": ["SOC"],
     "col": ["extended family", "close-knit family", "spend time with family"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "support one's [family]",
-        "defn": "A group consisting of parents and children living together, or all relatives related by blood or marriage.",
-        "syn": ["household", "relatives", "kin"],
-        "ex": [
-          "I live with my parents and brother in a happy [family].",
-          "Our [family] eats Sunday dinner together every week.",
-          "She showed me a lovely photograph of her [family]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "support one's [family]",
+    "defn": "A group consisting of parents and children living together, or all relatives related by blood or marriage.",
+    "syn": ["household", "relatives", "kin"],
+    "ex": [
+      "I live with my parents and brother in a happy [family].",
+      "Our [family] eats Sunday dinner together every week.",
+      "She showed me a lovely photograph of her [family]."
     ]
   },
   {
@@ -2005,18 +1625,14 @@
     "ipa": "/frend/",
     "top": ["SOC"],
     "col": ["make friends", "close friend", "childhood friend"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "make [friends] with [someone]",
-        "defn": "A person you know well and like, but who is not usually a member of your family.",
-        "syn": ["companion", "peer", "mate"],
-        "ex": [
-          "He went to the park with his best school [friend].",
-          "She loves chatting on the phone with her [friends].",
-          "A good [friend] will always help you when you are sad."
-        ]
-      }
+    "pos": "noun",
+    "pat": "make [friends] with [someone]",
+    "defn": "A person you know well and like, but who is not usually a member of your family.",
+    "syn": ["companion", "peer", "mate"],
+    "ex": [
+      "He went to the park with his best school [friend].",
+      "She loves chatting on the phone with her [friends].",
+      "A good [friend] will always help you when you are sad."
     ]
   },
   {
@@ -2026,18 +1642,14 @@
     "ipa": "/tʃaɪld/",
     "top": ["SOC"],
     "col": ["raise a child", "young child", "care for children"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "raise a [child]",
-        "defn": "A young human being who is not yet an adult.",
-        "syn": ["kid", "minor", "youth"],
-        "ex": [
-          "The little [child] is learning how to ride a bicycle.",
-          "Every [child] in the classroom received a picture book.",
-          "She has one [child], a happy four-year-old son."
-        ]
-      }
+    "pos": "noun",
+    "pat": "raise a [child]",
+    "defn": "A young human being who is not yet an adult.",
+    "syn": ["kid", "minor", "youth"],
+    "ex": [
+      "The little [child] is learning how to ride a bicycle.",
+      "Every [child] in the classroom received a picture book.",
+      "She has one [child], a happy four-year-old son."
     ]
   },
   {
@@ -2047,18 +1659,14 @@
     "ipa": "/ˈneɪbə(r)/",
     "top": ["SOC"],
     "col": ["friendly neighbour", "next-door neighbour", "talk to neighbours"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "get on well with one's [neighbour]",
-        "defn": "A person who lives near you or next door to your house.",
-        "syn": ["resident", "local"],
-        "ex": [
-          "Our next-door [neighbour] has a friendly brown dog.",
-          "I always say hello to my kind [neighbour] every morning.",
-          "The [neighbour] gave us some sweet fruit from his tree."
-        ]
-      }
+    "pos": "noun",
+    "pat": "get on well with one's [neighbour]",
+    "defn": "A person who lives near you or next door to your house.",
+    "syn": ["resident", "local"],
+    "ex": [
+      "Our next-door [neighbour] has a friendly brown dog.",
+      "I always say hello to my kind [neighbour] every morning.",
+      "The [neighbour] gave us some sweet fruit from his tree."
     ]
   },
   {
@@ -2068,18 +1676,14 @@
     "ipa": "/ɡruːp/",
     "top": ["SOC"],
     "col": ["social group", "join a group", "age group"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "join a [group] of [people]",
-        "defn": "A number of people who are gathered together or share common interests.",
-        "syn": ["club", "circle", "association"],
-        "ex": [
-          "A small [group] of students is studying in the library.",
-          "The teacher divided the class into four small [groups].",
-          "Join our English speaking [group] to practice every week."
-        ]
-      }
+    "pos": "noun",
+    "pat": "join a [group] of [people]",
+    "defn": "A number of people who are gathered together or share common interests.",
+    "syn": ["club", "circle", "association"],
+    "ex": [
+      "A small [group] of students is studying in the library.",
+      "The teacher divided the class into four small [groups].",
+      "Join our English speaking [group] to practice every week."
     ]
   },
   {
@@ -2089,18 +1693,14 @@
     "ipa": "/ruːl/",
     "top": ["SOC"],
     "col": ["follow the rules", "break the rules", "strict rules"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "follow the [rules] of [society/institution]",
-        "defn": "An official instruction or guideline that states what you may or may not do in a community or place.",
-        "syn": ["regulation", "law", "guideline"],
-        "ex": [
-          "You must follow the road safety [rules] when driving.",
-          "The main [rule] of the quiet library is not to shout.",
-          "Every board game has simple [rules] that players obey."
-        ]
-      }
+    "pos": "noun",
+    "pat": "follow the [rules] of [society/institution]",
+    "defn": "An official instruction or guideline that states what you may or may not do in a community or place.",
+    "syn": ["regulation", "law", "guideline"],
+    "ex": [
+      "You must follow the road safety [rules] when driving.",
+      "The main [rule] of the quiet library is not to shout.",
+      "Every board game has simple [rules] that players obey."
     ]
   },
   {
@@ -2110,18 +1710,14 @@
     "ipa": "/laɪf/",
     "top": ["SOC"],
     "col": ["daily life", "way of life", "social life"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "the way of [life] in [place]",
-        "defn": "The experience, activities, and relationships of human existence in a society.",
-        "syn": ["existence", "lifestyle", "living"],
-        "ex": [
-          "He enjoys living a simple and happy [life].",
-          "Doctors work hard every day to save [lives].",
-          "City [life] is much busier than village living."
-        ]
-      }
+    "pos": "noun",
+    "pat": "the way of [life] in [place]",
+    "defn": "The experience, activities, and relationships of human existence in a society.",
+    "syn": ["existence", "lifestyle", "living"],
+    "ex": [
+      "He enjoys living a simple and happy [life].",
+      "Doctors work hard every day to save [lives].",
+      "City [life] is much busier than village living."
     ]
   },
   {
@@ -2131,18 +1727,14 @@
     "ipa": "/ʃeə(r)/",
     "top": ["SOC"],
     "col": ["share ideas", "share with others", "share meals"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "share [something] with [someone]",
-        "defn": "To have or use something together with other people.",
-        "syn": ["distribute", "divide", "exchange"],
-        "ex": [
-          "Good friends always [share] their food and toys.",
-          "She offered to [share] her umbrella in the rain.",
-          "Can you please [share] this photo with the class?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "share [something] with [someone]",
+    "defn": "To have or use something together with other people.",
+    "syn": ["distribute", "divide", "exchange"],
+    "ex": [
+      "Good friends always [share] their food and toys.",
+      "She offered to [share] her umbrella in the rain.",
+      "Can you please [share] this photo with the class?"
     ]
   },
   {
@@ -2152,18 +1744,14 @@
     "ipa": "/tɔːk/",
     "top": ["SOC"],
     "col": ["talk to neighbours", "talk openly", "talk about problems"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "talk to/with [someone] about [topic]",
-        "defn": "To speak in order to share thoughts, information, or feelings with others.",
-        "syn": ["speak", "chat", "communicate"],
-        "ex": [
-          "We like to sit and [talk] together after dinner.",
-          "Please do not [talk] loudly during the test.",
-          "She is [talking] on the phone with her mother."
-        ]
-      }
+    "pos": "verb",
+    "pat": "talk to/with [someone] about [topic]",
+    "defn": "To speak in order to share thoughts, information, or feelings with others.",
+    "syn": ["speak", "chat", "communicate"],
+    "ex": [
+      "We like to sit and [talk] together after dinner.",
+      "Please do not [talk] loudly during the test.",
+      "She is [talking] on the phone with her mother."
     ]
   },
   {
@@ -2173,18 +1761,14 @@
     "ipa": "/keə(r)/",
     "top": ["SOC"],
     "col": ["care for the elderly", "care about others", "take care of"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "care for/about [someone]",
-        "defn": "To look after someone and make sure they have what they need.",
-        "syn": ["look after", "tend", "nurture"],
-        "ex": [
-          "Parents take good [care] of their young children.",
-          "Nurses give daily medicine and [care] to patients.",
-          "He handles the fragile glass cup with great [care]."
-        ]
-      }
+    "pos": "verb",
+    "pat": "care for/about [someone]",
+    "defn": "To look after someone and make sure they have what they need.",
+    "syn": ["look after", "tend", "nurture"],
+    "ex": [
+      "Parents take good [care] of their young children.",
+      "Nurses give daily medicine and [care] to patients.",
+      "He handles the fragile glass cup with great [care]."
     ]
   },
   {
@@ -2194,18 +1778,14 @@
     "ipa": "/pɔː(r)/",
     "top": ["SOC"],
     "col": ["poor people", "poor families", "poor communities"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "support [poor] families",
-        "defn": "Having very little money, resources, or comfortable living conditions.",
-        "syn": ["needy", "disadvantaged", "impoverished"],
-        "ex": [
-          "The charity provides food and clothes to [poor] families.",
-          "He was too [poor] to afford a new bicycle.",
-          "That [poor] little puppy was lost out in the cold."
-        ]
-      }
+    "pos": "adj",
+    "pat": "support [poor] families",
+    "defn": "Having very little money, resources, or comfortable living conditions.",
+    "syn": ["needy", "disadvantaged", "impoverished"],
+    "ex": [
+      "The charity provides food and clothes to [poor] families.",
+      "He was too [poor] to afford a new bicycle.",
+      "That [poor] little puppy was lost out in the cold."
     ]
   },
   {
@@ -2215,18 +1795,14 @@
     "ipa": "/jʌŋ/",
     "top": ["SOC"],
     "col": ["young generation", "young people", "support young people"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "opportunities for [young] people",
-        "defn": "In the early part of life, growth, or development; not old.",
-        "syn": ["youthful", "juvenile", "adolescent"],
-        "ex": [
-          "The [young] boy is learning how to ride a bike.",
-          "She started playing the piano when she was very [young].",
-          "These [young] plants need plenty of sunshine to grow."
-        ]
-      }
+    "pos": "adj",
+    "pat": "opportunities for [young] people",
+    "defn": "In the early part of life, growth, or development; not old.",
+    "syn": ["youthful", "juvenile", "adolescent"],
+    "ex": [
+      "The [young] boy is learning how to ride a bike.",
+      "She started playing the piano when she was very [young].",
+      "These [young] plants need plenty of sunshine to grow."
     ]
   },
   {
@@ -2236,18 +1812,14 @@
     "ipa": "/kaɪnd/",
     "top": ["SOC"],
     "col": ["kind person", "kind words", "be kind to neighbours"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "be [kind] to [someone]",
-        "defn": "Helpful, caring, and treating other people well.",
-        "syn": ["friendly", "caring", "generous"],
-        "ex": [
-          "Our English teacher is very helpful and [kind].",
-          "It was very [kind] of you to hold the door open.",
-          "What [kind] of music do you like to listen to?"
-        ]
-      }
+    "pos": "adj",
+    "pat": "be [kind] to [someone]",
+    "defn": "Helpful, caring, and treating other people well.",
+    "syn": ["friendly", "caring", "generous"],
+    "ex": [
+      "Our English teacher is very helpful and [kind].",
+      "It was very [kind] of you to hold the door open.",
+      "What [kind] of music do you like to listen to?"
     ]
   },
   {
@@ -2257,18 +1829,14 @@
     "ipa": "/ˈɔːlweɪz/",
     "top": ["SOC"],
     "col": ["always help", "always respect", "always be polite"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "always [verb]",
-        "defn": "At all times or on every occasion.",
-        "syn": ["consistently", "invariably", "constantly"],
-        "ex": [
-          "He [always] washes his hands before eating lunch.",
-          "The library is [always] quiet in the morning.",
-          "She [always] arrives on time for work."
-        ]
-      }
+    "pos": "adv",
+    "pat": "always [verb]",
+    "defn": "At all times or on every occasion.",
+    "syn": ["consistently", "invariably", "constantly"],
+    "ex": [
+      "He [always] washes his hands before eating lunch.",
+      "The library is [always] quiet in the morning.",
+      "She [always] arrives on time for work."
     ]
   },
   {
@@ -2278,18 +1846,14 @@
     "ipa": "/ˈnjuːzpeɪpə(r)/",
     "top": ["COM"],
     "col": ["read a newspaper", "buy a newspaper", "local newspaper"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "read a [newspaper] about [topic]",
-        "defn": "A set of printed paper sheets containing news, articles, and advertisements, published daily or weekly.",
-        "syn": ["paper", "journal", "gazette"],
-        "ex": [
-          "My father reads the morning [newspaper] at breakfast.",
-          "He bought a daily [newspaper] at the train station.",
-          "There is an interesting story in today's [newspaper]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "read a [newspaper] about [topic]",
+    "defn": "A set of printed paper sheets containing news, articles, and advertisements, published daily or weekly.",
+    "syn": ["paper", "journal", "gazette"],
+    "ex": [
+      "My father reads the morning [newspaper] at breakfast.",
+      "He bought a daily [newspaper] at the train station.",
+      "There is an interesting story in today's [newspaper]."
     ]
   },
   {
@@ -2299,18 +1863,14 @@
     "ipa": "/njuːz/",
     "top": ["COM"],
     "col": ["watch the news", "listen to the news", "good news"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "hear the [news] about [event]",
-        "defn": "Information about recent events that is reported in newspapers, on television, or on the internet.",
-        "syn": ["information", "bulletin", "reports"],
-        "ex": [
-          "We watch the evening [news] on television together.",
-          "She called to tell me the exciting [news].",
-          "Have you heard the good [news] about your exam results?"
-        ]
-      }
+    "pos": "noun",
+    "pat": "hear the [news] about [event]",
+    "defn": "Information about recent events that is reported in newspapers, on television, or on the internet.",
+    "syn": ["information", "bulletin", "reports"],
+    "ex": [
+      "We watch the evening [news] on television together.",
+      "She called to tell me the exciting [news].",
+      "Have you heard the good [news] about your exam results?"
     ]
   },
   {
@@ -2320,18 +1880,14 @@
     "ipa": "/ˈreɪdiəʊ/",
     "top": ["COM"],
     "col": ["listen to the radio", "turn on the radio", "radio station"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "listen to the [radio] in [place]",
-        "defn": "A device or electronic system that receives broadcast sound signals through the air.",
-        "syn": ["wireless", "receiver"],
-        "ex": [
-          "He likes listening to music on the car [radio].",
-          "Turn on the [radio] to hear the weather forecast.",
-          "My grandmother has an old [radio] in her kitchen."
-        ]
-      }
+    "pos": "noun",
+    "pat": "listen to the [radio] in [place]",
+    "defn": "A device or electronic system that receives broadcast sound signals through the air.",
+    "syn": ["wireless", "receiver"],
+    "ex": [
+      "He likes listening to music on the car [radio].",
+      "Turn on the [radio] to hear the weather forecast.",
+      "My grandmother has an old [radio] in her kitchen."
     ]
   },
   {
@@ -2341,18 +1897,14 @@
     "ipa": "/ˈtelɪvɪʒn/",
     "top": ["COM"],
     "col": ["watch television", "turn on the television", "cable television"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "watch [television] in the [evening/room]",
-        "defn": "A piece of electronic equipment with a screen that displays programmes with moving images and sounds.",
-        "syn": ["TV", "screen"],
-        "ex": [
-          "The children are watching cartoons on [television].",
-          "Turn off the [television] and go to sleep.",
-          "We bought a modern flat-screen [television] yesterday."
-        ]
-      }
+    "pos": "noun",
+    "pat": "watch [television] in the [evening/room]",
+    "defn": "A piece of electronic equipment with a screen that displays programmes with moving images and sounds.",
+    "syn": ["TV", "screen"],
+    "ex": [
+      "The children are watching cartoons on [television].",
+      "Turn off the [television] and go to sleep.",
+      "We bought a modern flat-screen [television] yesterday."
     ]
   },
   {
@@ -2362,18 +1914,14 @@
     "ipa": "/ˈvɪdiəʊ/",
     "top": ["COM"],
     "col": ["watch a video", "record a video", "online video"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "watch a [video] about [topic]",
-        "defn": "A recording of moving visual images produced digitally or on tape for viewing on a screen.",
-        "syn": ["clip", "recording", "film"],
-        "ex": [
-          "He uploaded a funny short [video] to the internet.",
-          "We watched an educational [video] in science class.",
-          "She recorded a dance [video] with her mobile phone."
-        ]
-      }
+    "pos": "noun",
+    "pat": "watch a [video] about [topic]",
+    "defn": "A recording of moving visual images produced digitally or on tape for viewing on a screen.",
+    "syn": ["clip", "recording", "film"],
+    "ex": [
+      "He uploaded a funny short [video] to the internet.",
+      "We watched an educational [video] in science class.",
+      "She recorded a dance [video] with her mobile phone."
     ]
   },
   {
@@ -2383,18 +1931,14 @@
     "ipa": "/ˈletə(r)/",
     "top": ["COM"],
     "col": ["write a letter", "receive a letter", "send a letter"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "write a [letter] to [someone]",
-        "defn": "A written message addressed to a person, typically sent in an envelope by post.",
-        "syn": ["note", "message", "mail"],
-        "ex": [
-          "She wrote a handwritten [letter] to her pen pal.",
-          "The postman delivered an important [letter] this morning.",
-          "Put the stamp on the [letter] before posting it."
-        ]
-      }
+    "pos": "noun",
+    "pat": "write a [letter] to [someone]",
+    "defn": "A written message addressed to a person, typically sent in an envelope by post.",
+    "syn": ["note", "message", "mail"],
+    "ex": [
+      "She wrote a handwritten [letter] to her pen pal.",
+      "The postman delivered an important [letter] this morning.",
+      "Put the stamp on the [letter] before posting it."
     ]
   },
   {
@@ -2404,18 +1948,14 @@
     "ipa": "/ˈstɔːri/",
     "top": ["COM"],
     "col": ["tell a story", "read a story", "true story"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "tell a [story] about [topic]",
-        "defn": "A description of imaginary or real people and events told for entertainment or communication.",
-        "syn": ["tale", "narrative", "account"],
-        "ex": [
-          "My mother told me a sweet bedtime [story].",
-          "This book has an exciting adventure [story] for children.",
-          "He likes to write short [stories] about animals."
-        ]
-      }
+    "pos": "noun",
+    "pat": "tell a [story] about [topic]",
+    "defn": "A description of imaginary or real people and events told for entertainment or communication.",
+    "syn": ["tale", "narrative", "account"],
+    "ex": [
+      "My mother told me a sweet bedtime [story].",
+      "This book has an exciting adventure [story] for children.",
+      "He likes to write short [stories] about animals."
     ]
   },
   {
@@ -2425,18 +1965,14 @@
     "ipa": "/ˈmjuːzɪk/",
     "top": ["COM"],
     "col": ["listen to music", "play music", "live music"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "listen to [music] on [device]",
-        "defn": "The art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression.",
-        "syn": ["tune", "melody", "soundtrack"],
-        "ex": [
-          "She puts on headphones to listen to pop [music].",
-          "Soft [music] helps people relax after a long day.",
-          "Can you read and play sheet [music] on the piano?"
-        ]
-      }
+    "pos": "noun",
+    "pat": "listen to [music] on [device]",
+    "defn": "The art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression.",
+    "syn": ["tune", "melody", "soundtrack"],
+    "ex": [
+      "She puts on headphones to listen to pop [music].",
+      "Soft [music] helps people relax after a long day.",
+      "Can you read and play sheet [music] on the piano?"
     ]
   },
   {
@@ -2446,18 +1982,14 @@
     "ipa": "/wɒtʃ/",
     "top": ["COM"],
     "col": ["watch television", "watch a movie", "watch the news"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "watch [programme/screen] on [device]",
-        "defn": "To look attentively at something that is moving or happening, especially on a screen.",
-        "syn": ["view", "observe", "see"],
-        "ex": [
-          "Let us [watch] a funny movie together tonight.",
-          "He checked his wrist [watch] to see the time.",
-          "Parents love to [watch] their kids play football."
-        ]
-      }
+    "pos": "verb",
+    "pat": "watch [programme/screen] on [device]",
+    "defn": "To look attentively at something that is moving or happening, especially on a screen.",
+    "syn": ["view", "observe", "see"],
+    "ex": [
+      "Let us [watch] a funny movie together tonight.",
+      "He checked his wrist [watch] to see the time.",
+      "Parents love to [watch] their kids play football."
     ]
   },
   {
@@ -2467,18 +1999,14 @@
     "ipa": "/ˈlɪsn/",
     "top": ["COM"],
     "col": ["listen to the radio", "listen to music", "listen carefully"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "listen to [audio/person]",
-        "defn": "To give one's attention to sound in order to hear and understand it.",
-        "syn": ["hear", "pay attention", "attend"],
-        "ex": [
-          "Please [listen] carefully to the teacher's instructions.",
-          "I like to [listen] to music while cooking dinner.",
-          "[Listen] to the birds singing outside the window."
-        ]
-      }
+    "pos": "verb",
+    "pat": "listen to [audio/person]",
+    "defn": "To give one's attention to sound in order to hear and understand it.",
+    "syn": ["hear", "pay attention", "attend"],
+    "ex": [
+      "Please [listen] carefully to the teacher's instructions.",
+      "I like to [listen] to music while cooking dinner.",
+      "[Listen] to the birds singing outside the window."
     ]
   },
   {
@@ -2488,18 +2016,14 @@
     "ipa": "/hɪə(r)/",
     "top": ["COM"],
     "col": ["hear the news", "hear a sound", "hear about something"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "hear about [news/event] from [source]",
-        "defn": "To perceive sounds using the ears, or to receive information about an event.",
-        "syn": ["learn of", "catch", "discover"],
-        "ex": [
-          "Speak louder please, because I cannot [hear] you.",
-          "Did you [hear] that strange noise in the garden?",
-          "I was very happy to [hear] your voice on the call."
-        ]
-      }
+    "pos": "verb",
+    "pat": "hear about [news/event] from [source]",
+    "defn": "To perceive sounds using the ears, or to receive information about an event.",
+    "syn": ["learn of", "catch", "discover"],
+    "ex": [
+      "Speak louder please, because I cannot [hear] you.",
+      "Did you [hear] that strange noise in the garden?",
+      "I was very happy to [hear] your voice on the call."
     ]
   },
   {
@@ -2509,18 +2033,14 @@
     "ipa": "/spiːk/",
     "top": ["COM"],
     "col": ["speak English", "speak on the phone", "speak to someone"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "speak to [someone] about [topic]",
-        "defn": "To utter words or communicate thoughts verbally using speech.",
-        "syn": ["talk", "converse", "communicate"],
-        "ex": [
-          "She can [speak] three different languages fluently.",
-          "Please [speak] slowly so the students understand.",
-          "May I please [speak] with the doctor?"
-        ]
-      }
+    "pos": "verb",
+    "pat": "speak to [someone] about [topic]",
+    "defn": "To utter words or communicate thoughts verbally using speech.",
+    "syn": ["talk", "converse", "communicate"],
+    "ex": [
+      "She can [speak] three different languages fluently.",
+      "Please [speak] slowly so the students understand.",
+      "May I please [speak] with the doctor?"
     ]
   },
   {
@@ -2530,18 +2050,14 @@
     "ipa": "/tel/",
     "top": ["COM"],
     "col": ["tell a story", "tell the truth", "tell someone the news"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "tell [someone] about [event/story]",
-        "defn": "To give information, a story, or instructions to someone in speech or writing.",
-        "syn": ["inform", "relate", "narrate"],
-        "ex": [
-          "Can you please [tell] me the way to the station?",
-          "Grandfather loves to [tell] funny jokes at dinner.",
-          "Do not forget to [tell] him about the meeting."
-        ]
-      }
+    "pos": "verb",
+    "pat": "tell [someone] about [event/story]",
+    "defn": "To give information, a story, or instructions to someone in speech or writing.",
+    "syn": ["inform", "relate", "narrate"],
+    "ex": [
+      "Can you please [tell] me the way to the station?",
+      "Grandfather loves to [tell] funny jokes at dinner.",
+      "Do not forget to [tell] him about the meeting."
     ]
   },
   {
@@ -2551,18 +2067,14 @@
     "ipa": "/laʊd/",
     "top": ["COM"],
     "col": ["loud music", "loud voice", "loud sound"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "play [music/audio] at a loud volume",
-        "defn": "Producing or communicating a lot of noise; having high volume.",
-        "syn": ["noisy", "booming", "strong"],
-        "ex": [
-          "The music from next door is much too [loud].",
-          "A [loud] thunderclap woke the sleeping baby.",
-          "Do not shout with such a [loud] voice in the hallway."
-        ]
-      }
+    "pos": "adj",
+    "pat": "play [music/audio] at a loud volume",
+    "defn": "Producing or communicating a lot of noise; having high volume.",
+    "syn": ["noisy", "booming", "strong"],
+    "ex": [
+      "The music from next door is much too [loud].",
+      "A [loud] thunderclap woke the sleeping baby.",
+      "Do not shout with such a [loud] voice in the hallway."
     ]
   },
   {
@@ -2572,18 +2084,14 @@
     "ipa": "/ˈkwaɪət/",
     "top": ["COM"],
     "col": ["quiet voice", "quiet place", "keep quiet"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "speak in a [quiet] voice",
-        "defn": "Making very little sound; calm, silent, or gentle.",
-        "syn": ["silent", "soft", "calm"],
-        "ex": [
-          "The students must remain [quiet] during the exam.",
-          "We found a [quiet] table in the corner of the cafe.",
-          "The city street becomes very [quiet] late at night."
-        ]
-      }
+    "pos": "adj",
+    "pat": "speak in a [quiet] voice",
+    "defn": "Making very little sound; calm, silent, or gentle.",
+    "syn": ["silent", "soft", "calm"],
+    "ex": [
+      "The students must remain [quiet] during the exam.",
+      "We found a [quiet] table in the corner of the cafe.",
+      "The city street becomes very [quiet] late at night."
     ]
   },
   {
@@ -2593,18 +2101,14 @@
     "ipa": "/truː/",
     "top": ["COM"],
     "col": ["true story", "true news", "come true"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a [true] story about [subject]",
-        "defn": "In accordance with fact, reality, or correct information; not made up.",
-        "syn": ["real", "accurate", "factual"],
-        "ex": [
-          "Everything written in this news report is [true].",
-          "Is it [true] that you are moving to a new city?",
-          "A [true] friend is always there when you need help."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a [true] story about [subject]",
+    "defn": "In accordance with fact, reality, or correct information; not made up.",
+    "syn": ["real", "accurate", "factual"],
+    "ex": [
+      "Everything written in this news report is [true].",
+      "Is it [true] that you are moving to a new city?",
+      "A [true] friend is always there when you need help."
     ]
   },
   {
@@ -2614,18 +2118,14 @@
     "ipa": "/ˈfʌni/",
     "top": ["COM"],
     "col": ["funny story", "funny video", "funny joke"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a [funny] video that makes [someone] laugh",
-        "defn": "Causing laughter or amusement; comical.",
-        "syn": ["humorous", "amusing", "entertaining"],
-        "ex": [
-          "The clown told a very [funny] joke to the crowd.",
-          "That cartoon monkey makes lots of [funny] faces.",
-          "We laughed a lot because the film was so [funny]."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a [funny] video that makes [someone] laugh",
+    "defn": "Causing laughter or amusement; comical.",
+    "syn": ["humorous", "amusing", "entertaining"],
+    "ex": [
+      "The clown told a very [funny] joke to the crowd.",
+      "That cartoon monkey makes lots of [funny] faces.",
+      "We laughed a lot because the film was so [funny]."
     ]
   },
   {
@@ -2635,18 +2135,14 @@
     "ipa": "/ˈsləʊli/",
     "top": ["COM"],
     "col": ["speak slowly", "read slowly", "move slowly"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "speak [slowly] so that [clause]",
-        "defn": "At a low speed; not quickly or rapidly.",
-        "syn": ["unhurriedly", "gradually", "deliberately"],
-        "ex": [
-          "Turtles walk very [slowly] across the grass.",
-          "Please drive [slowly] when passing the school.",
-          "He ate his hot soup [slowly] with a spoon."
-        ]
-      }
+    "pos": "adv",
+    "pat": "speak [slowly] so that [clause]",
+    "defn": "At a low speed; not quickly or rapidly.",
+    "syn": ["unhurriedly", "gradually", "deliberately"],
+    "ex": [
+      "Turtles walk very [slowly] across the grass.",
+      "Please drive [slowly] when passing the school.",
+      "He ate his hot soup [slowly] with a spoon."
     ]
   },
   {
@@ -2656,18 +2152,14 @@
     "ipa": "/əˈɡen/",
     "top": ["COM"],
     "col": ["watch again", "listen again", "say again"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "listen to [media] [again]",
-        "defn": "One more time; once more; back to an earlier state.",
-        "syn": ["once more", "repeatedly", "anew"],
-        "ex": [
-          "Could you please repeat that question [again]?",
-          "Try [again] if you do not get it right the first time.",
-          "I hope we can meet each other [again] soon."
-        ]
-      }
+    "pos": "adv",
+    "pat": "listen to [media] [again]",
+    "defn": "One more time; once more; back to an earlier state.",
+    "syn": ["once more", "repeatedly", "anew"],
+    "ex": [
+      "Could you please repeat that question [again]?",
+      "Try [again] if you do not get it right the first time.",
+      "I hope we can meet each other [again] soon."
     ]
   },
   {
@@ -2677,18 +2169,14 @@
     "ipa": "/ˈhɒlədeɪ/",
     "top": ["CUL"],
     "col": ["go on holiday", "summer holiday", "public holiday"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "go on [holiday] to [place]",
-        "defn": "A period of time when you do not go to work or school and often travel away from home.",
-        "syn": ["vacation", "break", "getaway"],
-        "ex": [
-          "We are planning a sunny beach [holiday] for the summer.",
-          "The school is closed on Monday for a public [holiday].",
-          "Where are you going on [holiday] this year?"
-        ]
-      }
+    "pos": "noun",
+    "pat": "go on [holiday] to [place]",
+    "defn": "A period of time when you do not go to work or school and often travel away from home.",
+    "syn": ["vacation", "break", "getaway"],
+    "ex": [
+      "We are planning a sunny beach [holiday] for the summer.",
+      "The school is closed on Monday for a public [holiday].",
+      "Where are you going on [holiday] this year?"
     ]
   },
   {
@@ -2698,18 +2186,14 @@
     "ipa": "/həʊˈtel/",
     "top": ["CUL"],
     "col": ["stay in a hotel", "book a hotel", "luxury hotel"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "stay at/in a [hotel] in [city]",
-        "defn": "A commercial building where travellers pay to stay and sleep in a room.",
-        "syn": ["inn", "lodge", "accommodation"],
-        "ex": [
-          "We booked a clean room at a seaside [hotel].",
-          "The [hotel] receptionist handed us our room keys.",
-          "Breakfast is served every morning at the [hotel]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "stay at/in a [hotel] in [city]",
+    "defn": "A commercial building where travellers pay to stay and sleep in a room.",
+    "syn": ["inn", "lodge", "accommodation"],
+    "ex": [
+      "We booked a clean room at a seaside [hotel].",
+      "The [hotel] receptionist handed us our room keys.",
+      "Breakfast is served every morning at the [hotel]."
     ]
   },
   {
@@ -2719,18 +2203,14 @@
     "ipa": "/mjuˈziːəm/",
     "top": ["CUL"],
     "col": ["visit a museum", "art museum", "history museum"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "visit a [museum] to see [exhibition]",
-        "defn": "A building where historical, artistic, or scientific objects are kept and displayed to the public.",
-        "syn": ["gallery", "exhibition hall"],
-        "ex": [
-          "We saw ancient paintings at the city art [museum].",
-          "Visitors must not touch old statues in the [museum].",
-          "The national history [museum] is closed on Mondays."
-        ]
-      }
+    "pos": "noun",
+    "pat": "visit a [museum] to see [exhibition]",
+    "defn": "A building where historical, artistic, or scientific objects are kept and displayed to the public.",
+    "syn": ["gallery", "exhibition hall"],
+    "ex": [
+      "We saw ancient paintings at the city art [museum].",
+      "Visitors must not touch old statues in the [museum].",
+      "The national history [museum] is closed on Mondays."
     ]
   },
   {
@@ -2740,18 +2220,14 @@
     "ipa": "/ˈtɪkɪt/",
     "top": ["CUL"],
     "col": ["buy a ticket", "plane ticket", "train ticket"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "book a [ticket] for/to [destination/event]",
-        "defn": "A piece of paper or electronic pass that allows you to travel on public transport or enter a cultural venue.",
-        "syn": ["pass", "voucher", "fare"],
-        "ex": [
-          "You must buy a train [ticket] before boarding.",
-          "How much does one cinema [ticket] cost for this show?",
-          "She showed her airline [ticket] at the airport gate."
-        ]
-      }
+    "pos": "noun",
+    "pat": "book a [ticket] for/to [destination/event]",
+    "defn": "A piece of paper or electronic pass that allows you to travel on public transport or enter a cultural venue.",
+    "syn": ["pass", "voucher", "fare"],
+    "ex": [
+      "You must buy a train [ticket] before boarding.",
+      "How much does one cinema [ticket] cost for this show?",
+      "She showed her airline [ticket] at the airport gate."
     ]
   },
   {
@@ -2761,18 +2237,14 @@
     "ipa": "/ˈkʌntri/",
     "top": ["CUL"],
     "col": ["foreign country", "visit a country", "neighbouring country"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "travel to a foreign [country]",
-        "defn": "An area of land that has its own government, borders, people, and traditions.",
-        "syn": ["nation", "state", "land"],
-        "ex": [
-          "Canada is a very large and cold [country].",
-          "I would love to visit a foreign [country] next year.",
-          "They left the crowded city to live in the quiet [country]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "travel to a foreign [country]",
+    "defn": "An area of land that has its own government, borders, people, and traditions.",
+    "syn": ["nation", "state", "land"],
+    "ex": [
+      "Canada is a very large and cold [country].",
+      "I would love to visit a foreign [country] next year.",
+      "They left the crowded city to live in the quiet [country]."
     ]
   },
   {
@@ -2782,18 +2254,14 @@
     "ipa": "/ˈsɪti/",
     "top": ["CUL"],
     "col": ["capital city", "historic city", "explore the city"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "explore a historic [city]",
-        "defn": "A large and important town with many buildings, people, and cultural attractions.",
-        "syn": ["metropolis", "town", "urban centre"],
-        "ex": [
-          "Tokyo is a very crowded and busy [city].",
-          "There are many tall glass buildings in the [city] center.",
-          "We took a tour bus around the historic [city]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "explore a historic [city]",
+    "defn": "A large and important town with many buildings, people, and cultural attractions.",
+    "syn": ["metropolis", "town", "urban centre"],
+    "ex": [
+      "Tokyo is a very crowded and busy [city].",
+      "There are many tall glass buildings in the [city] center.",
+      "We took a tour bus around the historic [city]."
     ]
   },
   {
@@ -2803,18 +2271,14 @@
     "ipa": "/trɪp/",
     "top": ["CUL"],
     "col": ["day trip", "go on a trip", "school trip"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "take a [trip] to [place]",
-        "defn": "A journey in which you go to a place for a short time and then return.",
-        "syn": ["journey", "excursion", "tour"],
-        "ex": [
-          "We had a wonderful weekend [trip] to the mountains.",
-          "Pack your suitcase because our road [trip] starts early.",
-          "Have a safe [trip] and enjoy your time away!"
-        ]
-      }
+    "pos": "noun",
+    "pat": "take a [trip] to [place]",
+    "defn": "A journey in which you go to a place for a short time and then return.",
+    "syn": ["journey", "excursion", "tour"],
+    "ex": [
+      "We had a wonderful weekend [trip] to the mountains.",
+      "Pack your suitcase because our road [trip] starts early.",
+      "Have a safe [trip] and enjoy your time away!"
     ]
   },
   {
@@ -2824,18 +2288,14 @@
     "ipa": "/ˈfəʊtəʊ/",
     "top": ["CUL"],
     "col": ["take a photo", "look at photos", "souvenir photo"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "take a [photo] of [monument/scenery]",
-        "defn": "A picture produced using a camera or smartphone.",
-        "syn": ["photograph", "picture", "snapshot"],
-        "ex": [
-          "She took a lovely [photo] of the sunset on the beach.",
-          "Can you please take a group [photo] of us together?",
-          "He framed a sweet family [photo] on his desk."
-        ]
-      }
+    "pos": "noun",
+    "pat": "take a [photo] of [monument/scenery]",
+    "defn": "A picture produced using a camera or smartphone.",
+    "syn": ["photograph", "picture", "snapshot"],
+    "ex": [
+      "She took a lovely [photo] of the sunset on the beach.",
+      "Can you please take a group [photo] of us together?",
+      "He framed a sweet family [photo] on his desk."
     ]
   },
   {
@@ -2845,18 +2305,14 @@
     "ipa": "/ˈtrævl/",
     "top": ["CUL"],
     "col": ["travel abroad", "travel by train", "travel alone"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "travel to [place] by [transport]",
-        "defn": "To make a journey, typically over a distance or to another country.",
-        "syn": ["journey", "tour", "voyage"],
-        "ex": [
-          "Many people like to [travel] abroad during their holidays.",
-          "You need a valid passport to [travel] by airplane.",
-          "She [travels] to work by underground train every day."
-        ]
-      }
+    "pos": "verb",
+    "pat": "travel to [place] by [transport]",
+    "defn": "To make a journey, typically over a distance or to another country.",
+    "syn": ["journey", "tour", "voyage"],
+    "ex": [
+      "Many people like to [travel] abroad during their holidays.",
+      "You need a valid passport to [travel] by airplane.",
+      "She [travels] to work by underground train every day."
     ]
   },
   {
@@ -2866,18 +2322,14 @@
     "ipa": "/ˈvɪzɪt/",
     "top": ["CUL"],
     "col": ["visit friends", "visit relatives", "visit a tourist attraction"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "visit [place/someone] during [holiday]",
-        "defn": "To go to see a person or a place for pleasure or social reasons.",
-        "syn": ["call on", "tour", "drop by"],
-        "ex": [
-          "We plan to [visit] our grandparents this weekend.",
-          "Thousands of tourists [visit] the old castle each year.",
-          "You should [visit] the clinic if your tooth hurts."
-        ]
-      }
+    "pos": "verb",
+    "pat": "visit [place/someone] during [holiday]",
+    "defn": "To go to see a person or a place for pleasure or social reasons.",
+    "syn": ["call on", "tour", "drop by"],
+    "ex": [
+      "We plan to [visit] our grandparents this weekend.",
+      "Thousands of tourists [visit] the old castle each year.",
+      "You should [visit] the clinic if your tooth hurts."
     ]
   },
   {
@@ -2887,18 +2339,14 @@
     "ipa": "/steɪ/",
     "top": ["CUL"],
     "col": ["stay in a hotel", "stay with relatives", "stay overnight"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "stay in/at [accommodation] for [duration]",
-        "defn": "To live in a place temporarily as a guest or visitor.",
-        "syn": ["lodge", "remain", "reside"],
-        "ex": [
-          "You should [stay] in bed when you have a high fever.",
-          "They will [stay] at a small guesthouse for three nights.",
-          "Please [stay] here until I return with the tickets."
-        ]
-      }
+    "pos": "verb",
+    "pat": "stay in/at [accommodation] for [duration]",
+    "defn": "To live in a place temporarily as a guest or visitor.",
+    "syn": ["lodge", "remain", "reside"],
+    "ex": [
+      "You should [stay] in bed when you have a high fever.",
+      "They will [stay] at a small guesthouse for three nights.",
+      "Please [stay] here until I return with the tickets."
     ]
   },
   {
@@ -2908,18 +2356,14 @@
     "ipa": "/flaɪ/",
     "top": ["CUL"],
     "col": ["fly by plane", "fly abroad", "fly to a destination"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "fly to [destination] for [holiday]",
-        "defn": "To travel through the air in an aeroplane.",
-        "syn": ["take a flight", "travel by air", "jet"],
-        "ex": [
-          "Most wild birds can spread their wings and [fly].",
-          "We will [fly] to London early tomorrow morning.",
-          "Pilots undergo years of training to [fly] passenger jets."
-        ]
-      }
+    "pos": "verb",
+    "pat": "fly to [destination] for [holiday]",
+    "defn": "To travel through the air in an aeroplane.",
+    "syn": ["take a flight", "travel by air", "jet"],
+    "ex": [
+      "Most wild birds can spread their wings and [fly].",
+      "We will [fly] to London early tomorrow morning.",
+      "Pilots undergo years of training to [fly] passenger jets."
     ]
   },
   {
@@ -2929,18 +2373,14 @@
     "ipa": "/əˈraɪv/",
     "top": ["CUL"],
     "col": ["arrive at the airport", "arrive in a city", "arrive on time"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "arrive at [station/airport] on time",
-        "defn": "To reach a destination at the end of a journey.",
-        "syn": ["reach", "get to", "land"],
-        "ex": [
-          "What time will the morning train [arrive] at the platform?",
-          "We hope to [arrive] at the campsite before dark.",
-          "The delivery package [arrived] at my doorstep today."
-        ]
-      }
+    "pos": "verb",
+    "pat": "arrive at [station/airport] on time",
+    "defn": "To reach a destination at the end of a journey.",
+    "syn": ["reach", "get to", "land"],
+    "ex": [
+      "What time will the morning train [arrive] at the platform?",
+      "We hope to [arrive] at the campsite before dark.",
+      "The delivery package [arrived] at my doorstep today."
     ]
   },
   {
@@ -2950,18 +2390,14 @@
     "ipa": "/siː/",
     "top": ["CUL"],
     "col": ["see the sights", "see a show", "see new places"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "see the sights in [city]",
-        "defn": "To visit and look at tourist attractions, monuments, or cultural performances.",
-        "syn": ["view", "observe", "witness"],
-        "ex": [
-          "Turn on the room light because I cannot [see] well.",
-          "Did you [see] that colorful rainbow in the sky?",
-          "I am very glad to [see] you after such a long time."
-        ]
-      }
+    "pos": "verb",
+    "pat": "see the sights in [city]",
+    "defn": "To visit and look at tourist attractions, monuments, or cultural performances.",
+    "syn": ["view", "observe", "witness"],
+    "ex": [
+      "Turn on the room light because I cannot [see] well.",
+      "Did you [see] that colorful rainbow in the sky?",
+      "I am very glad to [see] you after such a long time."
     ]
   },
   {
@@ -2971,18 +2407,14 @@
     "ipa": "/ˈfeɪməs/",
     "top": ["CUL"],
     "col": ["famous landmark", "famous attraction", "world-famous"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "be famous for [tradition/architecture]",
-        "defn": "Known and recognized by many people across different places.",
-        "syn": ["well-known", "renowned", "notable"],
-        "ex": [
-          "He is a [famous] actor who stars in popular movies.",
-          "Paris is [famous] for its tall Eiffel Tower.",
-          "This talented singer became [famous] all over the world."
-        ]
-      }
+    "pos": "adj",
+    "pat": "be famous for [tradition/architecture]",
+    "defn": "Known and recognized by many people across different places.",
+    "syn": ["well-known", "renowned", "notable"],
+    "ex": [
+      "He is a [famous] actor who stars in popular movies.",
+      "Paris is [famous] for its tall Eiffel Tower.",
+      "This talented singer became [famous] all over the world."
     ]
   },
   {
@@ -2992,18 +2424,14 @@
     "ipa": "/ˈbjuːtɪfl/",
     "top": ["CUL"],
     "col": ["beautiful view", "beautiful scenery", "beautiful building"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a beautiful view of [scenery/city]",
-        "defn": "Very attractive to look at and pleasant to experience.",
-        "syn": ["attractive", "lovely", "scenic"],
-        "ex": [
-          "The park is full of [beautiful] spring flowers.",
-          "We sat and watched a [beautiful] sunrise by the sea.",
-          "She wore a [beautiful] red dress to the party."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a beautiful view of [scenery/city]",
+    "defn": "Very attractive to look at and pleasant to experience.",
+    "syn": ["attractive", "lovely", "scenic"],
+    "ex": [
+      "The park is full of [beautiful] spring flowers.",
+      "We sat and watched a [beautiful] sunrise by the sea.",
+      "She wore a [beautiful] red dress to the party."
     ]
   },
   {
@@ -3013,18 +2441,14 @@
     "ipa": "/ˈdɪfrənt/",
     "top": ["CUL"],
     "col": ["different culture", "different traditions", "different countries"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "different from [one's own culture]",
-        "defn": "Not the same as another person, thing, or way of life.",
-        "syn": ["distinct", "varied", "diverse"],
-        "ex": [
-          "The two brothers wear clothes in [different] colors.",
-          "Each student in class has a [different] answer.",
-          "I want to try a [different] dish from the menu today."
-        ]
-      }
+    "pos": "adj",
+    "pat": "different from [one's own culture]",
+    "defn": "Not the same as another person, thing, or way of life.",
+    "syn": ["distinct", "varied", "diverse"],
+    "ex": [
+      "The two brothers wear clothes in [different] colors.",
+      "Each student in class has a [different] answer.",
+      "I want to try a [different] dish from the menu today."
     ]
   },
   {
@@ -3038,18 +2462,14 @@
       "interesting history",
       "interesting tradition"
     ],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "find [something] interesting to [verb]",
-        "defn": "Attracting your attention because it is exciting, unusual, or informative.",
-        "syn": ["fascinating", "engaging", "intriguing"],
-        "ex": [
-          "This book contains an [interesting] story about space.",
-          "We had an [interesting] discussion during history class.",
-          "The science museum is full of [interesting] machines."
-        ]
-      }
+    "pos": "adj",
+    "pat": "find [something] interesting to [verb]",
+    "defn": "Attracting your attention because it is exciting, unusual, or informative.",
+    "syn": ["fascinating", "engaging", "intriguing"],
+    "ex": [
+      "This book contains an [interesting] story about space.",
+      "We had an [interesting] discussion during history class.",
+      "The science museum is full of [interesting] machines."
     ]
   },
   {
@@ -3059,18 +2479,14 @@
     "ipa": "/əˈweɪ/",
     "top": ["CUL"],
     "col": ["go away for the weekend", "stay away from home", "live away"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "go away on [holiday/vacation]",
-        "defn": "To or at a distance from a particular place, especially your home.",
-        "syn": ["elsewhere", "abroad", "off"],
-        "ex": [
-          "Do not run [away] from your parents in a crowded store.",
-          "Please put your books [away] when the lesson ends.",
-          "The bus stop is only two minutes [away] on foot."
-        ]
-      }
+    "pos": "adv",
+    "pat": "go away on [holiday/vacation]",
+    "defn": "To or at a distance from a particular place, especially your home.",
+    "syn": ["elsewhere", "abroad", "off"],
+    "ex": [
+      "Do not run [away] from your parents in a crowded store.",
+      "Please put your books [away] when the lesson ends.",
+      "The bus stop is only two minutes [away] on foot."
     ]
   },
   {
@@ -3080,18 +2496,14 @@
     "ipa": "/fɑː(r)/",
     "top": ["CUL"],
     "col": ["travel far", "not far from", "live far away"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "travel far to [destination]",
-        "defn": "At, to, or from a great geographical distance.",
-        "syn": ["a long way", "remotely", "distantly"],
-        "ex": [
-          "Is the international airport very [far] from here?",
-          "He lives too [far] away to walk to his school.",
-          "How [far] is it from your home to the beach?"
-        ]
-      }
+    "pos": "adv",
+    "pat": "travel far to [destination]",
+    "defn": "At, to, or from a great geographical distance.",
+    "syn": ["a long way", "remotely", "distantly"],
+    "ex": [
+      "Is the international airport very [far] from here?",
+      "He lives too [far] away to walk to his school.",
+      "How [far] is it from your home to the beach?"
     ]
   },
   {
@@ -3101,18 +2513,14 @@
     "ipa": "/ˈpɪktʃə(r)/",
     "top": ["ART"],
     "col": ["paint a picture", "hang a picture", "take a picture"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "hang a [picture] on [wall]",
-        "defn": "A drawing, painting, or photograph showing a person, scene, or object.",
-        "syn": ["painting", "drawing", "artwork"],
-        "ex": [
-          "The little girl drew a colorful [picture] of a cat.",
-          "There is a lovely family [picture] hanging on the wall.",
-          "Hang this framed [picture] above the living room sofa."
-        ]
-      }
+    "pos": "noun",
+    "pat": "hang a [picture] on [wall]",
+    "defn": "A drawing, painting, or photograph showing a person, scene, or object.",
+    "syn": ["painting", "drawing", "artwork"],
+    "ex": [
+      "The little girl drew a colorful [picture] of a cat.",
+      "There is a lovely family [picture] hanging on the wall.",
+      "Hang this framed [picture] above the living room sofa."
     ]
   },
   {
@@ -3122,18 +2530,14 @@
     "ipa": "/haʊs/",
     "top": ["ART"],
     "col": ["build a house", "design a house", "traditional house"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "live in a traditional [house]",
-        "defn": "A building designed for people, usually one family, to live in.",
-        "syn": ["dwelling", "residence", "home"],
-        "ex": [
-          "They bought a small white [house] with a front garden.",
-          "Please come inside our [house] and have a hot drink.",
-          "My grandparents live in a quiet wooden [house]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "live in a traditional [house]",
+    "defn": "A building designed for people, usually one family, to live in.",
+    "syn": ["dwelling", "residence", "home"],
+    "ex": [
+      "They bought a small white [house] with a front garden.",
+      "Please come inside our [house] and have a hot drink.",
+      "My grandparents live in a quiet wooden [house]."
     ]
   },
   {
@@ -3143,18 +2547,14 @@
     "ipa": "/ruːm/",
     "top": ["ART"],
     "col": ["paint a room", "living room", "spacious room"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "decorate a [room] with [something]",
-        "defn": "A partitioned part of the inside of a building with its own walls, floor, and ceiling.",
-        "syn": ["chamber", "space"],
-        "ex": [
-          "My bedroom is the quietest [room] in the house.",
-          "There is plenty of [room] for all our bags in the car.",
-          "Make sure to tidy your [room] before going outside."
-        ]
-      }
+    "pos": "noun",
+    "pat": "decorate a [room] with [something]",
+    "defn": "A partitioned part of the inside of a building with its own walls, floor, and ceiling.",
+    "syn": ["chamber", "space"],
+    "ex": [
+      "My bedroom is the quietest [room] in the house.",
+      "There is plenty of [room] for all our bags in the car.",
+      "Make sure to tidy your [room] before going outside."
     ]
   },
   {
@@ -3164,18 +2564,14 @@
     "ipa": "/wɔːl/",
     "top": ["ART"],
     "col": ["paint the wall", "brick wall", "hang on the wall"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "hang [something] on the [wall]",
-        "defn": "One of the solid upright sides of a room or building.",
-        "syn": ["partition", "barrier"],
-        "ex": [
-          "He hung a clock on the bedroom [wall].",
-          "The cat jumped over the low stone [wall].",
-          "They painted the kitchen [walls] white."
-        ]
-      }
+    "pos": "noun",
+    "pat": "hang [something] on the [wall]",
+    "defn": "One of the solid upright sides of a room or building.",
+    "syn": ["partition", "barrier"],
+    "ex": [
+      "He hung a clock on the bedroom [wall].",
+      "The cat jumped over the low stone [wall].",
+      "They painted the kitchen [walls] white."
     ]
   },
   {
@@ -3185,18 +2581,14 @@
     "ipa": "/ˈkʌlə(r)/",
     "top": ["ART"],
     "col": ["bright colour", "mix colours", "warm colour"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "choose a [colour] for [something]",
-        "defn": "The appearance that things have as a result of the way they reflect light, such as red, blue, or yellow.",
-        "syn": ["shade", "hue", "tone"],
-        "ex": [
-          "Blue is my favorite [colour].",
-          "What [colour] is your new bicycle?",
-          "She bought pencils in many bright [colours]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "choose a [colour] for [something]",
+    "defn": "The appearance that things have as a result of the way they reflect light, such as red, blue, or yellow.",
+    "syn": ["shade", "hue", "tone"],
+    "ex": [
+      "Blue is my favorite [colour].",
+      "What [colour] is your new bicycle?",
+      "She bought pencils in many bright [colours]."
     ]
   },
   {
@@ -3206,18 +2598,14 @@
     "ipa": "/dɔː(r)/",
     "top": ["ART"],
     "col": ["front door", "open the door", "wooden door"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "enter through the front [door]",
-        "defn": "A movable structure used to close off an entrance to a room or building.",
-        "syn": ["entrance", "entryway", "gateway"],
-        "ex": [
-          "Please close the [door] behind you.",
-          "Someone is knocking at the front [door].",
-          "He opened the [door] and stepped inside."
-        ]
-      }
+    "pos": "noun",
+    "pat": "enter through the front [door]",
+    "defn": "A movable structure used to close off an entrance to a room or building.",
+    "syn": ["entrance", "entryway", "gateway"],
+    "ex": [
+      "Please close the [door] behind you.",
+      "Someone is knocking at the front [door].",
+      "He opened the [door] and stepped inside."
     ]
   },
   {
@@ -3227,18 +2615,14 @@
     "ipa": "/ˈwɪndəʊ/",
     "top": ["ART"],
     "col": ["open a window", "large window", "glass window"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "look out of the [window]",
-        "defn": "An opening in a wall or roof that is fitted with glass to let in light and air.",
-        "syn": ["pane", "opening"],
-        "ex": [
-          "Open the [window] to let in fresh air.",
-          "She looked out the [window] at the rain.",
-          "The sun shines through my bedroom [window]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "look out of the [window]",
+    "defn": "An opening in a wall or roof that is fitted with glass to let in light and air.",
+    "syn": ["pane", "opening"],
+    "ex": [
+      "Open the [window] to let in fresh air.",
+      "She looked out the [window] at the rain.",
+      "The sun shines through my bedroom [window]."
     ]
   },
   {
@@ -3248,18 +2632,14 @@
     "ipa": "/brɪdʒ/",
     "top": ["ART"],
     "col": ["cross a bridge", "stone bridge", "build a bridge"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "cross a [bridge] over [river]",
-        "defn": "A structure carrying a road, path, or railway across a river, ravine, or other obstacle.",
-        "syn": ["viaduct", "overpass", "span"],
-        "ex": [
-          "Cars drive across the long river [bridge].",
-          "We walked over the wooden [bridge] in the park.",
-          "A train is crossing the railway [bridge]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "cross a [bridge] over [river]",
+    "defn": "A structure carrying a road, path, or railway across a river, ravine, or other obstacle.",
+    "syn": ["viaduct", "overpass", "span"],
+    "ex": [
+      "Cars drive across the long river [bridge].",
+      "We walked over the wooden [bridge] in the park.",
+      "A train is crossing the railway [bridge]."
     ]
   },
   {
@@ -3269,18 +2649,14 @@
     "ipa": "/drɔː/",
     "top": ["ART"],
     "col": ["draw a picture", "draw with a pencil", "learn to draw"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "draw a picture of [something]",
-        "defn": "To produce a picture or diagram by making marks on paper with a pen or pencil.",
-        "syn": ["sketch", "illustrate", "depict"],
-        "ex": [
-          "Children love to [draw] pictures with crayons.",
-          "Can you [draw] a map to your house?",
-          "She [drew] a beautiful flower in her notebook."
-        ]
-      }
+    "pos": "verb",
+    "pat": "draw a picture of [something]",
+    "defn": "To produce a picture or diagram by making marks on paper with a pen or pencil.",
+    "syn": ["sketch", "illustrate", "depict"],
+    "ex": [
+      "Children love to [draw] pictures with crayons.",
+      "Can you [draw] a map to your house?",
+      "She [drew] a beautiful flower in her notebook."
     ]
   },
   {
@@ -3290,18 +2666,14 @@
     "ipa": "/peɪnt/",
     "top": ["ART"],
     "col": ["paint a wall", "paint a picture", "paint in oils"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "paint [something] [colour]",
-        "defn": "To apply colour to a surface using a brush, or create a work of art using paint.",
-        "syn": ["colour", "coat", "decorate"],
-        "ex": [
-          "We want to [paint] the living room blue.",
-          "The artist uses water and [paint] to make pictures.",
-          "He [painted] a red line on the wooden fence."
-        ]
-      }
+    "pos": "verb",
+    "pat": "paint [something] [colour]",
+    "defn": "To apply colour to a surface using a brush, or create a work of art using paint.",
+    "syn": ["colour", "coat", "decorate"],
+    "ex": [
+      "We want to [paint] the living room blue.",
+      "The artist uses water and [paint] to make pictures.",
+      "He [painted] a red line on the wooden fence."
     ]
   },
   {
@@ -3311,18 +2683,14 @@
     "ipa": "/bɪld/",
     "top": ["ART"],
     "col": ["build a house", "build a bridge", "build with bricks"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "build [structure] from [materials]",
-        "defn": "To construct something by putting parts or materials together over time.",
-        "syn": ["construct", "erect", "create"],
-        "ex": [
-          "Birds use dry grass to [build] their nests.",
-          "They plan to [build] a new school here.",
-          "The workers [built] this house in three months."
-        ]
-      }
+    "pos": "verb",
+    "pat": "build [structure] from [materials]",
+    "defn": "To construct something by putting parts or materials together over time.",
+    "syn": ["construct", "erect", "create"],
+    "ex": [
+      "Birds use dry grass to [build] their nests.",
+      "They plan to [build] a new school here.",
+      "The workers [built] this house in three months."
     ]
   },
   {
@@ -3332,18 +2700,14 @@
     "ipa": "/lʊk/",
     "top": ["ART"],
     "col": ["look at art", "look closely", "look at paintings"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "look at [artwork/building]",
-        "defn": "To direct one's gaze towards something in order to examine or appreciate it.",
-        "syn": ["gaze", "view", "observe"],
-        "ex": [
-          "Please [look] at the board during the lesson.",
-          "[Look] at that cute dog playing in the yard.",
-          "She [looked] both ways before crossing the road."
-        ]
-      }
+    "pos": "verb",
+    "pat": "look at [artwork/building]",
+    "defn": "To direct one's gaze towards something in order to examine or appreciate it.",
+    "syn": ["gaze", "view", "observe"],
+    "ex": [
+      "Please [look] at the board during the lesson.",
+      "[Look] at that cute dog playing in the yard.",
+      "She [looked] both ways before crossing the road."
     ]
   },
   {
@@ -3353,18 +2717,14 @@
     "ipa": "/meɪk/",
     "top": ["ART"],
     "col": ["make art", "make by hand", "make sculptures"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "make [art/craft] from [material]",
-        "defn": "To create or produce an object, artwork, or model by shaping materials.",
-        "syn": ["craft", "produce", "fashion"],
-        "ex": [
-          "My mother will [make] a chocolate cake today.",
-          "You can [make] a cup of hot tea for breakfast.",
-          "He [made] a toy car out of paper."
-        ]
-      }
+    "pos": "verb",
+    "pat": "make [art/craft] from [material]",
+    "defn": "To create or produce an object, artwork, or model by shaping materials.",
+    "syn": ["craft", "produce", "fashion"],
+    "ex": [
+      "My mother will [make] a chocolate cake today.",
+      "You can [make] a cup of hot tea for breakfast.",
+      "He [made] a toy car out of paper."
     ]
   },
   {
@@ -3374,18 +2734,14 @@
     "ipa": "/ʃəʊ/",
     "top": ["ART"],
     "col": ["show artwork", "show an exhibition", "put on show"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "show [artwork] in [gallery/museum]",
-        "defn": "To put something in a public place so that people can view and appreciate it.",
-        "syn": ["display", "exhibit", "present"],
-        "ex": [
-          "Can you [show] me where the bus station is?",
-          "He wanted to [show] his new watch to his friends.",
-          "Please [show] your ticket to the train guard."
-        ]
-      }
+    "pos": "verb",
+    "pat": "show [artwork] in [gallery/museum]",
+    "defn": "To put something in a public place so that people can view and appreciate it.",
+    "syn": ["display", "exhibit", "present"],
+    "ex": [
+      "Can you [show] me where the bus station is?",
+      "He wanted to [show] his new watch to his friends.",
+      "Please [show] your ticket to the train guard."
     ]
   },
   {
@@ -3395,18 +2751,14 @@
     "ipa": "/bɪɡ/",
     "top": ["ART"],
     "col": ["big building", "big house", "big space"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a big [hall/building] with [features]",
-        "defn": "Of considerable size, extent, or capacity.",
-        "syn": ["large", "spacious", "grand"],
-        "ex": [
-          "An elephant is a very [big] animal.",
-          "They live in a [big] house with five bedrooms.",
-          "He bought a [big] box of sweet oranges."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a big [hall/building] with [features]",
+    "defn": "Of considerable size, extent, or capacity.",
+    "syn": ["large", "spacious", "grand"],
+    "ex": [
+      "An elephant is a very [big] animal.",
+      "They live in a [big] house with five bedrooms.",
+      "He bought a [big] box of sweet oranges."
     ]
   },
   {
@@ -3416,18 +2768,14 @@
     "ipa": "/braɪt/",
     "top": ["ART"],
     "col": ["bright colour", "bright room", "bright paint"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a bright [room/colour]",
-        "defn": "Giving out or reflecting a lot of light, or having vivid, strong colour.",
-        "syn": ["vivid", "luminous", "vibrant"],
-        "ex": [
-          "The sun is very [bright] this afternoon.",
-          "She wore a [bright] yellow hat to the beach.",
-          "Turn on the lamp so the room is [bright]."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a bright [room/colour]",
+    "defn": "Giving out or reflecting a lot of light, or having vivid, strong colour.",
+    "syn": ["vivid", "luminous", "vibrant"],
+    "ex": [
+      "The sun is very [bright] this afternoon.",
+      "She wore a [bright] yellow hat to the beach.",
+      "Turn on the lamp so the room is [bright]."
     ]
   },
   {
@@ -3437,18 +2785,14 @@
     "ipa": "/dɑːk/",
     "top": ["ART"],
     "col": ["dark colours", "dark wood", "dark room"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "a dark [colour/interior]",
-        "defn": "With little or no light, or closer to black than white in shade.",
-        "syn": ["dim", "shadowy", "deep"],
-        "ex": [
-          "It gets very [dark] outside after eight o'clock.",
-          "Turn on the light because this room is too [dark].",
-          "He wore a [dark] blue jacket to school."
-        ]
-      }
+    "pos": "adj",
+    "pat": "a dark [colour/interior]",
+    "defn": "With little or no light, or closer to black than white in shade.",
+    "syn": ["dim", "shadowy", "deep"],
+    "ex": [
+      "It gets very [dark] outside after eight o'clock.",
+      "Turn on the light because this room is too [dark].",
+      "He wore a [dark] blue jacket to school."
     ]
   },
   {
@@ -3458,18 +2802,14 @@
     "ipa": "/ˌɪnˈsaɪd/",
     "top": ["ART"],
     "col": ["step inside", "look inside", "display inside"],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "look/display [something] [inside]",
-        "defn": "On or into the interior of a building or enclosed structure.",
-        "syn": ["indoors", "within"],
-        "ex": [
-          "It is raining, so the children are playing [inside].",
-          "What do you have [inside] your school bag?",
-          "Come [inside] the warm house and have a drink."
-        ]
-      }
+    "pos": "adv",
+    "pat": "look/display [something] [inside]",
+    "defn": "On or into the interior of a building or enclosed structure.",
+    "syn": ["indoors", "within"],
+    "ex": [
+      "It is raining, so the children are playing [inside].",
+      "What do you have [inside] your school bag?",
+      "Come [inside] the warm house and have a drink."
     ]
   },
   {
@@ -3479,18 +2819,14 @@
     "ipa": "/pəˈliːs/",
     "top": ["LAW"],
     "col": ["call the police", "police officer", "help the police"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "report [something] to the [police]",
-        "defn": "The official organization responsible for protecting people, maintaining public order, and catching criminals.",
-        "syn": ["law enforcement", "authorities", "police force"],
-        "ex": [
-          "Call the [police] if you see something dangerous.",
-          "A [police] officer helped us cross the busy road.",
-          "The [police] car drove past with its sirens on."
-        ]
-      }
+    "pos": "noun",
+    "pat": "report [something] to the [police]",
+    "defn": "The official organization responsible for protecting people, maintaining public order, and catching criminals.",
+    "syn": ["law enforcement", "authorities", "police force"],
+    "ex": [
+      "Call the [police] if you see something dangerous.",
+      "A [police] officer helped us cross the busy road.",
+      "The [police] car drove past with its sirens on."
     ]
   },
   {
@@ -3500,18 +2836,14 @@
     "ipa": "/ˈpɑːspɔːt/",
     "top": ["LAW"],
     "col": ["show a passport", "renew a passport", "valid passport"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "apply for a [passport] at [office]",
-        "defn": "An official document issued by a national government confirming the bearer's identity and citizenship for international travel.",
-        "syn": ["travel document", "identification paper"],
-        "ex": [
-          "You must show your [passport] at the airport.",
-          "Do not forget to pack your [passport] in your bag.",
-          "She renewed her [passport] before traveling abroad."
-        ]
-      }
+    "pos": "noun",
+    "pat": "apply for a [passport] at [office]",
+    "defn": "An official document issued by a national government confirming the bearer's identity and citizenship for international travel.",
+    "syn": ["travel document", "identification paper"],
+    "ex": [
+      "You must show your [passport] at the airport.",
+      "Do not forget to pack your [passport] in your bag.",
+      "She renewed her [passport] before traveling abroad."
     ]
   },
   {
@@ -3521,18 +2853,14 @@
     "ipa": "/kɑːd/",
     "top": ["LAW"],
     "col": ["identity card", "carry a card", "national card"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "show an identity [card] to [official]",
-        "defn": "A small official plastic or paper card certifying someone's legal identity.",
-        "syn": ["ID", "identity document", "pass"],
-        "ex": [
-          "I sent a birthday [card] to my grandmother.",
-          "Can I pay for this meal with a credit [card]?",
-          "He wrote his name on the small paper [card]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "show an identity [card] to [official]",
+    "defn": "A small official plastic or paper card certifying someone's legal identity.",
+    "syn": ["ID", "identity document", "pass"],
+    "ex": [
+      "I sent a birthday [card] to my grandmother.",
+      "Can I pay for this meal with a credit [card]?",
+      "He wrote his name on the small paper [card]."
     ]
   },
   {
@@ -3542,18 +2870,14 @@
     "ipa": "/kɪŋ/",
     "top": ["LAW"],
     "col": ["rule of the king", "crowned king", "serve the king"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "the [king] rules [country]",
-        "defn": "A male monarch who acts as head of state in a monarchy.",
-        "syn": ["monarch", "ruler", "sovereign"],
-        "ex": [
-          "The [king] lived in a large stone palace.",
-          "Everyone bowed when the [king] entered the room.",
-          "He wore a golden crown because he was the [king]."
-        ]
-      }
+    "pos": "noun",
+    "pat": "the [king] rules [country]",
+    "defn": "A male monarch who acts as head of state in a monarchy.",
+    "syn": ["monarch", "ruler", "sovereign"],
+    "ex": [
+      "The [king] lived in a large stone palace.",
+      "Everyone bowed when the [king] entered the room.",
+      "He wore a golden crown because he was the [king]."
     ]
   },
   {
@@ -3563,18 +2887,14 @@
     "ipa": "/flæɡ/",
     "top": ["LAW"],
     "col": ["national flag", "raise the flag", "wave a flag"],
-    "s": [
-      {
-        "pos": "noun",
-        "pat": "raise the national [flag] outside [building]",
-        "defn": "A piece of cloth bearing the official colours and symbols of a country or state.",
-        "syn": ["banner", "standard", "emblem"],
-        "ex": [
-          "Our national [flag] is red, white, and blue.",
-          "The ship raised its [flag] before leaving the port.",
-          "Students saluted the school [flag] in the yard."
-        ]
-      }
+    "pos": "noun",
+    "pat": "raise the national [flag] outside [building]",
+    "defn": "A piece of cloth bearing the official colours and symbols of a country or state.",
+    "syn": ["banner", "standard", "emblem"],
+    "ex": [
+      "Our national [flag] is red, white, and blue.",
+      "The ship raised its [flag] before leaving the port.",
+      "Students saluted the school [flag] in the yard."
     ]
   },
   {
@@ -3584,18 +2904,14 @@
     "ipa": "/ˈfɒləʊ/",
     "top": ["LAW"],
     "col": ["follow the law", "follow rules", "follow instructions"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "follow [rules/laws] in [place]",
-        "defn": "To obey or act in accordance with an established rule, law, or directive.",
-        "syn": ["obey", "observe", "abide by"],
-        "ex": [
-          "Please [follow] me to the meeting room.",
-          "You must [follow] the traffic lights when driving.",
-          "The little ducklings [followed] their mother."
-        ]
-      }
+    "pos": "verb",
+    "pat": "follow [rules/laws] in [place]",
+    "defn": "To obey or act in accordance with an established rule, law, or directive.",
+    "syn": ["obey", "observe", "abide by"],
+    "ex": [
+      "Please [follow] me to the meeting room.",
+      "You must [follow] the traffic lights when driving.",
+      "The little ducklings [followed] their mother."
     ]
   },
   {
@@ -3605,18 +2921,14 @@
     "ipa": "/tʃek/",
     "top": ["LAW"],
     "col": ["check passports", "check documents", "check IDs"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "check [documents] at [checkpoint]",
-        "defn": "To examine something carefully to confirm its legality, accuracy, or authenticity.",
-        "syn": ["examine", "inspect", "verify"],
-        "ex": [
-          "Always [check] your test answers before submitting.",
-          "Let me [check] the train timetable online.",
-          "The doctor will [check] your heart and lungs."
-        ]
-      }
+    "pos": "verb",
+    "pat": "check [documents] at [checkpoint]",
+    "defn": "To examine something carefully to confirm its legality, accuracy, or authenticity.",
+    "syn": ["examine", "inspect", "verify"],
+    "ex": [
+      "Always [check] your test answers before submitting.",
+      "Let me [check] the train timetable online.",
+      "The doctor will [check] your heart and lungs."
     ]
   },
   {
@@ -3626,18 +2938,14 @@
     "ipa": "/stɒp/",
     "top": ["LAW"],
     "col": ["stop crime", "police stop drivers", "stop illegal activity"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "stop [crime/offenders] from [V-ing]",
-        "defn": "To prevent an unlawful action or halt someone engaged in an offence.",
-        "syn": ["halt", "prevent", "intercept"],
-        "ex": [
-          "You must [stop] your car at the red light.",
-          "The bus will [stop] near the city hospital.",
-          "Please [stop] making noise while others are studying."
-        ]
-      }
+    "pos": "verb",
+    "pat": "stop [crime/offenders] from [V-ing]",
+    "defn": "To prevent an unlawful action or halt someone engaged in an offence.",
+    "syn": ["halt", "prevent", "intercept"],
+    "ex": [
+      "You must [stop] your car at the red light.",
+      "The bus will [stop] near the city hospital.",
+      "Please [stop] making noise while others are studying."
     ]
   },
   {
@@ -3647,18 +2955,14 @@
     "ipa": "/saɪn/",
     "top": ["LAW"],
     "col": ["sign a form", "sign documents", "sign an agreement"],
-    "s": [
-      {
-        "pos": "verb",
-        "pat": "sign an official [document/form]",
-        "defn": "To write your signature on an official document to make it legally binding.",
-        "syn": ["endorse", "subscribe", "validate"],
-        "ex": [
-          "Please [sign] your name at the bottom of the paper.",
-          "The road [sign] says you cannot turn left here.",
-          "Look at the exit [sign] above the door."
-        ]
-      }
+    "pos": "verb",
+    "pat": "sign an official [document/form]",
+    "defn": "To write your signature on an official document to make it legally binding.",
+    "syn": ["endorse", "subscribe", "validate"],
+    "ex": [
+      "Please [sign] your name at the bottom of the paper.",
+      "The road [sign] says you cannot turn left here.",
+      "Look at the exit [sign] above the door."
     ]
   },
   {
@@ -3668,18 +2972,14 @@
     "ipa": "/seɪf/",
     "top": ["LAW"],
     "col": ["keep the city safe", "safe country", "safe community"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "keep [citizens/place] safe from [crime/danger]",
-        "defn": "Free from physical harm, crime, or legal violations.",
-        "syn": ["secure", "protected", "orderly"],
-        "ex": [
-          "Wear a seatbelt to stay [safe] in the car.",
-          "It is not [safe] to swim in this deep river.",
-          "Keep your money in a [safe] place at home."
-        ]
-      }
+    "pos": "adj",
+    "pat": "keep [citizens/place] safe from [crime/danger]",
+    "defn": "Free from physical harm, crime, or legal violations.",
+    "syn": ["secure", "protected", "orderly"],
+    "ex": [
+      "Wear a seatbelt to stay [safe] in the car.",
+      "It is not [safe] to swim in this deep river.",
+      "Keep your money in a [safe] place at home."
     ]
   },
   {
@@ -3689,18 +2989,14 @@
     "ipa": "/rɒŋ/",
     "top": ["LAW"],
     "col": ["do something wrong", "morally wrong", "wrong behaviour"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "it is wrong to [break the law/steal]",
-        "defn": "Not morally right, honest, or permitted under established rules.",
-        "syn": ["unlawful", "incorrect", "improper"],
-        "ex": [
-          "I chose the [wrong] answer on the English test.",
-          "You are driving down the [wrong] street.",
-          "He gave the [wrong] phone number by mistake."
-        ]
-      }
+    "pos": "adj",
+    "pat": "it is wrong to [break the law/steal]",
+    "defn": "Not morally right, honest, or permitted under established rules.",
+    "syn": ["unlawful", "incorrect", "improper"],
+    "ex": [
+      "I chose the [wrong] answer on the English test.",
+      "You are driving down the [wrong] street.",
+      "He gave the [wrong] phone number by mistake."
     ]
   },
   {
@@ -3710,18 +3006,14 @@
     "ipa": "/ɪmˈpɔːtnt/",
     "top": ["LAW"],
     "col": ["important law", "important decision", "important rule"],
-    "s": [
-      {
-        "pos": "adj",
-        "pat": "an important [law/policy] for [society]",
-        "defn": "Of great significance, value, or consequence in public life.",
-        "syn": ["crucial", "essential", "vital"],
-        "ex": [
-          "It is [important] to drink water every day.",
-          "She has an [important] meeting with her boss.",
-          "Listening carefully is [important] for learning."
-        ]
-      }
+    "pos": "adj",
+    "pat": "an important [law/policy] for [society]",
+    "defn": "Of great significance, value, or consequence in public life.",
+    "syn": ["crucial", "essential", "vital"],
+    "ex": [
+      "It is [important] to drink water every day.",
+      "She has an [important] meeting with her boss.",
+      "Listening carefully is [important] for learning."
     ]
   },
   {
@@ -3735,18 +3027,14 @@
       "never ignore rules",
       "never drive without a licence"
     ],
-    "s": [
-      {
-        "pos": "adv",
-        "pat": "never [break/violate] [laws]",
-        "defn": "Not at any time; on no occasion.",
-        "syn": ["at no time", "not once", "by no means"],
-        "ex": [
-          "I [never] drink coffee late in the evening.",
-          "He has [never] seen snow before.",
-          "She [never] forgets to do her daily homework."
-        ]
-      }
+    "pos": "adv",
+    "pat": "never [break/violate] [laws]",
+    "defn": "Not at any time; on no occasion.",
+    "syn": ["at no time", "not once", "by no means"],
+    "ex": [
+      "I [never] drink coffee late in the evening.",
+      "He has [never] seen snow before.",
+      "She [never] forgets to do her daily homework."
     ]
   }
 ]

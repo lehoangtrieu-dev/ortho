@@ -1,11 +1,6 @@
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { db } from "./firebase";
-import type {
-  CardProgress,
-  DictionaryEntry,
-  CEFRLevel,
-  QuizCard,
-} from "../types";
+import type { CardProgress, DictionaryEntry, CEFRLevel } from "../types";
 
 export const STORAGE_KEY = "cardProgress";
 
@@ -98,36 +93,23 @@ export async function buildDailySubset(
   newCardsLimit: number,
   customWords: string[] = [],
   userId?: string,
-): Promise<QuizCard[]> {
+): Promise<DictionaryEntry[]> {
   if (!data || data.length === 0) return [];
 
   const saved = await loadCardProgress(userId);
   const todayStr = new Date().toISOString().split("T")[0];
 
-  // Compound key: "level-wordId-senseId"
-  const studiedKeys = new Set(
-    saved.map((c) => `${c.level}-${c.wordId}-${c.senseId}`),
+  const studiedKeys = new Set(saved.map((c) => `${c.level}-${c.wordId}`));
+  const unstudiedCards = data.filter(
+    (w) => !studiedKeys.has(`${w.level}-${w.id}`),
   );
-
-  // For each word, find its earliest unstudied sense (0, 1, ...)
-  // Introduces sense 0 first, and higher senses as the user progresses.
-  const unstudiedCards: QuizCard[] = [];
-  data.forEach((w) => {
-    const nextSenseId = (w.s || []).findIndex(
-      (_, idx) => !studiedKeys.has(`${w.level}-${w.id}-${idx}`),
-    );
-    if (nextSenseId !== -1) {
-      unstudiedCards.push({ word: w, senseId: nextSenseId });
-    }
-  });
-
   const customSet = new Set(customWords.map((w) => w.toLowerCase()));
 
   const unstudiedCustom = unstudiedCards.filter((card) =>
-    customSet.has(card.word.w.toLowerCase()),
+    customSet.has(card.w.toLowerCase()),
   );
   const unstudiedPool = unstudiedCards.filter(
-    (card) => !customSet.has(card.word.w.toLowerCase()),
+    (card) => !customSet.has(card.w.toLowerCase()),
   );
 
   // Take custom words first (up to the daily limit)
@@ -139,10 +121,10 @@ export async function buildDailySubset(
   const pickedPool =
     levels.length > 0 ? shuffledPool.slice(0, remainingQuota) : [];
 
-  const newCards: QuizCard[] = [...pickedCustom, ...pickedPool];
+  const newCards: DictionaryEntry[] = [...pickedCustom, ...pickedPool];
 
   // Add due reviews (exact sense due today)
-  const reviews: QuizCard[] = [];
+  const reviews: DictionaryEntry[] = [];
   const seenReviewKeys = new Set<string>();
 
   saved.forEach((card) => {
@@ -155,12 +137,10 @@ export async function buildDailySubset(
         dueWord &&
         (isLevelSelected || customSet.has(dueWord.w.toLowerCase()))
       ) {
-        if (dueWord.s && dueWord.s[card.senseId]) {
-          const cardKey = `${card.level}-${card.wordId}-${card.senseId}`;
-          if (!seenReviewKeys.has(cardKey)) {
-            seenReviewKeys.add(cardKey);
-            reviews.push({ word: dueWord, senseId: card.senseId });
-          }
+        const cardKey = `${card.level}-${card.wordId}`;
+        if (!seenReviewKeys.has(cardKey)) {
+          seenReviewKeys.add(cardKey);
+          reviews.push(dueWord);
         }
       }
     }
