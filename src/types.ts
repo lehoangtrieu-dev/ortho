@@ -14,17 +14,20 @@ export interface DictionaryEntry {
 
 export type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1";
 
-export type TopicCode =
-  | "EDU"
-  | "ENV"
-  | "HEA"
-  | "COM"
-  | "TEC"
-  | "BUS"
-  | "SOC"
-  | "CUL"
-  | "ART"
-  | "LAW";
+export const TOPIC_CODES = [
+  "EDU",
+  "ENV",
+  "HEA",
+  "COM",
+  "TEC",
+  "BUS",
+  "SOC",
+  "CUL",
+  "ART",
+  "LAW",
+] as const;
+
+export type TopicCode = (typeof TOPIC_CODES)[number];
 
 export interface CardProgress {
   level: CEFRLevel;

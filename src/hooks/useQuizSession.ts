@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import type { DictionaryEntry, CEFRLevel, CardProgress } from "../types";
+import { TOPIC_CODES } from "../types";
 import {
   loadCardProgress,
   saveCardProgress,
@@ -79,6 +80,16 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     saveCardProgress(cardProgress, user?.uid);
   }, [cardProgress, isLoaded, user?.uid, authLoading]);
 
+  const currentTopic = useMemo(() => {
+    const target = new Date();
+    const start = new Date(target.getFullYear(), 0, 1);
+    const diffInMs = target.getTime() - start.getTime();
+    const diffInDays = Math.floor(diffInMs / (24 * 60 * 60 * 1000));
+
+    const currentWeekNumber = Math.ceil((diffInDays + start.getDay() + 1) / 7);
+    return TOPIC_CODES[currentWeekNumber % TOPIC_CODES.length];
+  }, []);
+
   const {
     data: vocab,
     isLoading,
@@ -90,6 +101,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
       settings.newWordsPerDay,
       settings.customWords.join(","),
       user?.uid,
+      currentTopic,
     ],
     queryFn: async () => {
       // Fetch words.json to find which level file custom words live in
@@ -137,6 +149,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
         settings.newWordsPerDay,
         settings.customWords,
         user?.uid,
+        currentTopic,
       );
     },
     enabled: !authLoading && settingsLoaded && isLoaded,
@@ -236,6 +249,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     isComplete: !isLoading && vocab && activeVocab.length === 0,
     currentCard,
     currentWord: currentCard,
+    currentTopic,
     vocab,
     sentence,
     answer,

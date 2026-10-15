@@ -1,6 +1,11 @@
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { db } from "./firebase";
-import type { CardProgress, DictionaryEntry, CEFRLevel } from "../types";
+import type {
+  CardProgress,
+  DictionaryEntry,
+  CEFRLevel,
+  TopicCode,
+} from "../types";
 
 export const STORAGE_KEY = "cardProgress";
 
@@ -93,6 +98,7 @@ export async function buildDailySubset(
   newCardsLimit: number,
   customWords: string[] = [],
   userId?: string,
+  topic?: TopicCode,
 ): Promise<DictionaryEntry[]> {
   if (!data || data.length === 0) return [];
 
@@ -115,9 +121,15 @@ export async function buildDailySubset(
   // Take custom words first (up to the daily limit)
   const pickedCustom = unstudiedCustom.slice(0, newCardsLimit);
 
+  // Filter unstudied words for the new card quota
+  const topicPool = topic
+    ? unstudiedPool.filter((card) => card.top.includes(topic))
+    : unstudiedPool;
+
   // Fill remaining quota with random words from pool (if any level selected)
   const remainingQuota = newCardsLimit - pickedCustom.length;
-  const shuffledPool = [...unstudiedPool].sort(() => Math.random() - 0.5);
+  const poolToUse = topicPool.length > 0 ? topicPool : unstudiedPool;
+  const shuffledPool = [...poolToUse].sort(() => Math.random() - 0.5);
   const pickedPool =
     levels.length > 0 ? shuffledPool.slice(0, remainingQuota) : [];
 
