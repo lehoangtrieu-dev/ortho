@@ -251,6 +251,7 @@ export function useQuizSession(levelsParam?: CEFRLevel[]) {
     currentWord: currentCard,
     currentTopic,
     vocab,
+    levels,
     sentence,
     answer,
     status,

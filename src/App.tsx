@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, cubicBezier } from "framer-motion";
 import { useQuizSession } from "./hooks/useQuizSession";
+import { SessionBumper } from "./components/SessionBumper";
 import { Navbar } from "./components/Navbar";
 import { CompletionScreen } from "./components/CompletionScreen";
 import { FillInTheBlank } from "./components/FillInTheBlank";
@@ -10,13 +11,16 @@ import { TagGroup } from "./components/TagGroup";
 import { Button } from "./components/Button";
 import { Settings } from "./components/Settings";
 import { Loader2 } from "lucide-react";
+import { TOPIC_MAPPING } from "./types";
 
 export const App = () => {
   const {
     isLoading,
     isComplete,
     currentWord,
+    currentTopic,
     vocab,
+    levels,
     sentence,
     answer,
     status,
@@ -35,6 +39,7 @@ export const App = () => {
 
   return (
     <div className="flex flex-col h-dvh overflow-hidden">
+      <SessionBumper topicTitle={TOPIC_MAPPING[currentTopic]} levels={levels} />
       <Navbar
         completedIds={completedIds}
         totalVocab={vocab?.length || 1}

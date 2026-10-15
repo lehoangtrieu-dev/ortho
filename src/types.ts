@@ -12,7 +12,18 @@ export interface DictionaryEntry {
   ex: string[];
 }
 
+export interface CardProgress {
+  level: CEFRLevel;
+  wordId: number;
+  reps: number;
+  interval: number;
+  easeFactor: number;
+  dueDate: string;
+}
+
 export type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1";
+
+export type TopicCode = (typeof TOPIC_CODES)[number];
 
 export const TOPIC_CODES = [
   "EDU",
@@ -27,13 +38,15 @@ export const TOPIC_CODES = [
   "LAW",
 ] as const;
 
-export type TopicCode = (typeof TOPIC_CODES)[number];
-
-export interface CardProgress {
-  level: CEFRLevel;
-  wordId: number;
-  reps: number;
-  interval: number;
-  easeFactor: number;
-  dueDate: string;
-}
+export const TOPIC_MAPPING = {
+  EDU: "Education & Learning",
+  ENV: "Environment & Nature",
+  HEA: "Health & Fitness",
+  COM: "Media & Communication",
+  TEC: "Technology & Science",
+  BUS: "Work & Business",
+  SOC: "Society & Social Issues",
+  CUL: "Travel, Tourism & Culture",
+  ART: "Art & Architecture",
+  LAW: "Government & Law",
+};

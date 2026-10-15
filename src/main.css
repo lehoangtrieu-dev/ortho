@@ -4,3 +4,7 @@
 * {
   font-family: "JetBrains Mono", monospace;
 }
+
+.font-sans {
+  font-family: var(--font-sans);
+}
