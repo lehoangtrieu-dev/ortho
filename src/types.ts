@@ -36,6 +36,8 @@ export const TOPIC_CODES = [
   "CUL",
   "ART",
   "LAW",
+  "DAT",
+  "COH",
 ] as const;
 
 export const TOPIC_MAPPING = {
@@ -49,4 +51,6 @@ export const TOPIC_MAPPING = {
   CUL: "Travel, Tourism & Culture",
   ART: "Art & Architecture",
   LAW: "Government & Law",
+  DAT: "Data & Trends",
+  COH: "Discourse & Cohesion",
 };
