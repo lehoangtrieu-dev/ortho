@@ -95,7 +95,10 @@ export const AccountMenu = ({ isSettings, setIsSettings }: Props) => {
         }}
       >
         <img
-          src={user?.photoURL || "https://placehold.net/avatar.svg"}
+          src={
+            user?.photoURL ||
+            "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg"
+          }
           alt="Profile"
           className="size-7 rounded-full cursor-pointer"
         />
