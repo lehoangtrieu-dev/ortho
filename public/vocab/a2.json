@@ -779,7 +779,7 @@
     "defn": "To harm, injure, or break something so that it is less useful or attractive.",
     "syn": ["harm", "spoil", "ruin"],
     "ex": [
-      "The violent windstorm caused severe [damage] to the roof.",
+      "The violent windstorm could [damage] the wooden roof of the cottage.",
       "Cigarette smoke can permanently [damage] your lungs.",
       "Handle the package gently so you do not [damage] the items."
     ]
@@ -814,7 +814,7 @@
     "syn": ["squander", "misuse", "dissipate"],
     "ex": [
       "Turn off the running tap so you do not [waste] clean water.",
-      "Throwing away edible meals is an unnecessary [waste] of food.",
+      "Do not [waste] fresh food by leaving it out of the refrigerator.",
       "Do not [waste] your precious study time playing phone games."
     ]
   },
@@ -832,7 +832,7 @@
     "ex": [
       "Hold the ceramic mug firmly so you do not [drop] it.",
       "She accidentally [dropped] her house keys onto the pavement.",
-      "A single cold [drop] of rain fell onto my shoulder."
+      "Be careful not to [drop] that fragile glass bowl on the kitchen floor."
     ]
   },
   {
@@ -1052,7 +1052,7 @@
     "syn": ["workout", "training", "physical activity"],
     "ex": [
       "Walking for thirty minutes is great daily [exercise].",
-      "You should [exercise] three times a week to stay fit.",
+      "Swimming provides excellent aerobic [exercise] for the whole body.",
       "Regular [exercise] helps lower stress and boost energy."
     ]
   },
@@ -1208,9 +1208,9 @@
     "defn": "How heavy a person or physical object is measured in kilograms or pounds.",
     "syn": ["heaviness", "mass", "body mass"],
     "ex": [
-      "He exercises every day to lose extra [weight].",
+      "He exercises every day to lose extra body [weight].",
       "She checked her body [weight] on the bathroom scale.",
-      "Lifting heavy [weights] helps build strong muscles."
+      "The physician asked him to record his body [weight] every Monday morning."
     ]
   },
   {
@@ -1278,7 +1278,7 @@
     "ex": [
       "The athletes [train] hard every day for the competition.",
       "She is [training] to run a ten-kilometer race.",
-      "He wants to [train] his new puppy to sit quietly."
+      "Marathon runners [train] for months to build cardiovascular endurance."
     ]
   },
   {
@@ -1311,7 +1311,7 @@
     "syn": ["trot", "run slowly"],
     "ex": [
       "He likes to [jog] through the park every morning.",
-      "She went for a slow [jog] before having breakfast.",
+      "Many neighbors [jog] around the community track before breakfast.",
       "Doctors recommend that beginners [jog] at a steady pace."
     ]
   },
@@ -1328,7 +1328,7 @@
     "syn": ["puff", "inhale tobacco"],
     "ex": [
       "You are not allowed to [smoke] inside the hospital.",
-      "Thick black [smoke] poured out of the factory chimney.",
+      "He decided to stop [smoking] cigarettes to protect his heart.",
       "He decided to quit [smoking] cigarettes for his health."
     ]
   },
@@ -1515,7 +1515,7 @@
     "syn": ["vigorously", "intensely", "strenuously"],
     "ex": [
       "You must study [hard] if you want to pass the exam.",
-      "The wooden chair was uncomfortable and [hard].",
+      "Athletes must train [hard] every day to win gold medals in sports.",
       "It was raining so [hard] that we could not see the road."
     ]
   },
@@ -1702,8 +1702,8 @@
     "syn": ["software", "application", "system"],
     "ex": [
       "He writes code to create a useful computer [program].",
-      "We watched an interesting documentary [program] on TV.",
-      "The university offers an intensive language training [program]."
+      "This antivirus [program] scans your computer for malicious software.",
+      "She learned how to write a simple software [program] in Python."
     ]
   },
   {
@@ -1948,8 +1948,8 @@
     "syn": ["intelligent", "automated", "connected"],
     "ex": [
       "We bought a [smart] TV to stream movies directly from the internet.",
-      "She is a very [smart] student who solves problems easily.",
-      "You should wear [smart] clothes for your formal interview."
+      "A [smart] thermostat automatically adjusts the temperature to save energy.",
+      "Many modern homes install [smart] lighting that connects directly to Wi-Fi."
     ]
   },
   {
@@ -2118,7 +2118,7 @@
     "syn": ["job consultation", "meeting", "assessment"],
     "ex": [
       "Wear clean clothes for your job [interview] tomorrow morning.",
-      "The news reporter conducted a brief [interview] with the mayor.",
+      "He was invited to a second job [interview] with the company director.",
       "She felt quite nervous before walking into the [interview] room."
     ]
   },
@@ -2288,8 +2288,8 @@
     "syn": ["resign from", "leave", "step down"],
     "ex": [
       "He decided to [quit] his stressful job and travel across Asia.",
-      "She wants to [quit] eating sugary snacks between meals.",
-      "Do not [quit] trying just because the exercise seems difficult."
+      "She decided to [quit] her corporate banking job to start her own business.",
+      "Several factory workers threatened to [quit] over unsafe working conditions."
     ]
   },
   {
@@ -2717,7 +2717,7 @@
     "ex": [
       "Parents always [support] their children through difficult times.",
       "She needs crutches to [support] her weight while walking.",
-      "Thank you so much for your kind words and continuous [support]."
+      "Charitable foundations [support] low-income families during economic crises."
     ]
   },
   {
@@ -2787,9 +2787,9 @@
     "defn": "To admire someone deeply as a result of their abilities, qualities, or status, or treat them with consideration.",
     "syn": ["honour", "esteem", "value"],
     "ex": [
-      "Students should always treat their teachers with [respect].",
+      "Students should always [respect] their teachers in the classroom.",
       "It is important to [respect] other people's personal beliefs.",
-      "He earned the deep [respect] of his colleagues through hard work."
+      "Colleagues deeply [respect] her professional dedication and integrity."
     ]
   },
   {
@@ -3278,9 +3278,9 @@
     "defn": "To say or write something as an answer to a question, letter, or message.",
     "syn": ["respond", "answer", "write back"],
     "ex": [
-      "I am waiting for a [reply] to my job application email.",
+      "Please [reply] promptly to the email so we can finalize the booking.",
       "She did not [reply] to my text message until this morning.",
-      "Please send a quick [reply] confirming whether you can come."
+      "Did the manager [reply] to your formal leave request yet?"
     ]
   },
   {
@@ -3297,7 +3297,7 @@
     "ex": [
       "We sat in the cafe to [chat] about our weekend plans.",
       "She likes to [chat] with her friends online after dinner.",
-      "Let us have a quick [chat] before the meeting starts."
+      "Friends often [chat] casually over video calls in the evening."
     ]
   },
   {
@@ -3314,7 +3314,7 @@
     "ex": [
       "Use your phone to [record] the teacher's pronunciation.",
       "The musician spent three weeks in the studio to [record] his song.",
-      "He broke the world [record] for the one-hundred-meter sprint."
+      "Security cameras [record] all visitor activity around the entrance."
     ]
   },
   {
@@ -3347,8 +3347,8 @@
     "syn": ["publish", "share", "upload"],
     "ex": [
       "She decided to [post] her travel photos on social media.",
-      "Remember to drop the letter in the [post] box before noon.",
-      "He wrote a helpful blog [post] about learning foreign languages."
+      "Do not [post] sensitive personal information on public websites.",
+      "Writers frequently [post] educational articles on their personal blogs."
     ]
   },
   {
@@ -3508,7 +3508,7 @@
     "syn": ["communal", "civic", "general"],
     "ex": [
       "Many commuters take [public] transport to get to work.",
-      "The city park is open and free to the general [public].",
+      "The municipality opened a modern [public] library in the town center.",
       "You are not allowed to smoke in indoor [public] places."
     ]
   },
@@ -3593,8 +3593,8 @@
     "syn": ["tour leader", "courier", "escort"],
     "ex": [
       "Our tour [guide] showed us around the old quarter.",
-      "He bought a pocket travel [guide] before flying to Rome.",
-      "A local resident offered to [guide] us to the station."
+      "An experienced mountain [guide] led the hiking group safely across the pass.",
+      "The museum [guide] explained the history of ancient sculptures to the tourists."
     ]
   },
   {
@@ -3831,8 +3831,8 @@
     "syn": ["go back", "head back", "revisit"],
     "ex": [
       "What date will you [return] home from your holiday?",
-      "Please remember to [return] the borrowed books to the library.",
-      "He bought a [return] train ticket to save some money."
+      "Migrant workers usually [return] to their hometowns to celebrate the new year.",
+      "She hopes to [return] to university next autumn after taking a gap year."
     ]
   },
   {
@@ -3848,8 +3848,8 @@
     "syn": ["take", "board", "hop on"],
     "ex": [
       "Hurry up or we will not [catch] the eight o'clock bus.",
-      "The dog leaped high into the air to [catch] the tennis ball.",
-      "Wear a warm wool coat so you do not [catch] a bad cold."
+      "We must leave immediately if we want to [catch] the final evening ferry.",
+      "He ran as fast as he could to [catch] the morning commuter train."
     ]
   },
   {
@@ -3865,8 +3865,8 @@
     "syn": ["lose", "fail to catch", "overlook"],
     "ex": [
       "If you leave late, you will definitely [miss] your train.",
-      "I really [miss] my family whenever I travel abroad.",
-      "Turn left at the traffic light; you cannot [miss] the large hotel."
+      "If you wake up late tomorrow, you will [miss] your scheduled flight.",
+      "We had to wait another hour because we [missed] the express coach."
     ]
   },
   {
@@ -3899,7 +3899,7 @@
     "syn": ["touch down", "alight", "arrive"],
     "ex": [
       "The airplane will [land] on the runway in ten minutes.",
-      "The farmer owns a large piece of fertile agricultural [land].",
+      "Commercial passenger jets [land] smoothly under favorable weather conditions.",
       "We watched the seagulls [land] smoothly on the water."
     ]
   },
@@ -3916,8 +3916,8 @@
     "syn": ["arrange", "organize", "schedule"],
     "ex": [
       "We need to [plan] our summer holiday budget carefully.",
-      "What is your [plan] for the upcoming weekend?",
-      "She made a daily study [plan] to prepare for the test."
+      "They met after work to [plan] their upcoming road trip across the country.",
+      "Travelers should [plan] their route thoroughly before driving into remote regions."
     ]
   },
   {
@@ -4070,7 +4070,7 @@
     "ex": [
       "Walk [straight] ahead down this street for two blocks.",
       "Follow the green sign pointing [straight] toward the exit.",
-      "She brushed her long [straight] hair before going to school."
+      "Go [straight] home after your lessons finish this afternoon."
     ]
   },
   {
@@ -4290,8 +4290,8 @@
     "syn": ["plan", "create", "draft"],
     "ex": [
       "An architect was chosen to [design] the new public hospital.",
-      "I really love the clean and simple [design] of this smartphone.",
-      "She wants to study graphic [design] when she goes to university."
+      "Engineers were hired to [design] an energy-efficient apartment block.",
+      "The creative agency was asked to [design] an interactive museum layout."
     ]
   },
   {
@@ -4378,9 +4378,9 @@
     "defn": "To produce something that looks identical to or imitates another work of art or design.",
     "syn": ["imitate", "reproduce", "replicate"],
     "ex": [
-      "Please make a [copy] of this passport page.",
+      "Art students often [copy] classical paintings to study master techniques.",
       "Students should not [copy] homework from each other.",
-      "I saved a digital [copy] of the contract on my computer."
+      "Forgers attempted to [copy] the famous portrait to deceive collectors."
     ]
   },
   {
@@ -4446,9 +4446,9 @@
     "defn": "Having four equal sides and four right angles, or having a shape approximately like this.",
     "syn": ["four-sided", "box-shaped", "quadrangular"],
     "ex": [
-      "A chess board is divided into small [squares].",
-      "We met our friends in the central town [square].",
-      "Draw a [square] with four equal sides."
+      "We bought a [square] wooden table for the compact dining space.",
+      "The courtyard features a large [square] stone fountain in the center.",
+      "She placed a [square] cushion on the living room armchair."
     ]
   },
   {
@@ -4497,9 +4497,9 @@
     "defn": "Having a level and even surface without significant curves, slopes, or bumps.",
     "syn": ["level", "horizontal", "even"],
     "ex": [
-      "The tire on my bicycle is completely [flat].",
+      "Choose a [flat] piece of ground to pitch your camping tent safely.",
       "The landscape in this region is very green and [flat].",
-      "They rented a small [flat] in the center of town."
+      "Deserts often feature vast [flat] plains that stretch toward the horizon."
     ]
   },
   {
@@ -4604,7 +4604,7 @@
     "syn": ["tribunal", "courthouse", "bench"],
     "ex": [
       "The judge listened to the witnesses in the [court].",
-      "They reserved a tennis [court] for an hour.",
+      "The defendant arrived at the municipal [court] accompanied by his legal counsel.",
       "The case will be settled in [court] next month."
     ]
   },
@@ -4765,8 +4765,8 @@
     "syn": ["financial penalty", "charge", "sanction"],
     "ex": [
       "He had to pay a fifty-dollar [fine] for parking illegally.",
-      "I am feeling completely [fine] after a good night's rest.",
-      "The weather was [fine] and sunny for our outdoor picnic."
+      "Drivers who exceed speed limits in school zones face a steep financial [fine].",
+      "The corporation paid a substantial [fine] for violating clean water regulations."
     ]
   },
   {
@@ -4782,7 +4782,7 @@
     "syn": ["cast a ballot", "elect", "choose"],
     "ex": [
       "Citizens will [vote] for a new mayor next week.",
-      "Every member has the right to cast one [vote].",
+      "All registered adult citizens have the constitutional right to [vote] in elections.",
       "Did you [vote] in the student council election?"
     ]
   },
@@ -4798,7 +4798,7 @@
     "defn": "To have the power to direct, regulate, or restrict people, activities, or legal procedures.",
     "syn": ["regulate", "govern", "manage"],
     "ex": [
-      "The pilot managed to keep [control] of the plane.",
+      "Governments enforce strict statutory regulations to [control] monopolistic markets.",
       "Use the remote to [control] the television volume.",
       "It is important to [control] your spending each month."
     ]
@@ -4900,9 +4900,9 @@
     "defn": "To be in charge or command of a political group, government, or public initiative.",
     "syn": ["head", "guide", "direct"],
     "ex": [
-      "The tour guide will [lead] us through the old town.",
-      "This narrow forest path will [lead] you to the lake.",
-      "A good captain knows how to [lead] their team to victory."
+      "The newly elected prime minister promised to [lead] the nation through economic recovery.",
+      "She was elected by committee members to [lead] the political party.",
+      "Civil rights pioneers worked courageously to [lead] national reform campaigns."
     ]
   },
   {
@@ -4936,7 +4936,7 @@
     "ex": [
       "The referee made a [fair] decision during the match.",
       "It is not [fair] that she has to do all the cleaning alone.",
-      "We visited the annual book [fair] at the convention center."
+      "Every accused individual is entitled by law to a [fair] and impartial trial."
     ]
   },
   {
@@ -4951,9 +4951,9 @@
     "defn": "Having the same rights, legal status, or opportunities as other people in society.",
     "syn": ["identical", "uniform", "equivalent"],
     "ex": [
-      "Cut the birthday cake into eight [equal] slices.",
+      "Democratic constitutions guarantee that all citizens enjoy [equal] rights under the law.",
       "Men and women deserve [equal] pay for the same work.",
-      "Two plus two is [equal] to four."
+      "Workplaces must provide [equal] employment opportunities regardless of ethnic background."
     ]
   },
   {
@@ -5003,7 +5003,7 @@
     "syn": ["formal", "authorized", "certified"],
     "ex": [
       "Wait for the [official] announcement before making plans.",
-      "An [official] from the ministry visited the school today.",
+      "Citizens must present an [official] government identity document at passport control.",
       "Check the [official] website for the latest train timetable."
     ]
   },

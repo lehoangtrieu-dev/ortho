@@ -325,7 +325,7 @@
     "syn": ["qualify", "complete one's studies", "earn a degree"],
     "ex": [
       "He hopes to [graduate] from university with honors next summer.",
-      "Many college [graduates] look for internships after finishing studies.",
+      "She worked diligently every semester to [graduate] at the top of her academic class.",
       "She [graduated] in economics from a top institution last year."
     ]
   },
@@ -808,7 +808,7 @@
     "syn": ["inundation", "deluge", "overflow"],
     "ex": [
       "Torrential weekend rains triggered a massive [flood] in the valley.",
-      "Rising waters began to [flood] the ground floor of houses.",
+      "The catastrophic autumn [flood] damaged farmland across the low-lying river plains.",
       "The city built stone barriers to prevent coastal [flooding]."
     ]
   },
@@ -1777,7 +1777,7 @@
     "defn": "To relieve a person of the symptoms of a disease or condition; eliminate an illness completely.",
     "syn": ["heal", "remedy", "restore"],
     "ex": [
-      "Scientists are working hard to find an effective [cure] for the illness.",
+      "Modern medical antibiotics can successfully [cure] numerous bacterial infections.",
       "Drinking warm tea soothes your throat, but it will not [cure] a cold.",
       "Penicillin was discovered as a powerful drug to [cure] bacterial infections."
     ]
@@ -1812,7 +1812,7 @@
     "syn": ["restrict", "curb", "cap"],
     "ex": [
       "You should [limit] your daily screen time before going to sleep.",
-      "The city introduced a new speed [limit] near schools.",
+      "Cardiologists strongly advise patients to [limit] their daily consumption of sodium.",
       "He tries to [limit] his intake of sugary snacks."
     ]
   },
@@ -2308,7 +2308,7 @@
     "syn": ["grid", "system", "infrastructure"],
     "ex": [
       "Connect your laptop to the secure office Wi-Fi [network].",
-      "The company operates a vast international distribution [network].",
+      "Cybersecurity analysts continuously monitor the enterprise computer [network] against cyberattacks.",
       "A sudden power outage disrupted the local telephone [network]."
     ]
   },
@@ -2499,7 +2499,7 @@
     "syn": ["fail", "freeze", "malfunction"],
     "ex": [
       "The heavy game caused my old computer to [crash] suddenly.",
-      "Two cars were involved in a serious [crash] on the highway.",
+      "Running demanding software on limited RAM may cause the operating system to [crash].",
       "If the app continues to [crash], try reinstalling it."
     ]
   },
@@ -2567,7 +2567,7 @@
     "syn": ["handle", "manage", "compute"],
     "ex": [
       "Modern computers can [process] huge amounts of data quickly.",
-      "Applying for an international passport is a lengthy [process].",
+      "High-speed cloud servers can [process] millions of digital transactions per second.",
       "The bank needs three working days to [process] your transfer."
     ]
   },
@@ -2583,9 +2583,9 @@
     "defn": "To keep or accumulate data in a computer's memory or on a digital storage medium.",
     "syn": ["save", "archive", "retain"],
     "ex": [
-      "Squirrels [store] nuts in trees to prepare for winter.",
+      "Secure data facilities [store] confidential corporate records across encrypted servers.",
       "Use a cloud service to [store] your digital photos safely.",
-      "Always [store] fresh milk in the refrigerator."
+      "High-capacity SSD drives allow users to [store] massive video archives locally."
     ]
   },
   {
@@ -2600,8 +2600,8 @@
     "defn": "To move data, signals, or electronic files from one computer system or location to another.",
     "syn": ["transmit", "move", "relocate"],
     "ex": [
-      "You can use online banking to [transfer] money to a friend.",
-      "He had to [transfer] to another bus to reach the station.",
+      "Bluetooth protocols allow mobile devices to [transfer] files wirelessly.",
+      "Fiber-optic infrastructure helps telecommunications carriers [transfer] terabytes of data effortlessly.",
       "Use a USB cable to [transfer] files from your phone to the PC."
     ]
   },
@@ -2618,7 +2618,7 @@
     "syn": ["improve", "update", "modernize"],
     "ex": [
       "I decided to [upgrade] my phone to get a better camera.",
-      "The hotel offered to [upgrade] our room to a sea-view suite.",
+      "IT administrators regularly [upgrade] network server software to patch security vulnerabilities.",
       "You should [upgrade] your computer's memory for faster gaming."
     ]
   },
@@ -2653,7 +2653,7 @@
     "ex": [
       "The human brain is an extremely [complex] biological organ.",
       "He gave a [complex] explanation that confused many students.",
-      "They moved into a modern residential [complex] near the park."
+      "Designing modern microchips requires resolving highly [complex] mathematical algorithms."
     ]
   },
   {
@@ -3156,8 +3156,8 @@
     "syn": ["juggle", "reconcile", "coordinate"],
     "ex": [
       "It is essential to [balance] hard work with sufficient sleep.",
-      "Check your bank [balance] before ordering expensive items online.",
-      "The gymnast showed remarkable [balance] on the narrow beam."
+      "Independent freelancers must [balance] client deadlines with personal wellness.",
+      "Corporate executives struggle to [balance] rapid expansion with fiscal responsibility."
     ]
   },
   {
@@ -3245,7 +3245,7 @@
     "syn": ["introduce", "unveil", "roll out"],
     "ex": [
       "The company will [launch] its latest smartphone model next week.",
-      "Scientists are preparing to [launch] a weather satellite tomorrow.",
+      "The technology startup plans to [launch] an innovative educational mobile platform next month.",
       "The charity decided to [launch] an urgent fundraising campaign."
     ]
   },
@@ -3617,7 +3617,7 @@
     "defn": "A person who freely offers to take part in an enterprise or undertake a task for public good.",
     "syn": ["unpaid worker", "helper", "supporter"],
     "ex": [
-      "She decided to [volunteer] at the local animal shelter on weekends.",
+      "Each dedicated community [volunteer] helped distribute warm meals after the storm.",
       "Many [volunteers] helped distribute warm food after the flood.",
       "He works as a hospital [volunteer] during his summer vacation."
     ]
@@ -3872,7 +3872,7 @@
     "syn": ["demonstrate", "object", "dissent"],
     "ex": [
       "Crowds gathered in the square to [protest] against rising transport fares.",
-      "The workers organized a peaceful [protest] outside the factory gates.",
+      "Labor union members marched peacefully to [protest] unfair wage reductions.",
       "Students signed a petition to [protest] the sudden exam schedule change."
     ]
   },
@@ -3894,7 +3894,7 @@
     "ex": [
       "Many small businesses [struggle] to survive during economic downturns.",
       "He [struggled] to solve the difficult math equation without a calculator.",
-      "Learning a foreign language can be a daily [struggle] at the beginning."
+      "Marginalized socioeconomic groups often [struggle] to access quality healthcare."
     ]
   },
   {
@@ -4056,9 +4056,9 @@
     "defn": "To work in an organized and active way towards a particular social or political goal.",
     "syn": ["advocate", "crusade", "lobby"],
     "ex": [
-      "The city launched a public health [campaign] to promote regular exercise.",
-      "Volunteers worked hard on the mayor's election [campaign].",
-      "The charity started an online [campaign] to raise money for clean water."
+      "Environmental activists travel extensively to [campaign] for renewable energy policies.",
+      "Coalition volunteers knock on doors to [campaign] for their chosen mayoral candidate.",
+      "Student associations actively [campaign] across campus for affordable textbook costs."
     ]
   },
   {
@@ -4726,7 +4726,7 @@
     "syn": ["introduce", "broadcast", "deliver"],
     "ex": [
       "Each student must [present] their research findings to the class.",
-      "He bought a lovely birthday [present] for his mother.",
+      "The principal investigator will [present] the clinical trial data at the medical symposium.",
       "The doctor will [present] the clinical trial results at the conference."
     ]
   },
@@ -4781,7 +4781,7 @@
     "syn": ["inform", "revise", "refresh"],
     "ex": [
       "Remember to [update] your phone software to fix security bugs.",
-      "The app sends regular [updates] about delayed train departures.",
+      "Software engineers continuously [update] the mobile application to eliminate glitches.",
       "Please [update] your contact details on the student portal."
     ]
   },
@@ -4888,7 +4888,7 @@
     "ex": [
       "Eating junk food daily has a [negative] impact on your long-term health.",
       "Try to avoid people who always express a [negative] attitude.",
-      "The medical test came back with a [negative] result, meaning he was healthy."
+      "Sensationalist news headlines frequently provoke an overwhelmingly [negative] public reaction."
     ]
   },
   {
@@ -5335,9 +5335,9 @@
     "defn": "To encounter, undergo, or feel something personally through living, seeing, or doing it.",
     "syn": ["undergo", "encounter", "witness"],
     "ex": [
-      "Volunteering at the hospital gave her valuable clinical [experience].",
-      "Living abroad was an unforgettable personal [experience] for him.",
-      "Applicants must have at least two years of relevant work [experience]."
+      "Adventurous travelers who explore rural villages truly [experience] local hospitality.",
+      "International exchange students [experience] rich cultural diversity firsthand.",
+      "Immigrants often [experience] cultural adjustment challenges during their initial months abroad."
     ]
   },
   {
@@ -6105,8 +6105,8 @@
     "syn": ["showcase", "feature", "put on view"],
     "ex": [
       "Talented local artists will [exhibit] their newest works at the library.",
-      "The science museum has a hands-on dinosaur fossil [exhibit].",
-      "Young children often [exhibit] immense curiosity about the world."
+      "Sculptors were invited to [exhibit] contemporary installations in the museum gardens.",
+      "The national cultural center plans to [exhibit] rare historic artifacts during the festival."
     ]
   },
   {
@@ -6219,7 +6219,7 @@
     "syn": ["form", "mould", "sculpt"],
     "ex": [
       "The potter used his wet hands to [shape] the clay into a vase.",
-      "Daily aerobic exercise helps you stay in good physical [shape].",
+      "Renowned architects utilized reinforced steel to [shape] the iconic curved pavilion.",
       "Childhood experiences play a major role in [shaping] personality."
     ]
   },
@@ -6278,7 +6278,7 @@
     "syn": ["non-representational", "non-figurative", "symbolic"],
     "ex": [
       "The gallery purchased an [abstract] painting with bold geometric forms.",
-      "Young children sometimes struggle to understand [abstract] concepts.",
+      "Modern art collectors often invest in vibrant [abstract] canvas compositions.",
       "He prefers realistic portrait drawings over purely [abstract] art."
     ]
   },
@@ -6355,7 +6355,7 @@
     "ex": [
       "The museum proudly displays the [original] manuscript by the author.",
       "Please send the [original] document to our office and keep a copy.",
-      "She came up with a highly [original] concept for the campaign."
+      "Specialists examined the canvas to confirm it was the [original] renaissance artwork."
     ]
   },
   {
@@ -6887,9 +6887,9 @@
     "defn": "To form an opinion or legal conclusion about a case, evidence, or defendant in a court of law.",
     "syn": ["adjudicate", "evaluate", "arbitrate"],
     "ex": [
-      "The [judge] listened attentively to arguments from both sides.",
-      "Do not [judge] others based purely on their appearance.",
-      "Three master chefs were chosen to [judge] the cooking contest."
+      "Judicial panels are mandated to [judge] legal disputes strictly based on statutory evidence.",
+      "A high court tribunal was convened to [judge] the corporate fraud case.",
+      "Appellate courts must [judge] each case impartially without political interference."
     ]
   },
   {
@@ -6977,7 +6977,7 @@
     "syn": ["unlawful", "felonious", "illegal"],
     "ex": [
       "Stealing someone's identity is treated as a severe [criminal] act.",
-      "Police captured the dangerous [criminal] near the border.",
+      "Prosecutors decided to file formal [criminal] charges against the ringleader.",
       "She works as a defense lawyer in the [criminal] justice system."
     ]
   },

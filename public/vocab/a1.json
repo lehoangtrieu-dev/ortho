@@ -319,7 +319,7 @@
     "ex": [
       "She speaks English very [well] after years of practice.",
       "Eat healthy food and sleep [well] every night.",
-      "I did not feel [well] yesterday, so I stayed home."
+      "The new computer system works very [well] in our office."
     ]
   },
   {
@@ -505,7 +505,7 @@
     "syn": ["pour"],
     "ex": [
       "Take an umbrella because it is starting to [rain].",
-      "Heavy [rain] stopped us from playing soccer outside.",
+      "Does it [rain] very often during the winter months in this area?",
       "It [rains] almost every day during July."
     ]
   },
@@ -590,7 +590,7 @@
     "syn": ["pure", "unpolluted"],
     "ex": [
       "Please wash your hands so they are [clean].",
-      "I need to [clean] my bedroom this weekend.",
+      "Always drink fresh, [clean] water to stay healthy.",
       "The hotel bathroom was fresh and [clean]."
     ]
   },
@@ -641,7 +641,7 @@
     "syn": ["lush", "verdant"],
     "ex": [
       "The grass in the garden is fresh and [green].",
-      "You can cross the street when the light turns [green].",
+      "The quiet village is surrounded by peaceful [green] hills.",
       "Eat your [green] vegetables to stay healthy."
     ]
   },
@@ -811,7 +811,7 @@
     "syn": ["stroll", "step"],
     "ex": [
       "I prefer to [walk] to work instead of driving a car.",
-      "They go for a peaceful [walk] in the park every morning.",
+      "We usually [walk] to the supermarket together in the evening.",
       "We [walked] along the beach as the sun went down."
     ]
   },
@@ -846,7 +846,7 @@
     "ex": [
       "You look tired, so you should sit down and [rest].",
       "After a long walk, we stopped under a tree to [rest].",
-      "The doctor told him to stay in bed and get some [rest]."
+      "Lie down on the sofa to [rest] your eyes after studying."
     ]
   },
   {
@@ -1188,9 +1188,9 @@
     "defn": "To function or operate correctly as intended.",
     "syn": ["function", "operate", "run"],
     "ex": [
-      "My parents [work] in a bank in the city center.",
-      "He has a lot of [work] to finish before five o'clock.",
-      "She starts her new office [work] next Monday."
+      "My phone does not [work] because the battery is empty.",
+      "Does the television in your bedroom [work] properly?",
+      "The office printer stopped [working] right before our class started."
     ]
   },
   {
@@ -1205,8 +1205,8 @@
     "defn": "To take part in a digital game or recreational activity on an electronic device.",
     "syn": ["game", "participate"],
     "ex": [
-      "The children love to [play] with a ball in the garden.",
-      "Can you [play] the acoustic guitar or the piano?",
+      "He likes to [play] computer games with his brother on weekends.",
+      "Do not [play] games on your tablet late at night.",
       "They like to [play] video games together after school."
     ]
   },
@@ -1273,9 +1273,9 @@
     "defn": "Operating, loading, or transferring data in very little time.",
     "syn": ["quick", "speedy", "rapid"],
     "ex": [
-      "He is a very [fast] runner and wins every race.",
-      "Rabbits can run much [faster] than small turtles.",
-      "Do not drive too [fast] on this narrow street."
+      "We have a very [fast] internet connection at home.",
+      "This new laptop is [fast] and handles multiple applications easily.",
+      "A [fast] computer helps students complete online assignments quickly."
     ]
   },
   {
@@ -1409,9 +1409,9 @@
     "defn": "A short pause or period of rest from work or activity.",
     "syn": ["pause", "rest", "intermission"],
     "ex": [
-      "Be careful not to drop and [break] that glass cup.",
+      "Workers usually enjoy a one-hour lunch [break] at noon.",
       "Let us take a short ten-minute [break] from studying.",
-      "If you kick the ball at the window, it might [break]."
+      "Students have a short [break] between their morning classes."
     ]
   },
   {
@@ -1444,7 +1444,7 @@
     "syn": ["store", "outlet", "retailer"],
     "ex": [
       "She bought a loaf of fresh bread at the bakery [shop].",
-      "I need to [shop] for vegetables this afternoon.",
+      "There is a small grocery [shop] located right on the corner.",
       "That small flower [shop] closes early on Sundays."
     ]
   },
@@ -1512,7 +1512,7 @@
     "syn": ["assist", "support", "aid"],
     "ex": [
       "Can you please [help] me carry these heavy bags?",
-      "She asked her classmate for [help] with the homework.",
+      "I will [help] you clean the kitchen after dinner.",
       "Doctors work hard to [help] sick patients get better."
     ]
   },
@@ -1528,9 +1528,9 @@
     "defn": "To come together with someone deliberately to discuss business matters.",
     "syn": ["encounter", "convene with", "confer with"],
     "ex": [
-      "Let us [meet] outside the cinema at seven o'clock.",
-      "I was very happy to [meet] your family yesterday.",
-      "We will [meet] our new teacher tomorrow morning."
+      "The manager will [meet] important corporate clients in the boardroom.",
+      "We plan to [meet] with business partners tomorrow to sign the agreement.",
+      "Company directors [meet] every Monday morning to review weekly sales."
     ]
   },
   {
@@ -1563,7 +1563,7 @@
     "syn": ["complimentary", "unoccupied", "available"],
     "ex": [
       "Entry to the city art museum is completely [free] today.",
-      "Are you [free] to talk on the phone for five minutes?",
+      "You can download this learning application for [free] onto your tablet.",
       "The hotel provides a [free] breakfast every morning."
     ]
   },
@@ -1766,9 +1766,9 @@
     "defn": "To look after someone and make sure they have what they need.",
     "syn": ["look after", "tend", "nurture"],
     "ex": [
-      "Parents take good [care] of their young children.",
-      "Nurses give daily medicine and [care] to patients.",
-      "He handles the fragile glass cup with great [care]."
+      "Nurses [care] for sick patients throughout the night.",
+      "Parents deeply [care] about the health and happiness of their children.",
+      "She volunteers on weekends to [care] for elderly residents."
     ]
   },
   {
@@ -1819,7 +1819,7 @@
     "ex": [
       "Our English teacher is very helpful and [kind].",
       "It was very [kind] of you to hold the door open.",
-      "What [kind] of music do you like to listen to?"
+      "Thank you for your [kind] words when I was feeling discouraged."
     ]
   },
   {
@@ -1988,7 +1988,7 @@
     "syn": ["view", "observe", "see"],
     "ex": [
       "Let us [watch] a funny movie together tonight.",
-      "He checked his wrist [watch] to see the time.",
+      "Children should not [watch] television for more than one hour daily.",
       "Parents love to [watch] their kids play football."
     ]
   },
@@ -2361,7 +2361,7 @@
     "defn": "To travel through the air in an aeroplane.",
     "syn": ["take a flight", "travel by air", "jet"],
     "ex": [
-      "Most wild birds can spread their wings and [fly].",
+      "Millions of tourists [fly] across Europe each summer on vacation.",
       "We will [fly] to London early tomorrow morning.",
       "Pilots undergo years of training to [fly] passenger jets."
     ]
@@ -2553,7 +2553,7 @@
     "syn": ["chamber", "space"],
     "ex": [
       "My bedroom is the quietest [room] in the house.",
-      "There is plenty of [room] for all our bags in the car.",
+      "The guests walked into the large dining [room] for dinner.",
       "Make sure to tidy your [room] before going outside."
     ]
   },
@@ -2672,7 +2672,7 @@
     "syn": ["colour", "coat", "decorate"],
     "ex": [
       "We want to [paint] the living room blue.",
-      "The artist uses water and [paint] to make pictures.",
+      "She decided to [paint] a landscape of the ocean using watercolors.",
       "He [painted] a red line on the wooden fence."
     ]
   },
@@ -2739,9 +2739,9 @@
     "defn": "To put something in a public place so that people can view and appreciate it.",
     "syn": ["display", "exhibit", "present"],
     "ex": [
-      "Can you [show] me where the bus station is?",
-      "He wanted to [show] his new watch to his friends.",
-      "Please [show] your ticket to the train guard."
+      "Local painters will [show] their newest works at the town hall.",
+      "The museum plans to [show] rare historical photographs next month.",
+      "Students were invited to [show] their creative art models in the main lobby."
     ]
   },
   {
@@ -2943,9 +2943,9 @@
     "defn": "To prevent an unlawful action or halt someone engaged in an offence.",
     "syn": ["halt", "prevent", "intercept"],
     "ex": [
-      "You must [stop] your car at the red light.",
-      "The bus will [stop] near the city hospital.",
-      "Please [stop] making noise while others are studying."
+      "Police officers work day and night to [stop] crime in the city.",
+      "Security guards [stopped] the intruder from entering the warehouse.",
+      "Stricter laws help [stop] factories from dumping hazardous waste illegally."
     ]
   },
   {
@@ -2961,8 +2961,8 @@
     "syn": ["endorse", "subscribe", "validate"],
     "ex": [
       "Please [sign] your name at the bottom of the paper.",
-      "The road [sign] says you cannot turn left here.",
-      "Look at the exit [sign] above the door."
+      "Both business partners agreed to [sign] the lease agreement yesterday.",
+      "Remember to [sign] the permission slip before returning it to the teacher."
     ]
   },
   {
@@ -2994,9 +2994,9 @@
     "defn": "Not morally right, honest, or permitted under established rules.",
     "syn": ["unlawful", "incorrect", "improper"],
     "ex": [
-      "I chose the [wrong] answer on the English test.",
-      "You are driving down the [wrong] street.",
-      "He gave the [wrong] phone number by mistake."
+      "It is completely [wrong] to steal money from your employer.",
+      "Cheating on an academic examination is dishonest and [wrong].",
+      "Children are taught that telling lies to harm others is morally [wrong]."
     ]
   },
   {

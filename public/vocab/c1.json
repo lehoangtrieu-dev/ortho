@@ -219,44 +219,6 @@
   },
   {
     "id": 10,
-    "w": "autonomy",
-    "level": "C1",
-    "ipa": "/ɔːˈtɒnəmi/",
-    "top": ["EDU"],
-    "col": ["learner autonomy", "intellectual autonomy", "foster autonomy"],
-    "pos": "noun",
-    "pat": "foster student [autonomy] through [self-directed projects]",
-    "defn": "The capacity and freedom of a student or scholar to direct their own learning, make independent intellectual decisions, and think critically.",
-    "syn": ["self-directed learning", "independence", "self-determination"],
-    "ex": [
-      "University students enjoy substantial [autonomy] over their schedules.",
-      "Regional councils demanded greater administrative [autonomy] from the capital.",
-      "Flexible work policies often foster employee [autonomy] and motivation."
-    ]
-  },
-  {
-    "id": 11,
-    "w": "specialization",
-    "level": "C1",
-    "ipa": "/ˌspeʃəlaɪˈzeɪʃn/",
-    "top": ["EDU"],
-    "col": [
-      "premature specialization",
-      "academic specialization",
-      "narrow specialization"
-    ],
-    "pos": "noun",
-    "pat": "caution against premature [specialization] in [secondary schooling]",
-    "defn": "The concentration of educational effort and research on a highly specific, restricted field of knowledge or technical domain.",
-    "syn": ["focused expertise", "disciplinary focus", "narrowing"],
-    "ex": [
-      "Medical students choose their clinical [specialization] in their final year.",
-      "Modern academic research demands narrow [specialization] over broad study.",
-      "Global trade encourages national [specialization] in specific commodities."
-    ]
-  },
-  {
-    "id": 12,
     "w": "rubric",
     "level": "C1",
     "ipa": "/ˈruːbrɪk/",
@@ -273,7 +235,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 11,
     "w": "milieu",
     "level": "C1",
     "ipa": "/ˈmiːljɜː/",
@@ -294,28 +256,7 @@
     ]
   },
   {
-    "id": 14,
-    "w": "trajectory",
-    "level": "C1",
-    "ipa": "/trəˈdʒektəri/",
-    "top": ["EDU"],
-    "col": [
-      "academic trajectory",
-      "educational trajectory",
-      "alter the trajectory"
-    ],
-    "pos": "noun",
-    "pat": "profoundly alter the educational [trajectory] of [marginalized youth]",
-    "defn": "The path, developmental course, or progressive sequence of achievements characterizing an individual's academic or career progression.",
-    "syn": ["developmental pathway", "scholastic progression", "career arc"],
-    "ex": [
-      "Mentorship helped guide her promising career [trajectory] in finance.",
-      "Physicists calculated the exact flight [trajectory] of the rocket.",
-      "Economic reforms altered the developing nation's growth [trajectory]."
-    ]
-  },
-  {
-    "id": 15,
+    "id": 12,
     "w": "dichotomy",
     "level": "C1",
     "ipa": "/daɪˈkɒtəmi/",
@@ -332,24 +273,7 @@
     ]
   },
   {
-    "id": 16,
-    "w": "proponent",
-    "level": "C1",
-    "ipa": "/prəˈpəʊnənt/",
-    "top": ["EDU"],
-    "col": ["leading proponent", "proponents of reform", "outspoken proponent"],
-    "pos": "noun",
-    "pat": "[proponents] of [pedagogical reform] argue that [clause]",
-    "defn": "A person who advocates for, argues in favor of, or champions a specific educational theory, policy, or methodology.",
-    "syn": ["advocate", "champion", "supporter"],
-    "ex": [
-      "She is a vocal [proponent] of renewable energy legislation.",
-      "Early [proponents] of the theory faced significant professional skepticism.",
-      "He remains a leading [proponent] of comprehensive criminal justice reform."
-    ]
-  },
-  {
-    "id": 17,
+    "id": 13,
     "w": "tenure",
     "level": "C1",
     "ipa": "/ˈtenjə(r)/",
@@ -370,7 +294,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 14,
     "w": "assimilate",
     "level": "C1",
     "ipa": "/əˈsɪməleɪt/",
@@ -391,7 +315,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 15,
     "w": "demystify",
     "level": "C1",
     "ipa": "/ˌdiːˈmɪstɪfaɪ/",
@@ -412,7 +336,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 16,
     "w": "elucidate",
     "level": "C1",
     "ipa": "/ɪˈluːsɪdeɪt/",
@@ -433,7 +357,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 17,
     "w": "exemplify",
     "level": "C1",
     "ipa": "/ɪɡˈzemplɪfaɪ/",
@@ -454,7 +378,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 18,
     "w": "internalize",
     "level": "C1",
     "ipa": "/ɪnˈtɜːnəlaɪz/",
@@ -475,7 +399,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 19,
     "w": "interrogate",
     "level": "C1",
     "ipa": "/ɪnˈterəɡeɪt/",
@@ -496,7 +420,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 20,
     "w": "scrutinize",
     "level": "C1",
     "ipa": "/ˈskruːtənaɪz/",
@@ -517,7 +441,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 21,
     "w": "synthesize",
     "level": "C1",
     "ipa": "/ˈsɪnθəsaɪz/",
@@ -538,7 +462,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 22,
     "w": "dismantle",
     "level": "C1",
     "ipa": "/dɪsˈmæntl/",
@@ -559,7 +483,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 23,
     "w": "harness",
     "level": "C1",
     "ipa": "/ˈhɑːnɪs/",
@@ -574,13 +498,13 @@
     "defn": "To control and make productive, systematic, and disciplined use of educational resources, cognitive capabilities, or technological tools.",
     "syn": ["utilize", "leverage", "exploit"],
     "ex": [
-      "Engineers built offshore turbines to [harness] oceanic wind power.",
+      "Educational software helps teachers [harness] student curiosity to improve learning retention.",
       "The enterprise sought to [harness] predictive artificial intelligence.",
-      "Coaches help young athletes [harness] nervous energy before games."
+      "Universities aim to [harness] the intellectual potential of undergraduate research fellows."
     ]
   },
   {
-    "id": 28,
+    "id": 24,
     "w": "pique",
     "level": "C1",
     "ipa": "/piːk/",
@@ -597,7 +521,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 25,
     "w": "propel",
     "level": "C1",
     "ipa": "/prəˈpel/",
@@ -618,7 +542,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 26,
     "w": "curtail",
     "level": "C1",
     "ipa": "/kɜːˈteɪl/",
@@ -635,7 +559,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 27,
     "w": "undermine",
     "level": "C1",
     "ipa": "/ˌʌndəˈmaɪn/",
@@ -656,7 +580,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 28,
     "w": "substantiate",
     "level": "C1",
     "ipa": "/səbˈstænʃieɪt/",
@@ -677,7 +601,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 29,
     "w": "disseminate",
     "level": "C1",
     "ipa": "/dɪˈsemɪneɪt/",
@@ -698,7 +622,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 30,
     "w": "didactic",
     "level": "C1",
     "ipa": "/daɪˈdæktɪk/",
@@ -715,7 +639,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 31,
     "w": "pedantic",
     "level": "C1",
     "ipa": "/pɪˈdæntɪk/",
@@ -732,7 +656,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 32,
     "w": "dogmatic",
     "level": "C1",
     "ipa": "/dɒɡˈmætɪk/",
@@ -749,7 +673,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 33,
     "w": "scholastic",
     "level": "C1",
     "ipa": "/skəˈlæstɪk/",
@@ -770,7 +694,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 34,
     "w": "interdisciplinary",
     "level": "C1",
     "ipa": "/ˌɪntəˌdɪsəˈplɪnəri/",
@@ -791,7 +715,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 35,
     "w": "rudimentary",
     "level": "C1",
     "ipa": "/ˌruːdɪˈmentri/",
@@ -812,7 +736,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 36,
     "w": "rote",
     "level": "C1",
     "ipa": "/rəʊt/",
@@ -824,12 +748,12 @@
     "syn": ["mechanical", "unthinking", "formulaic"],
     "ex": [
       "Modern education favors analytical reasoning over mechanical [rote] learning.",
-      "Memorizing historical dates by [rote] rarely leads to deep comprehension.",
-      "She recited the poem by [rote] without conveying its underlying emotion."
+      "A reliance on [rote] memorization discourages students from developing independent critical inquiry.",
+      "Examiners criticized the curriculum for rewarding [rote] repetition rather than genuine problem-solving."
     ]
   },
   {
-    "id": 41,
+    "id": 37,
     "w": "esoteric",
     "level": "C1",
     "ipa": "/ˌesəˈterɪk/",
@@ -846,7 +770,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 38,
     "w": "foundational",
     "level": "C1",
     "ipa": "/faʊnˈdeɪʃənl/",
@@ -867,7 +791,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 39,
     "w": "disparate",
     "level": "C1",
     "ipa": "/ˈdɪspərət/",
@@ -888,7 +812,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 40,
     "w": "monolithic",
     "level": "C1",
     "ipa": "/ˌmɒnəˈlɪθɪk/",
@@ -905,11 +829,11 @@
     "ex": [
       "The bureaucracy was criticized as an inflexible, [monolithic] entity.",
       "Historians argue that ancient empires were never culturally [monolithic].",
-      "Engineers redesigned the [monolithic] architecture into microservices."
+      "Progressive educators dismantled the [monolithic] examination system in favor of diverse assessments."
     ]
   },
   {
-    "id": 45,
+    "id": 41,
     "w": "ostensibly",
     "level": "C1",
     "ipa": "/ɒˈstensəbli/",
@@ -930,7 +854,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 42,
     "w": "intrinsically",
     "level": "C1",
     "ipa": "/ɪnˈtrɪnzɪkli/",
@@ -951,7 +875,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 43,
     "w": "empirically",
     "level": "C1",
     "ipa": "/ɪmˈpɪrɪkli/",
@@ -972,7 +896,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 44,
     "w": "disproportionately",
     "level": "C1",
     "ipa": "/ˌdɪsprəˈpɔːʃənətli/",
@@ -993,7 +917,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 45,
     "w": "unequivocally",
     "level": "C1",
     "ipa": "/ˌʌnɪˈkwɪvəkli/",
@@ -1014,28 +938,7 @@
     ]
   },
   {
-    "id": 50,
-    "w": "aquifer",
-    "level": "C1",
-    "ipa": "/ˈækwɪfə(r)/",
-    "top": ["ENV"],
-    "col": ["deplete aquifers", "subterranean aquifer", "recharge the aquifer"],
-    "pos": "noun",
-    "pat": "the extraction of water from [aquifers]",
-    "defn": "An underground layer of water-bearing permeable rock, rock fractures, or unconsolidated materials from which groundwater can be extracted.",
-    "syn": [
-      "groundwater reservoir",
-      "subterranean water table",
-      "water-bearing stratum"
-    ],
-    "ex": [
-      "Overpumping is rapidly depleting the region's primary underground [aquifer].",
-      "Chemical pesticides infiltrated the limestone [aquifer], contaminating drinking water.",
-      "Heavy winter snow helps recharge the deep mountain [aquifers]."
-    ]
-  },
-  {
-    "id": 51,
+    "id": 46,
     "w": "biosphere",
     "level": "C1",
     "ipa": "/ˈbaɪəʊsfɪə(r)/",
@@ -1056,7 +959,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 47,
     "w": "desertification",
     "level": "C1",
     "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
@@ -1077,24 +980,7 @@
     ]
   },
   {
-    "id": 53,
-    "w": "effluent",
-    "level": "C1",
-    "ipa": "/ˈefluənt/",
-    "top": ["ENV"],
-    "col": ["toxic effluent", "industrial effluent", "discharge effluent"],
-    "pos": "noun",
-    "pat": "discharge untreated [effluent] into [waterways]",
-    "defn": "Liquid waste or sewage discharged into a river or the sea from industrial facilities or municipal treatment plants.",
-    "syn": ["industrial discharge", "liquid waste", "chemical outflow"],
-    "ex": [
-      "The textile mill discharged untreated chemical [effluent] directly into streams.",
-      "Strict environmental standards regulate industrial [effluent] entering public waterways.",
-      "Modern filters purify domestic [effluent] before releasing it into canals."
-    ]
-  },
-  {
-    "id": 54,
+    "id": 48,
     "w": "equilibrium",
     "level": "C1",
     "ipa": "/ˌiːkwɪˈlɪbriəm/",
@@ -1115,32 +1001,7 @@
     ]
   },
   {
-    "id": 55,
-    "w": "eutrophication",
-    "level": "C1",
-    "ipa": "/ˌjuːtrɒfɪˈkeɪʃn/",
-    "top": ["ENV"],
-    "col": [
-      "cause eutrophication",
-      "cultural eutrophication",
-      "severe eutrophication"
-    ],
-    "pos": "noun",
-    "pat": "agricultural runoff induces [eutrophication] in [aquatic habitats]",
-    "defn": "Excessive richness of nutrients in a lake or other body of water, frequently due to runoff from the land, which causes a dense growth of plant life and death of animal life from lack of oxygen.",
-    "syn": [
-      "nutrient enrichment",
-      "algal blooming cycle",
-      "aquatic deoxygenation"
-    ],
-    "ex": [
-      "Excessive fertilizer runoff caused severe [eutrophication] in the shallow lake.",
-      "Massive algal blooms triggered by [eutrophication] suffocated local fish stocks.",
-      "Reducing agricultural discharge is crucial to reversing freshwater [eutrophication]."
-    ]
-  },
-  {
-    "id": 56,
+    "id": 49,
     "w": "monoculture",
     "level": "C1",
     "ipa": "/ˈmɒnəkʌltʃə(r)/",
@@ -1165,7 +1026,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 50,
     "w": "permafrost",
     "level": "C1",
     "ipa": "/ˈpɜːməfrɒst/",
@@ -1190,7 +1051,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 51,
     "w": "remediation",
     "level": "C1",
     "ipa": "/rɪˌmiːdiˈeɪʃn/",
@@ -1215,28 +1076,7 @@
     ]
   },
   {
-    "id": 59,
-    "w": "salinization",
-    "level": "C1",
-    "ipa": "/ˌsælɪnaɪˈzeɪʃn/",
-    "top": ["ENV"],
-    "col": [
-      "soil salinization",
-      "widespread salinization",
-      "prevent salinization"
-    ],
-    "pos": "noun",
-    "pat": "injudicious irrigation precipitates [salinization] in [arable land]",
-    "defn": "The process by which water-soluble salts accumulate in the soil, which can severely inhibit crop growth and cause land degradation.",
-    "syn": ["salt accumulation", "soil calcification", "mineralization"],
-    "ex": [
-      "Inefficient irrigation systems cause rapid soil [salinization] in arid zones.",
-      "High soil [salinization] severely limits crop yields across coastal farmlands.",
-      "Flooding with seawater led to catastrophic agricultural [salinization]."
-    ]
-  },
-  {
-    "id": 60,
+    "id": 52,
     "w": "sequestration",
     "level": "C1",
     "ipa": "/ˌsiːkweˈstreɪʃn/",
@@ -1257,7 +1097,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": 53,
     "w": "sprawl",
     "level": "C1",
     "ipa": "/sprɔːl/",
@@ -1278,7 +1118,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": 54,
     "w": "threshold",
     "level": "C1",
     "ipa": "/ˈθreʃhəʊld/",
@@ -1290,12 +1130,12 @@
     "syn": ["tipping point", "critical boundary", "tolerance limit"],
     "ex": [
       "Global temperatures are approaching a critical ecological tipping [threshold].",
-      "The noise level exceeded the allowable decibel [threshold] for neighborhoods.",
-      "Toxic gas concentrations remained safely beneath the hazardous workplace [threshold]."
+      "Arctic sea ice melting has crossed an alarming ecological [threshold], accelerating ocean warming.",
+      "Excessive fertilizer runoff pushed coastal estuaries past their biological tolerance [threshold]."
     ]
   },
   {
-    "id": 63,
+    "id": 55,
     "w": "afforestation",
     "level": "C1",
     "ipa": "/æˌfɒrɪˈsteɪʃn/",
@@ -1316,7 +1156,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 56,
     "w": "calamity",
     "level": "C1",
     "ipa": "/kəˈlæməti/",
@@ -1333,58 +1173,7 @@
     ]
   },
   {
-    "id": 65,
-    "w": "fecundity",
-    "level": "C1",
-    "ipa": "/fɪˈkʌndəti/",
-    "top": ["ENV"],
-    "col": ["natural fecundity", "soil fecundity", "diminish fecundity"],
-    "pos": "noun",
-    "pat": "undermine the natural [fecundity] of [marine/terrestrial ecosystems]",
-    "defn": "The ability to produce an abundance of healthy offspring or new growth; fertility in an ecological context.",
-    "syn": ["fertility", "prolificacy", "fruitfulness"],
-    "ex": [
-      "Warm ocean upwellings explain the incredible biological [fecundity] of reefs.",
-      "Insect populations are renowned for their extraordinary reproductive [fecundity].",
-      "Organic compost dramatically improved the soil's natural agricultural [fecundity]."
-    ]
-  },
-  {
-    "id": 66,
-    "w": "scarcity",
-    "level": "C1",
-    "ipa": "/ˈskeəsəti/",
-    "top": ["ENV"],
-    "col": ["resource scarcity", "water scarcity", "acute scarcity"],
-    "pos": "noun",
-    "pat": "confront acute [scarcity] of [vital resources]",
-    "defn": "The state of being scarce or in short supply; a severe systemic shortage of natural resources.",
-    "syn": ["dearth", "insufficiency", "deficiency"],
-    "ex": [
-      "The extended summer heatwave triggered acute freshwater [scarcity] across cities.",
-      "Extreme resource [scarcity] sparked intense political conflicts between neighboring tribes.",
-      "Grain [scarcity] drove staple grocery prices to unprecedented highs."
-    ]
-  },
-  {
-    "id": 67,
-    "w": "toxicity",
-    "level": "C1",
-    "ipa": "/tɒkˈsɪsəti/",
-    "top": ["ENV"],
-    "col": ["high toxicity", "soil toxicity", "reduce toxicity"],
-    "pos": "noun",
-    "pat": "elevate the [toxicity] of [aquatic food chains]",
-    "defn": "The quality, state, or degree of being poisonous or biologically harmful to organisms in an ecosystem.",
-    "syn": ["venomousness", "virulence", "noxious quality"],
-    "ex": [
-      "Chemical analysis confirmed the high [toxicity] of the industrial waste.",
-      "Heavy metals exhibit severe neurological [toxicity] even at minute concentrations.",
-      "Laboratory trials evaluate the potential dermal [toxicity] of new cosmetics."
-    ]
-  },
-  {
-    "id": 68,
+    "id": 57,
     "w": "constrain",
     "level": "C1",
     "ipa": "/kənˈstreɪn/",
@@ -1405,7 +1194,7 @@
     ]
   },
   {
-    "id": 69,
+    "id": 58,
     "w": "decimate",
     "level": "C1",
     "ipa": "/ˈdesɪmeɪt/",
@@ -1422,24 +1211,7 @@
     ]
   },
   {
-    "id": 70,
-    "w": "denude",
-    "level": "C1",
-    "ipa": "/dɪˈnjuːd/",
-    "top": ["ENV"],
-    "col": ["denude landscapes", "denude forests", "completely denude"],
-    "pos": "verb",
-    "pat": "[denude] hillsides of [protective vegetation]",
-    "defn": "To strip something bare, especially to remove the protective vegetative cover or forest canopy of land.",
-    "syn": ["strip bare", "defoliate", "uncover"],
-    "ex": [
-      "Intensive timber logging will completely [denude] the mountain slopes of vegetation.",
-      "Devastating swarms of locusts [denuded] lush farmlands within hours.",
-      "Wildfires can [denude] entire valleys, leaving bare rock exposed."
-    ]
-  },
-  {
-    "id": 71,
+    "id": 59,
     "w": "destabilize",
     "level": "C1",
     "ipa": "/diːˈsteɪbəlaɪz/",
@@ -1460,28 +1232,7 @@
     ]
   },
   {
-    "id": 72,
-    "w": "disrupt",
-    "level": "C1",
-    "ipa": "/dɪsˈrʌpt/",
-    "top": ["ENV"],
-    "col": [
-      "disrupt migration patterns",
-      "disrupt food chains",
-      "severely disrupt"
-    ],
-    "pos": "verb",
-    "pat": "[disrupt] the biological cycles of [endemic fauna]",
-    "defn": "To interrupt the normal progress, continuity, or function of ecological systems, migration cycles, or trophic webs.",
-    "syn": ["interrupt", "distort", "disorganize"],
-    "ex": [
-      "Severe geomagnetic storms can severely [disrupt] satellite communications worldwide.",
-      "Heavy snowfalls threatened to [disrupt] national passenger rail schedules.",
-      "Invasive weeds frequently [disrupt] natural nutrient cycles in native wetlands."
-    ]
-  },
-  {
-    "id": 73,
+    "id": 60,
     "w": "encroach",
     "level": "C1",
     "ipa": "/ɪnˈkrəʊtʃ/",
@@ -1502,7 +1253,7 @@
     ]
   },
   {
-    "id": 74,
+    "id": 61,
     "w": "exacerbate",
     "level": "C1",
     "ipa": "/ɪɡˈzæsəbeɪt/",
@@ -1523,7 +1274,7 @@
     ]
   },
   {
-    "id": 75,
+    "id": 62,
     "w": "infest",
     "level": "C1",
     "ipa": "/ɪnˈfest/",
@@ -1540,7 +1291,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 63,
     "w": "proliferate",
     "level": "C1",
     "ipa": "/prəˈlɪfəreɪt/",
@@ -1561,7 +1312,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": 64,
     "w": "ravage",
     "level": "C1",
     "ipa": "/ˈrævɪdʒ/",
@@ -1578,7 +1329,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": 65,
     "w": "reclaim",
     "level": "C1",
     "ipa": "/rɪˈkleɪm/",
@@ -1595,7 +1346,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 66,
     "w": "replenish",
     "level": "C1",
     "ipa": "/rɪˈplenɪʃ/",
@@ -1612,7 +1363,7 @@
     ]
   },
   {
-    "id": 80,
+    "id": 67,
     "w": "suffocate",
     "level": "C1",
     "ipa": "/ˈsʌfəkeɪt/",
@@ -1633,7 +1384,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 68,
     "w": "anthropogenic",
     "level": "C1",
     "ipa": "/ˌænθrəpəˈdʒenɪk/",
@@ -1654,7 +1405,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 69,
     "w": "deleterious",
     "level": "C1",
     "ipa": "/ˌdeləˈtɪəriəs/",
@@ -1671,7 +1422,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": 70,
     "w": "endemic",
     "level": "C1",
     "ipa": "/enˈdemɪk/",
@@ -1683,12 +1434,12 @@
     "syn": ["indigenous", "native", "restricted-range"],
     "ex": [
       "Lemurs are entirely [endemic] to the tropical island of Madagascar.",
-      "Malaria remains dangerously [endemic] throughout several humid equatorial regions.",
-      "Bureaucratic corruption was historically [endemic] across regional institutions."
+      "The rare giant tortoises are strictly [endemic] to the isolated Gal�pagos archipelago.",
+      "Over eighty percent of flowering plants in Western Australia are geographically [endemic]."
     ]
   },
   {
-    "id": 84,
+    "id": 71,
     "w": "ephemeral",
     "level": "C1",
     "ipa": "/ɪˈfemərəl/",
@@ -1705,7 +1456,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 72,
     "w": "incalculable",
     "level": "C1",
     "ipa": "/ɪnˈkælkjələbl/",
@@ -1722,7 +1473,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 73,
     "w": "inexhaustible",
     "level": "C1",
     "ipa": "/ˌɪnɪɡˈzɔːstəbl/",
@@ -1743,7 +1494,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 74,
     "w": "irreversible",
     "level": "C1",
     "ipa": "/ˌɪrɪˈvɜːsəbl/",
@@ -1764,7 +1515,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 75,
     "w": "perilous",
     "level": "C1",
     "ipa": "/ˈperələs/",
@@ -1781,7 +1532,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 76,
     "w": "precarious",
     "level": "C1",
     "ipa": "/prɪˈkeəriəs/",
@@ -1798,7 +1549,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 77,
     "w": "subterranean",
     "level": "C1",
     "ipa": "/ˌsʌbtəˈreɪniən/",
@@ -1819,7 +1570,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 78,
     "w": "unprecedented",
     "level": "C1",
     "ipa": "/ʌnˈpresɪdentɪd/",
@@ -1840,7 +1591,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 79,
     "w": "inadvertently",
     "level": "C1",
     "ipa": "/ˌɪnədˈvɜːtəntli/",
@@ -1861,7 +1612,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 80,
     "w": "tangibly",
     "level": "C1",
     "ipa": "/ˈtændʒəbli/",
@@ -1878,7 +1629,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 81,
     "w": "conspicuously",
     "level": "C1",
     "ipa": "/kənˈspɪkjuəsli/",
@@ -1899,24 +1650,184 @@
     ]
   },
   {
-    "id": 95,
-    "w": "morbidity",
+    "id": 82,
+    "w": "deteriorate",
     "level": "C1",
-    "ipa": "/mɔːˈbɪdəti/",
-    "top": ["HEA"],
-    "col": ["morbidity rate", "co-occurring morbidity", "reduce morbidity"],
-    "pos": "noun",
-    "pat": "reduce/elevate the rate of [morbidity] across [demographic]",
-    "defn": "The condition of suffering from a disease or medical condition, or the statistical incidence of illness in a specific population.",
-    "syn": ["disease incidence", "unhealthiness", "sickness rate"],
+    "ipa": "/dɪˈtɪəriəreɪt/",
+    "top": ["ENV"],
+    "col": [
+      "deteriorate rapidly",
+      "conditions deteriorate",
+      "air quality deteriorates"
+    ],
+    "pos": "verb",
+    "pat": "[deteriorate] due to [anthropogenic factors]",
+    "defn": "To become progressively worse in condition, quality, or environmental integrity over time.",
+    "syn": ["worsen", "decline", "degenerate"],
     "ex": [
-      "Sedentary lifestyle habits contribute significantly to cardiovascular [morbidity].",
-      "Public vaccination programs achieved a dramatic reduction in infant [morbidity].",
-      "Epidemiologists monitor regional [morbidity] rates during seasonal flu outbreaks."
+      "Without regular maintenance, the concrete bridge will rapidly [deteriorate].",
+      "Air quality in the metropolis continues to [deteriorate] during the winter months.",
+      "The patient's condition began to [deteriorate] overnight, requiring urgent care."
     ]
   },
   {
-    "id": 96,
+    "id": 83,
+    "w": "deplete",
+    "level": "C1",
+    "ipa": "/dɪˈpliːt/",
+    "top": ["ENV"],
+    "col": [
+      "deplete natural resources",
+      "rapidly deplete",
+      "deplete the ozone layer"
+    ],
+    "pos": "verb",
+    "pat": "[deplete] vital reserves of [resources] through [overconsumption]",
+    "defn": "To use up the supply, quantity, or reserves of a vital natural resource.",
+    "syn": ["exhaust", "drain", "consume"],
+    "ex": [
+      "Intensive farming practices can quickly [deplete] natural minerals from the soil.",
+      "Running air conditioners all day will [deplete] the battery storage reserve.",
+      "Overfishing threatens to severely [deplete] ocean tuna stocks."
+    ]
+  },
+  {
+    "id": 84,
+    "w": "mitigate",
+    "level": "C1",
+    "ipa": "/ˈmɪtɪɡeɪt/",
+    "top": ["ENV"],
+    "col": ["mitigate the impact", "mitigate climate change", "mitigate risks"],
+    "pos": "verb",
+    "pat": "[mitigate] the negative impact of [pollution/warming] on [environment]",
+    "defn": "To make something bad, painful, or severe less serious or damaging; alleviate.",
+    "syn": ["alleviate", "reduce", "attenuate"],
+    "ex": [
+      "Planting urban trees helps [mitigate] the extreme heat trapped in cities.",
+      "The new seawall was engineered to [mitigate] the risk of coastal flooding.",
+      "Taking vitamins can help [mitigate] the harsh symptoms of the common cold."
+    ]
+  },
+  {
+    "id": 85,
+    "w": "jeopardize",
+    "level": "C1",
+    "ipa": "/ˈdʒepədaɪz/",
+    "top": ["ENV"],
+    "col": [
+      "jeopardize biodiversity",
+      "gravely jeopardize",
+      "jeopardize survival"
+    ],
+    "pos": "verb",
+    "pat": "[jeopardize] the ecological stability of [region]",
+    "defn": "To put an ecosystem, species, or natural resource into a situation in which there is great danger of loss or failure.",
+    "syn": ["endanger", "compromise", "imperil"],
+    "ex": [
+      "Failing this final exam could [jeopardize] your chances of graduating on time.",
+      "Misleading advertising tactics can seriously [jeopardize] consumer trust.",
+      "Revealing confidential research data would [jeopardize] the entire project."
+    ]
+  },
+  {
+    "id": 86,
+    "w": "pristine",
+    "level": "C1",
+    "ipa": "/ˈprɪstiːn/",
+    "top": ["ENV"],
+    "col": [
+      "pristine environment",
+      "pristine wilderness",
+      "maintain in pristine condition"
+    ],
+    "pos": "adj",
+    "pat": "preserve [pristine] natural habitats from [exploitation]",
+    "defn": "In its original condition; unspoiled, completely clean, and uncontaminated by human civilization.",
+    "syn": ["untouched", "unspoiled", "flawless"],
+    "ex": [
+      "The remote tropical island has miles of [pristine] white sandy beaches.",
+      "Environmentalists strive to keep the mountain river in its [pristine] state.",
+      "The antique pocket watch has been preserved in [pristine] condition for a century."
+    ]
+  },
+  {
+    "id": 87,
+    "w": "detrimental",
+    "level": "C1",
+    "ipa": "/ˌdetrɪˈmentl/",
+    "top": ["ENV"],
+    "col": [
+      "detrimental effect",
+      "highly detrimental",
+      "detrimental to the environment"
+    ],
+    "pos": "adj",
+    "pat": "prove highly [detrimental] to [ecological stability]",
+    "defn": "Tending to cause definite harm, damage, or degradation to natural systems or living organisms.",
+    "syn": ["harmful", "damaging", "deleterious"],
+    "ex": [
+      "Breathing polluted city air daily is highly [detrimental] to lung function.",
+      "Excessive screen time before bed has a [detrimental] effect on sleep quality.",
+      "High sugar consumption is profoundly [detrimental] to dental hygiene."
+    ]
+  },
+  {
+    "id": 88,
+    "w": "arid",
+    "level": "C1",
+    "ipa": "/ˈærɪd/",
+    "top": ["ENV"],
+    "col": ["arid climate", "arid region", "semi-arid land"],
+    "pos": "adj",
+    "pat": "transform fertile terrain into [arid] wasteland",
+    "defn": "Having little or no rainfall; too dry or barren to support conventional vegetation without irrigation.",
+    "syn": ["parched", "waterless", "dry"],
+    "ex": [
+      "Cacti and succulents are uniquely adapted to survive in harsh, [arid] deserts.",
+      "The dry, [arid] climate makes traditional crop farming nearly impossible here.",
+      "Water scarcity is a constant daily challenge across the [arid] landscape."
+    ]
+  },
+  {
+    "id": 89,
+    "w": "barren",
+    "level": "C1",
+    "ipa": "/ˈbærən/",
+    "top": ["ENV"],
+    "col": ["barren land", "barren landscape", "render land barren"],
+    "pos": "adj",
+    "pat": "render once fertile soil completely [barren]",
+    "defn": "Bleak, empty, and devoid of vegetation; unable to produce seed, crops, or biological life.",
+    "syn": ["infertile", "unproductive", "desolate"],
+    "ex": [
+      "After years of severe drought, the once fertile field turned completely [barren].",
+      "Nothing grew on the cold, [barren] rocky slopes of the high mountain.",
+      "Extensive open-cast mining left behind acres of [barren] and toxic wasteland."
+    ]
+  },
+  {
+    "id": 90,
+    "w": "exponentially",
+    "level": "C1",
+    "ipa": "/ˌekspəˈnenʃəli/",
+    "top": ["ENV"],
+    "col": [
+      "grow exponentially",
+      "increase exponentially",
+      "multiply exponentially"
+    ],
+    "pos": "adv",
+    "pat": "increase [exponentially] due to [technological/industrial factors]",
+    "defn": "At an increasingly rapid rate in proportion to the growing total number or size; extremely rapidly.",
+    "syn": ["dramatically", "explosively", "rapidly"],
+    "ex": [
+      "Mobile app downloads increased [exponentially] after going viral on social media.",
+      "Computing processing power has grown [exponentially] over the last twenty years.",
+      "The bacterial colony multiplied [exponentially] in the warm petri dish."
+    ]
+  },
+  {
+    "id": 91,
     "w": "pathogen",
     "level": "C1",
     "ipa": "/ˈpæθədʒən/",
@@ -1933,24 +1844,7 @@
     ]
   },
   {
-    "id": 97,
-    "w": "etiology",
-    "level": "C1",
-    "ipa": "/ˌiːtiˈɒlədʒi/",
-    "top": ["HEA"],
-    "col": ["underlying etiology", "etiology of disease", "unknown etiology"],
-    "pos": "noun",
-    "pat": "investigate the underlying [etiology] of [chronic illness]",
-    "defn": "The cause, set of causes, or manner of causation of a specific disease or physiological condition.",
-    "syn": ["causation", "origin", "pathogenesis"],
-    "ex": [
-      "Neurologists conducted extensive studies into the underlying [etiology] of dementia.",
-      "Understanding disease [etiology] is essential for formulating effective vaccines.",
-      "The exact [etiology] of the autoimmune disorder remains unknown."
-    ]
-  },
-  {
-    "id": 98,
+    "id": 92,
     "w": "efficacy",
     "level": "C1",
     "ipa": "/ˈefɪkəsi/",
@@ -1967,7 +1861,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 93,
     "w": "prognosis",
     "level": "C1",
     "ipa": "/prɒɡˈnəʊsɪs/",
@@ -1984,7 +1878,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 94,
     "w": "inoculation",
     "level": "C1",
     "ipa": "/ɪˌnɒkjuˈleɪʃn/",
@@ -2005,7 +1899,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 95,
     "w": "predisposition",
     "level": "C1",
     "ipa": "/ˌpriːdɪspəˈzɪʃn/",
@@ -2026,7 +1920,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 96,
     "w": "carcinogen",
     "level": "C1",
     "ipa": "/kɑːˈsɪnədʒən/",
@@ -2047,28 +1941,7 @@
     ]
   },
   {
-    "id": 103,
-    "w": "convalescence",
-    "level": "C1",
-    "ipa": "/ˌkɒnvəˈlesns/",
-    "top": ["HEA"],
-    "col": [
-      "period of convalescence",
-      "extended convalescence",
-      "hasten convalescence"
-    ],
-    "pos": "noun",
-    "pat": "a protracted period of [convalescence] following [surgery/trauma]",
-    "defn": "The gradual restorative period required to regain physical vigor, mobility, and systemic equilibrium following severe illness, surgery, or bodily trauma.",
-    "syn": ["recuperation", "rehabilitation", "recovery period"],
-    "ex": [
-      "The patient required a quiet month of [convalescence] after surgery.",
-      "Nutritious food and rest accelerated his post-operative [convalescence].",
-      "She spent her [convalescence] at a peaceful lakeside clinic."
-    ]
-  },
-  {
-    "id": 104,
+    "id": 97,
     "w": "affliction",
     "level": "C1",
     "ipa": "/əˈflɪkʃn/",
@@ -2089,28 +1962,7 @@
     ]
   },
   {
-    "id": 105,
-    "w": "bioavailability",
-    "level": "C1",
-    "ipa": "/ˌbaɪəʊəˌveɪləˈbɪləti/",
-    "top": ["HEA"],
-    "col": [
-      "high bioavailability",
-      "enhance bioavailability",
-      "poor bioavailability"
-    ],
-    "pos": "noun",
-    "pat": "enhance the [bioavailability] of [micronutrients/compounds]",
-    "defn": "The proportion of a drug, nutrient, or therapeutic compound that successfully enters systemic circulation and produces an active biological effect.",
-    "syn": ["physiological absorption", "absorbability", "biological uptake"],
-    "ex": [
-      "Taking vitamins with meals significantly enhances their [bioavailability].",
-      "Pharmacists modified the drug formula to improve its oral [bioavailability].",
-      "Poor [bioavailability] means higher therapeutic dosages are often required."
-    ]
-  },
-  {
-    "id": 106,
+    "id": 98,
     "w": "homeostasis",
     "level": "C1",
     "ipa": "/ˌhəʊmiəʊˈsteɪsɪs/",
@@ -2135,70 +1987,7 @@
     ]
   },
   {
-    "id": 107,
-    "w": "hypertrophy",
-    "level": "C1",
-    "ipa": "/haɪˈpɜːtrəfi/",
-    "top": ["HEA"],
-    "col": [
-      "muscular hypertrophy",
-      "induce hypertrophy",
-      "cardiac hypertrophy"
-    ],
-    "pos": "noun",
-    "pat": "stimulate muscular [hypertrophy] through [resistance training]",
-    "defn": "The enlargement or growth of skeletal organ tissues resulting from an increase in the size of constituent cells, typically induced by mechanical loading.",
-    "syn": ["tissue enlargement", "muscle growth", "cellular expansion"],
-    "ex": [
-      "Heavy strength training stimulates skeletal muscle [hypertrophy].",
-      "Untreated high blood pressure often causes dangerous cardiac [hypertrophy].",
-      "Athletes track workout volume to maximize muscular [hypertrophy]."
-    ]
-  },
-  {
-    "id": 108,
-    "w": "resilience",
-    "level": "C1",
-    "ipa": "/rɪˈzɪliəns/",
-    "top": ["HEA"],
-    "col": [
-      "physiological resilience",
-      "build resilience",
-      "psychological resilience"
-    ],
-    "pos": "noun",
-    "pat": "foster psychological/physiological [resilience] against [stressors]",
-    "defn": "The capacity of physiological tissues or psychological faculties to recover rapidly and adapt constructively following trauma, illness, or strenuous exertion.",
-    "syn": ["fortitude", "endurance", "recuperative power"],
-    "ex": [
-      "Mental [resilience] allows individuals to bounce back from failure.",
-      "The coastal ecosystem showed remarkable [resilience] following the storm.",
-      "Meditation helps cultivate psychological [resilience] against chronic stress."
-    ]
-  },
-  {
-    "id": 109,
-    "w": "neurogenesis",
-    "level": "C1",
-    "ipa": "/ˌnjʊərəʊˈdʒenəsɪs/",
-    "top": ["HEA"],
-    "col": [
-      "stimulate neurogenesis",
-      "adult neurogenesis",
-      "promote neurogenesis"
-    ],
-    "pos": "noun",
-    "pat": "stimulate adult [neurogenesis] in [the brain] through [exercise]",
-    "defn": "The biological process involving the proliferation, migration, and functional differentiation of newly generated neural cells within the central nervous system.",
-    "syn": ["neural regeneration", "neuronal formation", "cerebral plasticity"],
-    "ex": [
-      "Aerobic exercise stimulates hippocampal [neurogenesis] and enhances memory.",
-      "Chronic emotional stress severely suppresses adult [neurogenesis] in mammals.",
-      "Researchers investigate methods to promote brain [neurogenesis] after strokes."
-    ]
-  },
-  {
-    "id": 110,
+    "id": 99,
     "w": "comorbidity",
     "level": "C1",
     "ipa": "/ˌkəʊmɔːˈbɪdəti/",
@@ -2219,24 +2008,7 @@
     ]
   },
   {
-    "id": 111,
-    "w": "palliation",
-    "level": "C1",
-    "ipa": "/ˌpæliˈeɪʃn/",
-    "top": ["HEA"],
-    "col": ["symptom palliation", "effective palliation", "provide palliation"],
-    "pos": "noun",
-    "pat": "prioritize symptom [palliation] over [curative intervention]",
-    "defn": "Medical relief or therapeutic attenuation of physical pain and somatic distress without attempting to cure the underlying fatal pathology.",
-    "syn": ["pain alleviation", "relief", "mitigation"],
-    "ex": [
-      "When cures are unavailable, medical care focuses entirely on [palliation].",
-      "The therapy provided temporary [palliation] of his chronic pain.",
-      "Hospice teams prioritize symptom [palliation] and patient comfort."
-    ]
-  },
-  {
-    "id": 112,
+    "id": 100,
     "w": "virulence",
     "level": "C1",
     "ipa": "/ˈvɪrələns/",
@@ -2253,7 +2025,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 101,
     "w": "atrophy",
     "level": "C1",
     "ipa": "/ˈætrəfi/",
@@ -2269,12 +2041,12 @@
     "syn": ["wither", "degenerate", "deteriorate"],
     "ex": [
       "Prolonged bed rest causes skeletal muscles to gradually [atrophy].",
-      "Disuse led to noticeable [atrophy] in his injured shoulder.",
-      "Physical therapy prevents muscle [atrophy] during recovery from fractures."
+      "Nerve compression caused adjacent muscular fibers to noticeably [atrophy].",
+      "Without regular physical resistance exercise, immobilized muscle groups will inevitably [atrophy]."
     ]
   },
   {
-    "id": 114,
+    "id": 102,
     "w": "ameliorate",
     "level": "C1",
     "ipa": "/əˈmiːliəreɪt/",
@@ -2295,7 +2067,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 103,
     "w": "debilitate",
     "level": "C1",
     "ipa": "/dɪˈbɪlɪteɪt/",
@@ -2316,7 +2088,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 104,
     "w": "attenuate",
     "level": "C1",
     "ipa": "/əˈtenjueɪt/",
@@ -2337,7 +2109,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 105,
     "w": "manifest",
     "level": "C1",
     "ipa": "/ˈmænɪfest/",
@@ -2350,11 +2122,11 @@
     "ex": [
       "Symptoms of the illness usually [manifest] within forty-eight hours.",
       "Severe anxiety can [manifest] as chest tightness and dizziness.",
-      "His underlying artistic talent began to [manifest] during childhood."
+      "Neurological damage may [manifest] as localized tremors and impaired motor reflexes."
     ]
   },
   {
-    "id": 118,
+    "id": 106,
     "w": "metabolize",
     "level": "C1",
     "ipa": "/məˈtæbəlaɪz/",
@@ -2375,7 +2147,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 107,
     "w": "precipitate",
     "level": "C1",
     "ipa": "/prɪˈsɪpɪteɪt/",
@@ -2390,13 +2162,13 @@
     "defn": "To suddenly or prematurely trigger an acute pathological event, physiological collapse, or chronic symptom cascade.",
     "syn": ["trigger", "instigate", "induce"],
     "ex": [
-      "The sudden bankruptcy could [precipitate] a wider financial crisis.",
+      "Extreme thermal shock can [precipitate] acute cardiovascular arrest in vulnerable patients.",
       "Acute dehydration can [precipitate] severe kidney failure in patients.",
-      "Unilateral tariff increases [precipitated] an aggressive trade war."
+      "Uncontrolled hypertension can [precipitate] hemorrhagic strokes if left untreated."
     ]
   },
   {
-    "id": 120,
+    "id": 108,
     "w": "invigorate",
     "level": "C1",
     "ipa": "/ɪnˈvɪɡəreɪt/",
@@ -2417,7 +2189,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 109,
     "w": "degenerate",
     "level": "C1",
     "ipa": "/dɪˈdʒenəreɪt/",
@@ -2433,12 +2205,12 @@
     "syn": ["deteriorate", "decay", "atrophy"],
     "ex": [
       "Without treatment, joint cartilage will steadily [degenerate] over time.",
-      "The peaceful protest began to [degenerate] into violent clashes.",
+      "Chronic inflammation causes spinal disc tissues to progressively [degenerate].",
       "Untreated eye disorders can [degenerate] into complete vision loss."
     ]
   },
   {
-    "id": 122,
+    "id": 110,
     "w": "compound",
     "level": "C1",
     "ipa": "/kəmˈpaʊnd/",
@@ -2454,12 +2226,12 @@
     "syn": ["aggravate", "magnify", "intensify"],
     "ex": [
       "Lack of sleep will only [compound] your workplace stress.",
-      "High interest rates [compounded] the business's existing debt problems.",
+      "Secondary bacterial infections often [compound] the severity of viral pneumonia.",
       "A cold winter wind [compounds] the suffering of homeless populations."
     ]
   },
   {
-    "id": 123,
+    "id": 111,
     "w": "induce",
     "level": "C1",
     "ipa": "/ɪnˈdjuːs/",
@@ -2476,7 +2248,7 @@
     ]
   },
   {
-    "id": 124,
+    "id": 112,
     "w": "inhibit",
     "level": "C1",
     "ipa": "/ɪnˈhɪbɪt/",
@@ -2497,7 +2269,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 113,
     "w": "propagate",
     "level": "C1",
     "ipa": "/ˈprɒpəɡeɪt/",
@@ -2508,13 +2280,13 @@
     "defn": "To reproduce, multiply, or disseminate pathogenic microorganisms across human host tissues or through broader populations.",
     "syn": ["disseminate", "spread", "reproduce"],
     "ex": [
-      "Social media platforms rapidly [propagate] unverified health claims.",
-      "Gardeners take cuttings to [propagate] their favorite rose bushes.",
-      "Sound waves [propagate] more quickly through water than air."
+      "Airborne viral pathogens rapidly [propagate] through poorly ventilated hospital wards.",
+      "Contaminated medical instruments can [propagate] antibiotic-resistant bacteria across patients.",
+      "Parasitic microorganisms [propagate] efficiently in stagnant, untreated water supplies."
     ]
   },
   {
-    "id": 126,
+    "id": 114,
     "w": "remediate",
     "level": "C1",
     "ipa": "/rɪˈmiːdieɪt/",
@@ -2535,7 +2307,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 115,
     "w": "relapse",
     "level": "C1",
     "ipa": "/rɪˈlæps/",
@@ -2546,13 +2318,13 @@
     "defn": "To regress or deteriorate back into an active disease state, depressive episode, or substance addiction following a period of remission.",
     "syn": ["regress", "recur", "deteriorate again"],
     "ex": [
-      "Patients who abandon medication risk suffering a dangerous [relapse].",
-      "Support groups help recovering addicts avoid an alcohol [relapse].",
-      "He experienced a sudden [relapse] after returning to work too early."
+      "Patients who discontinue immunosuppressive therapy are likely to [relapse] within weeks.",
+      "Recovering cancer patients may [relapse] if microscopic tumor cells remain undetected.",
+      "Without ongoing psychiatric support, individuals diagnosed with clinical depression may [relapse]."
     ]
   },
   {
-    "id": 128,
+    "id": 116,
     "w": "fortify",
     "level": "C1",
     "ipa": "/ˈfɔːtɪfaɪ/",
@@ -2569,7 +2341,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 117,
     "w": "pernicious",
     "level": "C1",
     "ipa": "/pəˈnɪʃəs/",
@@ -2586,7 +2358,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 118,
     "w": "congenital",
     "level": "C1",
     "ipa": "/kənˈdʒenɪtl/",
@@ -2607,7 +2379,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 119,
     "w": "asymptomatic",
     "level": "C1",
     "ipa": "/ˌeɪsɪmptəˈmætɪk/",
@@ -2628,24 +2400,7 @@
     ]
   },
   {
-    "id": 132,
-    "w": "salutary",
-    "level": "C1",
-    "ipa": "/ˈsæljətri/",
-    "top": ["HEA"],
-    "col": ["salutary influence", "salutary effect", "salutary benefits"],
-    "pos": "adj",
-    "pat": "exert a [salutary] effect on [cardiovascular health]",
-    "defn": "Producing exceptionally beneficial, health-promoting, or remedial physical outcomes for the human body.",
-    "syn": ["healthful", "salubrious", "wholesome"],
-    "ex": [
-      "The financial crisis taught banks a painful but [salutary] lesson.",
-      "Taking daily forest walks produces a [salutary] effect on mood.",
-      "The open debate had a [salutary] influence on democratic transparency."
-    ]
-  },
-  {
-    "id": 133,
+    "id": 120,
     "w": "systemic",
     "level": "C1",
     "ipa": "/sɪˈstemɪk/",
@@ -2666,24 +2421,7 @@
     ]
   },
   {
-    "id": 134,
-    "w": "somatic",
-    "level": "C1",
-    "ipa": "/səʊˈmætɪk/",
-    "top": ["HEA"],
-    "col": ["somatic symptoms", "somatic illness", "somatic health"],
-    "pos": "adj",
-    "pat": "manifest as severe [somatic] complaints",
-    "defn": "Pertaining directly to the physical body and its flesh, tissues, and skeletal organs, as distinguished from psychological faculties.",
-    "syn": ["physical", "bodily", "corporeal"],
-    "ex": [
-      "Neurologists study both cognitive functions and [somatic] nervous systems.",
-      "Chronic psychological tension frequently manifests as physical [somatic] pain.",
-      "Massage therapy helps alleviate persistent [somatic] discomfort."
-    ]
-  },
-  {
-    "id": 135,
+    "id": 121,
     "w": "psychosomatic",
     "level": "C1",
     "ipa": "/ˌsaɪkəʊsəˈmætɪk/",
@@ -2704,7 +2442,7 @@
     ]
   },
   {
-    "id": 136,
+    "id": 122,
     "w": "palliative",
     "level": "C1",
     "ipa": "/ˈpæliətɪv/",
@@ -2721,7 +2459,7 @@
     ]
   },
   {
-    "id": 137,
+    "id": 123,
     "w": "degenerative",
     "level": "C1",
     "ipa": "/dɪˈdʒenərətɪv/",
@@ -2742,7 +2480,7 @@
     ]
   },
   {
-    "id": 138,
+    "id": 124,
     "w": "cardiorespiratory",
     "level": "C1",
     "ipa": "/ˌkɑːdiəʊrɪˈspɪrətri/",
@@ -2763,7 +2501,7 @@
     ]
   },
   {
-    "id": 139,
+    "id": 125,
     "w": "conducive",
     "level": "C1",
     "ipa": "/kənˈdjuːsɪv/",
@@ -2784,7 +2522,7 @@
     ]
   },
   {
-    "id": 140,
+    "id": 126,
     "w": "insidiously",
     "level": "C1",
     "ipa": "/ɪnˈsɪdiəsli/",
@@ -2805,7 +2543,7 @@
     ]
   },
   {
-    "id": 141,
+    "id": 127,
     "w": "inexorably",
     "level": "C1",
     "ipa": "/ɪnˈeksərəbli/",
@@ -2822,7 +2560,155 @@
     ]
   },
   {
-    "id": 142,
+    "id": 128,
+    "w": "susceptibility",
+    "level": "C1",
+    "ipa": "/səˌseptəˈbɪləti/",
+    "top": ["HEA"],
+    "col": [
+      "heighten susceptibility",
+      "genetic susceptibility",
+      "susceptibility to disease"
+    ],
+    "pos": "noun",
+    "pat": "increase one's [susceptibility] to [infections/disorders]",
+    "defn": "The state or fact of being particularly liable to be affected, harmed, or infected by a specific disease or hazard.",
+    "syn": ["vulnerability", "predisposition", "proneness"],
+    "ex": [
+      "Chronic stress increases your [susceptibility] to viral infections.",
+      "Genetic factors determine your [susceptibility] to certain illnesses.",
+      "Lack of sleep increases our [susceptibility] to catching a cold."
+    ]
+  },
+  {
+    "id": 129,
+    "w": "alleviate",
+    "level": "C1",
+    "ipa": "/əˈliːvieɪt/",
+    "top": ["HEA"],
+    "col": ["alleviate symptoms", "alleviate pain", "alleviate stress"],
+    "pos": "verb",
+    "pat": "[alleviate] [symptoms/suffering] through [intervention]",
+    "defn": "To make bodily pain, physical suffering, or an acute health problem less intense or severe.",
+    "syn": ["relieve", "ease", "mitigate"],
+    "ex": [
+      "Applying an ice pack will help [alleviate] swelling and pain.",
+      "The government launched programs to [alleviate] rural poverty.",
+      "Meditation can [alleviate] mental stress after a hectic workday."
+    ]
+  },
+  {
+    "id": 130,
+    "w": "succumb",
+    "level": "C1",
+    "ipa": "/səˈkʌm/",
+    "top": ["HEA"],
+    "col": ["succumb to disease", "succumb to illness", "succumb to infection"],
+    "pos": "verb",
+    "pat": "[succumb] to an infectious [disease/illness]",
+    "defn": "To fail to resist an aggressive illness, pathogen, or physical trauma, culminating in severe impairment or death.",
+    "syn": ["yield to", "fall victim to", "perish from"],
+    "ex": [
+      "Without emergency medicine, the patient might [succumb] to the fever.",
+      "Do not [succumb] to the temptation to eat junk food during a diet.",
+      "Weakened by exhaustion, the soldiers [succumbed] to frostbite."
+    ]
+  },
+  {
+    "id": 131,
+    "w": "recuperate",
+    "level": "C1",
+    "ipa": "/rɪˈkuːpəreɪt/",
+    "top": ["HEA"],
+    "col": [
+      "recuperate from surgery",
+      "fully recuperate",
+      "time to recuperate"
+    ],
+    "pos": "verb",
+    "pat": "[recuperate] from an [illness/injury] through [rest]",
+    "defn": "To recover from an illness, traumatic bodily injury, or severe systemic exhaustion; regain physical strength.",
+    "syn": ["recover", "convalesce", "heal"],
+    "ex": [
+      "He took two weeks off work to rest and [recuperate] from pneumonia.",
+      "The quiet seaside resort is a wonderful place to [recuperate].",
+      "Adequate sleep allows the body to [recuperate] after intense training."
+    ]
+  },
+  {
+    "id": 132,
+    "w": "impair",
+    "level": "C1",
+    "ipa": "/ɪmˈpeə(r)/",
+    "top": ["HEA"],
+    "col": ["impair cognitive function", "impair vision", "severely impair"],
+    "pos": "verb",
+    "pat": "[impair] the body's natural ability to [function]",
+    "defn": "To weaken, damage, or diminish a human physical faculty, physiological capacity, or cognitive organ function.",
+    "syn": ["damage", "diminish", "weaken"],
+    "ex": [
+      "Driving under the influence of alcohol will severely [impair] your judgment.",
+      "Loud industrial noise can permanently [impair] your hearing.",
+      "Eye injuries can seriously [impair] your peripheral vision."
+    ]
+  },
+  {
+    "id": 133,
+    "w": "chronic",
+    "level": "C1",
+    "ipa": "/ˈkrɒnɪk/",
+    "top": ["HEA"],
+    "col": ["chronic disease", "chronic pain", "chronic illness"],
+    "pos": "adj",
+    "pat": "suffer from a [chronic] medical condition",
+    "defn": "Persisting for an extended duration or constantly recurring, referring to an intractable illness, symptom, or disorder.",
+    "syn": ["persistent", "long-standing", "incurable"],
+    "ex": [
+      "He was diagnosed with [chronic] back pain that required daily therapy.",
+      "Poor diet is a major contributor to [chronic] illnesses like diabetes.",
+      "She suffers from [chronic] insomnia and rarely sleeps through the night."
+    ]
+  },
+  {
+    "id": 134,
+    "w": "sedentary",
+    "level": "C1",
+    "ipa": "/ˈsedntri/",
+    "top": ["HEA"],
+    "col": ["sedentary lifestyle", "sedentary occupation", "sedentary habits"],
+    "pos": "adj",
+    "pat": "lead an excessively [sedentary] lifestyle",
+    "defn": "Characterized by much sitting and inactivity, involving minimal physical movement or active cardiovascular exertion.",
+    "syn": ["inactive", "desk-bound", "stationary"],
+    "ex": [
+      "Leading a [sedentary] lifestyle increases the risk of obesity.",
+      "Office workers should take active walking breaks to counter [sedentary] habits.",
+      "A [sedentary] routine without exercise weakens cardiovascular health."
+    ]
+  },
+  {
+    "id": 135,
+    "w": "debilitating",
+    "level": "C1",
+    "ipa": "/dɪˈbɪlɪteɪtɪŋ/",
+    "top": ["HEA"],
+    "col": [
+      "debilitating illness",
+      "debilitating condition",
+      "debilitating fatigue"
+    ],
+    "pos": "adj",
+    "pat": "suffer from a [debilitating] physical [disorder]",
+    "defn": "Tending to enfeeble, weaken, or severely impair physical strength, mobility, and everyday physiological functioning.",
+    "syn": ["paralyzing", "incapacitating", "crippling"],
+    "ex": [
+      "Severe migraines can cause [debilitating] headaches lasting for days.",
+      "He struggled with a [debilitating] spine injury after the accident.",
+      "Parkinson's disease is a progressively [debilitating] neurological condition."
+    ]
+  },
+  {
+    "id": 136,
     "w": "obsolescence",
     "level": "C1",
     "ipa": "/ˌɒbsəˈlesns/",
@@ -2843,7 +2729,7 @@
     ]
   },
   {
-    "id": 143,
+    "id": 137,
     "w": "proliferation",
     "level": "C1",
     "ipa": "/prəˌlɪfəˈreɪʃn/",
@@ -2864,7 +2750,7 @@
     ]
   },
   {
-    "id": 144,
+    "id": 138,
     "w": "convergence",
     "level": "C1",
     "ipa": "/kənˈvɜːdʒəns/",
@@ -2885,7 +2771,7 @@
     ]
   },
   {
-    "id": 145,
+    "id": 139,
     "w": "disruption",
     "level": "C1",
     "ipa": "/dɪsˈrʌpʃn/",
@@ -2906,28 +2792,7 @@
     ]
   },
   {
-    "id": 146,
-    "w": "catalyst",
-    "level": "C1",
-    "ipa": "/ˈkætəlɪst/",
-    "top": ["TEC"],
-    "col": [
-      "catalyst for innovation",
-      "act as a catalyst",
-      "technological catalyst"
-    ],
-    "pos": "noun",
-    "pat": "act as a potent [catalyst] for [scientific progress]",
-    "defn": "An event, entity, or breakthrough that precipitates rapid change, technological acceleration, or scientific innovation.",
-    "syn": ["stimulus", "impetus", "spark"],
-    "ex": [
-      "The financial scandal acted as a [catalyst] for anti-corruption legislation.",
-      "Enzymes serve as a biological [catalyst] in chemical metabolic reactions.",
-      "Her passionate speech was the [catalyst] for widespread student protests."
-    ]
-  },
-  {
-    "id": 147,
+    "id": 140,
     "w": "impediment",
     "level": "C1",
     "ipa": "/ɪmˈpedɪmənt/",
@@ -2948,7 +2813,7 @@
     ]
   },
   {
-    "id": 148,
+    "id": 141,
     "w": "ramification",
     "level": "C1",
     "ipa": "/ˌræmɪfɪˈkeɪʃn/",
@@ -2969,7 +2834,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 142,
     "w": "precursor",
     "level": "C1",
     "ipa": "/priːˈkɜːsə(r)/",
@@ -2986,70 +2851,7 @@
     ]
   },
   {
-    "id": 150,
-    "w": "telemetry",
-    "level": "C1",
-    "ipa": "/təˈlemətri/",
-    "top": ["TEC"],
-    "col": ["real-time telemetry", "telemetry data", "transmit telemetry"],
-    "pos": "noun",
-    "pat": "transmit automated [telemetry] to [ground stations/servers]",
-    "defn": "The automated recording, transmission, and analysis of data from remote or inaccessible sources via telecommunication systems.",
-    "syn": ["remote sensing", "data transmission", "surveillance feed"],
-    "ex": [
-      "Engineers analyzed the satellite's [telemetry] data to detect transmission errors.",
-      "Real-time [telemetry] allows the pit crew to monitor race car tire pressure.",
-      "The spacecraft sent critical [telemetry] back to mission control."
-    ]
-  },
-  {
-    "id": 151,
-    "w": "singularity",
-    "level": "C1",
-    "ipa": "/ˌsɪŋɡjəˈlærəti/",
-    "top": ["TEC"],
-    "col": [
-      "technological singularity",
-      "approach the singularity",
-      "theoretical singularity"
-    ],
-    "pos": "noun",
-    "pat": "approach the threshold of the technological [singularity]",
-    "defn": "A hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unfathomable changes to human civilization.",
-    "syn": [
-      "transformative threshold",
-      "inflection point",
-      "technological apex"
-    ],
-    "ex": [
-      "Futurists predict that artificial intelligence could soon trigger a technological [singularity].",
-      "At the center of a black hole lies a gravitational [singularity].",
-      "Theoretical physicists debate whether the technological [singularity] is truly inevitable."
-    ]
-  },
-  {
-    "id": 152,
-    "w": "heuristic",
-    "level": "C1",
-    "ipa": "/hjuˈrɪstɪk/",
-    "top": ["TEC"],
-    "col": [
-      "computational heuristic",
-      "rely on heuristics",
-      "algorithmic heuristic"
-    ],
-    "pos": "noun",
-    "pat": "deploy advanced [heuristics] to [solve computational dilemmas]",
-    "defn": "A practical method, technique, or rule of thumb used in computer science to find approximate solutions when classic algorithms are computationally unfeasible.",
-    "syn": ["rule of thumb", "exploratory method", "computational strategy"],
-    "ex": [
-      "Trial and error is a common [heuristic] method for problem-solving.",
-      "The algorithm uses a simple [heuristic] to speed up data searches.",
-      "Experts rely on intuitive [heuristics] when making rapid emergency decisions."
-    ]
-  },
-  {
-    "id": 153,
+    "id": 143,
     "w": "panacea",
     "level": "C1",
     "ipa": "/ˌpænəˈsiːə/",
@@ -3066,7 +2868,7 @@
     ]
   },
   {
-    "id": 154,
+    "id": 144,
     "w": "synthesis",
     "level": "C1",
     "ipa": "/ˈsɪnθəsɪs/",
@@ -3083,7 +2885,7 @@
     ]
   },
   {
-    "id": 155,
+    "id": 145,
     "w": "surveillance",
     "level": "C1",
     "ipa": "/sɜːˈveɪləns/",
@@ -3104,7 +2906,7 @@
     ]
   },
   {
-    "id": 156,
+    "id": 146,
     "w": "latency",
     "level": "C1",
     "ipa": "/ˈleɪtnsi/",
@@ -3121,7 +2923,7 @@
     ]
   },
   {
-    "id": 157,
+    "id": 147,
     "w": "conduit",
     "level": "C1",
     "ipa": "/ˈkɒndjuɪt/",
@@ -3138,7 +2940,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 148,
     "w": "obviate",
     "level": "C1",
     "ipa": "/ˈɒbvieɪt/",
@@ -3155,7 +2957,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 149,
     "w": "supersede",
     "level": "C1",
     "ipa": "/ˌsuːpəˈsiːd/ ",
@@ -3176,7 +2978,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 150,
     "w": "corroborate",
     "level": "C1",
     "ipa": "/kəˈrɒbəreɪt/",
@@ -3197,7 +2999,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 151,
     "w": "subvert",
     "level": "C1",
     "ipa": "/səbˈvɜːt/",
@@ -3218,7 +3020,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 152,
     "w": "perpetuate",
     "level": "C1",
     "ipa": "/pəˈpetʃueɪt/",
@@ -3239,7 +3041,7 @@
     ]
   },
   {
-    "id": 163,
+    "id": 153,
     "w": "extrapolate",
     "level": "C1",
     "ipa": "/ɪkˈstræpəleɪt/",
@@ -3260,7 +3062,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 154,
     "w": "reconfigure",
     "level": "C1",
     "ipa": "/ˌriːkənˈfɪɡə(r)/",
@@ -3281,7 +3083,7 @@
     ]
   },
   {
-    "id": 165,
+    "id": 155,
     "w": "pervasive",
     "level": "C1",
     "ipa": "/pəˈveɪsɪv/",
@@ -3302,7 +3104,7 @@
     ]
   },
   {
-    "id": 166,
+    "id": 156,
     "w": "nascent",
     "level": "C1",
     "ipa": "/ˈnæsnt/",
@@ -3319,7 +3121,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 157,
     "w": "stringent",
     "level": "C1",
     "ipa": "/ˈstrɪndʒənt/",
@@ -3340,7 +3142,7 @@
     ]
   },
   {
-    "id": 168,
+    "id": 158,
     "w": "intricate",
     "level": "C1",
     "ipa": "/ˈɪntrɪkət/",
@@ -3357,7 +3159,7 @@
     ]
   },
   {
-    "id": 169,
+    "id": 159,
     "w": "concomitant",
     "level": "C1",
     "ipa": "/kənˈkɒmɪtənt/",
@@ -3374,7 +3176,7 @@
     ]
   },
   {
-    "id": 170,
+    "id": 160,
     "w": "analogous",
     "level": "C1",
     "ipa": "/əˈnæləɡəs/",
@@ -3391,7 +3193,7 @@
     ]
   },
   {
-    "id": 171,
+    "id": 161,
     "w": "imperceptibly",
     "level": "C1",
     "ipa": "/ˌɪmpəˈseptəbli/",
@@ -3408,7 +3210,7 @@
     ]
   },
   {
-    "id": 172,
+    "id": 162,
     "w": "invariably",
     "level": "C1",
     "ipa": "/ɪnˈveəriəbli/",
@@ -3429,7 +3231,45 @@
     ]
   },
   {
-    "id": 173,
+    "id": 163,
+    "w": "obsolete",
+    "level": "C1",
+    "ipa": "/ˈɒbsəliːt/",
+    "top": ["TEC"],
+    "col": ["render obsolete", "become obsolete", "virtually obsolete"],
+    "pos": "adj",
+    "pat": "render existing technologies completely [obsolete]",
+    "defn": "No longer produced or used; out of date because something newer and better has been invented.",
+    "syn": ["outdated", "archaic", "superseded"],
+    "ex": [
+      "Smartphones made standalone music players largely [obsolete].",
+      "The factory replaced [obsolete] machinery with automated robots.",
+      "Typewriters became virtually [obsolete] after computers arrived."
+    ]
+  },
+  {
+    "id": 164,
+    "w": "indispensable",
+    "level": "C1",
+    "ipa": "/ˌɪndɪˈspensəbl/",
+    "top": ["TEC"],
+    "col": [
+      "indispensable tool",
+      "prove indispensable",
+      "indispensable component"
+    ],
+    "pos": "adj",
+    "pat": "be an [indispensable] asset in [field/process]",
+    "defn": "Absolutely necessary or essential; impossible to manage without.",
+    "syn": ["essential", "crucial", "vital"],
+    "ex": [
+      "Smartphones have become an [indispensable] tool in modern daily life.",
+      "A bilingual dictionary is [indispensable] when learning a language.",
+      "Her extensive experience made her [indispensable] to the research team."
+    ]
+  },
+  {
+    "id": 165,
     "w": "attrition",
     "level": "C1",
     "ipa": "/əˈtrɪʃn/",
@@ -3446,7 +3286,7 @@
     ]
   },
   {
-    "id": 174,
+    "id": 166,
     "w": "impetus",
     "level": "C1",
     "ipa": "/ˈɪmpɪtəs/",
@@ -3463,7 +3303,7 @@
     ]
   },
   {
-    "id": 175,
+    "id": 167,
     "w": "liquidity",
     "level": "C1",
     "ipa": "/lɪˈkwɪdəti/",
@@ -3484,28 +3324,7 @@
     ]
   },
   {
-    "id": 176,
-    "w": "synergy",
-    "level": "C1",
-    "ipa": "/ˈsɪnədʒi/",
-    "top": ["BUS"],
-    "col": ["corporate synergy", "exploit synergies", "operational synergy"],
-    "pos": "noun",
-    "pat": "create operational [synergies] between [merging corporations]",
-    "defn": "The interaction or cooperation of two or more commercial entities or divisions to produce a combined effect greater than the sum of their individual contributions.",
-    "syn": [
-      "collaborative benefit",
-      "cooperative yield",
-      "mutual reinforcement"
-    ],
-    "ex": [
-      "The corporate merger created powerful marketing [synergy] between both brands.",
-      "Effective team collaboration fosters productive creative [synergy] on complex tasks.",
-      "Combining the two software platforms yielded remarkable operational [synergies]."
-    ]
-  },
-  {
-    "id": 177,
+    "id": 168,
     "w": "redundancy",
     "level": "C1",
     "ipa": "/rɪˈdʌndənsi/",
@@ -3516,13 +3335,13 @@
     "defn": "The state of being no longer needed for commercial employment because a job role has ceased to exist or become economically superfluous.",
     "syn": ["retrenchment", "job obsolescence", "layoff"],
     "ex": [
-      "Airplane navigation systems include hardware [redundancy] to guarantee flight safety.",
+      "The corporate restructuring program resulted in compulsory [redundancy] for hundreds of middle managers.",
       "Factory automation resulted in hundreds of worker [redundancies] last year.",
-      "Eliminating verbal [redundancy] makes your writing clearer and more concise."
+      "Staff members facing corporate [redundancy] were offered career counseling and severance packages."
     ]
   },
   {
-    "id": 178,
+    "id": 169,
     "w": "severance",
     "level": "C1",
     "ipa": "/ˈsevərəns/",
@@ -3539,7 +3358,7 @@
     ]
   },
   {
-    "id": 179,
+    "id": 170,
     "w": "hegemony",
     "level": "C1",
     "ipa": "/hɪˈɡeməni/",
@@ -3556,24 +3375,7 @@
     ]
   },
   {
-    "id": 180,
-    "w": "monopsony",
-    "level": "C1",
-    "ipa": "/məˈnɒpsəni/",
-    "top": ["BUS"],
-    "col": ["labor monopsony", "exercise monopsony power", "pure monopsony"],
-    "pos": "noun",
-    "pat": "exercise [monopsony] power over [local labor markets]",
-    "defn": "A market condition in which there is only one buyer or a single dominant employer for a specific service or resource, granting them artificial wage-depressing leverage.",
-    "syn": ["buyer monopoly", "single-buyer dominance"],
-    "ex": [
-      "As the sole employer in town, the factory operates as a [monopsony].",
-      "A healthcare [monopsony] can negotiate significantly lower drug prices from suppliers.",
-      "Under a pure [monopsony], workers have limited bargaining power over wages."
-    ]
-  },
-  {
-    "id": 181,
+    "id": 171,
     "w": "oligopoly",
     "level": "C1",
     "ipa": "/ˌɒlɪˈɡɒpəli/",
@@ -3594,7 +3396,7 @@
     ]
   },
   {
-    "id": 182,
+    "id": 172,
     "w": "contingency",
     "level": "C1",
     "ipa": "/kənˈtɪndʒənsi/",
@@ -3615,24 +3417,7 @@
     ]
   },
   {
-    "id": 183,
-    "w": "recompense",
-    "level": "C1",
-    "ipa": "/ˈrekəmpens/",
-    "top": ["BUS"],
-    "col": ["financial recompense", "adequate recompense", "seek recompense"],
-    "pos": "noun",
-    "pat": "demand adequate [recompense] for [unlawful termination/injury]",
-    "defn": "Monetary compensation, damages, or formal restitution given in exchange for work undertaken, losses incurred, or physical trauma suffered in the workplace.",
-    "syn": ["restitution", "indemnification", "redress"],
-    "ex": [
-      "The court ordered the company to pay [recompense] to injured workers.",
-      "No monetary sum could adequately [recompense] the loss of their heritage.",
-      "He accepted the honorary award as just [recompense] for his dedication."
-    ]
-  },
-  {
-    "id": 184,
+    "id": 173,
     "w": "prerogative",
     "level": "C1",
     "ipa": "/prɪˈrɒɡətɪv/",
@@ -3657,7 +3442,7 @@
     ]
   },
   {
-    "id": 185,
+    "id": 174,
     "w": "remittance",
     "level": "C1",
     "ipa": "/rɪˈmɪtns/",
@@ -3674,7 +3459,7 @@
     ]
   },
   {
-    "id": 186,
+    "id": 175,
     "w": "subsidiary",
     "level": "C1",
     "ipa": "/səbˈsɪdiəri/",
@@ -3695,7 +3480,7 @@
     ]
   },
   {
-    "id": 187,
+    "id": 176,
     "w": "stipulation",
     "level": "C1",
     "ipa": "/ˌstɪpjuˈleɪʃn/",
@@ -3716,7 +3501,7 @@
     ]
   },
   {
-    "id": 188,
+    "id": 177,
     "w": "dividend",
     "level": "C1",
     "ipa": "/ˈdɪvɪdend/",
@@ -3733,24 +3518,7 @@
     ]
   },
   {
-    "id": 189,
-    "w": "stipend",
-    "level": "C1",
-    "ipa": "/ˈstaɪpend/",
-    "top": ["BUS", "EDU"],
-    "col": ["monthly stipend", "modest stipend", "living stipend"],
-    "pos": "noun",
-    "pat": "provide a living [stipend] to [interns/apprentices]",
-    "defn": "A regular, fixed sum of money paid to someone, particularly an apprentice, intern, or academic researcher, to defray basic living expenses.",
-    "syn": ["living allowance", "nominal salary", "subsistence payment"],
-    "ex": [
-      "Doctoral candidates receive a modest monthly [stipend] for living expenses.",
-      "The university grant provides a research [stipend] to cover travel costs.",
-      "Interns were offered a basic transportation [stipend] alongside practical training."
-    ]
-  },
-  {
-    "id": 190,
+    "id": 178,
     "w": "depreciation",
     "level": "C1",
     "ipa": "/dɪˌpriːʃiˈeɪʃn/",
@@ -3771,28 +3539,7 @@
     ]
   },
   {
-    "id": 191,
-    "w": "bolster",
-    "level": "C1",
-    "ipa": "/ˈbəʊlstə(r)/",
-    "top": ["BUS"],
-    "col": [
-      "bolster productivity",
-      "bolster economic growth",
-      "bolster consumer confidence"
-    ],
-    "pos": "verb",
-    "pat": "[bolster] domestic productivity through [state subsidies/innovation]",
-    "defn": "To support, strengthen, or reinforce a company's financial resilience, labor output, or overall commercial competitiveness.",
-    "syn": ["reinforce", "fortify", "augment"],
-    "ex": [
-      "The central bank raised interest rates to [bolster] the domestic currency.",
-      "Presenting statistical evidence will help [bolster] your academic argument.",
-      "The coach called extra practices to [bolster] team morale before playoffs."
-    ]
-  },
-  {
-    "id": 192,
+    "id": 179,
     "w": "divest",
     "level": "C1",
     "ipa": "/daɪˈvest/",
@@ -3809,7 +3556,7 @@
     ]
   },
   {
-    "id": 193,
+    "id": 180,
     "w": "entrench",
     "level": "C1",
     "ipa": "/ɪnˈtrentʃ/",
@@ -3830,7 +3577,7 @@
     ]
   },
   {
-    "id": 194,
+    "id": 181,
     "w": "imperil",
     "level": "C1",
     "ipa": "/ɪmˈperəl/",
@@ -3847,7 +3594,7 @@
     ]
   },
   {
-    "id": 195,
+    "id": 182,
     "w": "rationalize",
     "level": "C1",
     "ipa": "/ˈræʃnəlaɪz/",
@@ -3863,12 +3610,12 @@
     "syn": ["streamline", "restructure", "reorganize"],
     "ex": [
       "The company cut management layers to [rationalize] its production operations.",
-      "He tried to [rationalize] his irresponsible spending by claiming it was an investment.",
+      "The airline announced plans to [rationalize] its fleet by retiring fuel-inefficient jetliners.",
       "The manufacturer sought to [rationalize] costs by consolidating regional warehouses."
     ]
   },
   {
-    "id": 196,
+    "id": 183,
     "w": "reallocate",
     "level": "C1",
     "ipa": "/ˌriːˈæləkeɪt/",
@@ -3889,7 +3636,7 @@
     ]
   },
   {
-    "id": 197,
+    "id": 184,
     "w": "restructure",
     "level": "C1",
     "ipa": "/ˌriːˈstrʌktʃə(r)/",
@@ -3910,7 +3657,7 @@
     ]
   },
   {
-    "id": 198,
+    "id": 185,
     "w": "consolidate",
     "level": "C1",
     "ipa": "/kənˈsɒlɪdeɪt/",
@@ -3931,7 +3678,7 @@
     ]
   },
   {
-    "id": 199,
+    "id": 186,
     "w": "stifle",
     "level": "C1",
     "ipa": "/ˈstaɪfl/",
@@ -3952,7 +3699,7 @@
     ]
   },
   {
-    "id": 200,
+    "id": 187,
     "w": "forfeit",
     "level": "C1",
     "ipa": "/ˈfɔːfɪt/",
@@ -3964,12 +3711,12 @@
     "syn": ["relinquish", "surrender", "cede"],
     "ex": [
       "Failure to show up on time will force you to [forfeit] your deposit.",
-      "The team was forced to [forfeit] the championship match due to injuries.",
+      "The contractor had to [forfeit] its performance bond after abandoning the construction project.",
       "Breaking safety rules may cause drivers to [forfeit] their commercial licence."
     ]
   },
   {
-    "id": 201,
+    "id": 188,
     "w": "renege",
     "level": "C1",
     "ipa": "/rɪˈneɪɡ/",
@@ -3990,7 +3737,7 @@
     ]
   },
   {
-    "id": 202,
+    "id": 189,
     "w": "remunerate",
     "level": "C1",
     "ipa": "/rɪˈmjuːnəreɪt/",
@@ -4011,24 +3758,7 @@
     ]
   },
   {
-    "id": 203,
-    "w": "leverage",
-    "level": "C1",
-    "ipa": "/ˈliːvərɪdʒ/",
-    "top": ["BUS"],
-    "col": ["leverage assets", "leverage technology", "financially leverage"],
-    "pos": "verb",
-    "pat": "[leverage] existing capital reserves to [finance acquisitions]",
-    "defn": "To use existing business assets, proprietary technology, or borrowed financial resources to maximum commercial advantage to magnify returns.",
-    "syn": ["capitalize on", "exploit", "utilize"],
-    "ex": [
-      "The startup managed to [leverage] cloud computing to cut operating costs.",
-      "Diplomats used economic trade sanctions to [leverage] political negotiations.",
-      "You should [leverage] your professional network when searching for jobs."
-    ]
-  },
-  {
-    "id": 204,
+    "id": 190,
     "w": "languish",
     "level": "C1",
     "ipa": "/ˈlæŋɡwɪʃ/",
@@ -4049,7 +3779,7 @@
     ]
   },
   {
-    "id": 205,
+    "id": 191,
     "w": "oscillate",
     "level": "C1",
     "ipa": "/ˈɒsɪleɪt/",
@@ -4066,7 +3796,7 @@
     ]
   },
   {
-    "id": 206,
+    "id": 192,
     "w": "onerous",
     "level": "C1",
     "ipa": "/ˈəʊnərəs/",
@@ -4087,7 +3817,7 @@
     ]
   },
   {
-    "id": 207,
+    "id": 193,
     "w": "speculative",
     "level": "C1",
     "ipa": "/ˈspekjələtɪv/",
@@ -4108,28 +3838,7 @@
     ]
   },
   {
-    "id": 208,
-    "w": "mercenary",
-    "level": "C1",
-    "ipa": "/ˈmɜːsənəri/",
-    "top": ["BUS", "SOC"],
-    "col": [
-      "mercenary motives",
-      "mercenary corporate culture",
-      "purely mercenary"
-    ],
-    "pos": "adj",
-    "pat": "driven by purely [mercenary] objectives rather than [civic duty]",
-    "defn": "Primarily or exclusively motivated by the desire for immediate monetary profit, often at the expense of professional ethics or human welfare.",
-    "syn": ["money-oriented", "acquisitive", "venal"],
-    "ex": [
-      "His motives for marrying were entirely [mercenary] rather than romantic.",
-      "The warlord hired foreign [mercenaries] to defend the private diamond mine.",
-      "Critics condemned the executive's purely [mercenary] approach to healthcare management."
-    ]
-  },
-  {
-    "id": 209,
+    "id": 194,
     "w": "recurrent",
     "level": "C1",
     "ipa": "/rɪˈkʌrənt/",
@@ -4146,7 +3855,7 @@
     ]
   },
   {
-    "id": 210,
+    "id": 195,
     "w": "equitable",
     "level": "C1",
     "ipa": "/ˈekwɪtəbl/",
@@ -4167,7 +3876,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 196,
     "w": "punitive",
     "level": "C1",
     "ipa": "/ˈpjuːnətɪv/",
@@ -4184,7 +3893,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 197,
     "w": "stagnant",
     "level": "C1",
     "ipa": "/ˈstæɡnənt/",
@@ -4201,7 +3910,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 198,
     "w": "unviable",
     "level": "C1",
     "ipa": "/ʌnˈvaɪəbl/",
@@ -4222,7 +3931,7 @@
     ]
   },
   {
-    "id": 214,
+    "id": 199,
     "w": "precipitous",
     "level": "C1",
     "ipa": "/prɪˈsɪpɪtəs/",
@@ -4234,33 +3943,12 @@
     "syn": ["sharp", "abrupt", "steep"],
     "ex": [
       "The stock market suffered a [precipitous] decline following the bank failure.",
-      "Hikers had to navigate a [precipitous] drop along the mountain ridge.",
+      "The electric vehicle startup suffered a [precipitous] decline in market valuation following delivery delays.",
       "The country experienced a [precipitous] fall in manufacturing output this winter."
     ]
   },
   {
-    "id": 215,
-    "w": "profligate",
-    "level": "C1",
-    "ipa": "/ˈprɒflɪɡət/",
-    "top": ["BUS"],
-    "col": [
-      "profligate spending",
-      "profligate corporate expenditure",
-      "recklessly profligate"
-    ],
-    "pos": "adj",
-    "pat": "curb [profligate] expenditures to [safeguard cash reserves]",
-    "defn": "Recklessly extravagant, irresponsible, or wasteful in the utilization and expenditure of corporate capital or state resources.",
-    "syn": ["wasteful", "extravagant", "spendthrift"],
-    "ex": [
-      "The committee denounced the governor's [profligate] spending on luxury banquets.",
-      "Decades of [profligate] energy consumption depleted the nation's natural reserves.",
-      "His [profligate] lifestyle quickly exhausted his substantial family inheritance."
-    ]
-  },
-  {
-    "id": 216,
+    "id": 200,
     "w": "unilaterally",
     "level": "C1",
     "ipa": "/ˌjuːnɪˈlætrəli/",
@@ -4281,7 +3969,7 @@
     ]
   },
   {
-    "id": 217,
+    "id": 201,
     "w": "precariously",
     "level": "C1",
     "ipa": "/prɪˈkeəriəsli/",
@@ -4302,7 +3990,100 @@
     ]
   },
   {
-    "id": 218,
+    "id": 202,
+    "w": "remuneration",
+    "level": "C1",
+    "ipa": "/rɪˌmjuːnəˈreɪʃn/",
+    "top": ["BUS"],
+    "col": [
+      "executive remuneration",
+      "adequate remuneration",
+      "financial remuneration"
+    ],
+    "pos": "noun",
+    "pat": "receive equitable [remuneration] for [work/services]",
+    "defn": "Money paid for work, services rendered, or loss incurred; formal financial compensation.",
+    "syn": ["compensation", "salary", "recompense"],
+    "ex": [
+      "The contract offers generous [remuneration] alongside health benefits.",
+      "Executive [remuneration] packages are reviewed annually by the board.",
+      "Workers demanded fair [remuneration] for their weekend overtime hours."
+    ]
+  },
+  {
+    "id": 203,
+    "w": "stagnate",
+    "level": "C1",
+    "ipa": "/stæɡˈneɪt/",
+    "top": ["BUS"],
+    "col": ["wages stagnate", "economies stagnate", "stagnate economically"],
+    "pos": "verb",
+    "pat": "[stagnate] due to [lack of innovation/investment]",
+    "defn": "To cease to flow, develop, or advance; become inactive, sluggish, or static in economic terms.",
+    "syn": ["languish", "stall", "atrophy"],
+    "ex": [
+      "Wages may [stagnate] if national economic productivity does not rise.",
+      "Career growth can [stagnate] without continuous professional training.",
+      "Water will [stagnate] and breed mosquitoes if left in open containers."
+    ]
+  },
+  {
+    "id": 204,
+    "w": "lucrative",
+    "level": "C1",
+    "ipa": "/ˈluːkrətɪv/",
+    "top": ["BUS"],
+    "col": ["lucrative market", "lucrative contract", "highly lucrative"],
+    "pos": "adj",
+    "pat": "a highly [lucrative] commercial opportunity in [sector]",
+    "defn": "Producing a great deal of profit; commercially gainful.",
+    "syn": ["profitable", "rewarding", "gainful"],
+    "ex": [
+      "He abandoned law to pursue a highly [lucrative] career in finance.",
+      "The real estate deal proved to be extraordinarily [lucrative] for the firm.",
+      "Freelance consulting can become a very [lucrative] business."
+    ]
+  },
+  {
+    "id": 205,
+    "w": "burdensome",
+    "level": "C1",
+    "ipa": "/ˈbɜːdnsəm/",
+    "top": ["BUS"],
+    "col": ["burdensome regulations", "burdensome debt", "prove burdensome"],
+    "pos": "adj",
+    "pat": "impose [burdensome] compliance requirements on [small businesses]",
+    "defn": "Difficult to carry out, manage, or fulfill; distressing or onerous in terms of labor or financial cost.",
+    "syn": ["onerous", "oppressive", "taxing"],
+    "ex": [
+      "Excessive administrative paperwork is [burdensome] for small businesses.",
+      "Repaying massive student loans can feel incredibly [burdensome].",
+      "The new reporting regulations proved too [burdensome] for the clinic."
+    ]
+  },
+  {
+    "id": 206,
+    "w": "prohibitive",
+    "level": "C1",
+    "ipa": "/prəˈhɪbətɪv/",
+    "top": ["BUS"],
+    "col": [
+      "prohibitive costs",
+      "prohibitively expensive",
+      "prohibitive tariffs"
+    ],
+    "pos": "adj",
+    "pat": "the cost of [action/resource] is [prohibitive] for [demographic]",
+    "defn": "Excessively high or difficult; preventing or deterring people from buying or doing something due to extreme cost or difficulty.",
+    "syn": ["exorbitant", "unaffordable", "excessive"],
+    "ex": [
+      "The exorbitant tuition fees were [prohibitive] for low-income students.",
+      "High import taxes made buying foreign cars financially [prohibitive].",
+      "The [prohibitive] cost of housing forced young families out of the city."
+    ]
+  },
+  {
+    "id": 207,
     "w": "disenfranchisement",
     "level": "C1",
     "ipa": "/ˌdɪsɪnˈfræntʃaɪzmənt/",
@@ -4323,24 +4104,7 @@
     ]
   },
   {
-    "id": 219,
-    "w": "xenophobia",
-    "level": "C1",
-    "ipa": "/ˌzenəˈfəʊbiə/",
-    "top": ["SOC"],
-    "col": ["latent xenophobia", "incite xenophobia", "combat xenophobia"],
-    "pos": "noun",
-    "pat": "fuel/incite [xenophobia] against [migrant populations]",
-    "defn": "Dislike of, prejudice against, or hostility toward people from other countries or cultures.",
-    "syn": ["chauvinism", "nativism", "intolerance"],
-    "ex": [
-      "Economic crises often trigger a dangerous rise in nationalistic [xenophobia].",
-      "The charity works tirelessly to combat racism and [xenophobia] in communities.",
-      "Sensationalist media headlines can inflame irrational [xenophobia] against foreign immigrants."
-    ]
-  },
-  {
-    "id": 220,
+    "id": 208,
     "w": "ostracism",
     "level": "C1",
     "ipa": "/ˈɒstrəsɪzəm/",
@@ -4357,7 +4121,7 @@
     ]
   },
   {
-    "id": 221,
+    "id": 209,
     "w": "pluralism",
     "level": "C1",
     "ipa": "/ˈplʊərəˌlɪzəm/",
@@ -4374,62 +4138,7 @@
     ]
   },
   {
-    "id": 222,
-    "w": "paucity",
-    "level": "C1",
-    "ipa": "/ˈpɔːsəti/",
-    "top": ["SOC", "BUS"],
-    "col": ["paucity of resources", "glaring paucity", "paucity of support"],
-    "pos": "noun",
-    "pat": "a [paucity] of [vital resources/welfare provisions]",
-    "defn": "The presence of something only in small or insufficient quantities or amounts; scarcity.",
-    "syn": ["scarcity", "dearth", "insufficiency"],
-    "ex": [
-      "The prosecutor struggled with a [paucity] of evidence against the suspect.",
-      "An acute [paucity] of qualified doctors hampers healthcare in rural regions.",
-      "Research was delayed due to the severe [paucity] of scientific funding."
-    ]
-  },
-  {
-    "id": 223,
-    "w": "altruism",
-    "level": "C1",
-    "ipa": "/ˈæltruɪzəm/",
-    "top": ["SOC"],
-    "col": ["civic altruism", "pure altruism", "foster altruism"],
-    "pos": "noun",
-    "pat": "appeal to collective [altruism] to [support welfare programs]",
-    "defn": "The belief in or practice of disinterested and selfless concern for the well-being of others in society.",
-    "syn": ["benevolence", "philanthropy", "selflessness"],
-    "ex": [
-      "Donating bone marrow to an anonymous stranger requires profound [altruism].",
-      "Evolutionary biologists study the origins of reciprocal [altruism] in mammals.",
-      "Her life was defined by selfless [altruism] and community service."
-    ]
-  },
-  {
-    "id": 224,
-    "w": "parochialism",
-    "level": "C1",
-    "ipa": "/pəˈrəʊkiəlɪzəm/",
-    "top": ["SOC"],
-    "col": [
-      "cultural parochialism",
-      "entrenched parochialism",
-      "transcend parochialism"
-    ],
-    "pos": "noun",
-    "pat": "succumb to narrow [parochialism] in [policy debates]",
-    "defn": "A limited or narrow outlook, especially focused on local or provincial matters to the exclusion of broader societal concerns.",
-    "syn": ["provincialism", "narrow-mindedness", "insularity"],
-    "ex": [
-      "Modern global commerce leaves little room for narrow economic [parochialism].",
-      "Studying abroad helps students overcome cultural [parochialism] and bias.",
-      "The council was criticized for its short-sighted administrative [parochialism]."
-    ]
-  },
-  {
-    "id": 225,
+    "id": 210,
     "w": "coercion",
     "level": "C1",
     "ipa": "/kəʊˈɜːʃn/",
@@ -4446,7 +4155,7 @@
     ]
   },
   {
-    "id": 226,
+    "id": 211,
     "w": "insularity",
     "level": "C1",
     "ipa": "/ˌɪnsjuˈlærəti/",
@@ -4467,7 +4176,7 @@
     ]
   },
   {
-    "id": 227,
+    "id": 212,
     "w": "factionalism",
     "level": "C1",
     "ipa": "/ˈfækʃənəlɪzəm/",
@@ -4488,7 +4197,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 213,
     "w": "subjugation",
     "level": "C1",
     "ipa": "/ˌsʌbdʒuˈɡeɪʃn/",
@@ -4509,7 +4218,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 214,
     "w": "heterogeneity",
     "level": "C1",
     "ipa": "/ˌhetərəʊdʒəˈneɪəti/",
@@ -4530,7 +4239,7 @@
     ]
   },
   {
-    "id": 230,
+    "id": 215,
     "w": "inequity",
     "level": "C1",
     "ipa": "/ɪnˈekwəti/",
@@ -4547,7 +4256,7 @@
     ]
   },
   {
-    "id": 231,
+    "id": 216,
     "w": "chasm",
     "level": "C1",
     "ipa": "/ˈkæzəm/",
@@ -4564,7 +4273,7 @@
     ]
   },
   {
-    "id": 232,
+    "id": 217,
     "w": "nepotism",
     "level": "C1",
     "ipa": "/ˈnepətɪzəm/",
@@ -4585,7 +4294,7 @@
     ]
   },
   {
-    "id": 233,
+    "id": 218,
     "w": "chauvinism",
     "level": "C1",
     "ipa": "/ˈʃəʊvɪnɪzəm/",
@@ -4602,7 +4311,7 @@
     ]
   },
   {
-    "id": 234,
+    "id": 219,
     "w": "benevolence",
     "level": "C1",
     "ipa": "/bəˈnevələns/",
@@ -4623,7 +4332,7 @@
     ]
   },
   {
-    "id": 235,
+    "id": 220,
     "w": "oligarchy",
     "level": "C1",
     "ipa": "/ˈɒlɪɡɑːki/",
@@ -4640,7 +4349,7 @@
     ]
   },
   {
-    "id": 236,
+    "id": 221,
     "w": "engender",
     "level": "C1",
     "ipa": "/ɪnˈdʒendə(r)/",
@@ -4661,7 +4370,7 @@
     ]
   },
   {
-    "id": 237,
+    "id": 222,
     "w": "galvanize",
     "level": "C1",
     "ipa": "/ˈɡælvənaɪz/",
@@ -4682,7 +4391,7 @@
     ]
   },
   {
-    "id": 238,
+    "id": 223,
     "w": "quell",
     "level": "C1",
     "ipa": "/kwel/",
@@ -4699,7 +4408,7 @@
     ]
   },
   {
-    "id": 239,
+    "id": 224,
     "w": "decry",
     "level": "C1",
     "ipa": "/dɪˈkraɪ/",
@@ -4720,7 +4429,7 @@
     ]
   },
   {
-    "id": 240,
+    "id": 225,
     "w": "vilify",
     "level": "C1",
     "ipa": "/ˈvɪlɪfaɪ/",
@@ -4737,45 +4446,7 @@
     ]
   },
   {
-    "id": 241,
-    "w": "champion",
-    "level": "C1",
-    "ipa": "/ˈtʃæmpiən/",
-    "top": ["SOC"],
-    "col": [
-      "champion human rights",
-      "champion equality",
-      "champion social reforms"
-    ],
-    "pos": "verb",
-    "pat": "[champion] the cause of [marginalized citizens]",
-    "defn": "To vigorously support, defend, or fight for a person, principle, or social cause.",
-    "syn": ["advocate for", "espouse", "spearhead"],
-    "ex": [
-      "The senator vowed to [champion] affordable healthcare legislation in congress.",
-      "Non-profit groups work tirelessly to [champion] indigenous territorial land rights.",
-      "She used her public platform to [champion] educational equity for girls."
-    ]
-  },
-  {
-    "id": 242,
-    "w": "dispel",
-    "level": "C1",
-    "ipa": "/dɪˈspel/",
-    "top": ["SOC"],
-    "col": ["dispel misconceptions", "dispel myths", "dispel prejudice"],
-    "pos": "verb",
-    "pat": "[dispel] harmful stereotypes surrounding [vulnerable groups]",
-    "defn": "To make a doubt, feeling, prejudice, or misconception disappear or vanish.",
-    "syn": ["eliminate", "dissipate", "debunk"],
-    "ex": [
-      "The scientific report helped [dispel] widespread public myths about vaccines.",
-      "A transparent investigation should [dispel] lingering suspicions of financial fraud.",
-      "The minister gave a live conference to [dispel] rumors of currency devaluation."
-    ]
-  },
-  {
-    "id": 243,
+    "id": 226,
     "w": "perpetrate",
     "level": "C1",
     "ipa": "/ˈpɜːpətreɪt/",
@@ -4796,7 +4467,7 @@
     ]
   },
   {
-    "id": 244,
+    "id": 227,
     "w": "abrogate",
     "level": "C1",
     "ipa": "/ˈæbrəɡeɪt/",
@@ -4817,7 +4488,7 @@
     ]
   },
   {
-    "id": 245,
+    "id": 228,
     "w": "subsume",
     "level": "C1",
     "ipa": "/səbˈsjuːm/",
@@ -4838,7 +4509,7 @@
     ]
   },
   {
-    "id": 246,
+    "id": 229,
     "w": "insidious",
     "level": "C1",
     "ipa": "/ɪnˈsɪdiəs/",
@@ -4859,7 +4530,7 @@
     ]
   },
   {
-    "id": 247,
+    "id": 230,
     "w": "divisive",
     "level": "C1",
     "ipa": "/dɪˈvaɪsɪv/",
@@ -4876,7 +4547,7 @@
     ]
   },
   {
-    "id": 248,
+    "id": 231,
     "w": "regressive",
     "level": "C1",
     "ipa": "/rɪˈɡresɪv/",
@@ -4897,7 +4568,7 @@
     ]
   },
   {
-    "id": 249,
+    "id": 232,
     "w": "indigent",
     "level": "C1",
     "ipa": "/ˈɪndɪdʒənt/",
@@ -4918,7 +4589,7 @@
     ]
   },
   {
-    "id": 250,
+    "id": 233,
     "w": "archaic",
     "level": "C1",
     "ipa": "/ɑːˈkeɪɪk/",
@@ -4935,7 +4606,7 @@
     ]
   },
   {
-    "id": 251,
+    "id": 234,
     "w": "systemically",
     "level": "C1",
     "ipa": "/sɪˈstemɪkli/",
@@ -4956,7 +4627,150 @@
     ]
   },
   {
-    "id": 252,
+    "id": 235,
+    "w": "gentrification",
+    "level": "C1",
+    "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
+    "top": ["SOC"],
+    "col": [
+      "urban gentrification",
+      "drive gentrification",
+      "consequences of gentrification"
+    ],
+    "pos": "noun",
+    "pat": "the process of urban [gentrification] in [inner-city areas]",
+    "defn": "The process of renovating and improving an urban district so that it conforms to middle-class taste, often displacing poorer residents.",
+    "syn": ["urban renewal", "redevelopment", "revitalization"],
+    "ex": [
+      "Rapid [gentrification] displaced longtime residents from the old neighborhood.",
+      "Urban [gentrification] brought upscale cafes and higher property taxes.",
+      "Artists often spark the early stages of neighborhood [gentrification]."
+    ]
+  },
+  {
+    "id": 236,
+    "w": "stratification",
+    "level": "C1",
+    "ipa": "/ˌstrætɪfɪˈkeɪʃn/",
+    "top": ["SOC"],
+    "col": [
+      "social stratification",
+      "economic stratification",
+      "class stratification"
+    ],
+    "pos": "noun",
+    "pat": "the rigid [stratification] of [society]",
+    "defn": "The arrangement or classification of something into different groups; the hierarchical layering of society according to wealth or status.",
+    "syn": ["hierarchization", "categorization", "segmentation"],
+    "ex": [
+      "Feudal societies were characterized by rigid social [stratification].",
+      "Income disparities deepen class [stratification] in urban centers.",
+      "Sociologists analyze the patterns of wealth [stratification]."
+    ]
+  },
+  {
+    "id": 237,
+    "w": "marginalize",
+    "level": "C1",
+    "ipa": "/ˈmɑːdʒɪnəlaɪz/",
+    "top": ["SOC"],
+    "col": [
+      "marginalize vulnerable groups",
+      "socially marginalize",
+      "further marginalize"
+    ],
+    "pos": "verb",
+    "pat": "[marginalize] [demographic cohorts] within [society/economy]",
+    "defn": "To treat a person, group, or concept as insignificant or peripheral; push to the edge of society.",
+    "syn": ["sideline", "disenfranchise", "alienate"],
+    "ex": [
+      "Unchecked gentrification can [marginalize] low-income residents.",
+      "Policies must not [marginalize] linguistic minority groups.",
+      "The committee tended to [marginalize] dissenting opinions."
+    ]
+  },
+  {
+    "id": 238,
+    "w": "egalitarian",
+    "level": "C1",
+    "ipa": "/iˌɡælɪˈteəriən/",
+    "top": ["SOC"],
+    "col": [
+      "egalitarian society",
+      "egalitarian principles",
+      "egalitarian policies"
+    ],
+    "pos": "adj",
+    "pat": "strive to build an [egalitarian] system of [governance/education]",
+    "defn": "Believing in or based on the principle that all people are equal and deserve equal rights and opportunities.",
+    "syn": ["equal", "equitable", "democratic"],
+    "ex": [
+      "The founders sought to establish a more [egalitarian] and fair society.",
+      "The company maintains an [egalitarian] culture without rigid executive hierarchy.",
+      "Universal healthcare is a cornerstone of an [egalitarian] welfare system."
+    ]
+  },
+  {
+    "id": 239,
+    "w": "destitute",
+    "level": "C1",
+    "ipa": "/ˈdestɪtjuːt/",
+    "top": ["SOC"],
+    "col": ["destitute families", "render destitute", "destitute populations"],
+    "pos": "adj",
+    "pat": "render [families/communities] completely [destitute]",
+    "defn": "Without the basic necessities of life; extremely poor, impoverished, and lacking food, clothing, and shelter.",
+    "syn": ["penniless", "impoverished", "indigent"],
+    "ex": [
+      "The severe famine left thousands of rural families completely [destitute].",
+      "Charity volunteers distributed warm blankets to [destitute] homeless people.",
+      "After losing his business and life savings, he was left [destitute]."
+    ]
+  },
+  {
+    "id": 240,
+    "w": "homogeneous",
+    "level": "C1",
+    "ipa": "/ˌhɒməˈdʒiːniəs/",
+    "top": ["SOC"],
+    "col": [
+      "homogeneous society",
+      "homogeneous population",
+      "culturally homogeneous"
+    ],
+    "pos": "adj",
+    "pat": "a culturally [homogeneous] community with [shared norms]",
+    "defn": "Consisting of parts or people that are all the same type or character; culturally uniform.",
+    "syn": ["uniform", "similar", "unvaried"],
+    "ex": [
+      "The small island village has a culturally [homogeneous] population.",
+      "Mix the ingredients thoroughly until you obtain a [homogeneous] batter.",
+      "The classroom was fairly [homogeneous] in terms of age and background."
+    ]
+  },
+  {
+    "id": 241,
+    "w": "heterogeneous",
+    "level": "C1",
+    "ipa": "/ˌhetərəˈdʒiːniəs/",
+    "top": ["SOC"],
+    "col": [
+      "heterogeneous society",
+      "heterogeneous population",
+      "diverse and heterogeneous"
+    ],
+    "pos": "adj",
+    "pat": "a culturally [heterogeneous] population residing in [metropolis]",
+    "defn": "Diverse in character or content; consisting of people of contrasting ethnicities, cultures, and traditions.",
+    "syn": ["diverse", "varied", "motley"],
+    "ex": [
+      "The metropolis is known for its racially [heterogeneous] community.",
+      "The study examined a [heterogeneous] group of patients with varying symptoms.",
+      "Global corporations manage culturally [heterogeneous] teams across continents."
+    ]
+  },
+  {
+    "id": 242,
     "w": "veracity",
     "level": "C1",
     "ipa": "/vəˈræsəti/",
@@ -4977,7 +4791,7 @@
     ]
   },
   {
-    "id": 253,
+    "id": 243,
     "w": "hyperbole",
     "level": "C1",
     "ipa": "/haɪˈpɜːbəli/",
@@ -4994,7 +4808,7 @@
     ]
   },
   {
-    "id": 254,
+    "id": 244,
     "w": "obfuscation",
     "level": "C1",
     "ipa": "/ˌɒbfʌˈskeɪʃn/",
@@ -5015,7 +4829,7 @@
     ]
   },
   {
-    "id": 255,
+    "id": 245,
     "w": "polemic",
     "level": "C1",
     "ipa": "/pəˈlemɪk/",
@@ -5032,24 +4846,7 @@
     ]
   },
   {
-    "id": 256,
-    "w": "calumny",
-    "level": "C1",
-    "ipa": "/ˈkæləmni/",
-    "top": ["COM"],
-    "col": ["malicious calumny", "defame with calumny", "resort to calumny"],
-    "pos": "noun",
-    "pat": "subject [someone] to malicious [calumny] in [the press]",
-    "defn": "The making of false and defamatory statements about someone in order to damage their reputation; slanderous misrepresentation in public communication.",
-    "syn": ["slander", "defamation", "vilification"],
-    "ex": [
-      "The diplomat suffered severe [calumny] from rival foreign intelligence agencies.",
-      "He filed a defamation lawsuit to combat malicious political [calumny].",
-      "Spreading baseless [calumny] damages public trust in ethical journalism."
-    ]
-  },
-  {
-    "id": 257,
+    "id": 246,
     "w": "syndicate",
     "level": "C1",
     "ipa": "/ˈsɪndɪkət/",
@@ -5064,51 +4861,13 @@
     "defn": "A group of commercial publications, broadcasting stations, or corporate entities formed to coordinate or monopolize the distribution of journalistic content.",
     "syn": ["conglomerate", "consortium", "cartel"],
     "ex": [
-      "An international crime [syndicate] smuggled stolen artwork across regional borders.",
+      "A prominent newspaper [syndicate] distributes syndicated columns and investigative reporting nationwide.",
       "Independent newspapers formed a news [syndicate] to share reporting costs.",
-      "A banking [syndicate] provided the multi-billion-dollar loan for the project."
+      "Regional radio broadcasters joined a national media [syndicate] to broadcast live news bulletins."
     ]
   },
   {
-    "id": 258,
-    "w": "subterfuge",
-    "level": "C1",
-    "ipa": "/ˈsʌbtəfjuːdʒ/",
-    "top": ["COM"],
-    "col": [
-      "journalistic subterfuge",
-      "resort to subterfuge",
-      "elaborate subterfuge"
-    ],
-    "pos": "noun",
-    "pat": "employ journalistic [subterfuge] to [uncover/conceal information]",
-    "defn": "Deceit, misrepresentation, or trickery used in order to achieve a goal, often deployed in undercover reporting or covert information gathering.",
-    "syn": ["deception", "artifice", "trickery"],
-    "ex": [
-      "The undercover spy used elaborate [subterfuge] to enter the compound.",
-      "The business deal was secured through dishonesty and corporate [subterfuge].",
-      "Honest leaders do not need to rely on political [subterfuge]."
-    ]
-  },
-  {
-    "id": 259,
-    "w": "panoply",
-    "level": "C1",
-    "ipa": "/ˈpænəpli/",
-    "top": ["COM"],
-    "col": ["vast panoply", "panoply of options", "rich panoply"],
-    "pos": "noun",
-    "pat": "navigate a vast [panoply] of [competing media sources]",
-    "defn": "An extensive, impressive, and diverse collection or display of media platforms, communication channels, or viewpoints.",
-    "syn": ["array", "spectrum", "assemblage"],
-    "ex": [
-      "The luxury resort offers a dazzling [panoply] of recreational outdoor activities.",
-      "Visitors marveled at the full [panoply] of traditional royal regalia.",
-      "The store displays an impressive [panoply] of artisanal French cheeses."
-    ]
-  },
-  {
-    "id": 260,
+    "id": 247,
     "w": "propensity",
     "level": "C1",
     "ipa": "/prəˈpensəti/",
@@ -5129,7 +4888,7 @@
     ]
   },
   {
-    "id": 261,
+    "id": 248,
     "w": "reticence",
     "level": "C1",
     "ipa": "/ˈretɪsns/",
@@ -5150,7 +4909,7 @@
     ]
   },
   {
-    "id": 262,
+    "id": 249,
     "w": "acrimony",
     "level": "C1",
     "ipa": "/ˈækrɪməni/",
@@ -5167,7 +4926,7 @@
     ]
   },
   {
-    "id": 263,
+    "id": 250,
     "w": "demagogue",
     "level": "C1",
     "ipa": "/ˈdeməɡɒɡ/",
@@ -5184,7 +4943,7 @@
     ]
   },
   {
-    "id": 264,
+    "id": 251,
     "w": "platitude",
     "level": "C1",
     "ipa": "/ˈplætɪtjuːd/",
@@ -5201,45 +4960,7 @@
     ]
   },
   {
-    "id": 265,
-    "w": "rhetoric",
-    "level": "C1",
-    "ipa": "/ˈretərɪk/",
-    "top": ["COM"],
-    "col": ["inflammatory rhetoric", "political rhetoric", "empty rhetoric"],
-    "pos": "noun",
-    "pat": "the inflammatory [rhetoric] of [political commentary]",
-    "defn": "The art of effective or persuasive speaking or writing, especially language characterized by artificial elegance, emotive exaggeration, or partisan posturing.",
-    "syn": ["oratory", "eloquence", "discourse"],
-    "ex": [
-      "Empty political [rhetoric] cannot replace concrete economic investments and jobs.",
-      "She studied classical [rhetoric] to become a more persuasive orator.",
-      "The aggressive military [rhetoric] raised concerns among neighboring peaceful nations."
-    ]
-  },
-  {
-    "id": 266,
-    "w": "infringement",
-    "level": "C1",
-    "ipa": "/ɪnˈfrɪndʒmənt/",
-    "top": ["COM", "LAW"],
-    "col": [
-      "copyright infringement",
-      "infringement of privacy",
-      "statutory infringement"
-    ],
-    "pos": "noun",
-    "pat": "constitute an [infringement] of [privacy/copyright]",
-    "defn": "The action of breaking the terms of a law or agreement, or the unauthorized encroachment upon another party's civil liberties or proprietary assets.",
-    "syn": ["violation", "breach", "transgression"],
-    "ex": [
-      "Downloading copyrighted software constitutes an illegal [infringement] of intellectual property.",
-      "The border wall represented a clear [infringement] on private land rights.",
-      "The company faced hefty fines for patent [infringement] violations."
-    ]
-  },
-  {
-    "id": 267,
+    "id": 252,
     "w": "disparage",
     "level": "C1",
     "ipa": "/dɪˈspærɪdʒ/",
@@ -5256,7 +4977,7 @@
     ]
   },
   {
-    "id": 268,
+    "id": 253,
     "w": "promulgate",
     "level": "C1",
     "ipa": "/ˈprɒmlɡeɪt/",
@@ -5277,7 +4998,7 @@
     ]
   },
   {
-    "id": 269,
+    "id": 254,
     "w": "delineate",
     "level": "C1",
     "ipa": "/dɪˈlɪnieɪt/",
@@ -5298,7 +5019,7 @@
     ]
   },
   {
-    "id": 270,
+    "id": 255,
     "w": "inculcate",
     "level": "C1",
     "ipa": "/ˈɪnkʌlkeɪt/",
@@ -5319,7 +5040,7 @@
     ]
   },
   {
-    "id": 271,
+    "id": 256,
     "w": "castigate",
     "level": "C1",
     "ipa": "/ˈkæstɪɡeɪt/",
@@ -5336,7 +5057,7 @@
     ]
   },
   {
-    "id": 272,
+    "id": 257,
     "w": "rebut",
     "level": "C1",
     "ipa": "/rɪˈbʌt/",
@@ -5353,7 +5074,7 @@
     ]
   },
   {
-    "id": 273,
+    "id": 258,
     "w": "censure",
     "level": "C1",
     "ipa": "/ˈsenʃə(r)/",
@@ -5364,34 +5085,13 @@
     "defn": "To express severe, formal public disapproval of a journalist, publication, or broadcaster, typically in an official regulatory reprimand.",
     "syn": ["condemn", "reprimand", "denounce"],
     "ex": [
-      "Parliament voted overwhelmingly to [censure] the minister for ethical misconduct.",
-      "The physician faced professional [censure] for prescribing unauthorized experimental drugs.",
-      "The international community expressed strong diplomatic [censure] over the aggression."
+      "The press regulator voted to [censure] the national newspaper for publishing fabricated interview quotes.",
+      "An investigative journalist was formally [censured] for violating professional ethical standards.",
+      "The broadcasting tribunal issued a formal decree to [censure] the television station for defamation."
     ]
   },
   {
-    "id": 274,
-    "w": "scurrilous",
-    "level": "C1",
-    "ipa": "/ˈskʌrələs/",
-    "top": ["COM"],
-    "col": [
-      "scurrilous allegations",
-      "scurrilous attacks",
-      "scurrilous journalism"
-    ],
-    "pos": "adj",
-    "pat": "publish [scurrilous] allegations concerning [public figures]",
-    "defn": "Making or spreading scandalous, malicious, and defamatory claims with the intention of damaging someone's reputation.",
-    "syn": ["defamatory", "slanderous", "libelous"],
-    "ex": [
-      "The tabloid published a [scurrilous] attack on the actor's private life.",
-      "He threatened legal action against the author of the [scurrilous] article.",
-      "Spreading [scurrilous] rumors about colleagues violates workplace harassment policies."
-    ]
-  },
-  {
-    "id": 275,
+    "id": 259,
     "w": "tendentious",
     "level": "C1",
     "ipa": "/tenˈdenʃəs/",
@@ -5412,24 +5112,7 @@
     ]
   },
   {
-    "id": 276,
-    "w": "salacious",
-    "level": "C1",
-    "ipa": "/səˈleɪʃəs/",
-    "top": ["COM"],
-    "col": ["salacious headlines", "salacious details", "salacious gossip"],
-    "pos": "adj",
-    "pat": "exploit [salacious] gossip to [maximize readership]",
-    "defn": "Appealing to or characterized by an inappropriate, voyeuristic interest in scandalous, sensational, or private sexual matters.",
-    "syn": ["sensational", "scandalous", "lewd"],
-    "ex": [
-      "Celebrity tabloids rely on [salacious] gossip to boost monthly circulation.",
-      "The courtroom audience gasped at the witness's shocking, [salacious] testimony.",
-      "He refused to comment on [salacious] rumors regarding his personal marriage."
-    ]
-  },
-  {
-    "id": 277,
+    "id": 260,
     "w": "clandestine",
     "level": "C1",
     "ipa": "/klænˈdestɪn/",
@@ -5450,7 +5133,7 @@
     ]
   },
   {
-    "id": 278,
+    "id": 261,
     "w": "partisan",
     "level": "C1",
     "ipa": "/ˈpɑːtɪzæn/",
@@ -5467,7 +5150,7 @@
     ]
   },
   {
-    "id": 279,
+    "id": 262,
     "w": "disingenuous",
     "level": "C1",
     "ipa": "/ˌdɪsɪnˈdʒenjuəs/",
@@ -5488,7 +5171,7 @@
     ]
   },
   {
-    "id": 280,
+    "id": 263,
     "w": "incisive",
     "level": "C1",
     "ipa": "/ɪnˈsaɪsɪv/",
@@ -5505,7 +5188,7 @@
     ]
   },
   {
-    "id": 281,
+    "id": 264,
     "w": "allegedly",
     "level": "C1",
     "ipa": "/əˈledʒɪdli/",
@@ -5522,7 +5205,62 @@
     ]
   },
   {
-    "id": 282,
+    "id": 265,
+    "w": "scrutiny",
+    "level": "C1",
+    "ipa": "/ˈskruːtəni/",
+    "top": ["COM", "LAW"],
+    "col": ["intense scrutiny", "media scrutiny", "withstand scrutiny"],
+    "pos": "noun",
+    "pat": "subject public officials to rigorous media [scrutiny]",
+    "defn": "Critical observation or examination, especially by the press or regulatory authorities.",
+    "syn": ["inspection", "examination", "investigation"],
+    "ex": [
+      "The proposed banking merger came under intense regulatory [scrutiny].",
+      "Public figures must accept that their private lives face constant [scrutiny].",
+      "The scientific methodology held up well under rigorous academic [scrutiny]."
+    ]
+  },
+  {
+    "id": 266,
+    "w": "ubiquitous",
+    "level": "C1",
+    "ipa": "/juːˈbɪkwɪtəs/",
+    "top": ["COM", "TEC"],
+    "col": ["ubiquitous media", "ubiquitous presence", "become ubiquitous"],
+    "pos": "adj",
+    "pat": "the [ubiquitous] presence of digital advertising in [daily life]",
+    "defn": "Present, appearing, or found everywhere; pervasive throughout modern society.",
+    "syn": ["omnipresent", "pervasive", "universal"],
+    "ex": [
+      "Smartphones have become [ubiquitous] in modern daily life.",
+      "Plastic packaging is [ubiquitous] in almost every supermarket.",
+      "Coffee shops are [ubiquitous] across downtown streets."
+    ]
+  },
+  {
+    "id": 267,
+    "w": "purportedly",
+    "level": "C1",
+    "ipa": "/pəˈpɔːtɪdli/",
+    "top": ["COM"],
+    "col": [
+      "purportedly leaked",
+      "purportedly factual",
+      "purportedly independent"
+    ],
+    "pos": "adv",
+    "pat": "an event that [purportedly] occurred according to [sources]",
+    "defn": "As appears or is stated to be true, though not necessarily so; allegedly or as claimed.",
+    "syn": ["allegedly", "supposedly", "reputedly"],
+    "ex": [
+      "The ancient manuscript was [purportedly] written by an Egyptian priest.",
+      "The medicine [purportedly] cures baldness within three weeks.",
+      "The recording [purportedly] contains evidence of corporate fraud."
+    ]
+  },
+  {
+    "id": 268,
     "w": "overtourism",
     "level": "C1",
     "ipa": "/ˌəʊvəˈtʊərɪzəm/",
@@ -5543,7 +5281,7 @@
     ]
   },
   {
-    "id": 283,
+    "id": 269,
     "w": "acculturation",
     "level": "C1",
     "ipa": "/əˌkʌltʃəˈreɪʃn/",
@@ -5564,7 +5302,7 @@
     ]
   },
   {
-    "id": 284,
+    "id": 270,
     "w": "provenance",
     "level": "C1",
     "ipa": "/ˈprɒvənəns/",
@@ -5585,7 +5323,7 @@
     ]
   },
   {
-    "id": 285,
+    "id": 271,
     "w": "ethnocentrism",
     "level": "C1",
     "ipa": "/ˌeθnəʊˈsentrɪzəm/",
@@ -5606,28 +5344,7 @@
     ]
   },
   {
-    "id": 286,
-    "w": "expatriate",
-    "level": "C1",
-    "ipa": "/ekˈspætrieɪt/",
-    "top": ["CUL", "SOC"],
-    "col": [
-      "expatriate community",
-      "thriving expatriate enclave",
-      "attract expatriates"
-    ],
-    "pos": "noun",
-    "pat": "integrate [expatriates] into the local [civic fabric]",
-    "defn": "A person who lives outside their native country, often temporarily or permanently for professional, retirement, or lifestyle purposes.",
-    "syn": ["foreign resident", "migrant professional", "émigré"],
-    "ex": [
-      "A vibrant [expatriate] community lives and works in the coastal city.",
-      "She spent five rewarding years as an [expatriate] teacher in Japan.",
-      "Many European [expatriates] gather at the international club on weekends."
-    ]
-  },
-  {
-    "id": 287,
+    "id": 272,
     "w": "enclave",
     "level": "C1",
     "ipa": "/ˈenkleɪv/",
@@ -5644,7 +5361,7 @@
     ]
   },
   {
-    "id": 288,
+    "id": 273,
     "w": "repatriation",
     "level": "C1",
     "ipa": "/ˌriːˌpætriˈeɪʃn/",
@@ -5665,7 +5382,7 @@
     ]
   },
   {
-    "id": 289,
+    "id": 274,
     "w": "cosmopolitanism",
     "level": "C1",
     "ipa": "/ˌkɒzməˈpɒlɪtənɪzəm/",
@@ -5686,28 +5403,7 @@
     ]
   },
   {
-    "id": 290,
-    "w": "depredation",
-    "level": "C1",
-    "ipa": "/ˌdeprəˈdeɪʃn/",
-    "top": ["CUL", "ENV"],
-    "col": [
-      "depredations of mass tourism",
-      "environmental depredation",
-      "buffer against depredation"
-    ],
-    "pos": "noun",
-    "pat": "shield heritage sites from the [depredations] of [unchecked tourism]",
-    "defn": "An act of attacking, plundering, or ravaging; the destructive and ravaging consequences inflicted on cultural or ecological sites.",
-    "syn": ["ravages", "devastation", "despoliation"],
-    "ex": [
-      "The ancient monuments suffered from centuries of environmental [depredation] and weathering.",
-      "Coastal mangrove forests protect inland villages from the [depredations] of typhoons.",
-      "Local farmers struggled against the nocturnal [depredations] of wild boars."
-    ]
-  },
-  {
-    "id": 291,
+    "id": 275,
     "w": "appropriation",
     "level": "C1",
     "ipa": "/əˌprəʊpriˈeɪʃn/",
@@ -5723,29 +5419,12 @@
     "syn": ["misappropriation", "expropriation", "exploitation"],
     "ex": [
       "Critics accused the fashion label of cultural [appropriation] without consent.",
-      "The illegal [appropriation] of tribal lands provoked widespread indigenous protests.",
-      "The finance committee approved the annual budget [appropriation] for schools."
+      "Art historians condemned the commercial [appropriation] of sacred tribal motifs on mass-market souvenirs.",
+      "Mainstream musicians faced fierce public backlash over the unauthorized [appropriation] of indigenous chants."
     ]
   },
   {
-    "id": 292,
-    "w": "sojourn",
-    "level": "C1",
-    "ipa": "/ˈsɒdʒɜːn/",
-    "top": ["CUL"],
-    "col": ["temporary sojourn", "extended sojourn", "brief sojourn"],
-    "pos": "noun",
-    "pat": "an extended [sojourn] in [a foreign country/destination]",
-    "defn": "A temporary stay at a destination that provides an opportunity for deep personal immersion, study, or observation.",
-    "syn": ["temporary stay", "stopover", "residence"],
-    "ex": [
-      "Her brief [sojourn] in Florence inspired a series of landscape paintings.",
-      "The poet spent a quiet summer [sojourn] in the Swiss Alps.",
-      "After a relaxing [sojourn] abroad, she returned to her office duties."
-    ]
-  },
-  {
-    "id": 293,
+    "id": 276,
     "w": "relic",
     "level": "C1",
     "ipa": "/ˈrelɪk/",
@@ -5762,7 +5441,7 @@
     ]
   },
   {
-    "id": 294,
+    "id": 277,
     "w": "exoticism",
     "level": "C1",
     "ipa": "/ɪɡˈzɒtɪsɪzəm/",
@@ -5783,7 +5462,7 @@
     ]
   },
   {
-    "id": 295,
+    "id": 278,
     "w": "debasement",
     "level": "C1",
     "ipa": "/dɪˈbeɪsmənt/",
@@ -5804,7 +5483,7 @@
     ]
   },
   {
-    "id": 296,
+    "id": 279,
     "w": "nomadism",
     "level": "C1",
     "ipa": "/ˈnəʊmædɪzəm/",
@@ -5821,7 +5500,7 @@
     ]
   },
   {
-    "id": 297,
+    "id": 280,
     "w": "custodianship",
     "level": "C1",
     "ipa": "/kʌˈstəʊdiənʃɪp/",
@@ -5842,7 +5521,7 @@
     ]
   },
   {
-    "id": 298,
+    "id": 281,
     "w": "patrimony",
     "level": "C1",
     "ipa": "/ˈpætrɪməni/",
@@ -5863,7 +5542,7 @@
     ]
   },
   {
-    "id": 299,
+    "id": 282,
     "w": "confluence",
     "level": "C1",
     "ipa": "/ˈkɒnfluəns/",
@@ -5884,7 +5563,7 @@
     ]
   },
   {
-    "id": 300,
+    "id": 283,
     "w": "acculturate",
     "level": "C1",
     "ipa": "/əˈkʌltʃəreɪt/",
@@ -5905,7 +5584,7 @@
     ]
   },
   {
-    "id": 301,
+    "id": 284,
     "w": "desecrate",
     "level": "C1",
     "ipa": "/ˈdesɪkreɪt/",
@@ -5926,7 +5605,7 @@
     ]
   },
   {
-    "id": 302,
+    "id": 285,
     "w": "subjugate",
     "level": "C1",
     "ipa": "/ˈsʌbdʒuɡeɪt/",
@@ -5947,7 +5626,7 @@
     ]
   },
   {
-    "id": 303,
+    "id": 286,
     "w": "traverse",
     "level": "C1",
     "ipa": "/trəˈvɜːs/",
@@ -5968,7 +5647,7 @@
     ]
   },
   {
-    "id": 304,
+    "id": 287,
     "w": "dilute",
     "level": "C1",
     "ipa": "/daɪˈluːt/",
@@ -5989,7 +5668,7 @@
     ]
   },
   {
-    "id": 305,
+    "id": 288,
     "w": "repatriate",
     "level": "C1",
     "ipa": "/ˌriːˈpætrieɪt/",
@@ -6010,7 +5689,7 @@
     ]
   },
   {
-    "id": 306,
+    "id": 289,
     "w": "transcend",
     "level": "C1",
     "ipa": "/trænˈsend/",
@@ -6031,7 +5710,7 @@
     ]
   },
   {
-    "id": 307,
+    "id": 290,
     "w": "debase",
     "level": "C1",
     "ipa": "/dɪˈbeɪs/",
@@ -6052,7 +5731,7 @@
     ]
   },
   {
-    "id": 308,
+    "id": 291,
     "w": "revere",
     "level": "C1",
     "ipa": "/rɪˈvɪə(r)/",
@@ -6073,7 +5752,7 @@
     ]
   },
   {
-    "id": 309,
+    "id": 292,
     "w": "alienate",
     "level": "C1",
     "ipa": "/ˈeɪliəneɪt/",
@@ -6094,7 +5773,7 @@
     ]
   },
   {
-    "id": 310,
+    "id": 293,
     "w": "expropriate",
     "level": "C1",
     "ipa": "/eksˈprəʊprieɪt/",
@@ -6115,7 +5794,7 @@
     ]
   },
   {
-    "id": 311,
+    "id": 294,
     "w": "immerse",
     "level": "C1",
     "ipa": "/ɪˈmɜːs/",
@@ -6136,7 +5815,7 @@
     ]
   },
   {
-    "id": 312,
+    "id": 295,
     "w": "intertwine",
     "level": "C1",
     "ipa": "/ˌɪntəˈtwaɪn/",
@@ -6157,7 +5836,7 @@
     ]
   },
   {
-    "id": 313,
+    "id": 296,
     "w": "catalyze",
     "level": "C1",
     "ipa": "/ˈkætəlaɪz/",
@@ -6178,24 +5857,7 @@
     ]
   },
   {
-    "id": 314,
-    "w": "commingle",
-    "level": "C1",
-    "ipa": "/kəˈmɪŋɡl/",
-    "top": ["CUL"],
-    "col": ["commingle cultures", "freely commingle", "traditions commingle"],
-    "pos": "verb",
-    "pat": "diverse ethnic traditions [commingle] to [produce cultural syncretism]",
-    "defn": "To mix, blend, or unite together into a unified or enriched cultural whole.",
-    "syn": ["blend", "intermix", "fuse"],
-    "ex": [
-      "It is illegal for lawyers to [commingle] client funds with accounts.",
-      "Spices [commingle] to create the sauce's distinctive aromatic rich fragrance.",
-      "Traditional folk melodies [commingle] with modern electronic beats on track."
-    ]
-  },
-  {
-    "id": 315,
+    "id": 297,
     "w": "venerate",
     "level": "C1",
     "ipa": "/ˈvenəreɪt/",
@@ -6216,7 +5878,7 @@
     ]
   },
   {
-    "id": 316,
+    "id": 298,
     "w": "insular",
     "level": "C1",
     "ipa": "/ˈɪnsjələ(r)/",
@@ -6233,7 +5895,7 @@
     ]
   },
   {
-    "id": 317,
+    "id": 299,
     "w": "sacrosanct",
     "level": "C1",
     "ipa": "/ˈsækrəʊsæŋkt/",
@@ -6254,7 +5916,7 @@
     ]
   },
   {
-    "id": 318,
+    "id": 300,
     "w": "inviolable",
     "level": "C1",
     "ipa": "/ɪnˈvaɪələbl/",
@@ -6271,7 +5933,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": 301,
     "w": "intangible",
     "level": "C1",
     "ipa": "/ɪnˈtændʒəbl/",
@@ -6292,7 +5954,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 302,
     "w": "ancestral",
     "level": "C1",
     "ipa": "/ænˈsestrəl/",
@@ -6309,7 +5971,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 303,
     "w": "itinerant",
     "level": "C1",
     "ipa": "/aɪˈtɪnərənt/",
@@ -6326,7 +5988,7 @@
     ]
   },
   {
-    "id": 322,
+    "id": 304,
     "w": "incongruous",
     "level": "C1",
     "ipa": "/ɪnˈkɒŋɡruəs/",
@@ -6347,7 +6009,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 305,
     "w": "idyllic",
     "level": "C1",
     "ipa": "/ɪˈdɪlɪk/",
@@ -6364,28 +6026,7 @@
     ]
   },
   {
-    "id": 324,
-    "w": "syncretic",
-    "level": "C1",
-    "ipa": "/sɪŋˈkretɪk/",
-    "top": ["CUL"],
-    "col": [
-      "syncretic culture",
-      "syncretic traditions",
-      "syncretic architecture"
-    ],
-    "pos": "adj",
-    "pat": "evolve into a [syncretic] culture blending [distinct traditions]",
-    "defn": "Characterized by the fusion, reconciliation, or combination of different religions, cultural practices, or schools of thought.",
-    "syn": ["hybrid", "fused", "eclectic"],
-    "ex": [
-      "The island's religion is a [syncretic] blend of multiple traditions.",
-      "Creole cuisine represents a unique [syncretic] fusion of regional flavors.",
-      "The festival displays [syncretic] art combining pagan and Christian imagery."
-    ]
-  },
-  {
-    "id": 325,
+    "id": 306,
     "w": "immutable",
     "level": "C1",
     "ipa": "/ɪˈmjuːtəbl/",
@@ -6402,7 +6043,7 @@
     ]
   },
   {
-    "id": 326,
+    "id": 307,
     "w": "intercultural",
     "level": "C1",
     "ipa": "/ˌɪntəˈkʌltʃərəl/",
@@ -6423,7 +6064,24 @@
     ]
   },
   {
-    "id": 327,
+    "id": 308,
+    "w": "exorbitant",
+    "level": "C1",
+    "ipa": "/ɪɡˈzɔːbɪtənt/",
+    "top": ["CUL", "BUS"],
+    "col": ["exorbitant prices", "exorbitant fares", "exorbitant fees"],
+    "pos": "adj",
+    "pat": "charge [exorbitant] rates for [services/accommodation]",
+    "defn": "Unreasonably high, excessive, or immoderate, especially regarding prices, fares, or entrance fees in tourist zones.",
+    "syn": ["excessive", "extortionate", "inordinate"],
+    "ex": [
+      "The luxury hotel charged [exorbitant] rates during the peak holiday season.",
+      "He refused to pay such an [exorbitant] price for a simple meal.",
+      "Tenants complained about the [exorbitant] rent increases in the city center."
+    ]
+  },
+  {
+    "id": 309,
     "w": "edifice",
     "level": "C1",
     "ipa": "/ˈedɪfɪs/",
@@ -6436,11 +6094,11 @@
     "ex": [
       "A massive marble [edifice] towered over the historical city center.",
       "The earthquake damaged the stone foundation of the ancient [edifice].",
-      "Financial greed brought down the entire corporate [edifice] within weeks."
+      "The gothic cathedral is an imposing stone [edifice] featuring flying buttresses and stained glass."
     ]
   },
   {
-    "id": 328,
+    "id": 310,
     "w": "iconography",
     "level": "C1",
     "ipa": "/ˌaɪkəˈnɒɡrəfi/",
@@ -6465,7 +6123,7 @@
     ]
   },
   {
-    "id": 329,
+    "id": 311,
     "w": "connoisseur",
     "level": "C1",
     "ipa": "/ˌkɒnəˈsɜː(r)/",
@@ -6486,7 +6144,7 @@
     ]
   },
   {
-    "id": 330,
+    "id": 312,
     "w": "ornamentation",
     "level": "C1",
     "ipa": "/ˌɔːnəmenˈteɪʃn/",
@@ -6507,7 +6165,7 @@
     ]
   },
   {
-    "id": 331,
+    "id": 313,
     "w": "monumentality",
     "level": "C1",
     "ipa": "/ˌmɒnjumenˈtæləti/",
@@ -6528,7 +6186,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": 314,
     "w": "functionalism",
     "level": "C1",
     "ipa": "/ˈfʌŋkʃənəlɪzəm/",
@@ -6549,79 +6207,7 @@
     ]
   },
   {
-    "id": 333,
-    "w": "iconoclasm",
-    "level": "C1",
-    "ipa": "/aɪˈkɒnəklæzəm/",
-    "top": ["ART"],
-    "col": ["artistic iconoclasm", "cultural iconoclasm", "wave of iconoclasm"],
-    "pos": "noun",
-    "pat": "a wave of public/artistic [iconoclasm] targeting [monuments]",
-    "defn": "The action of attacking or assertively rejecting established beliefs, revered institutions, or cherished traditional artistic representations.",
-    "syn": ["subversion", "heresy", "monument destruction"],
-    "ex": [
-      "The religious revolution was marked by violent waves of [iconoclasm].",
-      "His bold artistic [iconoclasm] challenged traditional notions of museum sculpture.",
-      "Scientific progress often requires brave intellectual [iconoclasm] against accepted dogmas."
-    ]
-  },
-  {
-    "id": 334,
-    "w": "pastiche",
-    "level": "C1",
-    "ipa": "/pæˈstiːʃ/",
-    "top": ["ART"],
-    "col": [
-      "historical pastiche",
-      "superficial pastiche",
-      "architectural pastiche"
-    ],
-    "pos": "noun",
-    "pat": "reduce heritage architecture to a commercial [pastiche]",
-    "defn": "An artistic or architectural work that imitates the style of previous work, often in a superficial or unoriginal manner.",
-    "syn": ["imitation", "hodgepodge", "stylistic collage"],
-    "ex": [
-      "The film was criticized as an uninspired [pastiche] of thrillers.",
-      "Her novel is an entertaining stylistic [pastiche] of Victorian mysteries.",
-      "The eclectic modern building is a curious [pastiche] of styles."
-    ]
-  },
-  {
-    "id": 335,
-    "w": "fresco",
-    "level": "C1",
-    "ipa": "/ˈfreskəʊ/",
-    "top": ["ART"],
-    "col": ["Renaissance fresco", "restore a fresco", "delicate fresco"],
-    "pos": "noun",
-    "pat": "execute an intricate [fresco] on [wet plaster]",
-    "defn": "A technique of mural painting executed upon freshly laid, moist lime plaster, allowing pigments to bond intimately with the wall.",
-    "syn": ["mural", "wall painting", "plaster painting"],
-    "ex": [
-      "The Renaissance chapel is famous for its magnificent ceiling [fresco].",
-      "Art restorers carefully repaired the decaying plaster on the [fresco].",
-      "Michelangelo spent years painting the massive biblical [fresco] in Rome."
-    ]
-  },
-  {
-    "id": 336,
-    "w": "frieze",
-    "level": "C1",
-    "ipa": "/friːz/",
-    "top": ["ART"],
-    "col": ["decorative frieze", "sculpted frieze", "classical frieze"],
-    "pos": "noun",
-    "pat": "carve an allegorical [frieze] along [an entablature]",
-    "defn": "A broad horizontal band of sculpted, painted, or relief decoration, especially on the entablature of classical buildings.",
-    "syn": ["decorative band", "relief carving", "horizontal entablature"],
-    "ex": [
-      "A decorative marble [frieze] wrapped around the ancient Greek temple.",
-      "The carved stone [frieze] depicted mythological battles between rival gods.",
-      "Tourists gathered to photograph the intricate architectural [frieze] above doors."
-    ]
-  },
-  {
-    "id": 337,
+    "id": 315,
     "w": "sensibility",
     "level": "C1",
     "ipa": "/ˌsensəˈbɪləti/",
@@ -6642,7 +6228,7 @@
     ]
   },
   {
-    "id": 338,
+    "id": 316,
     "w": "opulence",
     "level": "C1",
     "ipa": "/ˈɒpjələns/",
@@ -6663,7 +6249,7 @@
     ]
   },
   {
-    "id": 339,
+    "id": 317,
     "w": "antiquity",
     "level": "C1",
     "ipa": "/ænˈtɪkwəti/",
@@ -6684,7 +6270,7 @@
     ]
   },
   {
-    "id": 340,
+    "id": 318,
     "w": "asymmetry",
     "level": "C1",
     "ipa": "/eɪˈsɪmətri/",
@@ -6701,7 +6287,7 @@
     ]
   },
   {
-    "id": 341,
+    "id": 319,
     "w": "artisan",
     "level": "C1",
     "ipa": "/ˌɑːtɪˈzæn/",
@@ -6718,45 +6304,7 @@
     ]
   },
   {
-    "id": 342,
-    "w": "fenestration",
-    "level": "C1",
-    "ipa": "/ˌfenəˈstreɪʃn/",
-    "top": ["ART"],
-    "col": [
-      "rhythmic fenestration",
-      "modern fenestration",
-      "pattern of fenestration"
-    ],
-    "pos": "noun",
-    "pat": "the arrangement/design of [fenestration] across [a facade]",
-    "defn": "The arrangement, proportioning, and design of windows, doors, and openings in a building facade.",
-    "syn": ["window arrangement", "aperture design", "facade openings"],
-    "ex": [
-      "The cathedral's striking [fenestration] floods the stone altar with light.",
-      "Architects improved energy efficiency by redesigning the exterior wall's [fenestration].",
-      "The modern high-rise features uniform glass [fenestration] on all floors."
-    ]
-  },
-  {
-    "id": 343,
-    "w": "colonnade",
-    "level": "C1",
-    "ipa": "/ˌkɒləˈneɪd/",
-    "top": ["ART"],
-    "col": ["classical colonnade", "monumental colonnade", "shaded colonnade"],
-    "pos": "noun",
-    "pat": "flank a public plaza with a monumental [colonnade]",
-    "defn": "A long row of columns joined by their entablature, often freestanding, supporting a portico, or enclosing a public courtyard.",
-    "syn": ["arcade", "portico", "pillar row"],
-    "ex": [
-      "Tourists walked beneath the towering marble [colonnade] of the forum.",
-      "The grand building entrance is flanked by an imposing [colonnade].",
-      "Shadows stretched across the ancient [colonnade] as the sun set."
-    ]
-  },
-  {
-    "id": 344,
+    "id": 320,
     "w": "tapestry",
     "level": "C1",
     "ipa": "/ˈtæpəstri/",
@@ -6773,7 +6321,7 @@
     ]
   },
   {
-    "id": 345,
+    "id": 321,
     "w": "juxtapose",
     "level": "C1",
     "ipa": "/ˌdʒʌkstəˈpəʊz/",
@@ -6794,7 +6342,7 @@
     ]
   },
   {
-    "id": 346,
+    "id": 322,
     "w": "demolish",
     "level": "C1",
     "ipa": "/dɪˈmɒlɪʃ/",
@@ -6815,7 +6363,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": 323,
     "w": "immortalize",
     "level": "C1",
     "ipa": "/ɪˈmɔːtəlaɪz/",
@@ -6836,7 +6384,7 @@
     ]
   },
   {
-    "id": 348,
+    "id": 324,
     "w": "inscribe",
     "level": "C1",
     "ipa": "/ɪnˈskraɪb/",
@@ -6857,7 +6405,7 @@
     ]
   },
   {
-    "id": 349,
+    "id": 325,
     "w": "transfigure",
     "level": "C1",
     "ipa": "/trænsˈfɪɡə(r)/",
@@ -6878,7 +6426,7 @@
     ]
   },
   {
-    "id": 350,
+    "id": 326,
     "w": "epitomize",
     "level": "C1",
     "ipa": "/ɪˈpɪtəmaɪz/",
@@ -6899,28 +6447,7 @@
     ]
   },
   {
-    "id": 351,
-    "w": "refurbish",
-    "level": "C1",
-    "ipa": "/ˌriːˈfɜːbɪʃ/",
-    "top": ["ART"],
-    "col": [
-      "comprehensively refurbish",
-      "refurbish historic edifices",
-      "fund to refurbish"
-    ],
-    "pos": "verb",
-    "pat": "[refurbish] dilapidated heritage sites to [accommodate modern use]",
-    "defn": "To renovate, redecorate, and update a building or interior space to restore functional utility and aesthetic appeal.",
-    "syn": ["renovate", "recondition", "overhaul"],
-    "ex": [
-      "The council voted to [refurbish] the historic theater instead of demolishing it.",
-      "They hired contractors to completely [refurbish] the outdated apartment interior.",
-      "Volunteers helped [refurbish] bicycles to donate to underprivileged neighborhood children."
-    ]
-  },
-  {
-    "id": 352,
+    "id": 327,
     "w": "deconstruct",
     "level": "C1",
     "ipa": "/ˌdiːkənˈstrʌkt/",
@@ -6941,7 +6468,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": 328,
     "w": "embellish",
     "level": "C1",
     "ipa": "/ɪmˈbelɪʃ/",
@@ -6956,55 +6483,13 @@
     "defn": "To make something more visually appealing or attractive by adding decorative details, motifs, or artistic flourishes.",
     "syn": ["adorn", "ornament", "enrich"],
     "ex": [
-      "He tended to [embellish] his travel stories with dramatic imaginary details.",
+      "Baroque sculptors used ornate gilding to [embellish] the interior arches of the basilica.",
       "Skilled artisans used gold thread to [embellish] the ceremonial silk robe.",
-      "There is no need to [embellish] the truth to sound impressive."
+      "Architects chose carved reliefs to [embellish] the classical limestone facade."
     ]
   },
   {
-    "id": 354,
-    "w": "consecrate",
-    "level": "C1",
-    "ipa": "/ˈkɒnsɪkreɪt/",
-    "top": ["ART"],
-    "col": [
-      "solemnly consecrate",
-      "consecrate a monument",
-      "consecrate to the memory of"
-    ],
-    "pos": "verb",
-    "pat": "[consecrate] public spaces/edifices to [a sacred or civic purpose]",
-    "defn": "To formally declare, set apart, or dedicate a building, public plaza, or monument to a sacred, solemn, or civic memorial purpose.",
-    "syn": ["sanctify", "dedicate formally", "hallow"],
-    "ex": [
-      "The archbishop arrived on Sunday to [consecrate] the new stone chapel.",
-      "Soldiers fought bravely to [consecrate] the ground with their sacrifice.",
-      "The ancient tribe gathered to [consecrate] the sacred mountain shrine."
-    ]
-  },
-  {
-    "id": 355,
-    "w": "disfigure",
-    "level": "C1",
-    "ipa": "/dɪsˈfɪɡə(r)/",
-    "top": ["ART"],
-    "col": [
-      "disfigure the facade",
-      "permanently disfigure",
-      "disfigure architectural heritage"
-    ],
-    "pos": "verb",
-    "pat": "[disfigure] historical monuments through [vandalism/neglect]",
-    "defn": "To spoil, damage, or deface the external appearance, beauty, or architectural harmony of a building, artwork, or sculptural surface.",
-    "syn": ["deface", "mar", "blemish"],
-    "ex": [
-      "The industrial toxic spill threatened to [disfigure] the pristine coastline.",
-      "Vandals used spray paint to [disfigure] the public marble monument.",
-      "Severe burns can permanently [disfigure] sensitive facial tissues."
-    ]
-  },
-  {
-    "id": 356,
+    "id": 329,
     "w": "demarcate",
     "level": "C1",
     "ipa": "/ˈdiːmɑːkeɪt/",
@@ -7025,28 +6510,7 @@
     ]
   },
   {
-    "id": 357,
-    "w": "efface",
-    "level": "C1",
-    "ipa": "/ɪˈfeɪs/",
-    "top": ["ART"],
-    "col": [
-      "efface historic memory",
-      "gradually efface",
-      "efface architectural details"
-    ],
-    "pos": "verb",
-    "pat": "[efface] ancient inscriptions/frescoes through [weathering/neglect]",
-    "defn": "To erase, rub out, or obliterate an inscription, architectural detail, or historical memory from a surface.",
-    "syn": ["obliterate", "erase", "expunge"],
-    "ex": [
-      "Decades of coastal weathering threatened to [efface] the carved tomb inscriptions.",
-      "Nothing could truly [efface] the painful memory of the tragic disaster.",
-      "He worked hard to [efface] all traces of his past mistakes."
-    ]
-  },
-  {
-    "id": 358,
+    "id": 330,
     "w": "curate",
     "level": "C1",
     "ipa": "/kjʊəˈreɪt/",
@@ -7063,11 +6527,11 @@
     "ex": [
       "The museum invited an expert to [curate] the modern art exhibition.",
       "She spent months learning how to [curate] rare historical manuscripts.",
-      "Music platforms use algorithms to [curate] customized daily playlists for listeners."
+      "The guest scholar was invited to [curate] an exhibition of classical impressionist oil paintings."
     ]
   },
   {
-    "id": 359,
+    "id": 331,
     "w": "avant-garde",
     "level": "C1",
     "ipa": "/ˌævɒ̃ˈɡɑːd/",
@@ -7088,28 +6552,7 @@
     ]
   },
   {
-    "id": 360,
-    "w": "utilitarian",
-    "level": "C1",
-    "ipa": "/ˌjuːtɪlɪˈteəriən/",
-    "top": ["ART"],
-    "col": [
-      "utilitarian design",
-      "purely utilitarian",
-      "utilitarian architecture"
-    ],
-    "pos": "adj",
-    "pat": "construct [utilitarian] buildings devoid of [ornamentation]",
-    "defn": "Designed to be practical, functional, and useful rather than attractive or visually appealing.",
-    "syn": ["functional", "pragmatic", "serviceable"],
-    "ex": [
-      "The concrete office complex was built with a purely [utilitarian] design.",
-      "He preferred sturdy, [utilitarian] boots over fashionable designer shoes.",
-      "The military barracks prioritize [utilitarian] efficiency over decorative comfort."
-    ]
-  },
-  {
-    "id": 361,
+    "id": 332,
     "w": "vernacular",
     "level": "C1",
     "ipa": "/vəˈnækjələ(r)/",
@@ -7124,13 +6567,13 @@
     "defn": "Concerned with or utilizing traditional local styles, indigenous materials, and structural methods native to a specific country or geographic region.",
     "syn": ["indigenous", "regional", "traditional"],
     "ex": [
-      "The author wrote dialogue reflecting the local [vernacular] of working communities.",
+      "Timber-framed cottages represent a prime example of English [vernacular] architecture.",
       "Tourists admired the unique [vernacular] architecture of the mountain village.",
-      "She translated classical poems into the informal everyday [vernacular]."
+      "Architects incorporated local limestone to honor regional [vernacular] building traditions."
     ]
   },
   {
-    "id": 362,
+    "id": 333,
     "w": "baroque",
     "level": "C1",
     "ipa": "/bəˈrɒk/",
@@ -7147,7 +6590,7 @@
     ]
   },
   {
-    "id": 363,
+    "id": 334,
     "w": "visceral",
     "level": "C1",
     "ipa": "/ˈvɪsərəl/",
@@ -7168,7 +6611,7 @@
     ]
   },
   {
-    "id": 364,
+    "id": 335,
     "w": "stark",
     "level": "C1",
     "ipa": "/stɑːk/",
@@ -7180,12 +6623,12 @@
     "syn": ["austere", "severe", "bare"],
     "ex": [
       "The snowy landscape created a [stark] contrast against the dark trees.",
-      "The report delivered a [stark] warning about severe freshwater shortages.",
-      "There remains a [stark] difference between theoretical ideals and daily reality."
+      "Minimalist brutalist buildings feature [stark] concrete facades devoid of decorative ornament.",
+      "The black-and-white portrait relied on [stark] illumination to accentuate dramatic facial shadows."
     ]
   },
   {
-    "id": 365,
+    "id": 336,
     "w": "derivative",
     "level": "C1",
     "ipa": "/dɪˈrɪvətɪv/",
@@ -7202,7 +6645,7 @@
     ]
   },
   {
-    "id": 366,
+    "id": 337,
     "w": "eclectic",
     "level": "C1",
     "ipa": "/ɪˈklektɪk/",
@@ -7223,28 +6666,7 @@
     ]
   },
   {
-    "id": 367,
-    "w": "jurisprudence",
-    "level": "C1",
-    "ipa": "/ˌdʒʊərɪsˈpruːdns/",
-    "top": ["LAW"],
-    "col": [
-      "constitutional jurisprudence",
-      "modern jurisprudence",
-      "principles of jurisprudence"
-    ],
-    "pos": "noun",
-    "pat": "established principles of constitutional [jurisprudence]",
-    "defn": "The theory, philosophy, and formal science of law, or a specific body of legal interpretations and court rulings.",
-    "syn": ["philosophy of law", "legal theory", "case law"],
-    "ex": [
-      "The landmark ruling established a significant precedent in constitutional [jurisprudence].",
-      "She dedicated her academic career to studying comparative international [jurisprudence].",
-      "His controversial theories challenged traditional principles of legal [jurisprudence]."
-    ]
-  },
-  {
-    "id": 368,
+    "id": 338,
     "w": "impunity",
     "level": "C1",
     "ipa": "/ɪmˈpjuːnəti/",
@@ -7265,7 +6687,7 @@
     ]
   },
   {
-    "id": 369,
+    "id": 339,
     "w": "tribunal",
     "level": "C1",
     "ipa": "/traɪˈbjuːnl/",
@@ -7286,7 +6708,7 @@
     ]
   },
   {
-    "id": 370,
+    "id": 340,
     "w": "indictment",
     "level": "C1",
     "ipa": "/ɪnˈdaɪtmənt/",
@@ -7303,24 +6725,7 @@
     ]
   },
   {
-    "id": 371,
-    "w": "clemency",
-    "level": "C1",
-    "ipa": "/ˈklemənsi/",
-    "top": ["LAW"],
-    "col": ["grant clemency", "appeal for clemency", "executive clemency"],
-    "pos": "noun",
-    "pat": "grant executive [clemency] to [convicted offenders]",
-    "defn": "Disposition to show mercy, leniency, or compassion, especially by an executive authority toward a convicted criminal through sentence reduction or pardon.",
-    "syn": ["mercy", "leniency", "pardon"],
-    "ex": [
-      "The condemned prisoner petitioned the state governor for executive [clemency].",
-      "The judge showed unexpected [clemency] considering the defendant's young age.",
-      "Human rights advocates urged the president to grant humanitarian [clemency]."
-    ]
-  },
-  {
-    "id": 372,
+    "id": 341,
     "w": "autocracy",
     "level": "C1",
     "ipa": "/ɔːˈtɒkrəsi/",
@@ -7341,7 +6746,7 @@
     ]
   },
   {
-    "id": 373,
+    "id": 342,
     "w": "restitution",
     "level": "C1",
     "ipa": "/ˌrestɪˈtjuːʃn/",
@@ -7358,28 +6763,7 @@
     ]
   },
   {
-    "id": 374,
-    "w": "malfeasance",
-    "level": "C1",
-    "ipa": "/mælˈfiːzns/",
-    "top": ["LAW"],
-    "col": [
-      "official malfeasance",
-      "bureaucratic malfeasance",
-      "expose malfeasance"
-    ],
-    "pos": "noun",
-    "pat": "investigate official [malfeasance] within [government agencies]",
-    "defn": "Wrongdoing, misconduct, or illegal activity committed by a public official or person in a position of institutional trust.",
-    "syn": ["misconduct", "wrongdoing", "corruption"],
-    "ex": [
-      "The investigative audit exposed severe financial [malfeasance] within the agency.",
-      "The director was dismissed immediately following allegations of official [malfeasance].",
-      "Whistleblowers risked their careers to expose corporate [malfeasance] to journalists."
-    ]
-  },
-  {
-    "id": 375,
+    "id": 343,
     "w": "statute",
     "level": "C1",
     "ipa": "/ˈstætʃuːt/",
@@ -7396,7 +6780,7 @@
     ]
   },
   {
-    "id": 376,
+    "id": 344,
     "w": "plutocracy",
     "level": "C1",
     "ipa": "/pluːˈtɒkrəsi/",
@@ -7417,7 +6801,7 @@
     ]
   },
   {
-    "id": 377,
+    "id": 345,
     "w": "insurrection",
     "level": "C1",
     "ipa": "/ˌɪnsəˈrekʃn/",
@@ -7438,7 +6822,7 @@
     ]
   },
   {
-    "id": 378,
+    "id": 346,
     "w": "extradition",
     "level": "C1",
     "ipa": "/ˌekstrəˈdɪʃn/",
@@ -7455,7 +6839,7 @@
     ]
   },
   {
-    "id": 379,
+    "id": 347,
     "w": "arbitration",
     "level": "C1",
     "ipa": "/ˌɑːbɪˈtreɪʃn/",
@@ -7476,7 +6860,7 @@
     ]
   },
   {
-    "id": 380,
+    "id": 348,
     "w": "recidivism",
     "level": "C1",
     "ipa": "/rɪˈsɪdɪvɪzəm/",
@@ -7493,7 +6877,7 @@
     ]
   },
   {
-    "id": 381,
+    "id": 349,
     "w": "exonerate",
     "level": "C1",
     "ipa": "/ɪɡˈzɒnəreɪt/",
@@ -7514,24 +6898,7 @@
     ]
   },
   {
-    "id": 382,
-    "w": "repeal",
-    "level": "C1",
-    "ipa": "/rɪˈpiːl/",
-    "top": ["LAW"],
-    "col": ["repeal a statute", "repeal legislation", "formally repeal"],
-    "pos": "verb",
-    "pat": "[repeal] outdated/draconian [legislation/statutes]",
-    "defn": "To formally and officially revoke, annul, or rescind a legislative statute, act of parliament, or constitutional law.",
-    "syn": ["revoke", "rescind", "annul"],
-    "ex": [
-      "Lawmakers voted overwhelmingly to [repeal] the outdated and unpopular tax.",
-      "Public protests pressured the government to [repeal] the controversial security law.",
-      "The newly elected parliament promised to [repeal] the restrictive trade tariffs."
-    ]
-  },
-  {
-    "id": 383,
+    "id": 350,
     "w": "infringe",
     "level": "C1",
     "ipa": "/ɪnˈfrɪndʒ/",
@@ -7552,7 +6919,7 @@
     ]
   },
   {
-    "id": 384,
+    "id": 351,
     "w": "flout",
     "level": "C1",
     "ipa": "/flaʊt/",
@@ -7569,7 +6936,7 @@
     ]
   },
   {
-    "id": 385,
+    "id": 352,
     "w": "adjudicate",
     "level": "C1",
     "ipa": "/əˈdʒuːdɪkeɪt/",
@@ -7590,28 +6957,7 @@
     ]
   },
   {
-    "id": 386,
-    "w": "decriminalize",
-    "level": "C1",
-    "ipa": "/diːˈkrɪmɪnəlaɪz/",
-    "top": ["LAW"],
-    "col": [
-      "fully decriminalize",
-      "decriminalize offenses",
-      "call to decriminalize"
-    ],
-    "pos": "verb",
-    "pat": "[decriminalize] minor non-violent offenses",
-    "defn": "To stop treating an action as a criminal offense, removing penal liability and criminal sanctions under statutory law.",
-    "syn": ["legalize", "depenalize", "deregulate"],
-    "ex": [
-      "Advocates urged parliament to [decriminalize] minor non-violent drug possession offenses.",
-      "Several nations voted to [decriminalize] peaceful public protests and assemblies.",
-      "The reform bill seeks to [decriminalize] certain civil traffic violations."
-    ]
-  },
-  {
-    "id": 387,
+    "id": 353,
     "w": "transgress",
     "level": "C1",
     "ipa": "/trænzˈɡres/",
@@ -7632,7 +6978,7 @@
     ]
   },
   {
-    "id": 388,
+    "id": 354,
     "w": "usurp",
     "level": "C1",
     "ipa": "/juːˈzɜːp/",
@@ -7649,7 +6995,7 @@
     ]
   },
   {
-    "id": 389,
+    "id": 355,
     "w": "rescind",
     "level": "C1",
     "ipa": "/rɪˈsɪnd/",
@@ -7666,7 +7012,7 @@
     ]
   },
   {
-    "id": 390,
+    "id": 356,
     "w": "quash",
     "level": "C1",
     "ipa": "/kwɒʃ/",
@@ -7683,7 +7029,7 @@
     ]
   },
   {
-    "id": 391,
+    "id": 357,
     "w": "nullify",
     "level": "C1",
     "ipa": "/ˈnʌlɪfaɪ/",
@@ -7700,7 +7046,7 @@
     ]
   },
   {
-    "id": 392,
+    "id": 358,
     "w": "draconian",
     "level": "C1",
     "ipa": "/drəˈkəʊniən/",
@@ -7717,7 +7063,7 @@
     ]
   },
   {
-    "id": 393,
+    "id": 359,
     "w": "unconstitutional",
     "level": "C1",
     "ipa": "/ˌʌnˌkɒnstɪˈtjuːʃənl/",
@@ -7738,7 +7084,7 @@
     ]
   },
   {
-    "id": 394,
+    "id": 360,
     "w": "subversive",
     "level": "C1",
     "ipa": "/səbˈvɜːsɪv/",
@@ -7759,7 +7105,7 @@
     ]
   },
   {
-    "id": 395,
+    "id": 361,
     "w": "judicious",
     "level": "C1",
     "ipa": "/dʒuːˈdɪʃəs/",
@@ -7780,28 +7126,7 @@
     ]
   },
   {
-    "id": 396,
-    "w": "extralegal",
-    "level": "C1",
-    "ipa": "/ˌekstrəˈliːɡl/",
-    "top": ["LAW"],
-    "col": [
-      "extralegal execution",
-      "extralegal measures",
-      "extralegal surveillance"
-    ],
-    "pos": "adj",
-    "pat": "resort to [extralegal] measures outside [judicial processes]",
-    "defn": "Not governed or regulated by the law; operating beyond or outside the formal boundaries of statutory judicial processes.",
-    "syn": ["unauthorized", "unregulated", "extrajudicial"],
-    "ex": [
-      "Human rights monitors documented numerous [extralegal] executions by the security forces.",
-      "The intelligence agency conducted [extralegal] surveillance operations without judicial warrants.",
-      "Citizens formed vigilance groups, resulting in dangerous [extralegal] acts of retribution."
-    ]
-  },
-  {
-    "id": 397,
+    "id": 362,
     "w": "arbitrary",
     "level": "C1",
     "ipa": "/ˈɑːbɪtrəri/",
@@ -7822,7 +7147,7 @@
     ]
   },
   {
-    "id": 398,
+    "id": 363,
     "w": "coercive",
     "level": "C1",
     "ipa": "/kəʊˈɜːsɪv/",
@@ -7839,7 +7164,7 @@
     ]
   },
   {
-    "id": 399,
+    "id": 364,
     "w": "totalitarian",
     "level": "C1",
     "ipa": "/təʊˌtælɪˈteəriən/",
@@ -7860,7 +7185,7 @@
     ]
   },
   {
-    "id": 400,
+    "id": 365,
     "w": "repressive",
     "level": "C1",
     "ipa": "/rɪˈpresɪv/",
@@ -7874,6 +7199,120 @@
       "The military regime enacted [repressive] laws to silence political opposition.",
       "Citizens protested against the government's [repressive] internet censorship measures.",
       "Living under a [repressive] dictatorship severely limits personal freedom."
+    ]
+  },
+  {
+    "id": 366,
+    "w": "jurisdiction",
+    "level": "C1",
+    "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+    "top": ["LAW"],
+    "col": [
+      "territorial jurisdiction",
+      "fall under the jurisdiction",
+      "exercise jurisdiction"
+    ],
+    "pos": "noun",
+    "pat": "fall under the legal [jurisdiction] of [court/state]",
+    "defn": "The official power to make legal decisions and judgments, or the territory over which legal authority extends.",
+    "syn": ["legal remit", "domain", "authority"],
+    "ex": [
+      "The local police had no [jurisdiction] outside city limits.",
+      "The international court handles crimes under its legal [jurisdiction].",
+      "This maritime dispute falls under the [jurisdiction] of federal maritime authorities."
+    ]
+  },
+  {
+    "id": 367,
+    "w": "sovereignty",
+    "level": "C1",
+    "ipa": "/ˈsɒvrənti/",
+    "top": ["LAW"],
+    "col": [
+      "national sovereignty",
+      "violate sovereignty",
+      "exercise sovereignty"
+    ],
+    "pos": "noun",
+    "pat": "defend/infringe upon national [sovereignty]",
+    "defn": "The supreme power or authority of a self-governing state to determine its own legal and political systems.",
+    "syn": ["autonomy", "self-determination", "independence"],
+    "ex": [
+      "The nation defended its territorial [sovereignty] against foreign intrusion.",
+      "Joining the trade union required giving up a degree of economic [sovereignty].",
+      "The peace agreement formally recognized the [sovereignty] of both states."
+    ]
+  },
+  {
+    "id": 368,
+    "w": "ratify",
+    "level": "C1",
+    "ipa": "/ˈrætɪfaɪ/",
+    "top": ["LAW"],
+    "col": ["ratify a treaty", "formally ratify", "refuse to ratify"],
+    "pos": "verb",
+    "pat": "[ratify] an international [pact/convention] in parliament",
+    "defn": "To sign or give formal parliamentary consent to a treaty or contract, making it officially valid.",
+    "syn": ["endorse", "sanction", "validate"],
+    "ex": [
+      "The national assembly must [ratify] the international climate agreement.",
+      "Over thirty countries have [ratified] the global human rights treaty.",
+      "Delegates urged leaders to [ratify] the border accord without delay."
+    ]
+  },
+  {
+    "id": 369,
+    "w": "circumvent",
+    "level": "C1",
+    "ipa": "/ˌsɜːkəmˈvent/",
+    "top": ["LAW"],
+    "col": [
+      "circumvent regulations",
+      "circumvent the law",
+      "circumvent sanctions"
+    ],
+    "pos": "verb",
+    "pat": "[circumvent] statutory oversight through [loopholes]",
+    "defn": "To find a way around an obstacle, legal regulation, or statutory rule, typically using deception or loopholes.",
+    "syn": ["evade", "bypass", "sidestep"],
+    "ex": [
+      "Tax evaders use offshore accounts to [circumvent] national tax laws.",
+      "Software developers discovered a clever way to [circumvent] the hardware limit.",
+      "Drivers took backroads to [circumvent] the massive traffic jam."
+    ]
+  },
+  {
+    "id": 370,
+    "w": "statutory",
+    "level": "C1",
+    "ipa": "/ˈstætʃətri/",
+    "top": ["LAW"],
+    "col": ["statutory requirement", "statutory duty", "statutory regulation"],
+    "pos": "adj",
+    "pat": "fulfill a [statutory] obligation under [law]",
+    "defn": "Required, permitted, or enacted by statute; created or regulated by formal legislative enactment.",
+    "syn": ["legislated", "mandatory", "compulsory"],
+    "ex": [
+      "Every employee is entitled to four weeks of [statutory] annual leave.",
+      "The company complied fully with all [statutory] reporting requirements.",
+      "Failure to obey [statutory] fire regulations can lead to criminal charges."
+    ]
+  },
+  {
+    "id": 371,
+    "w": "illicit",
+    "level": "C1",
+    "ipa": "/ɪˈlɪsɪt/",
+    "top": ["LAW"],
+    "col": ["illicit trade", "illicit activities", "illicit narcotics"],
+    "pos": "adj",
+    "pat": "combat the [illicit] trafficking of [contraband/goods]",
+    "defn": "Forbidden by statutory law, rules, or custom; illegal and operating outside authorized legal boundaries.",
+    "syn": ["unlawful", "prohibited", "illegal"],
+    "ex": [
+      "Customs agents intercepted a large shipment of [illicit] drugs at the border.",
+      "The international task force aims to curb [illicit] arms trafficking.",
+      "Engaging in [illicit] financial dealings resulted in heavy sanctions."
     ]
   }
 ]
